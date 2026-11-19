@@ -18,3 +18,4 @@ media/
 .idea/
 Thumbs.db
 desktop.ini
+venv/
