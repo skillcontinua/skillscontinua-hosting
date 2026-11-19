@@ -1,0 +1,213 @@
+#
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Available in 7 Languages & Low-Bandwidth Mode"
+msgstr "Disponible en 7 idiomas y modo de bajo ancho de banda"
+
+msgid "5 Pillars"
+msgstr "5 Pilares"
+
+msgid "Courses"
+msgstr "Cursos"
+
+msgid "The Village (Blog & Media)"
+msgstr "La Aldea (Blog y Medios)"
+
+msgid "Certification & Plans"
+msgstr "Certificación y Planes"
+
+msgid "Browse Catalog"
+msgstr "Explorar Catálogo"
+
+msgid "Admin Console"
+msgstr "Consola Admin"
+
+msgid "10-Step Practical Mastery Framework"
+msgstr "Marco de Maestría Práctica en 10 Pasos"
+
+msgid "Empowering Global Mastery"
+msgstr "Potenciando la Maestría Global"
+
+msgid ""
+"A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, "
+"Cybergogy, and Vocational Training—backed by cryptographic QR credentials "
+"and peer mentorship."
+msgstr ""
+"Una arquitectura educativa modular que abarca Pedagogía, Andragogía, "
+"Heutagogía, Cibergogía y Formación Profesional, respaldada por credenciales "
+"QR criptográficas y mentoría entre pares."
+
+msgid "Explore Vocational Catalog"
+msgstr "Explorar Catálogo Profesional"
+
+msgid "Enter The Village Hub"
+msgstr "Entrar al Centro La Aldea"
+
+msgid "Our 5 Core Learning Pillars"
+msgstr "Nuestros 5 Pilares de Aprendizaje"
+
+msgid ""
+"Structured for rigorous, scalable education across languages and regions."
+msgstr ""
+"Estructurado para una educación rigurosa y escalable en todos los idiomas y "
+"regiones."
+
+msgid "Vocational & Trade"
+msgstr "Formación Profesional y Oficios"
+
+msgid ""
+"Practical artisan training including solar, phone/laptop repair, CCTV, and "
+"barbing/beauty with 10-step field guides."
+msgstr ""
+"Capacitación práctica artesanal que incluye energía solar, reparación de "
+"teléfonos/laptops, CCTV y barbería/belleza con guías de 10 pasos."
+
+msgid "Cybergogy & Tech"
+msgstr "Cibergogía y Tecnología"
+
+msgid ""
+"Digital literacy, software development, AI prompting, and cloud "
+"infrastructure training aligned with global certifications."
+msgstr ""
+"Alfabetización digital, desarrollo de software, ingeniería de prompts de IA "
+"e infraestructura en la nube alineada con certificaciones globales."
+
+msgid "Andragogy & Business"
+msgstr "Andragogía y Negocios"
+
+msgid ""
+"Adult education, lean startup methodologies, cooperative management, and "
+"income-generation frameworks."
+msgstr ""
+"Educación de adultos, metodologías lean startup, gestión cooperativa y "
+"marcos de generación de ingresos."
+
+msgid "Pedagogy"
+msgstr "Pedagogía"
+
+msgid ""
+"Foundational primary and secondary school curricula designed with guardian "
+"guidance notes and interactive learning."
+msgstr ""
+"Currículos escolares fundamentales de primaria y secundaria diseñados con "
+"notas de orientación para tutores y aprendizaje interactivo."
+
+msgid "Heutagogy"
+msgstr "Heutagogía"
+
+msgid ""
+"Self-determined mastery, independent strategic research, leadership "
+"capstones, and portfolio development."
+msgstr ""
+"Maestría autodeterminada, investigación estratégica independiente, proyectos"
+" de liderazgo y desarrollo de portafolio."
+
+msgid "Featured Practical Courses"
+msgstr "Cursos Prácticos Destacados"
+
+msgid ""
+"Hands-on tracks built for immediate real-world execution and self-"
+"employment."
+msgstr ""
+"Rutas prácticas diseñadas para la ejecución inmediata en el mundo real y el "
+"autoempleo."
+
+msgid "View All Courses"
+msgstr "Ver Todos los Cursos"
+
+msgid "Tools Needed:"
+msgstr "Herramientas Necesarias:"
+
+msgid "Hours"
+msgstr "Horas"
+
+msgid "View Curriculum"
+msgstr "Ver Currículo"
+
+msgid "THE VILLAGE ECOSYSTEM"
+msgstr "EL ECOSISTEMA LA ALDEA"
+
+msgid "Community, Media & Peer Mentorship"
+msgstr "Comunidad, Medios y Mentoría de Pares"
+
+msgid ""
+"Learn through bite-sized TikTok reels, low-data audio podcasts, expert "
+"blogs, and mentor forums."
+msgstr ""
+"Aprende a través de reels de TikTok breves, podcasts de audio de bajo "
+"consumo de datos, blogs expertos y foros de mentores."
+
+msgid "Articles & Success Stories"
+msgstr "Artículos e Historias de Éxito"
+
+msgid "No articles published yet."
+msgstr "Aún no hay artículos publicados."
+
+msgid "Reels & Low-Data Podcasts"
+msgstr "Reels y Podcasts Ligeros"
+
+msgid "No reels or podcasts uploaded yet."
+msgstr "Aún no se han subido reels ni podcasts."
+
+msgid "Watch / Listen"
+msgstr "Ver / Escuchar"
+
+msgid "Live Mentor Forums & Channels"
+msgstr "Foros de Mentores y Canales en Vivo"
+
+msgid "No forum topics started yet."
+msgstr "Aún no se han iniciado temas en el foro."
+
+msgid "Connect Instantly:"
+msgstr "Conéctate al Instante:"
+
+msgid "SUSTAINABLE GROWTH & CREDENTIALS"
+msgstr "CRECIMIENTO SOSTENIBLE Y CREDENCIALES"
+
+msgid "Certification, Memberships & Partnerships"
+msgstr "Certificación, Membresías y Alianzas"
+
+msgid ""
+"Accessible free learning paired with cryptographic verification and "
+"enterprise workforce sponsorship."
+msgstr ""
+"Aprendizaje gratuito accesible combinado con verificación criptográfica y "
+"patrocinio de fuerza laboral empresarial."
+
+msgid "MOST POPULAR FOR EMPLOYABILITY"
+msgstr "MÁS POPULAR PARA EMPLEABILIDAD"
+
+msgid "Certification and partnership plans will appear here."
+msgstr "Los planes de certificación y alianza aparecerán aquí."
+
+msgid ""
+"Empowering artisans, students, and digital professionals worldwide with "
+"verified 10-step practical mastery and low-connectivity learning support."
+msgstr ""
+"Empoderando a artesanos, estudiantes y profesionales digitales en todo el "
+"mundo con maestría práctica verificada en 10 pasos y soporte de aprendizaje "
+"de baja conectividad."
+
+msgid "Ecosystem"
+msgstr "Ecosistema"
+
+msgid "5 Learning Pillars"
+msgstr "5 Pilares de Aprendizaje"
+
+msgid "Vocational Catalog"
+msgstr "Catálogo Profesional"
+
+msgid "The Village Forums & Blog"
+msgstr "Foros y Blog La Aldea"
+
+msgid "QR Certificate Verification"
+msgstr "Verificación de Certificado QR"
+
+msgid "Official Channels"
+msgstr "Canales Oficiales"
+
+msgid "Built for scalable global impact."
+msgstr "Construido para un impacto global escalable."

@@ -1,0 +1,204 @@
+#
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Available in 7 Languages & Low-Bandwidth Mode"
+msgstr "متوفر بـ 7 لغات ووضع النطاق الترددي المنخفض"
+
+msgid "5 Pillars"
+msgstr "الركائز الخمس"
+
+msgid "Courses"
+msgstr "الدورات التدريبية"
+
+msgid "The Village (Blog & Media)"
+msgstr "القرية (المدونة والوسائط)"
+
+msgid "Certification & Plans"
+msgstr "الشهادات والخطط"
+
+msgid "Browse Catalog"
+msgstr "تصفح الدورات"
+
+msgid "Admin Console"
+msgstr "لوحة الإدارة"
+
+msgid "10-Step Practical Mastery Framework"
+msgstr "إطار الإتقان العملي من 10 خطوات"
+
+msgid "Empowering Global Mastery"
+msgstr "تمكين الإتقان العالمي"
+
+msgid ""
+"A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, "
+"Cybergogy, and Vocational Training—backed by cryptographic QR credentials "
+"and peer mentorship."
+msgstr ""
+"بنية تعليمية معيارية تشمل التربية، تعليم الكبار، التعلم الذاتي، التعليم "
+"الرقمي، والتدريب المهني—مدعومة بشهادات QR المشفرة والإرشاد المهني."
+
+msgid "Explore Vocational Catalog"
+msgstr "استكشف الدورات المهنية"
+
+msgid "Enter The Village Hub"
+msgstr "ادخل مركز القرية"
+
+msgid "Our 5 Core Learning Pillars"
+msgstr "ركائز التعلم الأساسية الخمس"
+
+msgid ""
+"Structured for rigorous, scalable education across languages and regions."
+msgstr "مصممة لتوفير تعليم دقيق وقابل للتطوير عبر مختلف اللغات والمناطق."
+
+msgid "Vocational & Trade"
+msgstr "التدريب المهني والحرف"
+
+msgid ""
+"Practical artisan training including solar, phone/laptop repair, CCTV, and "
+"barbing/beauty with 10-step field guides."
+msgstr ""
+"تدريب عملي للحرفيين يشمل الطاقة الشمسية، صيانة الهواتف والحواسيب، كاميرات "
+"المراقبة، والحلاقة والتجميل مع أدلة عملية من 10 خطوات."
+
+msgid "Cybergogy & Tech"
+msgstr "التعليم الرقمي والتكنولوجيا"
+
+msgid ""
+"Digital literacy, software development, AI prompting, and cloud "
+"infrastructure training aligned with global certifications."
+msgstr ""
+"محو الأمية الرقمية، تطوير البرمجيات، هندسة أوامر الذكاء الاصطناعي، والبنية "
+"التحتية السحابية المتوافقة مع الشهادات العالمية."
+
+msgid "Andragogy & Business"
+msgstr "تعليم الكبار والأعمال"
+
+msgid ""
+"Adult education, lean startup methodologies, cooperative management, and "
+"income-generation frameworks."
+msgstr ""
+"تعليم الكبار، منهجيات الشركات الناشئة، إدارة التعاونيات، وأطر توليد الدخل."
+
+msgid "Pedagogy"
+msgstr "التربية والتعليم الأساسي"
+
+msgid ""
+"Foundational primary and secondary school curricula designed with guardian "
+"guidance notes and interactive learning."
+msgstr ""
+"مناهج المدارس الابتدائية والثانوية التأسيسية المصممة مع ملاحظات توجيهية "
+"لأولياء الأمور وتعلم تفاعلي."
+
+msgid "Heutagogy"
+msgstr "التعلم الذاتي المستقل"
+
+msgid ""
+"Self-determined mastery, independent strategic research, leadership "
+"capstones, and portfolio development."
+msgstr ""
+"الإتقان الذاتي، البحث الاستراتيجي المستقل، مشاريع القيادة، وتطوير ملف "
+"الأعمال."
+
+msgid "Featured Practical Courses"
+msgstr "الدورات العملية المميزة"
+
+msgid ""
+"Hands-on tracks built for immediate real-world execution and self-"
+"employment."
+msgstr "مسارات عملية مصممة للتنفيذ الفوري في الواقع والعمل الحر."
+
+msgid "View All Courses"
+msgstr "عرض جميع الدورات"
+
+msgid "Tools Needed:"
+msgstr "الأدوات المطلوبة:"
+
+msgid "Hours"
+msgstr "ساعة"
+
+msgid "View Curriculum"
+msgstr "عرض المنهج"
+
+msgid "THE VILLAGE ECOSYSTEM"
+msgstr "منظومة القرية"
+
+msgid "Community, Media & Peer Mentorship"
+msgstr "المجتمع، وسائل الإعلام والإرشاد"
+
+msgid ""
+"Learn through bite-sized TikTok reels, low-data audio podcasts, expert "
+"blogs, and mentor forums."
+msgstr ""
+"تعلم من خلال مقاطع تيك توك القصيرة، البودكاست الصوتي منخفض البيانات، "
+"المدونات المتخصصة، ومنتديات الموجهين."
+
+msgid "Articles & Success Stories"
+msgstr "مقالات وقصص نجاح"
+
+msgid "No articles published yet."
+msgstr "لا توجد مقالات منشورة حتى الآن."
+
+msgid "Reels & Low-Data Podcasts"
+msgstr "مقاطع قصيرة وبودكاست"
+
+msgid "No reels or podcasts uploaded yet."
+msgstr "لم يتم رفع مقاطع أو بودكاست حتى الآن."
+
+msgid "Watch / Listen"
+msgstr "شاهد / استمع"
+
+msgid "Live Mentor Forums & Channels"
+msgstr "منتديات الموجهين والقنوات المباشرة"
+
+msgid "No forum topics started yet."
+msgstr "لم يتم بدء أي مواضيع في المنتدى حتى الآن."
+
+msgid "Connect Instantly:"
+msgstr "تواصل فوراً:"
+
+msgid "SUSTAINABLE GROWTH & CREDENTIALS"
+msgstr "النمو المستدام والشهادات"
+
+msgid "Certification, Memberships & Partnerships"
+msgstr "الشهادات والعضويات والشراكات"
+
+msgid ""
+"Accessible free learning paired with cryptographic verification and "
+"enterprise workforce sponsorship."
+msgstr "تعلم مجاني متاح مقترن بالتحقق المشفر ورعاية القوى العاملة للمؤسسات."
+
+msgid "MOST POPULAR FOR EMPLOYABILITY"
+msgstr "الأكثر طلباً للتوظيف"
+
+msgid "Certification and partnership plans will appear here."
+msgstr "ستظهر خطط الشهادات والشراكات هنا."
+
+msgid ""
+"Empowering artisans, students, and digital professionals worldwide with "
+"verified 10-step practical mastery and low-connectivity learning support."
+msgstr ""
+"تمكين الحرفيين والطلاب والمهنيين الرقميين في جميع أنحاء العالم من خلال إتقان"
+" عملي معتمد من 10 خطوات ودعم للاتصال الضعيف."
+
+msgid "Ecosystem"
+msgstr "المنظومة"
+
+msgid "5 Learning Pillars"
+msgstr "ركائز التعلم الخمس"
+
+msgid "Vocational Catalog"
+msgstr "الدليل المهني"
+
+msgid "The Village Forums & Blog"
+msgstr "منتديات ومدونة القرية"
+
+msgid "QR Certificate Verification"
+msgstr "التحقق من شهادة QR"
+
+msgid "Official Channels"
+msgstr "القنوات الرسمية"
+
+msgid "Built for scalable global impact."
+msgstr "بُنيت لإحداث تأثير عالمي واسع النطاق."

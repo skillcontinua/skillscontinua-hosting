@@ -1,3 +1,4 @@
+# C:\hosting\skillscontinua_hosting\skillscontinua_core\settings.py
 import os
 from pathlib import Path
 import dj_database_url
@@ -15,6 +16,9 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.onrender.com', 'skillscontinua.com'
 
 # Application definition
 INSTALLED_APPS = [
+    # Third-party translation utility
+    'modeltranslation',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,9 +44,9 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', # Fast production static files
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locale.LocaleMiddleware', # Multilingual support middleware
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -90,17 +94,25 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Internationalization & Multilingual Setup (7 Languages)
+from django.utils.translation import gettext_lazy as _
+
 LANGUAGE_CODE = 'en'
+
 LANGUAGES = [
-    ('en', 'English'),
-    ('fr', 'French'),
-    ('ig', 'Igbo'),
-    ('sw', 'Swahili'),
-    ('ar', 'Arabic'),
-    ('es', 'Spanish'),
-    ('pt', 'Portuguese'),
+    ('en', _('English')),
+    ('fr', _('Français (French)')),
+    ('ig', _('Igbo')),
+    ('sw', _('Kiswahili (Swahili)')),
+    ('ar', _('العربية (Arabic)')),
+    ('es', _('Español (Spanish)')),
+    ('pt', _('Português (Portuguese)')),
 ]
-LOCALE_PATHS = [BASE_DIR / 'locale']
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
+
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
 
 TIME_ZONE = 'Africa/Lagos'
 USE_I18N = True

@@ -1,0 +1,213 @@
+#
+msgid ""
+msgstr ""
+"Language: pt\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Available in 7 Languages & Low-Bandwidth Mode"
+msgstr "Disponível em 7 idiomas e modo de baixa largura de banda"
+
+msgid "5 Pillars"
+msgstr "5 Pilares"
+
+msgid "Courses"
+msgstr "Cursos"
+
+msgid "The Village (Blog & Media)"
+msgstr "A Aldeia (Blog e Mídia)"
+
+msgid "Certification & Plans"
+msgstr "Certificação e Planos"
+
+msgid "Browse Catalog"
+msgstr "Explorar Catálogo"
+
+msgid "Admin Console"
+msgstr "Console Admin"
+
+msgid "10-Step Practical Mastery Framework"
+msgstr "Estrutura de Maestria Prática em 10 Passos"
+
+msgid "Empowering Global Mastery"
+msgstr "Capacitando a Maestria Global"
+
+msgid ""
+"A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, "
+"Cybergogy, and Vocational Training—backed by cryptographic QR credentials "
+"and peer mentorship."
+msgstr ""
+"Uma arquitetura educacional modular abrangendo Pedagogia, Andragogia, "
+"Heutagogia, Cibergogia e Formação Profissional — apoiada por credenciais QR "
+"criptográficas e mentoria de pares."
+
+msgid "Explore Vocational Catalog"
+msgstr "Explorar Catálogo Profissional"
+
+msgid "Enter The Village Hub"
+msgstr "Entrar no Hub A Aldeia"
+
+msgid "Our 5 Core Learning Pillars"
+msgstr "Nossos 5 Pilares de Aprendizagem"
+
+msgid ""
+"Structured for rigorous, scalable education across languages and regions."
+msgstr ""
+"Estruturado para uma educação rigorosa e escalável em diversos idiomas e "
+"regiões."
+
+msgid "Vocational & Trade"
+msgstr "Formação Profissional e Ofícios"
+
+msgid ""
+"Practical artisan training including solar, phone/laptop repair, CCTV, and "
+"barbing/beauty with 10-step field guides."
+msgstr ""
+"Treinamento prático incluindo energia solar, reparo de celulares/laptops, "
+"CFTV e barbearia/beleza com guias de campo de 10 passos."
+
+msgid "Cybergogy & Tech"
+msgstr "Cibergogia e Tecnologia"
+
+msgid ""
+"Digital literacy, software development, AI prompting, and cloud "
+"infrastructure training aligned with global certifications."
+msgstr ""
+"Alfabetização digital, desenvolvimento de software, engenharia de prompts de"
+" IA e infraestrutura em nuvem alinhadas com certificações globais."
+
+msgid "Andragogy & Business"
+msgstr "Andragogia e Negócios"
+
+msgid ""
+"Adult education, lean startup methodologies, cooperative management, and "
+"income-generation frameworks."
+msgstr ""
+"Educação de adultos, metodologias lean startup, gestão cooperativa e "
+"estruturas de geração de renda."
+
+msgid "Pedagogy"
+msgstr "Pedagogia"
+
+msgid ""
+"Foundational primary and secondary school curricula designed with guardian "
+"guidance notes and interactive learning."
+msgstr ""
+"Currículos escolares fundamentais do ensino primário e secundário com notas "
+"de orientação para tutores e aprendizado interativo."
+
+msgid "Heutagogy"
+msgstr "Heutagogia"
+
+msgid ""
+"Self-determined mastery, independent strategic research, leadership "
+"capstones, and portfolio development."
+msgstr ""
+"Maestria autodeterminada, pesquisa estratégica independente, projetos de "
+"liderança e desenvolvimento de portfólio."
+
+msgid "Featured Practical Courses"
+msgstr "Cursos Práticos em Destaque"
+
+msgid ""
+"Hands-on tracks built for immediate real-world execution and self-"
+"employment."
+msgstr ""
+"Trilhas práticas construídas para execução imediata no mundo real e trabalho"
+" autônomo."
+
+msgid "View All Courses"
+msgstr "Ver Todos os Cursos"
+
+msgid "Tools Needed:"
+msgstr "Ferramentas Necessárias:"
+
+msgid "Hours"
+msgstr "Horas"
+
+msgid "View Curriculum"
+msgstr "Ver Currículo"
+
+msgid "THE VILLAGE ECOSYSTEM"
+msgstr "O ECOSSISTEMA A ALDEIA"
+
+msgid "Community, Media & Peer Mentorship"
+msgstr "Comunidade, Mídia e Mentoria de Pares"
+
+msgid ""
+"Learn through bite-sized TikTok reels, low-data audio podcasts, expert "
+"blogs, and mentor forums."
+msgstr ""
+"Aprenda por meio de reels do TikTok, podcasts de áudio leves, blogs "
+"especializados e fóruns de mentores."
+
+msgid "Articles & Success Stories"
+msgstr "Artigos e Histórias de Sucesso"
+
+msgid "No articles published yet."
+msgstr "Nenhum artigo publicado ainda."
+
+msgid "Reels & Low-Data Podcasts"
+msgstr "Reels e Podcasts Leves"
+
+msgid "No reels or podcasts uploaded yet."
+msgstr "Nenhum reel ou podcast enviado ainda."
+
+msgid "Watch / Listen"
+msgstr "Assistir / Ouvir"
+
+msgid "Live Mentor Forums & Channels"
+msgstr "Fóruns de Mentores e Canais ao Vivo"
+
+msgid "No forum topics started yet."
+msgstr "Nenhum tópico de fórum iniciado ainda."
+
+msgid "Connect Instantly:"
+msgstr "Conecte-se Instantaneamente:"
+
+msgid "SUSTAINABLE GROWTH & CREDENTIALS"
+msgstr "CRESCIMENTO SUSTENTÁVEL E CREDENCIAIS"
+
+msgid "Certification, Memberships & Partnerships"
+msgstr "Certificação, Associações e Parcerias"
+
+msgid ""
+"Accessible free learning paired with cryptographic verification and "
+"enterprise workforce sponsorship."
+msgstr ""
+"Aprendizagem gratuita acessível combinada com verificação criptográfica e "
+"patrocínio corporativo."
+
+msgid "MOST POPULAR FOR EMPLOYABILITY"
+msgstr "MAIS POPULAR PARA EMPREGABILIDADE"
+
+msgid "Certification and partnership plans will appear here."
+msgstr "Os planos de certificação e parceria aparecerão aqui."
+
+msgid ""
+"Empowering artisans, students, and digital professionals worldwide with "
+"verified 10-step practical mastery and low-connectivity learning support."
+msgstr ""
+"Capacitando artesãos, estudantes e profissionais digitais em todo o mundo "
+"com maestria prática verificada em 10 passos e suporte para baixa "
+"conectividade."
+
+msgid "Ecosystem"
+msgstr "Ecossistema"
+
+msgid "5 Learning Pillars"
+msgstr "5 Pilares de Aprendizagem"
+
+msgid "Vocational Catalog"
+msgstr "Catálogo Profissional"
+
+msgid "The Village Forums & Blog"
+msgstr "Fóruns e Blog A Aldeia"
+
+msgid "QR Certificate Verification"
+msgstr "Verificação de Certificado QR"
+
+msgid "Official Channels"
+msgstr "Canais Oficiais"
+
+msgid "Built for scalable global impact."
+msgstr "Construído para impacto global escalável."

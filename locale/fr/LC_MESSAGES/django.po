@@ -1,0 +1,215 @@
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Available in 7 Languages & Low-Bandwidth Mode"
+msgstr "Disponible en 7 langues et en mode faible bande passante"
+
+msgid "5 Pillars"
+msgstr "5 Piliers"
+
+msgid "Courses"
+msgstr "Formations"
+
+msgid "The Village (Blog & Media)"
+msgstr "Le Village (Blog & Médias)"
+
+msgid "Certification & Plans"
+msgstr "Certifications & Tarifs"
+
+msgid "Browse Catalog"
+msgstr "Explorer le Catalogue"
+
+msgid "Admin Console"
+msgstr "Console d'Administration"
+
+msgid "10-Step Practical Mastery Framework"
+msgstr "Cadre de Maîtrise Pratique en 10 Étapes"
+
+msgid "Empowering Global Mastery"
+msgstr "Favoriser la Maîtrise Globale"
+
+msgid ""
+"A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, "
+"Cybergogy, and Vocational Training—backed by cryptographic QR credentials "
+"and peer mentorship."
+msgstr ""
+"Une architecture éducative modulaire couvrant la pédagogie, l'andragogie, "
+"l'heutagogie, la cybergogie et la formation professionnelle — soutenue par "
+"des justificatifs QR cryptographiques et un mentorat par les pairs."
+
+msgid "Explore Vocational Catalog"
+msgstr "Explorer le Catalogue Professionnel"
+
+msgid "Enter The Village Hub"
+msgstr "Rejoindre le Hub Le Village"
+
+msgid "Our 5 Core Learning Pillars"
+msgstr "Nos 5 Piliers d'Apprentissage Fondamentaux"
+
+msgid ""
+"Structured for rigorous, scalable education across languages and regions."
+msgstr ""
+"Conçu pour une éducation rigoureuse et évolutive à travers les langues et "
+"les régions."
+
+msgid "Vocational & Trade"
+msgstr "Formations Professionnelles & Métiers"
+
+msgid ""
+"Practical artisan training including solar, phone/laptop repair, CCTV, and "
+"barbing/beauty with 10-step field guides."
+msgstr ""
+"Formation artisanale pratique incluant le solaire, la réparation de "
+"téléphones/ordinateurs portables, la vidéosurveillance et la "
+"coiffure/esthétique, accompagnée de guides pratiques en 10 étapes."
+
+msgid "Cybergogy & Tech"
+msgstr "Cybergogie & Technologies"
+
+msgid ""
+"Digital literacy, software development, AI prompting, and cloud "
+"infrastructure training aligned with global certifications."
+msgstr ""
+"Alphabétisation numérique, développement logiciel, IA générative et "
+"infrastructure cloud alignés sur les certifications mondiales."
+
+msgid "Andragogy & Business"
+msgstr "Andragogie & Entrepreneuriat"
+
+msgid ""
+"Adult education, lean startup methodologies, cooperative management, and "
+"income-generation frameworks."
+msgstr ""
+"Éducation des adultes, méthodologies lean startup, gestion coopérative et "
+"cadres de création de revenus."
+
+msgid "Pedagogy"
+msgstr "Pédagogie"
+
+msgid ""
+"Foundational primary and secondary school curricula designed with guardian "
+"guidance notes and interactive learning."
+msgstr ""
+"Programmes scolaires fondamentaux pour le primaire et le secondaire conçus "
+"avec des notes d'accompagnement pour les tuteurs et un apprentissage "
+"interactif."
+
+msgid "Heutagogy"
+msgstr "Heutagogie"
+
+msgid ""
+"Self-determined mastery, independent strategic research, leadership "
+"capstones, and portfolio development."
+msgstr ""
+"Maîtrise autodéterminée, recherche stratégique indépendante, projets de "
+"leadership et développement de portfolio."
+
+msgid "Featured Practical Courses"
+msgstr "Formations Pratiques en Vedette"
+
+msgid ""
+"Hands-on tracks built for immediate real-world execution and self-"
+"employment."
+msgstr ""
+"Parcours pratiques conçus pour une application immédiate sur le terrain et "
+"l'auto-emploi."
+
+msgid "View All Courses"
+msgstr "Voir Toutes les Formations"
+
+msgid "Tools Needed:"
+msgstr "Outils Requis :"
+
+msgid "Hours"
+msgstr "Heures"
+
+msgid "View Curriculum"
+msgstr "Consulter le Programme"
+
+msgid "THE VILLAGE ECOSYSTEM"
+msgstr "L'ÉCOSYSTÈME DU VILLAGE"
+
+msgid "Community, Media & Peer Mentorship"
+msgstr "Communauté, Médias et Mentorat par les Pairs"
+
+msgid ""
+"Learn through bite-sized TikTok reels, low-data audio podcasts, expert "
+"blogs, and mentor forums."
+msgstr ""
+"Apprenez grâce à des vidéos TikTok courtes, des podcasts audio légers, des "
+"blogs d'experts et des forums de mentors."
+
+msgid "Articles & Success Stories"
+msgstr "Articles & Histoires de Réussite"
+
+msgid "No articles published yet."
+msgstr "Aucun article publié pour le moment."
+
+msgid "Reels & Low-Data Podcasts"
+msgstr "Reels & Podcasts Légers"
+
+msgid "No reels or podcasts uploaded yet."
+msgstr "Aucun reel ou podcast publié pour le moment."
+
+msgid "Watch / Listen"
+msgstr "Regarder / Écouter"
+
+msgid "Live Mentor Forums & Channels"
+msgstr "Forums de Mentors & Canaux en Direct"
+
+msgid "No forum topics started yet."
+msgstr "Aucun sujet de forum lancé pour le moment."
+
+msgid "Connect Instantly:"
+msgstr "Connectez-vous Instantanément :"
+
+msgid "SUSTAINABLE GROWTH & CREDENTIALS"
+msgstr "CROISSANCE DURABLE ET CERTIFICATIONS"
+
+msgid "Certification, Memberships & Partnerships"
+msgstr "Certification, Adhésions et Partenariats"
+
+msgid ""
+"Accessible free learning paired with cryptographic verification and "
+"enterprise workforce sponsorship."
+msgstr ""
+"Un apprentissage gratuit et accessible, associé à une vérification "
+"cryptographique et au parrainage d'entreprises."
+
+msgid "MOST POPULAR FOR EMPLOYABILITY"
+msgstr "LE PLUS POPULAIRE POUR L'EMPLOYABILITÉ"
+
+msgid "Certification and partnership plans will appear here."
+msgstr "Les offres de certification et de partenariat apparaîtront ici."
+
+msgid ""
+"Empowering artisans, students, and digital professionals worldwide with "
+"verified 10-step practical mastery and low-connectivity learning support."
+msgstr ""
+"Autonomiser les artisans, les étudiants et les professionnels du numérique "
+"dans le monde entier grâce à une maîtrise pratique validée en 10 étapes et "
+"un support adapté aux connexions limitées."
+
+msgid "Ecosystem"
+msgstr "Écosystème"
+
+msgid "5 Learning Pillars"
+msgstr "5 Piliers d'Apprentissage"
+
+msgid "Vocational Catalog"
+msgstr "Catalogue Professionnel"
+
+msgid "The Village Forums & Blog"
+msgstr "Forums & Blog du Village"
+
+msgid "QR Certificate Verification"
+msgstr "Vérification de Certificat QR"
+
+msgid "Official Channels"
+msgstr "Canaux Officiels"
+
+msgid "Built for scalable global impact."
+msgstr "Conçu pour un impact mondial et évolutif."

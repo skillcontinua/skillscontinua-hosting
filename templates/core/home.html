@@ -1,67 +1,100 @@
-<!-- File path: C:\hosting\skillscontinua_hosting\templates\core\home.html -->
+{% load i18n %}
+<!-- C:\hosting\skillscontinua_hosting\templates\core\home.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ LANGUAGE_CODE|default:'en' }}" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkillsContinua | Global Modular Learning & Community Ecosystem</title>
-    <!-- Bootstrap 5 CSS & Icons -->
+    <title>SkillsContinua | {% trans "Empowering Global Mastery" %}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 
-    <!-- Top Social & Low-Data Community Bar (WhatsApp, TikTok, YouTube) -->
-    <div class="bg-dark text-white py-2 border-bottom border-secondary">
-        <div class="container d-flex flex-wrap justify-content-between align-items-center small">
-            <span><i class="bi bi-globe2 me-1 text-info"></i> Available in 7 Languages & Low-Bandwidth Mode</span>
-            <div class="d-flex gap-3">
-                {% for social in social_channels %}
-                    <a href="{{ social.url }}" target="_blank" rel="noopener" class="text-white text-decoration-none">
-                        {% if social.platform == 'whatsapp' %}<i class="bi bi-whatsapp text-success me-1"></i>
-                        {% elif social.platform == 'tiktok' %}<i class="bi bi-tiktok text-info me-1"></i>
-                        {% elif social.platform == 'youtube' %}<i class="bi bi-youtube text-danger me-1"></i>
-                        {% else %}<i class="bi bi-chat-dots me-1"></i>{% endif %}
-                        {{ social.handle_or_label }}
-                    </a>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+    <!-- Unified Sticky Header Wrapper -->
+    <div class="sticky-top shadow-sm" style="z-index: 1050; top: 0;">
+        <!-- Top Social & Low-Data Community Bar -->
+        <div class="bg-dark text-white py-2 border-bottom border-secondary">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center">
+                <div class="small mb-1 mb-md-0">
+                    <i class="bi bi-globe2 me-1 text-info"></i> {% trans "Available in 7 Languages & Low-Bandwidth Mode" %}
+                </div>
+                
+                <div class="d-flex align-items-center gap-3 flex-wrap">
+                    {% get_current_language as CURRENT_LANG %}
+                    {% get_available_languages as AVAILABLE_LANGUAGES %}
+                    <div class="dropdown">
+                        <button class="btn btn-sm btn-outline-light dropdown-toggle py-1 px-3" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-translate me-1 text-info"></i>
+                            {% for code, name in AVAILABLE_LANGUAGES %}
+                                {% if code == CURRENT_LANG %}{{ name }}{% endif %}
+                            {% endfor %}
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark shadow" aria-labelledby="languageDropdown">
+                            {% for code, name in AVAILABLE_LANGUAGES %}
+                                <li>
+                                    <form action="{% url 'set_language' %}" method="post" class="m-0">
+                                        {% csrf_token %}
+                                        <input name="next" type="hidden" value="/">
+                                        <input name="language" type="hidden" value="{{ code }}">
+                                        <button type="submit" class="dropdown-item {% if code == CURRENT_LANG %}active fw-bold{% endif %}">
+                                            {{ name }}
+                                        </button>
+                                    </form>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
 
-    <!-- Main Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold fs-4" href="{% url 'core:home' %}">SkillsContinua</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#pillars">5 Pillars</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#village">The Village (Blog & Media)</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#pricing">Certification & Plans</a></li>
-                </ul>
-                <div class="d-flex gap-2">
-                    <a href="#village" class="btn btn-success btn-sm"><i class="bi bi-whatsapp me-1"></i> Join Community</a>
-                    <a href="/admin/" class="btn btn-outline-light btn-sm">Admin Console</a>
+                    <div class="d-flex gap-3 small">
+                        {% for social in social_channels %}
+                            <a href="{{ social.url }}" target="_blank" rel="noopener" class="text-white text-decoration-none">
+                                {% if social.platform == 'whatsapp' %}<i class="bi bi-whatsapp text-success me-1"></i>
+                                {% elif social.platform == 'tiktok' %}<i class="bi bi-tiktok text-info me-1"></i>
+                                {% elif social.platform == 'youtube' %}<i class="bi bi-youtube text-danger me-1"></i>
+                                {% else %}<i class="bi bi-chat-dots me-1"></i>{% endif %}
+                                {{ social.handle_or_label }}
+                            </a>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+
+        <!-- Main Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-4" href="{% url 'core:home' %}">SkillsContinua</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#pillars">{% trans "5 Pillars" %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'vocational:course_list' %}">{% trans "Courses" %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#village">{% trans "The Village (Blog & Media)" %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">{% trans "Certification & Plans" %}</a></li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <a href="{% url 'vocational:course_list' %}" class="btn btn-primary btn-sm">{% trans "Browse Catalog" %}</a>
+                        <a href="/admin/" class="btn btn-outline-light btn-sm">{% trans "Admin Console" %}</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
 
     <!-- Hero Section -->
     <header class="bg-primary text-white text-center py-5 shadow">
         <div class="container py-4">
-            <span class="badge bg-warning text-dark mb-3 px-3 py-2 fw-bold">10-Step Practical Mastery Framework</span>
-            <h1 class="display-4 fw-bold">Empowering Global Mastery</h1>
+            <span class="badge bg-warning text-dark mb-3 px-3 py-2 fw-bold">{% trans "10-Step Practical Mastery Framework" %}</span>
+            <h1 class="display-4 fw-bold">{% trans "Empowering Global Mastery" %}</h1>
             <p class="lead mb-4 mx-auto" style="max-width: 760px;">
-                A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, Cybergogy, and Vocational Training—backed by cryptographic QR credentials and peer mentorship.
+                {% trans "A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, Cybergogy, and Vocational Training—backed by cryptographic QR credentials and peer mentorship." %}
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap">
-                <a href="#courses" class="btn btn-light btn-lg px-4 fw-bold text-primary shadow">Explore Practical Courses</a>
-                <a href="#village" class="btn btn-outline-light btn-lg px-4">Enter The Village Hub</a>
+                <a href="{% url 'vocational:course_list' %}" class="btn btn-light btn-lg px-4 fw-bold text-primary shadow">{% trans "Explore Vocational Catalog" %}</a>
+                <a href="#village" class="btn btn-outline-light btn-lg px-4">{% trans "Enter The Village Hub" %}</a>
             </div>
         </div>
     </header>
@@ -70,51 +103,65 @@
     <section id="pillars" class="container my-5 pt-3">
         <div class="row text-center mb-4">
             <div class="col">
-                <h2 class="fw-bold">Our 5 Core Learning Pillars</h2>
-                <p class="text-muted">Structured for rigorous, scalable education across languages and regions.</p>
+                <h2 class="fw-bold">{% trans "Our 5 Core Learning Pillars" %}</h2>
+                <p class="text-muted">{% trans "Structured for rigorous, scalable education across languages and regions." %}</p>
             </div>
         </div>
 
         <div class="row g-4">
             <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h4 class="card-title text-primary fw-bold"><i class="bi bi-tools me-2"></i>Vocational & Trade</h4>
-                        <p class="card-text">Practical artisan training including solar installation, electrical work, and mechanical craftsmanship with 10-step field guides.</p>
+                <a href="{% url 'vocational:course_list' %}" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary fw-bold"><i class="bi bi-tools me-2"></i>{% trans "Vocational & Trade" %} <i class="bi bi-arrow-right-short float-end"></i></h4>
+                            <p class="card-text text-dark">{% trans "Practical artisan training including solar, phone/laptop repair, CCTV, and barbing/beauty with 10-step field guides." %}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
+
             <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h4 class="card-title text-success fw-bold"><i class="bi bi-cpu me-2"></i>Cybergogy & Tech</h4>
-                        <p class="card-text">Digital literacy, software development, AI prompting, and cloud infrastructure training aligned with global certifications.</p>
+                <a href="#courses" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h4 class="card-title text-success fw-bold"><i class="bi bi-cpu me-2"></i>{% trans "Cybergogy & Tech" %} <i class="bi bi-arrow-right-short float-end"></i></h4>
+                            <p class="card-text text-dark">{% trans "Digital literacy, software development, AI prompting, and cloud infrastructure training aligned with global certifications." %}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
+
             <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h4 class="card-title text-warning fw-bold"><i class="bi bi-briefcase me-2"></i>Andragogy & Business</h4>
-                        <p class="card-text">Adult education, lean startup methodologies, cooperative management, and income-generation frameworks.</p>
+                <a href="#pricing" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h4 class="card-title text-warning fw-bold"><i class="bi bi-briefcase me-2"></i>{% trans "Andragogy & Business" %} <i class="bi bi-arrow-right-short float-end"></i></h4>
+                            <p class="card-text text-dark">{% trans "Adult education, lean startup methodologies, cooperative management, and income-generation frameworks." %}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
+
             <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h4 class="card-title text-info fw-bold"><i class="bi bi-book me-2"></i>Pedagogy</h4>
-                        <p class="card-text">Foundational primary and secondary school curricula designed with guardian guidance notes and interactive learning.</p>
+                <a href="#village" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h4 class="card-title text-info fw-bold"><i class="bi bi-book me-2"></i>{% trans "Pedagogy" %} <i class="bi bi-arrow-right-short float-end"></i></h4>
+                            <p class="card-text text-dark">{% trans "Foundational primary and secondary school curricula designed with guardian guidance notes and interactive learning." %}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
+
             <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h4 class="card-title text-danger fw-bold"><i class="bi bi-compass me-2"></i>Heutagogy</h4>
-                        <p class="card-text">Self-determined mastery, independent strategic research, leadership capstones, and portfolio development.</p>
+                <a href="#village" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h4 class="card-title text-danger fw-bold"><i class="bi bi-compass me-2"></i>{% trans "Heutagogy" %} <i class="bi bi-arrow-right-short float-end"></i></h4>
+                            <p class="card-text text-dark">{% trans "Self-determined mastery, independent strategic research, leadership capstones, and portfolio development." %}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -122,12 +169,12 @@
     <!-- Featured Courses Section -->
     <section id="courses" class="bg-white py-5 border-top border-bottom">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
                 <div>
-                    <h2 class="fw-bold mb-0">Featured Practical Courses</h2>
-                    <p class="text-muted mb-0">Hands-on tracks built for immediate real-world execution.</p>
+                    <h2 class="fw-bold mb-0">{% trans "Featured Practical Courses" %}</h2>
+                    <p class="text-muted mb-0">{% trans "Hands-on tracks built for immediate real-world execution and self-employment." %}</p>
                 </div>
-                <span class="badge bg-primary fs-6">10-Step Curriculum</span>
+                <a href="{% url 'vocational:course_list' %}" class="btn btn-outline-dark btn-sm fw-bold">{% trans "View All Courses" %} &rarr;</a>
             </div>
 
             {% if featured_trades %}
@@ -135,16 +182,18 @@
                     {% for course in featured_trades %}
                         <div class="col-md-6">
                             <div class="card h-100 border shadow-sm">
-                                <div class="card-body">
-                                    <span class="badge bg-secondary mb-2">{{ course.category.name }}</span>
-                                    <h4 class="fw-bold text-dark">{{ course.title }}</h4>
-                                    <p class="text-muted">{{ course.description }}</p>
-                                    <div class="small text-dark bg-light p-2 rounded mb-3">
-                                        <strong>Tools Needed:</strong> {{ course.required_tools }}
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div>
+                                        <span class="badge bg-secondary mb-2">{{ course.category.name }}</span>
+                                        <h4 class="fw-bold text-dark">{{ course.title }}</h4>
+                                        <p class="text-muted">{{ course.description }}</p>
+                                        <div class="small text-dark bg-light p-2 rounded mb-3">
+                                            <strong>{% trans "Tools Needed:" %}</strong> {{ course.required_tools }}
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span class="text-primary fw-bold small"><i class="bi bi-clock me-1"></i>{{ course.duration_hours }} Hours | {{ course.level }}</span>
-                                        <a href="#pricing" class="btn btn-sm btn-primary">Enroll Now</a>
+                                    <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top">
+                                        <span class="text-primary fw-bold small"><i class="bi bi-clock me-1"></i>{{ course.duration_hours }} {% trans "Hours" %} | {{ course.level }}</span>
+                                        <a href="{% url 'vocational:course_detail' course.slug %}" class="btn btn-sm btn-primary">{% trans "View Curriculum" %}</a>
                                     </div>
                                 </div>
                             </div>
@@ -158,17 +207,16 @@
     <!-- THE VILLAGE: Community, Blog, Forums, Podcasts & TikTok Reels -->
     <section id="village" class="container my-5 py-3">
         <div class="text-center mb-5">
-            <span class="badge bg-success mb-2 px-3 py-2">THE VILLAGE ECOSYSTEM</span>
-            <h2 class="fw-bold">Community, Media & Peer Mentorship</h2>
-            <p class="text-muted">Learn through bite-sized TikTok reels, low-data audio podcasts, expert blogs, and mentor forums.</p>
+            <span class="badge bg-success mb-2 px-3 py-2">{% trans "THE VILLAGE ECOSYSTEM" %}</span>
+            <h2 class="fw-bold">{% trans "Community, Media & Peer Mentorship" %}</h2>
+            <p class="text-muted">{% trans "Learn through bite-sized TikTok reels, low-data audio podcasts, expert blogs, and mentor forums." %}</p>
         </div>
 
         <div class="row g-4">
-            <!-- Column 1: SEO Blog & Field Guides -->
             <div class="col-lg-4">
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-header bg-dark text-white fw-bold">
-                        <i class="bi bi-journal-richtext me-2 text-warning"></i>Articles & Success Stories
+                        <i class="bi bi-journal-richtext me-2 text-warning"></i>{% trans "Articles & Success Stories" %}
                     </div>
                     <div class="card-body">
                         {% for post in latest_posts %}
@@ -178,17 +226,16 @@
                                 <p class="small text-muted mb-1">{{ post.summary }}</p>
                             </div>
                         {% empty %}
-                            <p class="text-muted small">No articles published yet.</p>
+                            <p class="text-muted small">{% trans "No articles published yet." %}</p>
                         {% endfor %}
                     </div>
                 </div>
             </div>
 
-            <!-- Column 2: TikTok Reels & Audio Podcasts -->
             <div class="col-lg-4">
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-header bg-dark text-white fw-bold">
-                        <i class="bi bi-play-circle me-2 text-info"></i>Reels & Low-Data Podcasts
+                        <i class="bi bi-play-circle me-2 text-info"></i>{% trans "Reels & Low-Data Podcasts" %}
                     </div>
                     <div class="card-body">
                         {% for media in media_streams %}
@@ -202,21 +249,20 @@
                                 <h6 class="fw-bold mb-1">{{ media.title }}</h6>
                                 <p class="small text-muted mb-2">{{ media.description }}</p>
                                 <a href="{{ media.external_url }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-dark">
-                                    Watch / Listen <i class="bi bi-box-arrow-up-right ms-1"></i>
+                                    {% trans "Watch / Listen" %} <i class="bi bi-box-arrow-up-right ms-1"></i>
                                 </a>
                             </div>
                         {% empty %}
-                            <p class="text-muted small">No reels or podcasts uploaded yet.</p>
+                            <p class="text-muted small">{% trans "No reels or podcasts uploaded yet." %}</p>
                         {% endfor %}
                     </div>
                 </div>
             </div>
 
-            <!-- Column 3: Peer Forums & Social Channels -->
             <div class="col-lg-4">
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-header bg-dark text-white fw-bold">
-                        <i class="bi bi-chat-square-text me-2 text-success"></i>Live Mentor Forums & Channels
+                        <i class="bi bi-chat-square-text me-2 text-success"></i>{% trans "Live Mentor Forums & Channels" %}
                     </div>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
@@ -226,12 +272,13 @@
                                     <h6 class="fw-bold mb-1">{{ topic.title }}</h6>
                                     <p class="small text-muted mb-0">{{ topic.body|truncatewords:18 }}</p>
                                 </div>
+                            {% empty %}
+                                <p class="text-muted small">{% trans "No forum topics started yet." %}</p>
                             {% endfor %}
                         </div>
 
-                        <!-- Direct WhatsApp & TikTok Callout Box -->
                         <div class="bg-light p-3 rounded border mt-3">
-                            <h6 class="fw-bold mb-2">Connect Instantly:</h6>
+                            <h6 class="fw-bold mb-2">{% trans "Connect Instantly:" %}</h6>
                             <div class="d-grid gap-2">
                                 {% for social in social_channels %}
                                     <a href="{{ social.url }}" target="_blank" rel="noopener" class="btn btn-sm {% if social.platform == 'whatsapp' %}btn-success{% elif social.platform == 'tiktok' %}btn-dark{% else %}btn-outline-primary{% endif %}">
@@ -250,9 +297,9 @@
     <section id="pricing" class="bg-white py-5 border-top">
         <div class="container">
             <div class="text-center mb-5">
-                <span class="badge bg-primary mb-2 px-3 py-2">SUSTAINABLE GROWTH & CREDENTIALS</span>
-                <h2 class="fw-bold">Certification, Memberships & Partnerships</h2>
-                <p class="text-muted">Accessible free learning paired with cryptographic verification and enterprise workforce sponsorship.</p>
+                <span class="badge bg-primary mb-2 px-3 py-2">{% trans "SUSTAINABLE GROWTH & CREDENTIALS" %}</span>
+                <h2 class="fw-bold">{% trans "Certification, Memberships & Partnerships" %}</h2>
+                <p class="text-muted">{% trans "Accessible free learning paired with cryptographic verification and enterprise workforce sponsorship." %}</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -260,7 +307,7 @@
                     <div class="col-md-4">
                         <div class="card h-100 shadow-sm {% if offer.is_highlighted %}border-primary border-2{% else %}border{% endif %}">
                             {% if offer.is_highlighted %}
-                                <div class="card-header bg-primary text-white text-center fw-bold small">MOST POPULAR FOR EMPLOYABILITY</div>
+                                <div class="card-header bg-primary text-white text-center fw-bold small">{% trans "MOST POPULAR FOR EMPLOYABILITY" %}</div>
                             {% endif %}
                             <div class="card-body text-center d-flex flex-column justify-content-between p-4">
                                 <div>
@@ -274,6 +321,10 @@
                             </div>
                         </div>
                     </div>
+                {% empty %}
+                    <div class="col-12 text-center">
+                        <p class="text-muted small">{% trans "Certification and partnership plans will appear here." %}</p>
+                    </div>
                 {% endfor %}
             </div>
         </div>
@@ -286,19 +337,20 @@
                 <div class="col-md-5">
                     <h5 class="fw-bold">SkillsContinua</h5>
                     <p class="small text-secondary">
-                        Empowering artisans, students, and digital professionals worldwide with verified 10-step practical mastery and low-connectivity learning support.
+                        {% trans "Empowering artisans, students, and digital professionals worldwide with verified 10-step practical mastery and low-connectivity learning support." %}
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <h6 class="fw-bold">Ecosystem</h6>
+                    <h6 class="fw-bold">{% trans "Ecosystem" %}</h6>
                     <ul class="list-unstyled small">
-                        <li><a href="#pillars" class="text-secondary text-decoration-none">5 Learning Pillars</a></li>
-                        <li><a href="#village" class="text-secondary text-decoration-none">The Village Forums & Blog</a></li>
-                        <li><a href="#pricing" class="text-secondary text-decoration-none">QR Certificate Verification</a></li>
+                        <li><a href="#pillars" class="text-secondary text-decoration-none">{% trans "5 Learning Pillars" %}</a></li>
+                        <li><a href="{% url 'vocational:course_list' %}" class="text-secondary text-decoration-none">{% trans "Vocational Catalog" %}</a></li>
+                        <li><a href="#village" class="text-secondary text-decoration-none">{% trans "The Village Forums & Blog" %}</a></li>
+                        <li><a href="#pricing" class="text-secondary text-decoration-none">{% trans "QR Certificate Verification" %}</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h6 class="fw-bold">Official Channels</h6>
+                    <h6 class="fw-bold">{% trans "Official Channels" %}</h6>
                     <div class="d-flex flex-wrap gap-2 mt-2">
                         {% for social in social_channels %}
                             <a href="{{ social.url }}" target="_blank" rel="noopener" class="btn btn-outline-light btn-sm">
@@ -310,12 +362,11 @@
             </div>
             <hr class="border-secondary my-4">
             <div class="text-center small text-secondary">
-                &copy; 2026 SkillsContinua. Built for scalable global impact.
+                &copy; 2026 SkillsContinua. {% trans "Built for scalable global impact." %}
             </div>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

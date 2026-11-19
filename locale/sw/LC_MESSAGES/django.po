@@ -1,0 +1,211 @@
+#
+msgid ""
+msgstr ""
+"Language: sw\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Available in 7 Languages & Low-Bandwidth Mode"
+msgstr "Inapatikana katika Lugha 7 na Hali ya Mtandao wa Chini"
+
+msgid "5 Pillars"
+msgstr "Nguzo 5"
+
+msgid "Courses"
+msgstr "Kozi"
+
+msgid "The Village (Blog & Media)"
+msgstr "Kijiji (Blogu & Vyombo vya Habari)"
+
+msgid "Certification & Plans"
+msgstr "Vyeti & Mipango"
+
+msgid "Browse Catalog"
+msgstr "Vinjari Orodha"
+
+msgid "Admin Console"
+msgstr "Jopo la Msimamizi"
+
+msgid "10-Step Practical Mastery Framework"
+msgstr "Mfumo wa Ustadi wa Vitendo wa Hatua 10"
+
+msgid "Empowering Global Mastery"
+msgstr "Kuwezesha Ustadi wa Kimataifa"
+
+msgid ""
+"A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, "
+"Cybergogy, and Vocational Training—backed by cryptographic QR credentials "
+"and peer mentorship."
+msgstr ""
+"Mfumo wa elimu unaojumuisha Pedagogy, Andragogy, Heutagogy, Cybergogy, na "
+"Mafunzo ya Ufundi—ukiwa na vyeti vya QR vya siri na ushauri wa wataalamu."
+
+msgid "Explore Vocational Catalog"
+msgstr "Gundua Kozi za Ufundi"
+
+msgid "Enter The Village Hub"
+msgstr "Ingia Kituo cha Kijiji"
+
+msgid "Our 5 Core Learning Pillars"
+msgstr "Nguzo Zetu 5 za Kujifunza"
+
+msgid ""
+"Structured for rigorous, scalable education across languages and regions."
+msgstr ""
+"Imeundwa kwa elimu bora na thabiti inayoweza kupanuka katika lugha na maeneo"
+" mbalimbali."
+
+msgid "Vocational & Trade"
+msgstr "Ufundi & Biashara"
+
+msgid ""
+"Practical artisan training including solar, phone/laptop repair, CCTV, and "
+"barbing/beauty with 10-step field guides."
+msgstr ""
+"Mafunzo ya vitendo ya ufundi ikiwa ni pamoja na umeme wa jua, ukarabati wa "
+"simu/kompyuta, CCTV, na unyozi/urembo kwa miongozo ya hatua 10."
+
+msgid "Cybergogy & Tech"
+msgstr "Teknolojia ya Kidijitali"
+
+msgid ""
+"Digital literacy, software development, AI prompting, and cloud "
+"infrastructure training aligned with global certifications."
+msgstr ""
+"Ujuzi wa kidijitali, utengenezaji wa programu, AI, na miundombinu ya wingu "
+"yenye vyeti vya kimataifa."
+
+msgid "Andragogy & Business"
+msgstr "Elimu ya Watu Wazima & Biashara"
+
+msgid ""
+"Adult education, lean startup methodologies, cooperative management, and "
+"income-generation frameworks."
+msgstr ""
+"Elimu ya watu wazima, mbinu za kuanzisha biashara, usimamizi wa vyama vya "
+"ushirika, na mifumo ya mapato."
+
+msgid "Pedagogy"
+msgstr "Elimu ya Msingi na Sekondari"
+
+msgid ""
+"Foundational primary and secondary school curricula designed with guardian "
+"guidance notes and interactive learning."
+msgstr ""
+"Mitaala ya msingi na sekondari iliyoundwa kwa mwongozo wa walezi na "
+"ujifunzaji shirikishi."
+
+msgid "Heutagogy"
+msgstr "Kujifunza kwa Kujitegemea"
+
+msgid ""
+"Self-determined mastery, independent strategic research, leadership "
+"capstones, and portfolio development."
+msgstr ""
+"Ustadi wa kujitegemea, utafiti wa kimkakati, miradi ya uongozi, na ukuzaji "
+"wa wasifu."
+
+msgid "Featured Practical Courses"
+msgstr "Kozi za Vitendo Zilizochaguliwa"
+
+msgid ""
+"Hands-on tracks built for immediate real-world execution and self-"
+"employment."
+msgstr ""
+"Mafunzo ya vitendo yaliyojengwa kwa ajili ya utekelezaji wa haraka na "
+"kujiajiri."
+
+msgid "View All Courses"
+msgstr "Tazama Kozi Zote"
+
+msgid "Tools Needed:"
+msgstr "Vifaa Vinavyohitajika:"
+
+msgid "Hours"
+msgstr "Saa"
+
+msgid "View Curriculum"
+msgstr "Tazama Mtaala"
+
+msgid "THE VILLAGE ECOSYSTEM"
+msgstr "MFUMO WA KIJIJI"
+
+msgid "Community, Media & Peer Mentorship"
+msgstr "Jamii, Vyombo vya Habari na Ushauri wa Rika"
+
+msgid ""
+"Learn through bite-sized TikTok reels, low-data audio podcasts, expert "
+"blogs, and mentor forums."
+msgstr ""
+"Jifunze kupitia video fupi za TikTok, podikasti za sauti zenye data ndogo, "
+"blogu za wataalamu, na majukwaa ya washauri."
+
+msgid "Articles & Success Stories"
+msgstr "Makala & Hadithi za Mafanikio"
+
+msgid "No articles published yet."
+msgstr "Hakuna makala zilizochapishwa bado."
+
+msgid "Reels & Low-Data Podcasts"
+msgstr "Video Fupi & Podikasti"
+
+msgid "No reels or podcasts uploaded yet."
+msgstr "Hakuna video fupi au podikasti zilizopakiwa bado."
+
+msgid "Watch / Listen"
+msgstr "Tazama / Sikiliza"
+
+msgid "Live Mentor Forums & Channels"
+msgstr "Majukwaa ya Washauri & Vituo"
+
+msgid "No forum topics started yet."
+msgstr "Hakuna mada za jukwaa zilizoanzishwa bado."
+
+msgid "Connect Instantly:"
+msgstr "Ungana Mara Moja:"
+
+msgid "SUSTAINABLE GROWTH & CREDENTIALS"
+msgstr "UKUAJI ENDELEVU NA VYETI"
+
+msgid "Certification, Memberships & Partnerships"
+msgstr "Vyeti, Uanachama na Ushirikiano"
+
+msgid ""
+"Accessible free learning paired with cryptographic verification and "
+"enterprise workforce sponsorship."
+msgstr ""
+"Elimu ya bure inayopatikana kwa urahisi pamoja na uthibitisho wa vyeti vya "
+"QR na ufadhili wa makampuni."
+
+msgid "MOST POPULAR FOR EMPLOYABILITY"
+msgstr "MAARUFU ZAIDI KWA AJIRA"
+
+msgid "Certification and partnership plans will appear here."
+msgstr "Mipango ya vyeti na ushirikiano itaonekana hapa."
+
+msgid ""
+"Empowering artisans, students, and digital professionals worldwide with "
+"verified 10-step practical mastery and low-connectivity learning support."
+msgstr ""
+"Kuwezesha mafundi, wanafunzi, na wataalamu wa kidijitali duniani kote "
+"kupitia mafunzo ya vitendo ya hatua 10."
+
+msgid "Ecosystem"
+msgstr "Mfumo"
+
+msgid "5 Learning Pillars"
+msgstr "Nguzo 5 za Kujifunza"
+
+msgid "Vocational Catalog"
+msgstr "Orodha ya Ufundi"
+
+msgid "The Village Forums & Blog"
+msgstr "Majukwaa & Blogu ya Kijiji"
+
+msgid "QR Certificate Verification"
+msgstr "Uthibitisho wa Cheti cha QR"
+
+msgid "Official Channels"
+msgstr "Vituo Rasmi"
+
+msgid "Built for scalable global impact."
+msgstr "Imejengwa kwa athari kubwa ya kimataifa."

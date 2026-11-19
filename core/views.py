@@ -6,7 +6,7 @@ from village.models import CommunityPost, MediaStream, ForumTopic, SocialChannel
 
 def home_view(request):
     context = {
-        'featured_trades': TradeCourse.objects.filter(is_featured=True)[:3],
+        'featured_trades': TradeCourse.objects.filter(is_featured=True)[:6],
         'latest_posts': CommunityPost.objects.filter(is_published=True)[:3],
         'media_streams': MediaStream.objects.filter(is_featured=True)[:3],
         'forum_topics': ForumTopic.objects.all()[:3],

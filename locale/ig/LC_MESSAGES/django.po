@@ -1,0 +1,204 @@
+#
+msgid ""
+msgstr ""
+"Language: ig\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Available in 7 Languages & Low-Bandwidth Mode"
+msgstr "Ọ dị n'asụsụ 7 na ọnọdụ ịntanetị dị ala"
+
+msgid "5 Pillars"
+msgstr "Ogidi 5"
+
+msgid "Courses"
+msgstr "Ọmụmụ Nka"
+
+msgid "The Village (Blog & Media)"
+msgstr "Obodo Nta (Blọọgụ & Mgbasa Ozi)"
+
+msgid "Certification & Plans"
+msgstr "Asambodo & Atụmatụ"
+
+msgid "Browse Catalog"
+msgstr "Chọgharịa Ndepụta"
+
+msgid "Admin Console"
+msgstr "Ogwe Nchịkwa"
+
+msgid "10-Step Practical Mastery Framework"
+msgstr "Usoro Nka Bara Uru Nzọụkwụ 10"
+
+msgid "Empowering Global Mastery"
+msgstr "Ịkwalite Nka na Mmụta Zuru Ụwa Ọnụ"
+
+msgid ""
+"A modular educational architecture spanning Pedagogy, Andragogy, Heutagogy, "
+"Cybergogy, and Vocational Training—backed by cryptographic QR credentials "
+"and peer mentorship."
+msgstr ""
+"Nhazi mmụta pụrụ iche gụnyere Pedagogy, Andragogy, Heutagogy, Cybergogy, na "
+"Ọzụzụ Akaọrụ—nke nwere nkwado asambodo QR na nduzi ndị ọkachamara."
+
+msgid "Explore Vocational Catalog"
+msgstr "Chọgharịa Ọmụmụ Akaọrụ"
+
+msgid "Enter The Village Hub"
+msgstr "Banye n'Ogige Obodo Nta"
+
+msgid "Our 5 Core Learning Pillars"
+msgstr "Ogidi Mmụta 5 Anyị Ndị Isi"
+
+msgid ""
+"Structured for rigorous, scalable education across languages and regions."
+msgstr ""
+"E haziri ya maka mmụta siri ike nke na-agbasa n'asụsụ na mpaghara niile."
+
+msgid "Vocational & Trade"
+msgstr "Akaọrụ & Azụmahịa"
+
+msgid ""
+"Practical artisan training including solar, phone/laptop repair, CCTV, and "
+"barbing/beauty with 10-step field guides."
+msgstr ""
+"Ọzụzụ akaọrụ bara uru gụnyere nrụnye anyanwụ (solar), nrụzi "
+"ekwentị/laptọọpụ, CCTV, na ịchọ mma site na nduzi nzọụkwụ 10."
+
+msgid "Cybergogy & Tech"
+msgstr "Nkà na Ụzụ Kọmputa"
+
+msgid ""
+"Digital literacy, software development, AI prompting, and cloud "
+"infrastructure training aligned with global certifications."
+msgstr ""
+"Mmụta dijitalụ, mmepe sọftụwia, AI prompting, na ọzụzụ kọmputa kwekọrọ "
+"n'asambodo mba ụwa."
+
+msgid "Andragogy & Business"
+msgstr "Mmụta Ndị Okenye & Azụmahịa"
+
+msgid ""
+"Adult education, lean startup methodologies, cooperative management, and "
+"income-generation frameworks."
+msgstr ""
+"Mmụta ndị okenye, usoro ịmalite azụmahịa, njikwa otu nkwado, na ụzọ isi "
+"nweta ego."
+
+msgid "Pedagogy"
+msgstr "Mmụta Ụmụaka"
+
+msgid ""
+"Foundational primary and secondary school curricula designed with guardian "
+"guidance notes and interactive learning."
+msgstr ""
+"Usoro mmụta praịmarị na sekọndrị e ji nduzi ndị nne na nna na nlekọta pụrụ "
+"iche hazie."
+
+msgid "Heutagogy"
+msgstr "Mmụta Onwe Onye"
+
+msgid ""
+"Self-determined mastery, independent strategic research, leadership "
+"capstones, and portfolio development."
+msgstr "Nkà onwe onye, nyocha nọọrọ onwe ya, ọrụ ndu, na mmepe ọrụ pụrụ iche."
+
+msgid "Featured Practical Courses"
+msgstr "Ọmụmụ Nka Bara Uru A Họpụtara"
+
+msgid ""
+"Hands-on tracks built for immediate real-world execution and self-"
+"employment."
+msgstr "Ọzụzụ aka e mere maka ịmalite ọrụ ozugbo na ịkwụụrụ onwe gị."
+
+msgid "View All Courses"
+msgstr "Hụ Ọmụmụ Niile"
+
+msgid "Tools Needed:"
+msgstr "Ngwaọrụ A Chọrọ:"
+
+msgid "Hours"
+msgstr "Awa"
+
+msgid "View Curriculum"
+msgstr "Lelee Usoro Mmụta"
+
+msgid "THE VILLAGE ECOSYSTEM"
+msgstr "USORO OBODO NTA"
+
+msgid "Community, Media & Peer Mentorship"
+msgstr "Ọha, Mgbasa Ozi na Nduzi Ndị Otu"
+
+msgid ""
+"Learn through bite-sized TikTok reels, low-data audio podcasts, expert "
+"blogs, and mentor forums."
+msgstr ""
+"Mụta site na vidiyo TikTok dị mkpirikpi, pọdkastị ụda dị ala, blọọgụ ndị "
+"ọkachamara, na nnọkọ nduzi."
+
+msgid "Articles & Success Stories"
+msgstr "Akụkọ & Mmeri Ndị Mmụta"
+
+msgid "No articles published yet."
+msgstr "Enweghị akụkọ e bipụtara ugbu a."
+
+msgid "Reels & Low-Data Podcasts"
+msgstr "Vidio Mkpirikpi & Pọdkastị"
+
+msgid "No reels or podcasts uploaded yet."
+msgstr "Enweghị vidiyo mkpirikpi ma ọ bụ pọdkastị e bugoro ugbu a."
+
+msgid "Watch / Listen"
+msgstr "Kiri / Gee Ntị"
+
+msgid "Live Mentor Forums & Channels"
+msgstr "Nnọkọ Ndị Nduzi & Ọwa Mgbasa Ozi"
+
+msgid "No forum topics started yet."
+msgstr "Enweghị isiokwu nnọkọ a malitere ugbu a."
+
+msgid "Connect Instantly:"
+msgstr "Jikọọ Ozugbo:"
+
+msgid "SUSTAINABLE GROWTH & CREDENTIALS"
+msgstr "UTO NA-ADỊGIDE ADỊGIDE NA ASAMBODO"
+
+msgid "Certification, Memberships & Partnerships"
+msgstr "Asambodo, Ndị Otu na Mmekọrịta"
+
+msgid ""
+"Accessible free learning paired with cryptographic verification and "
+"enterprise workforce sponsorship."
+msgstr "Mmụta n'efu nke jikọtara ya na nkwenye asambodo QR na nkwado ụlọ ọrụ."
+
+msgid "MOST POPULAR FOR EMPLOYABILITY"
+msgstr "KACHA EWU EWU MAKA INWETA ỌRỤ"
+
+msgid "Certification and partnership plans will appear here."
+msgstr "Atụmatụ asambodo na mmekọrịta ga-apụta ebe a."
+
+msgid ""
+"Empowering artisans, students, and digital professionals worldwide with "
+"verified 10-step practical mastery and low-connectivity learning support."
+msgstr ""
+"Ịkwado ndị ọrụ aka, ụmụ akwụkwọ, na ndị ọkachamara dijitalụ n'ụwa niile site"
+" na ọzụzụ bara uru nzọụkwụ 10."
+
+msgid "Ecosystem"
+msgstr "Usoro Mmụta"
+
+msgid "5 Learning Pillars"
+msgstr "Ogidi Mmụta 5"
+
+msgid "Vocational Catalog"
+msgstr "Ndepụta Akaọrụ"
+
+msgid "The Village Forums & Blog"
+msgstr "Nnọkọ & Blọọgụ Obodo Nta"
+
+msgid "QR Certificate Verification"
+msgstr "Nyocha Asambodo QR"
+
+msgid "Official Channels"
+msgstr "Ọwa Mgbasa Ozi"
+
+msgid "Built for scalable global impact."
+msgstr "E wuru ya maka mmetụta zuru ụwa ọnụ."
