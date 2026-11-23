@@ -296,12 +296,12 @@
     "pt": "Dano / Danificar"
   },
   "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]": {
-    "fr": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]",
-    "ig": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]",
-    "sw": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]",
-    "ar": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]",
-    "es": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]",
-    "pt": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]"
+    "fr": "Temps / Durée",
+    "ig": "Oge",
+    "sw": "Wakati",
+    "ar": "الوقت / الزمن",
+    "es": "Tiempo",
+    "pt": "Tempo"
   },
   "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty.": {
     "fr": "Vérifier",
@@ -320,12 +320,12 @@
     "pt": "Cabelo"
   },
   "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?": {
-    "fr": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?",
-    "ig": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?",
-    "sw": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?",
-    "ar": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?",
-    "es": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?",
-    "pt": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?"
+    "fr": "Démarrer",
+    "ig": "Malite",
+    "sw": "Anza",
+    "ar": "بدء / تشغيل",
+    "es": "Iniciar",
+    "pt": "Iniciar"
   },
   "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist": {
     "fr": "Réparation",
@@ -344,12 +344,12 @@
     "pt": "Câmera"
   },
   "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits.": {
-    "fr": "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits.",
-    "ig": "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits.",
-    "sw": "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits.",
-    "ar": "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits.",
-    "es": "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits.",
-    "pt": "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits."
+    "fr": "Taux / Débit",
+    "ig": "Ọnụọgụ / Ogo",
+    "sw": "Kiwango / Kasi",
+    "ar": "المعدل",
+    "es": "Tasa / Ritmo",
+    "pt": "Taxa"
   },
   "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue.": {
     "fr": "Courant",
@@ -1424,12 +1424,12 @@
     "pt": "Verificar"
   },
   "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.": {
-    "fr": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.",
-    "ig": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.",
-    "sw": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.",
-    "ar": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.",
-    "es": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.",
-    "pt": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule."
+    "fr": "Temps / Durée",
+    "ig": "Oge",
+    "sw": "Wakati",
+    "ar": "الوقت / الزمن",
+    "es": "Tiempo",
+    "pt": "Tempo"
   },
   "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist.": {
     "fr": "Vérifier",
@@ -1864,12 +1864,12 @@
     "pt": "Energia / Potência"
   },
   "Rate of energy transfer or consumption (W = V x A for DC).": {
-    "fr": "Rate of energy transfer or consumption (W = V x A for DC).",
-    "ig": "Rate of energy transfer or consumption (W = V x A for DC).",
-    "sw": "Rate of energy transfer or consumption (W = V x A for DC).",
-    "ar": "Rate of energy transfer or consumption (W = V x A for DC).",
-    "es": "Rate of energy transfer or consumption (W = V x A for DC).",
-    "pt": "Rate of energy transfer or consumption (W = V x A for DC)."
+    "fr": "Taux / Débit",
+    "ig": "Ọnụọgụ / Ogo",
+    "sw": "Kiwango / Kasi",
+    "ar": "المعدل",
+    "es": "Tasa / Ritmo",
+    "pt": "Taxa"
   },
   "Used to audit appliance loads and check inverter continuous/surge capacity.": {
     "fr": "Onduleur",
@@ -1904,12 +1904,12 @@
     "pt": "Cabelo"
   },
   "Influences how products penetrate, process, and retain moisture.": {
-    "fr": "Influences how products penetrate, process, and retain moisture.",
-    "ig": "Influences how products penetrate, process, and retain moisture.",
-    "sw": "Influences how products penetrate, process, and retain moisture.",
-    "ar": "Influences how products penetrate, process, and retain moisture.",
-    "es": "Influences how products penetrate, process, and retain moisture.",
-    "pt": "Influences how products penetrate, process, and retain moisture."
+    "fr": "Taux / Débit",
+    "ig": "Ọnụọgụ / Ogo",
+    "sw": "Kiwango / Kasi",
+    "ar": "المعدل",
+    "es": "Tasa / Ritmo",
+    "pt": "Taxa"
   },
   "Guides product selection and gentle moisture/strengthening care.": {
     "fr": "Guides product selection and gentle moisture/strengthening care.",
@@ -2448,12 +2448,12 @@
     "pt": "Reparo"
   },
   "Prevents blame for pre-existing issues and guides accurate quoting.": {
-    "fr": "Prevents blame for pre-existing issues and guides accurate quoting.",
-    "ig": "Prevents blame for pre-existing issues and guides accurate quoting.",
-    "sw": "Prevents blame for pre-existing issues and guides accurate quoting.",
-    "ar": "Prevents blame for pre-existing issues and guides accurate quoting.",
-    "es": "Prevents blame for pre-existing issues and guides accurate quoting.",
-    "pt": "Prevents blame for pre-existing issues and guides accurate quoting."
+    "fr": "Taux / Débit",
+    "ig": "Ọnụọgụ / Ogo",
+    "sw": "Kiwango / Kasi",
+    "ar": "المعدل",
+    "es": "Tasa / Ritmo",
+    "pt": "Taxa"
   },
   "Pre-Repair Intake Check": {
     "fr": "Réparation",
@@ -2584,12 +2584,12 @@
     "pt": "Mechanical joint linking the display lid to the base chassis."
   },
   "Inspect for stiffness or broken mounts so lid opening doesn't crack housings.": {
-    "fr": "Inspect for stiffness or broken mounts so lid opening doesn't crack housings.",
-    "ig": "Inspect for stiffness or broken mounts so lid opening doesn't crack housings.",
-    "sw": "Inspect for stiffness or broken mounts so lid opening doesn't crack housings.",
-    "ar": "Inspect for stiffness or broken mounts so lid opening doesn't crack housings.",
-    "es": "Inspect for stiffness or broken mounts so lid opening doesn't crack housings.",
-    "pt": "Inspect for stiffness or broken mounts so lid opening doesn't crack housings."
+    "fr": "Ouvert / Ouvrir",
+    "ig": "Mepee / Emeghe",
+    "sw": "Wazi / Fungua",
+    "ar": "مفتوح / فتح",
+    "es": "Abierto / Abrir",
+    "pt": "Aberto / Abrir"
   },
   "Service Scope": {
     "fr": "Service Scope",
@@ -2600,12 +2600,12 @@
     "pt": "Service Scope"
   },
   "Agreed Deliverables, Add-Ons & Time Window": {
-    "fr": "Agreed Deliverables, Add-Ons & Time Window",
-    "ig": "Agreed Deliverables, Add-Ons & Time Window",
-    "sw": "Agreed Deliverables, Add-Ons & Time Window",
-    "ar": "Agreed Deliverables, Add-Ons & Time Window",
-    "es": "Agreed Deliverables, Add-Ons & Time Window",
-    "pt": "Agreed Deliverables, Add-Ons & Time Window"
+    "fr": "Temps / Durée",
+    "ig": "Oge",
+    "sw": "Wakati",
+    "ar": "الوقت / الزمن",
+    "es": "Tiempo",
+    "pt": "Tempo"
   },
   "Clear agreement on what a session or event booking includes.": {
     "fr": "Clear agreement on what a session or event booking includes.",
@@ -2704,12 +2704,12 @@
     "pt": "Modo"
   },
   "Low-Level Software Boot & Restore State": {
-    "fr": "Low-Level Software Boot & Restore State",
-    "ig": "Low-Level Software Boot & Restore State",
-    "sw": "Low-Level Software Boot & Restore State",
-    "ar": "Low-Level Software Boot & Restore State",
-    "es": "Low-Level Software Boot & Restore State",
-    "pt": "Low-Level Software Boot & Restore State"
+    "fr": "Bas / Faible",
+    "ig": "Dị ala",
+    "sw": "Chini",
+    "ar": "منخفض",
+    "es": "Bajo",
+    "pt": "Baixo"
   },
   "Diagnostic or restore mode used for official OS updates or recovery.": {
     "fr": "Mode",
@@ -2760,12 +2760,12 @@
     "pt": "Porta"
   },
   "Time Buffer": {
-    "fr": "Time Buffer",
-    "ig": "Time Buffer",
-    "sw": "Time Buffer",
-    "ar": "Time Buffer",
-    "es": "Time Buffer",
-    "pt": "Time Buffer"
+    "fr": "Temps / Durée",
+    "ig": "Oge",
+    "sw": "Wakati",
+    "ar": "الوقت / الزمن",
+    "es": "Tiempo",
+    "pt": "Tempo"
   },
   "Extra Schedule Cushion Between Bookings": {
     "fr": "Extra Schedule Cushion Between Bookings",
@@ -2776,12 +2776,12 @@
     "pt": "Extra Schedule Cushion Between Bookings"
   },
   "Planned slack time to absorb setup, consultation, or minor delays.": {
-    "fr": "Planned slack time to absorb setup, consultation, or minor delays.",
-    "ig": "Planned slack time to absorb setup, consultation, or minor delays.",
-    "sw": "Planned slack time to absorb setup, consultation, or minor delays.",
-    "ar": "Planned slack time to absorb setup, consultation, or minor delays.",
-    "es": "Planned slack time to absorb setup, consultation, or minor delays.",
-    "pt": "Planned slack time to absorb setup, consultation, or minor delays."
+    "fr": "Temps / Durée",
+    "ig": "Oge",
+    "sw": "Wakati",
+    "ar": "الوقت / الزمن",
+    "es": "Tiempo",
+    "pt": "Tempo"
   },
   "Keeps event/salon appointments running smoothly without rushed mistakes.": {
     "fr": "Keeps event/salon appointments running smoothly without rushed mistakes.",
@@ -2960,12 +2960,12 @@
     "pt": "Higiene"
   },
   "Turns one-time clients into steady income over time.": {
-    "fr": "Turns one-time clients into steady income over time.",
-    "ig": "Turns one-time clients into steady income over time.",
-    "sw": "Turns one-time clients into steady income over time.",
-    "ar": "Turns one-time clients into steady income over time.",
-    "es": "Turns one-time clients into steady income over time.",
-    "pt": "Turns one-time clients into steady income over time."
+    "fr": "Temps / Durée",
+    "ig": "Oge",
+    "sw": "Wakati",
+    "ar": "الوقت / الزمن",
+    "es": "Tiempo",
+    "pt": "Tempo"
   },
   "MCB": {
     "fr": "MCB",
@@ -3320,12 +3320,12 @@
     "pt": "Commissioning"
   },
   "Structured Startup & Verification Process": {
-    "fr": "Structured Startup & Verification Process",
-    "ig": "Structured Startup & Verification Process",
-    "sw": "Structured Startup & Verification Process",
-    "ar": "Structured Startup & Verification Process",
-    "es": "Structured Startup & Verification Process",
-    "pt": "Structured Startup & Verification Process"
+    "fr": "Démarrer",
+    "ig": "Malite",
+    "sw": "Anza",
+    "ar": "بدء / تشغيل",
+    "es": "Iniciar",
+    "pt": "Iniciar"
   },
   "Step-by-step checks, settings, and load tests before handing a system over.": {
     "fr": "Test / Essai",
