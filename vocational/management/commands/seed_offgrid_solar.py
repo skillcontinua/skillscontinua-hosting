@@ -748,28 +748,6 @@ class Command(BaseCommand):
         ]
 
         for group, term, expansion, definition, application, tier1_flag, order in glossary_items:
-            TradeGlossaryTerm.objects.update_or_create(
-                course=tier1_course,
-                term=term,
-                defaults={
-                    "category": category,
-                    "topic_group": group,
-                    "full_expansion": expansion,
-                    "definition": definition,
-                    "field_application": application,
-                    "available_from_tier_1": tier1_flag,
-                    "order": order,
-                },
-            )
-
-        self.stdout.write(
-            self.style.SUCCESS(
-                "Seeded Off-Grid Solar & Inverter Systems across Tier 1, Tier 2, and Tier 3, "
-                "including lessons, glossary terms, and quizzes!"
-            )
-        )
-        
-for group, term, expansion, definition, application, tier1_flag, order in glossary_items:
             for target_course in (tier1_course, tier2_course, tier3_course):
                 TradeGlossaryTerm.objects.update_or_create(
                     course=target_course,
@@ -784,3 +762,10 @@ for group, term, expansion, definition, application, tier1_flag, order in glossa
                         "order": order,
                     },
                 )
+
+        self.stdout.write(
+            self.style.SUCCESS(
+                "Seeded Off-Grid Solar & Inverter Systems across Tier 1, Tier 2, and Tier 3, "
+                "including lessons, glossary terms, and quizzes!"
+            )
+        )
