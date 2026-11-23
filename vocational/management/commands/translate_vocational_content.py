@@ -1,9 +1,11 @@
-# C:\hosting\skillscontinua_hosting\vocational\management\commands\translate_vocational_content.py
+import json
+import os
 import re
 import time
 import urllib.parse
 import urllib.request
 
+from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.utils import translation
 
@@ -143,7 +145,7 @@ CATEGORY_MAP = {
         ),
         "es": (
             "Reparación de Hardware y Software de Smartphones",
-            "Seguridad ESD, cambio de pantallas y baterías, diagnóstico de energía y solución de fallos de software en teléfonos.",
+            "Seguridad ESD, cambio de pantallas y baterías, diagnóstico de energía y solução de fallos de software en teléfonos.",
         ),
         "pt": (
             "Reparo de Hardware e Software de Smartphones",
@@ -200,10 +202,24 @@ TIER_LABELS = {
         "ig": "Ọkwa 3: Ọkachamara & Asambodo",
         "sw": "Kiwango cha 3: Utaalamu & Cheti",
         "ar": "المستوى 3: الاحتراف والشهادة",
-        "es": "Nivel 3: Maestría Profesional",
+        "es": "Nivel 3: Maestría Profissional",
         "pt": "Nível 3: Maestria Profissional",
     },
 }
+
+
+def _offline_dictionary_path() -> str:
+    base_dir = getattr(settings, "BASE_DIR", os.getcwd())
+    return os.path.join(base_dir, "vocational", "data", "offline_translations.json")
+
+
+def _load_offline_dictionary() -> dict[str, dict[str, str]]:
+    path = _offline_dictionary_path()
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as fh:
+        data = json.load(fh)
+    return data if isinstance(data, dict) else {}
 
 
 def _protect_tokens(text: str) -> tuple[str, dict[str, str]]:
@@ -254,9 +270,7 @@ def _translate_online(text: str, target_lang: str) -> str | None:
         )
         url = f"https://translate.googleapis.com/translate_a/single?{query}"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=8) as resp:
-            import json
-
+        with urllib.request.urlopen(req, timeout=4) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             translated_part = "".join(item[0] for item in data[0] if item and item[0])
             chunks.append(translated_part)
@@ -265,7 +279,13 @@ def _translate_online(text: str, target_lang: str) -> str | None:
     return _restore_tokens(joined, placeholders) if joined else None
 
 
-def _translate_text(text: str, target_lang: str, online: bool, cache: dict[tuple[str, str], str]) -> str:
+def _translate_text(
+    text: str,
+    target_lang: str,
+    online: bool,
+    cache: dict[tuple[str, str], str],
+    offline_dict: dict[str, dict[str, str]],
+) -> str:
     if not text or not text.strip():
         return text
     cache_key = (target_lang, text)
@@ -273,14 +293,22 @@ def _translate_text(text: str, target_lang: str, online: bool, cache: dict[tuple
         return cache[cache_key]
 
     result = None
-    if online:
+
+    # 1. Check bundled offline dictionary first
+    dict_entry = offline_dict.get(text)
+    if isinstance(dict_entry, dict):
+        candidate = dict_entry.get(target_lang)
+        if candidate and candidate.strip() and candidate != text:
+            result = candidate
+
+    # 2. Only try online endpoint if explicitly requested
+    if not result and online:
         try:
             result = _translate_online(text, target_lang)
         except Exception:
             result = None
 
     if not result:
-        # Clean fallback when offline or rate-limited: preserve source text clearly
         result = text
 
     cache[cache_key] = result
@@ -288,7 +316,7 @@ def _translate_text(text: str, target_lang: str, online: bool, cache: dict[tuple
 
 
 class Command(BaseCommand):
-    help = "Syncs _en fields and populates translated vocational content across fr, ig, sw, ar, es, and pt."
+    help = "Syncs _en fields and populates translated vocational content offline-first across fr, ig, sw, ar, es, and pt."
 
     def add_arguments(self, parser):
         parser.add_argument(
@@ -299,9 +327,21 @@ class Command(BaseCommand):
             help="Target language codes to populate (default: all 6 non-English languages).",
         )
         parser.add_argument(
+            "--model",
+            choices=["all", "categories", "courses", "modules", "lessons", "glossary"],
+            default="all",
+            help="Restrict translation pass to a single model group (default: all).",
+        )
+        parser.add_argument(
+            "--limit",
+            type=int,
+            default=0,
+            help="Max number of pending records to translate per model group in this run (0 = no limit).",
+        )
+        parser.add_argument(
             "--online",
             action="store_true",
-            help="Attempt online translation via Google Translate endpoint (falls back gracefully if unreachable).",
+            help="Opt in to online translation via Google Translate endpoint (not recommended for offline/low-power runs).",
         )
         parser.add_argument(
             "--force",
@@ -309,18 +349,38 @@ class Command(BaseCommand):
             help="Overwrite already populated target language fields.",
         )
         parser.add_argument(
+            "--skip-identical",
+            action="store_true",
+            help="Re-translate fields whose target value is currently identical to the _en fallback.",
+        )
+        parser.add_argument(
             "--sleep",
             type=float,
-            default=0.15,
-            help="Pause in seconds between online translation calls (default: 0.15).",
+            default=0.1,
+            help="Pause in seconds between online translation calls (default: 0.1).",
         )
 
-    def _sync_en_and_translate_model(self, queryset, fields, langs, online, force, sleep_sec, cache, custom_fn=None):
+    def _sync_en_and_translate_model(
+        self,
+        label,
+        queryset,
+        fields,
+        langs,
+        online,
+        force,
+        skip_identical,
+        limit,
+        sleep_sec,
+        cache,
+        offline_dict,
+        custom_fn=None,
+    ):
         updated_rows = 0
+        pending_remaining = 0
+
         for obj in queryset:
             changed = False
 
-            # 1. Ensure base field is synced into <field>_en if empty
             for field in fields:
                 base_val = getattr(obj, field, None)
                 en_field = f"{field}_en"
@@ -329,16 +389,39 @@ class Command(BaseCommand):
                     setattr(obj, en_field, base_val)
                     changed = True
 
-            # 2. Populate each requested target language
+            needs_translation = False
             for lang in langs:
                 for field in fields:
-                    target_field = f"{field}_{lang}"
-                    current_val = getattr(obj, target_field, None)
-                    if current_val and not force:
-                        continue
-
                     source_val = getattr(obj, f"{field}_en", None) or getattr(obj, field, None)
                     if not source_val:
+                        continue
+                    current_val = getattr(obj, f"{field}_{lang}", None)
+                    if not current_val or force or (skip_identical and current_val == source_val):
+                        needs_translation = True
+                        break
+                if needs_translation:
+                    break
+
+            if needs_translation and limit > 0 and updated_rows >= limit:
+                if changed:
+                    obj.save()
+                pending_remaining += 1
+                continue
+
+            for lang in langs:
+                for field in fields:
+                    source_val = getattr(obj, f"{field}_en", None) or getattr(obj, field, None)
+                    if not source_val:
+                        continue
+
+                    target_field = f"{field}_{lang}"
+                    current_val = getattr(obj, target_field, None)
+                    should_run = (
+                        not current_val
+                        or force
+                        or (skip_identical and current_val == source_val)
+                    )
+                    if not should_run:
                         continue
 
                     custom_val = custom_fn(obj, field, lang) if custom_fn else None
@@ -346,114 +429,154 @@ class Command(BaseCommand):
                         setattr(obj, target_field, custom_val)
                         changed = True
                     else:
-                        translated = _translate_text(source_val, lang, online=online, cache=cache)
+                        translated = _translate_text(
+                            source_val,
+                            lang,
+                            online=online,
+                            cache=cache,
+                            offline_dict=offline_dict,
+                        )
                         if translated != current_val:
                             setattr(obj, target_field, translated)
                             changed = True
-                            if online and sleep_sec > 0:
-                                time.sleep(sleep_sec)
+                        if online and sleep_sec > 0:
+                            time.sleep(sleep_sec)
 
             if changed:
                 obj.save()
                 updated_rows += 1
-        return updated_rows
+                self.stdout.write(f"  [{label}] saved record #{updated_rows} (id={obj.pk})")
+
+        return updated_rows, pending_remaining
 
     def handle(self, *args, **options):
         langs = options["lang"]
+        model_choice = options["model"]
+        limit = options["limit"]
         online = options["online"]
         force = options["force"]
+        skip_identical = options["skip_identical"]
         sleep_sec = options["sleep"]
         cache: dict[tuple[str, str], str] = {}
+        offline_dict = _load_offline_dictionary()
+
+        results = {}
 
         with translation.override("en"):
-            cat_updated = self._sync_en_and_translate_model(
-                TradeCategory.objects.all().order_by("id"),
-                ["name", "description"],
-                langs,
-                online,
-                force,
-                sleep_sec,
-                cache,
-                custom_fn=lambda obj, field, lang: (
-                    CATEGORY_MAP[obj.slug][lang][0]
-                    if obj.slug in CATEGORY_MAP and field == "name"
-                    else CATEGORY_MAP[obj.slug][lang][1]
-                    if obj.slug in CATEGORY_MAP and field == "description"
-                    else None
-                ),
-            )
+            if model_choice in ("all", "categories"):
+                results["categories"] = self._sync_en_and_translate_model(
+                    "categories",
+                    TradeCategory.objects.all().order_by("id"),
+                    ["name", "description"],
+                    langs,
+                    online,
+                    force,
+                    skip_identical,
+                    limit,
+                    sleep_sec,
+                    cache,
+                    offline_dict,
+                    custom_fn=lambda obj, field, lang: (
+                        CATEGORY_MAP[obj.slug][lang][0]
+                        if obj.slug in CATEGORY_MAP and field == "name"
+                        else CATEGORY_MAP[obj.slug][lang][1]
+                        if obj.slug in CATEGORY_MAP and field == "description"
+                        else None
+                    ),
+                )
 
-            course_updated = self._sync_en_and_translate_model(
-                TradeCourse.objects.select_related("category").all().order_by("id"),
-                [
-                    "title",
-                    "description",
-                    "credential_awarded",
-                    "required_tools",
-                    "safety_guidelines",
-                    "field_tips_summary",
-                    "course_glossary_overview",
-                ],
-                langs,
-                online,
-                force,
-                sleep_sec,
-                cache,
-                custom_fn=lambda obj, field, lang: (
-                    f"{CATEGORY_MAP[obj.category.slug][lang][0]} — {TIER_LABELS[obj.tier][lang]}"
-                    if field == "title"
-                    and obj.category
-                    and obj.category.slug in CATEGORY_MAP
-                    and obj.tier in TIER_LABELS
-                    else None
-                ),
-            )
+            if model_choice in ("all", "courses"):
+                results["courses"] = self._sync_en_and_translate_model(
+                    "courses",
+                    TradeCourse.objects.select_related("category").all().order_by("id"),
+                    [
+                        "title",
+                        "description",
+                        "credential_awarded",
+                        "required_tools",
+                        "safety_guidelines",
+                        "field_tips_summary",
+                        "course_glossary_overview",
+                    ],
+                    langs,
+                    online,
+                    force,
+                    skip_identical,
+                    limit,
+                    sleep_sec,
+                    cache,
+                    offline_dict,
+                    custom_fn=lambda obj, field, lang: (
+                        f"{CATEGORY_MAP[obj.category.slug][lang][0]} — {TIER_LABELS[obj.tier][lang]}"
+                        if field == "title"
+                        and obj.category
+                        and obj.category.slug in CATEGORY_MAP
+                        and obj.tier in TIER_LABELS
+                        else None
+                    ),
+                )
 
-            module_updated = self._sync_en_and_translate_model(
-                TradeModule.objects.all().order_by("id"),
-                ["title", "summary"],
-                langs,
-                online,
-                force,
-                sleep_sec,
-                cache,
-            )
+            if model_choice in ("all", "modules"):
+                results["modules"] = self._sync_en_and_translate_model(
+                    "modules",
+                    TradeModule.objects.all().order_by("id"),
+                    ["title", "summary"],
+                    langs,
+                    online,
+                    force,
+                    skip_identical,
+                    limit,
+                    sleep_sec,
+                    cache,
+                    offline_dict,
+                )
 
-            lesson_updated = self._sync_en_and_translate_model(
-                TradeLesson.objects.all().order_by("id"),
-                [
-                    "title",
-                    "learning_objectives",
-                    "why_it_matters",
-                    "core_explanation",
-                    "step_by_step_field_guide",
-                    "safety_and_traps",
-                    "diagram_or_visual_guide",
-                    "real_life_scenario",
-                    "practice_activity",
-                    "checkpoint_questions",
-                ],
-                langs,
-                online,
-                force,
-                sleep_sec,
-                cache,
-            )
+            if model_choice in ("all", "lessons"):
+                results["lessons"] = self._sync_en_and_translate_model(
+                    "lessons",
+                    TradeLesson.objects.all().order_by("id"),
+                    [
+                        "title",
+                        "learning_objectives",
+                        "why_it_matters",
+                        "core_explanation",
+                        "step_by_step_field_guide",
+                        "safety_and_traps",
+                        "diagram_or_visual_guide",
+                        "real_life_scenario",
+                        "practice_activity",
+                        "checkpoint_questions",
+                    ],
+                    langs,
+                    online,
+                    force,
+                    skip_identical,
+                    limit,
+                    sleep_sec,
+                    cache,
+                    offline_dict,
+                )
 
-            glossary_updated = self._sync_en_and_translate_model(
-                TradeGlossaryTerm.objects.all().order_by("id"),
-                ["term", "full_expansion", "definition", "field_application"],
-                langs,
-                online,
-                force,
-                sleep_sec,
-                cache,
-            )
+            if model_choice in ("all", "glossary"):
+                results["glossary"] = self._sync_en_and_translate_model(
+                    "glossary",
+                    TradeGlossaryTerm.objects.all().order_by("id"),
+                    ["term", "full_expansion", "definition", "field_application"],
+                    langs,
+                    online,
+                    force,
+                    skip_identical,
+                    limit,
+                    sleep_sec,
+                    cache,
+                    offline_dict,
+                )
 
+        summary = ", ".join(
+            f"{k}: updated={v[0]} (remaining={v[1]})" for k, v in results.items()
+        )
         self.stdout.write(
             self.style.SUCCESS(
-                f"Translation sync complete for {langs} (online={online}): "
-                f"categories={cat_updated}, courses={course_updated}, "
-                f"modules={module_updated}, lessons={lesson_updated}, glossary={glossary_updated}."
+                f"Translation sync complete for {langs} (online={online}): {summary}."
             )
         )
