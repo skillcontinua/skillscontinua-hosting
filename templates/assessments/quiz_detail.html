@@ -1,0 +1,137 @@
+<!-- C:\hosting\skillscontinua_hosting\templates\assessments\quiz_detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ quiz.title }} — SkillsContinua</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+  <div class="container py-5" style="max-width: 860px;">
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+          <div>
+            <span class="badge bg-primary mb-2">{{ quiz.get_tier_display }}</span>
+            <h1 class="h3 mb-1">{{ quiz.title }}</h1>
+            {% if quiz.trade_course %}
+              <p class="text-muted mb-2">Course: {{ quiz.trade_course.title }}</p>
+            {% endif %}
+          </div>
+          <div class="text-end small text-muted">
+            <div>Pass Mark: <strong>{{ quiz.passing_score_percentage }}%</strong></div>
+            {% if quiz.time_limit_minutes %}
+              <div>Guide Time: <strong>{{ quiz.time_limit_minutes }} mins</strong></div>
+            {% endif %}
+          </div>
+        </div>
+        {% if quiz.instructions %}
+          <p class="mt-2 mb-0">{{ quiz.instructions }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if grading_result %}
+      <div class="card shadow-sm mb-4 border-{% if grading_result.passed %}success{% else %}warning{% endif %}">
+        <div class="card-body">
+          <h2 class="h4 {% if grading_result.passed %}text-success{% else %}text-warning{% endif %}">
+            {% if grading_result.passed %}Assessment Passed{% else %}Score Below Pass Mark{% endif %}
+          </h2>
+          <p class="mb-2">
+            Score: <strong>{{ grading_result.score_percentage }}%</strong>
+            ({{ grading_result.correct_count }} / {{ grading_result.total_questions }}) —
+            Classification: <strong>{{ grading_result.grade_classification }}</strong>
+          </p>
+
+          {% if grading_result.certificate %}
+            <div class="alert alert-success mt-3 mb-2">
+              <div><strong>Certificate Issued:</strong> <code>{{ grading_result.certificate.certificate_code }}</code></div>
+              <div class="mt-2">
+                <a href="{% url 'assessments:verify_credential' grading_result.certificate.certificate_code %}" class="btn btn-sm btn-success">
+                  View &amp; Verify Certificate
+                </a>
+              </div>
+              {% if grading_result.certificate.qr_code_url %}
+                <div class="mt-3">
+                  <img src="{{ grading_result.certificate.qr_code_url }}" alt="QR Verification Code" width="160" height="160" class="border rounded bg-white p-1" />
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if grading_result.transcript %}
+            <div class="alert alert-info mt-2 mb-0">
+              <div><strong>Competency Transcript Generated:</strong> <code>{{ grading_result.transcript.transcript_code }}</code></div>
+              <div class="mt-2">
+                <a href="{% url 'assessments:verify_credential' grading_result.transcript.transcript_code %}" class="btn btn-sm btn-outline-primary">
+                  View Official Transcript
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="card shadow-sm mb-4">
+        <div class="card-header bg-white fw-bold">Question Review &amp; Explanations</div>
+        <div class="list-group list-group-flush">
+          {% for item in grading_result.results %}
+            <div class="list-group-item">
+              <div class="d-flex justify-content-between">
+                <strong>Question {{ item.order }}</strong>
+                <span class="badge bg-{% if item.is_correct %}success{% else %}danger{% endif %}">
+                  {% if item.is_correct %}Correct{% else %}Incorrect (Answer: {{ item.correct_answer }}){% endif %}
+                </span>
+              </div>
+              <div class="small text-muted mt-1">Your Answer: {{ item.chosen|default:"None" }}</div>
+              {% if item.explanation %}
+                <div class="small mt-2"><strong>Explanation:</strong> {{ item.explanation }}</div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    <form method="post" class="card shadow-sm">
+      {% csrf_token %}
+      <div class="card-body">
+        {% for q in questions %}
+          <div class="mb-4 pb-3 border-bottom">
+            <p class="fw-semibold mb-2">
+              {{ q.order }}. {{ q.text }}
+              {% if q.is_scenario_question %}
+                <span class="badge bg-secondary ms-1">Field Scenario</span>
+              {% endif %}
+            </p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question_{{ q.id }}" id="q{{ q.id }}_a" value="A" required />
+              <label class="form-check-label" for="q{{ q.id }}_a">A. {{ q.option_a }}</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question_{{ q.id }}" id="q{{ q.id }}_b" value="B" />
+              <label class="form-check-label" for="q{{ q.id }}_b">B. {{ q.option_b }}</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question_{{ q.id }}" id="q{{ q.id }}_c" value="C" />
+              <label class="form-check-label" for="q{{ q.id }}_c">C. {{ q.option_c }}</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question_{{ q.id }}" id="q{{ q.id }}_d" value="D" />
+              <label class="form-check-label" for="q{{ q.id }}_d">D. {{ q.option_d }}</label>
+            </div>
+          </div>
+        {% empty %}
+          <p class="text-muted">No questions are currently attached to this quiz.</p>
+        {% endfor %}
+
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="{% url 'assessments:quiz_list' %}" class="btn btn-outline-secondary">All Quizzes</a>
+          <button type="submit" class="btn btn-primary">Submit Assessment</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
