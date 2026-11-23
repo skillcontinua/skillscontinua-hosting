@@ -4,6 +4,52 @@ import django.db.models.deletion
 from django.db import migrations, models
 
 
+def _existing_columns(schema_editor, table_name):
+    with schema_editor.connection.cursor() as cursor:
+        return {
+            col.name
+            for col in schema_editor.connection.introspection.get_table_description(
+                cursor, table_name
+            )
+        }
+
+
+def _existing_tables(schema_editor):
+    with schema_editor.connection.cursor() as cursor:
+        return set(schema_editor.connection.introspection.table_names(cursor))
+
+
+def _add_field_if_missing(apps, schema_editor, app_label, model_name, field_name, field):
+    model = apps.get_model(app_label, model_name)
+    table_name = model._meta.db_table
+    if table_name not in _existing_tables(schema_editor):
+        return
+    existing = _existing_columns(schema_editor, table_name)
+    bound_field = field.clone()
+    bound_field.set_attributes_from_name(field_name)
+    column_name = bound_field.column or field_name
+    if column_name not in existing:
+        schema_editor.add_field(model, bound_field)
+
+
+def _create_model_if_missing(apps, schema_editor, app_label, model_name):
+    model = apps.get_model(app_label, model_name)
+    table_name = model._meta.db_table
+    if table_name not in _existing_tables(schema_editor):
+        schema_editor.create_model(model)
+
+
+def _make_add_field_op(model_name, field_name, field):
+    def forward(apps, schema_editor):
+        _add_field_if_missing(apps, schema_editor, "vocational", model_name, field_name, field)
+
+    return migrations.RunPython(forward, migrations.RunPython.noop)
+
+
+def _create_glossary_term_model(apps, schema_editor):
+    _create_model_if_missing(apps, schema_editor, "vocational", "TradeGlossaryTerm")
+
+
 class Migration(migrations.Migration):
 
     dependencies = [
@@ -27,65 +73,114 @@ class Migration(migrations.Migration):
             name='trademodule',
             options={'ordering': ['order', 'id']},
         ),
-        migrations.AddField(
-            model_name='tradecourse',
-            name='course_glossary_overview',
-            field=models.TextField(blank=True, help_text='End-of-course or early-access glossary & reference guide covering course scope, duration, tools, terms, and safety'),
+        _make_add_field_op(
+            'tradecourse',
+            'course_glossary_overview',
+            models.TextField(
+                blank=True,
+                help_text='End-of-course or early-access glossary & reference guide covering course scope, duration, tools, terms, and safety',
+            ),
         ),
-        migrations.AddField(
-            model_name='tradecourse',
-            name='credential_awarded',
-            field=models.CharField(blank=True, help_text='e.g., Tier 1 Readiness Record, Tier 2 Proficiency Certificate, or Tier 3 Master QR Certificate & Transcript', max_length=255),
+        _make_add_field_op(
+            'tradecourse',
+            'credential_awarded',
+            models.CharField(
+                blank=True,
+                help_text='e.g., Tier 1 Readiness Record, Tier 2 Proficiency Certificate, or Tier 3 Master QR Certificate & Transcript',
+                max_length=255,
+            ),
         ),
-        migrations.AddField(
-            model_name='tradecourse',
-            name='field_tips_summary',
-            field=models.TextField(blank=True, help_text="High-value real-world 'trap avoidance' and self-employment tips for learners"),
+        _make_add_field_op(
+            'tradecourse',
+            'field_tips_summary',
+            models.TextField(
+                blank=True,
+                help_text="High-value real-world 'trap avoidance' and self-employment tips for learners",
+            ),
         ),
-        migrations.AddField(
-            model_name='tradecourse',
-            name='is_free_tier',
-            field=models.BooleanField(default=True, help_text='True for Tier 1 appetite-building content; False for paid Tier 2/3 tracks'),
+        _make_add_field_op(
+            'tradecourse',
+            'is_free_tier',
+            models.BooleanField(
+                default=True,
+                help_text='True for Tier 1 appetite-building content; False for paid Tier 2/3 tracks',
+            ),
         ),
-        migrations.AddField(
-            model_name='tradecourse',
-            name='tier',
-            field=models.CharField(choices=[('tier_1', 'Tier 1 — Free Foundation & Value Preview'), ('tier_2', 'Tier 2 — Affordable Practical Proficiency'), ('tier_3', 'Tier 3 — Professional Mastery & QR Credential')], default='tier_1', help_text='Monetization & mastery tier: Tier 1 (Free), Tier 2 (Affordable Proficiency), Tier 3 (Professional + QR Credential)', max_length=20),
+        _make_add_field_op(
+            'tradecourse',
+            'tier',
+            models.CharField(
+                choices=[
+                    ('tier_1', 'Tier 1 — Free Foundation & Value Preview'),
+                    ('tier_2', 'Tier 2 — Affordable Practical Proficiency'),
+                    ('tier_3', 'Tier 3 — Professional Mastery & QR Credential'),
+                ],
+                default='tier_1',
+                help_text='Monetization & mastery tier: Tier 1 (Free), Tier 2 (Affordable Proficiency), Tier 3 (Professional + QR Credential)',
+                max_length=20,
+            ),
         ),
-        migrations.AddField(
-            model_name='tradelesson',
-            name='checkpoint_questions',
-            field=models.TextField(blank=True, help_text='Quick self-check or quiz prompt tied to this lesson before moving forward'),
+        _make_add_field_op(
+            'tradelesson',
+            'checkpoint_questions',
+            models.TextField(
+                blank=True,
+                help_text='Quick self-check or quiz prompt tied to this lesson before moving forward',
+            ),
         ),
-        migrations.AddField(
-            model_name='tradelesson',
-            name='diagram_or_visual_guide',
-            field=models.TextField(blank=True, help_text='Diagram descriptions, schematic callouts, image references, or video/audio walkthrough notes'),
+        _make_add_field_op(
+            'tradelesson',
+            'diagram_or_visual_guide',
+            models.TextField(
+                blank=True,
+                help_text='Diagram descriptions, schematic callouts, image references, or video/audio walkthrough notes',
+            ),
         ),
-        migrations.AddField(
-            model_name='tradelesson',
-            name='estimated_minutes',
-            field=models.PositiveIntegerField(default=30, help_text='Estimated study and practical walkthrough time in minutes'),
+        _make_add_field_op(
+            'tradelesson',
+            'estimated_minutes',
+            models.PositiveIntegerField(
+                default=30,
+                help_text='Estimated study and practical walkthrough time in minutes',
+            ),
         ),
-        migrations.AddField(
-            model_name='tradelesson',
-            name='is_free_preview',
-            field=models.BooleanField(default=False, help_text='Allow free preview access even when attached to a paid tier course'),
+        _make_add_field_op(
+            'tradelesson',
+            'is_free_preview',
+            models.BooleanField(
+                default=False,
+                help_text='Allow free preview access even when attached to a paid tier course',
+            ),
         ),
-        migrations.AddField(
-            model_name='tradelesson',
-            name='safety_and_traps',
-            field=models.TextField(blank=True, help_text="Lesson-specific safety warnings and 'real-life trap' field tips"),
+        _make_add_field_op(
+            'tradelesson',
+            'safety_and_traps',
+            models.TextField(
+                blank=True,
+                help_text="Lesson-specific safety warnings and 'real-life trap' field tips",
+            ),
         ),
-        migrations.AddField(
-            model_name='trademodule',
-            name='summary',
-            field=models.TextField(blank=True, help_text='Module overview, competency outcome, and assessment checkpoint notes'),
+        _make_add_field_op(
+            'trademodule',
+            'summary',
+            models.TextField(
+                blank=True,
+                help_text='Module overview, competency outcome, and assessment checkpoint notes',
+            ),
         ),
-        migrations.AddField(
-            model_name='trademodule',
-            name='tier',
-            field=models.CharField(choices=[('tier_1', 'Tier 1 — Free Foundation & Value Preview'), ('tier_2', 'Tier 2 — Affordable Practical Proficiency'), ('tier_3', 'Tier 3 — Professional Mastery & QR Credential')], default='tier_1', help_text='Indicates which tier this module belongs to', max_length=20),
+        _make_add_field_op(
+            'trademodule',
+            'tier',
+            models.CharField(
+                choices=[
+                    ('tier_1', 'Tier 1 — Free Foundation & Value Preview'),
+                    ('tier_2', 'Tier 2 — Affordable Practical Proficiency'),
+                    ('tier_3', 'Tier 3 — Professional Mastery & QR Credential'),
+                ],
+                default='tier_1',
+                help_text='Indicates which tier this module belongs to',
+                max_length=20,
+            ),
         ),
         migrations.AlterField(
             model_name='tradecourse',
@@ -182,22 +277,29 @@ class Migration(migrations.Migration):
             name='step_by_step_field_guide',
             field=models.TextField(help_text='Exact physical operations, tables, and step-by-step instructions'),
         ),
-        migrations.CreateModel(
-            name='TradeGlossaryTerm',
-            fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('topic_group', models.CharField(choices=[('general', 'General & Units'), ('equipment', 'Equipment & Components'), ('tools', 'Tools & Testing Instruments'), ('safety', 'Safety, Protection & Standards'), ('business', 'Sizing, Commissioning & Business')], default='general', max_length=30)),
-                ('term', models.CharField(help_text='Term or acronym (e.g., EPDM, MC4, Voc, DoD, MPPT, SPD)', max_length=120)),
-                ('full_expansion', models.CharField(blank=True, help_text='Full form if an acronym (e.g., Ethylene Propylene Diene Monomer)', max_length=255)),
-                ('definition', models.TextField(help_text='Clear, plain-language explanation for learners')),
-                ('field_application', models.TextField(blank=True, help_text='How this term applies on site, in sizing, or in avoiding mistakes')),
-                ('available_from_tier_1', models.BooleanField(default=True, help_text='Show in Tier 1 starter/early glossary to motivate learners early')),
-                ('order', models.PositiveIntegerField(default=0)),
-                ('category', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='glossary_terms', to='vocational.tradecategory')),
-                ('course', models.ForeignKey(blank=True, help_text='Optional course link; leave blank to make term available across all trades', null=True, on_delete=django.db.models.deletion.CASCADE, related_name='glossary_terms', to='vocational.tradecourse')),
+        migrations.SeparateDatabaseAndState(
+            database_operations=[
+                migrations.RunPython(_create_glossary_term_model, migrations.RunPython.noop),
             ],
-            options={
-                'ordering': ['order', 'term'],
-            },
+            state_operations=[
+                migrations.CreateModel(
+                    name='TradeGlossaryTerm',
+                    fields=[
+                        ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                        ('topic_group', models.CharField(choices=[('general', 'General & Units'), ('equipment', 'Equipment & Components'), ('tools', 'Tools & Testing Instruments'), ('safety', 'Safety, Protection & Standards'), ('business', 'Sizing, Commissioning & Business')], default='general', max_length=30)),
+                        ('term', models.CharField(help_text='Term or acronym (e.g., EPDM, MC4, Voc, DoD, MPPT, SPD)', max_length=120)),
+                        ('full_expansion', models.CharField(blank=True, help_text='Full form if an acronym (e.g., Ethylene Propylene Diene Monomer)', max_length=255)),
+                        ('definition', models.TextField(help_text='Clear, plain-language explanation for learners')),
+                        ('field_application', models.TextField(blank=True, help_text='How this term applies on site, in sizing, or in avoiding mistakes')),
+                        ('available_from_tier_1', models.BooleanField(default=True, help_text='Show in Tier 1 starter/early glossary to motivate learners early')),
+                        ('order', models.PositiveIntegerField(default=0)),
+                        ('category', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='glossary_terms', to='vocational.tradecategory')),
+                        ('course', models.ForeignKey(blank=True, help_text='Optional course link; leave blank to make term available across all trades', null=True, on_delete=django.db.models.deletion.CASCADE, related_name='glossary_terms', to='vocational.tradecourse')),
+                    ],
+                    options={
+                        'ordering': ['order', 'term'],
+                    },
+                ),
+            ],
         ),
     ]
