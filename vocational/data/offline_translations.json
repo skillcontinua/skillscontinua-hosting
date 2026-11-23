@@ -1600,12 +1600,12 @@
     "pt": "Interruptor / Switch"
   },
   "V (Volts)": {
-    "fr": "V (Volts)",
-    "ig": "V (Volts)",
-    "sw": "V (Volts)",
-    "ar": "V (Volts)",
-    "es": "V (Volts)",
-    "pt": "V (Volts)"
+    "fr": "Volt",
+    "ig": "Vọlt",
+    "sw": "Volti",
+    "ar": "فولت",
+    "es": "Voltio",
+    "pt": "Volt"
   },
   "Electrical Potential Difference": {
     "fr": "Electrical Potential Difference",
@@ -1632,12 +1632,12 @@
     "pt": "Bateria"
   },
   "A (Amps)": {
-    "fr": "A (Amps)",
-    "ig": "A (Amps)",
-    "sw": "A (Amps)",
-    "ar": "A (Amps)",
-    "es": "A (Amps)",
-    "pt": "A (Amps)"
+    "fr": "Ampère",
+    "ig": "Ampa",
+    "sw": "Ampea",
+    "ar": "أمبير",
+    "es": "Amperio",
+    "pt": "Ampère"
   },
   "Ampere — Electric Current": {
     "fr": "Courant",
@@ -1848,12 +1848,12 @@
     "pt": "OLED/AMOLED"
   },
   "W (Watts)": {
-    "fr": "W (Watts)",
-    "ig": "W (Watts)",
-    "sw": "W (Watts)",
-    "ar": "W (Watts)",
-    "es": "W (Watts)",
-    "pt": "W (Watts)"
+    "fr": "Watt",
+    "ig": "Wat",
+    "sw": "Wati",
+    "ar": "واط",
+    "es": "Vatio",
+    "pt": "Watt"
   },
   "Electrical Power": {
     "fr": "Alimentation / Énergie",
@@ -1928,12 +1928,12 @@
     "pt": "RAM"
   },
   "USB Amp Meter": {
-    "fr": "USB Amp Meter",
-    "ig": "USB Amp Meter",
-    "sw": "USB Amp Meter",
-    "ar": "USB Amp Meter",
-    "es": "USB Amp Meter",
-    "pt": "USB Amp Meter"
+    "fr": "Ampère",
+    "ig": "Ampa",
+    "sw": "Ampea",
+    "ar": "أمبير",
+    "es": "Amperio",
+    "pt": "Ampère"
   },
   "USB Voltage & Current Tester": {
     "fr": "Tension",
@@ -1961,8 +1961,8 @@
   },
   "USB VBUS / Amp": {
     "fr": "USB VBUS / Ampli",
-    "ig": "USB VBUS / Amp",
-    "sw": "USB VBUS / Amp",
+    "ig": "Ampa",
+    "sw": "Ampea",
     "ar": "USB VBUS / أمبير",
     "es": "USB VBUS/Amplificador",
     "pt": "USB VBUS / Amplificador"
@@ -1976,12 +1976,12 @@
     "pt": "Wh/kWh"
   },
   "Ah (Amp-Hour)": {
-    "fr": "Ah (Amp-Hour)",
-    "ig": "Ah (Amp-Hour)",
-    "sw": "Ah (Amp-Hour)",
-    "ar": "Ah (Amp-Hour)",
-    "es": "Ah (Amp-Hour)",
-    "pt": "Ah (Amp-Hour)"
+    "fr": "Ampère",
+    "ig": "Ampa",
+    "sw": "Ampea",
+    "ar": "أمبير",
+    "es": "Amperio",
+    "pt": "Ampère"
   },
   "Battery Charge Capacity Rating": {
     "fr": "Batterie",
@@ -2248,12 +2248,12 @@
     "pt": "TIA/EIA-568-B Wiring Standard"
   },
   "Common color pinout order for RJ45 Ethernet terminations.": {
-    "fr": "Common color pinout order for RJ45 Ethernet terminations.",
-    "ig": "Common color pinout order for RJ45 Ethernet terminations.",
-    "sw": "Common color pinout order for RJ45 Ethernet terminations.",
-    "ar": "Common color pinout order for RJ45 Ethernet terminations.",
-    "es": "Common color pinout order for RJ45 Ethernet terminations.",
-    "pt": "Common color pinout order for RJ45 Ethernet terminations."
+    "fr": "Broche / Pin",
+    "ig": "Pin / Ntụtụ",
+    "sw": "Pini",
+    "ar": "دبوس",
+    "es": "Pin",
+    "pt": "Pino"
   },
   "Maintains consistent pairing across patch cords and structured drops.": {
     "fr": "Maintains consistent pairing across patch cords and structured drops.",
