@@ -12,7 +12,10 @@ from assessments.models import Quiz, Question
 
 
 class Command(BaseCommand):
-    help = "Seeds the complete 3-tier Barbing, Hairdressing, Makeup & Nail Art course, glossary, and quizzes."
+    help = (
+        "Seeds the complete 3-tier Barbing, Hairdressing, Makeup & Nail Art course, "
+        "diagrams, reference tables, glossary, and quizzes."
+    )
 
     def handle(self, *args, **options):
         target_slug = "barbing-hairdressing-makeup-nail-art"
@@ -29,13 +32,22 @@ class Command(BaseCommand):
             category.slug = target_slug
             category.name = target_name
             category.description = target_description
+            if hasattr(category, "name_en"):
+                category.name_en = target_name
+            if hasattr(category, "description_en"):
+                category.description_en = target_description
             category.save()
         else:
-            category = TradeCategory.objects.create(
-                slug=target_slug,
-                name=target_name,
-                description=target_description,
-            )
+            create_kwargs = {
+                "slug": target_slug,
+                "name": target_name,
+                "description": target_description,
+            }
+            if hasattr(TradeCategory, "name_en"):
+                create_kwargs["name_en"] = target_name
+            if hasattr(TradeCategory, "description_en"):
+                create_kwargs["description_en"] = target_description
+            category = TradeCategory.objects.create(**create_kwargs)
 
         # =====================================================================
         # TIER 1 (FREE): HYGIENE, CLIENT CONSULTATION & TOOL BASICS
@@ -104,20 +116,37 @@ class Command(BaseCommand):
                     "a beauty business's reputation fast."
                 ),
                 "core_explanation": (
-                    "Always brush/wash away hair or debris first, then immerse/wipe non-porous tools with "
-                    "approved disinfectant for the required contact time, and use fresh/disposable items "
-                    "where required. Consult the client on desired style/look, maintenance routine, and any "
-                    "sensitivity or scalp/skin irritation."
+                    "HYGIENE & CONSULTATION STANDARDS:\n"
+                    "- Clean Before Disinfecting: Always brush or wash away hair, oil, or debris first, then apply approved disinfectant for the full contact time and use fresh/disposable items where required.\n"
+                    "- Client Screening & Patch Testing: Check scalp, skin, and nails for irritation, cuts, or infection signs, confirm expectations, and patch-test before chemical/color/adhesive application.\n\n"
+                    "HYGIENE & SCREENING REFERENCE:\n"
+                    "Check Area       | Key Rule / Standard\n"
+                    "-----------------+--------------------------------------------------------\n"
+                    "Non-Porous Tools | Remove debris first -> disinfect for full contact time\n"
+                    "Skin / Scalp     | Inspect for cuts/rash/infection; patch-test if needed\n"
+                    "Station / Chair  | Fresh neck strip/towel & sanitized surface per client"
                 ),
                 "step_by_step_field_guide": (
+                    "PRE-SESSION CHECK:\n"
+                    "- Sanitize hands, prep a clean station, and place a fresh towel/cape/neck strip.\n\n"
+                    "CONSULTATION & HYGIENE STEPS:\n"
                     "1. Sanitize hands and prep a clean station with fresh towel/cape/neck strip.\n"
                     "2. Inspect client's hair, scalp, skin, or nails for irritation, cuts, or sensitivities.\n"
                     "3. Confirm style/shade/length expectations and perform a patch test before chemical/color/adhesive use.\n"
-                    "4. Clean and disinfect tools after the service."
+                    "4. Clean and disinfect tools after the service.\n\n"
+                    "POST-SESSION CHECK:\n"
+                    "- Dispose of single-use items safely and reset the station for the next client."
                 ),
                 "safety_and_traps": (
-                    "TRAP: Spraying or wiping a dirty clipper blade or brush without removing hair/debris "
-                    "and allowing proper disinfectant contact time."
+                    "- TRAP (Disinfecting Over Dirt/Hair): Wiping or spraying a dirty blade or brush without removing debris reduces disinfectant effectiveness.\n"
+                    "- TRAP (Rushing Past Red Flags): Ignoring inflamed scalp/skin or skipping patch tests can trigger severe reactions."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Client Arrives] ---> [Consultation + Scalp/Skin/Nail Check]\n"
+                    "                                     |\n"
+                    "       +-----------------------------+ (Service Performed)\n"
+                    "       v\n"
+                    "[Remove Debris] ---> [Disinfect / Full Contact Time] ---> [Clean Station Ready]"
                 ),
                 "real_life_scenario": (
                     "A client arrives with an inflamed, flaky patch on their scalp—pausing chemical "
@@ -149,18 +178,29 @@ class Command(BaseCommand):
                     "and improve precision."
                 ),
                 "core_explanation": (
-                    "Keep wrists neutral, adjust chair/table height to your working elbow level rather than "
-                    "hunching over clients, oil clipper blades lightly after sanitizing, and keep makeup "
-                    "brushes/nail files organized and clean."
+                    "ERGONOMICS & TOOL CARE:\n"
+                    "- Keep wrists neutral and adjust chair/table height to your working elbow level rather than hunching over clients.\n"
+                    "- Brush out hair/dust, oil clipper blades lightly after sanitizing, and store combs, brushes, and nail tools cleanly."
                 ),
                 "step_by_step_field_guide": (
+                    "PRE-WORK CHECK:\n"
+                    "- Check blade alignment/cord condition and keep essential tools organized within reach.\n\n"
+                    "ERGONOMIC & TOOL STEPS:\n"
                     "1. Arrange tools cleanly within reach without clutter.\n"
                     "2. Adjust seating/station height to protect your back, neck, and wrists.\n"
-                    "3. Oil clipper blades and clean/store brushes/files properly after use."
+                    "3. Oil clipper blades and clean/store brushes/files properly after use.\n\n"
+                    "POST-WORK CHECK:\n"
+                    "- Verify cords are untangled/safe and tools are stored dry and clean."
                 ),
                 "safety_and_traps": (
-                    "TRAP: Hunched posture all day leading to chronic neck/back pain, or leaving clipper "
-                    "blades un-oiled so they snag hair and heat up."
+                    "- TRAP (Chronic Slouching/Hunching): Bending low all day causes neck, shoulder, and lower-back strain.\n"
+                    "- TRAP (Dry/Un-Oiled Clipper Blades): Dry blades snag hair, generate excess heat, and wear faster."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Station & Chair Height] ---> [Neutral Wrist + Elbow-Level Reach]\n"
+                    "                                       |\n"
+                    "                                       v\n"
+                    "                     [Clean/Oil Blades & Brushes After Use]"
                 ),
                 "real_life_scenario": (
                     "Clippers pull hair and run hot during a busy Saturday—cleaning hair buildup, checking "
@@ -278,17 +318,34 @@ class Command(BaseCommand):
                     "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars."
                 ),
                 "core_explanation": (
-                    "Work in structured sections from the bottom up, use flick/scoop motion with guards and "
-                    "lever adjustments to soften harsh lines without pushing back natural hairlines, and "
-                    "prioritize moisture, gentle detangling, and heat protection in hairstyling."
+                    "CLIPPER BLENDING & HAIR CARE:\n"
+                    "- Work in structured sections from the bottom up, using controlled flick/scoop motion with guards and lever adjustments to soften harsh lines while preserving natural hairlines.\n"
+                    "- Detangle gently from ends toward roots with moisture/slip, and protect hair against excessive heat or tension.\n\n"
+                    "CRAFT & CARE BENCHMARK:\n"
+                    "Area              | Key Standard\n"
+                    "------------------+--------------------------------------------------\n"
+                    "Fades & Blends    | Clean guideline + gradual guard/lever transitions\n"
+                    "Hairline / Edges  | Crisp yet natural—avoid pushing hairlines back\n"
+                    "Detangling/Styling| Start at ends, add moisture/slip, check symmetry"
                 ),
                 "step_by_step_field_guide": (
+                    "PRE-SERVICE CHECK:\n"
+                    "- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\n"
+                    "CRAFT STEPS:\n"
                     "1. Comb hair in natural growth direction and set initial length/guideline.\n"
                     "2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n"
-                    "3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror."
+                    "3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\n"
+                    "POST-SERVICE CHECK:\n"
+                    "- Inspect front, left/right profiles, and back in balanced light before finishing."
                 ),
                 "safety_and_traps": (
-                    "TRAP: Pushing natural hairlines too far back with sharp trimmers or over-filing/over-heating fragile hair."
+                    "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n"
+                    "- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n"
+                    "                                                       |\n"
+                    "   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)"
                 ),
                 "real_life_scenario": (
                     "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a "
@@ -330,18 +387,35 @@ class Command(BaseCommand):
                     "makes your work look polished in person and in photos."
                 ),
                 "core_explanation": (
-                    "Match base shades to undertone and test along the jawline/neck in good light, blend "
-                    "edges seamlessly, and for nails: shape evenly, push/clean cuticles gently without "
-                    "damaging live skin, apply thin even coats, and seal free edges."
+                    "MAKEUP & NAIL FINISH STANDARDS:\n"
+                    "- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n"
+                    "- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\n"
+                    "MAKEUP & NAIL QUALITY CHECK:\n"
+                    "Craft        | Primary Detail to Nail\n"
+                    "-------------+-----------------------------------------------------\n"
+                    "Makeup Base  | Undertone match + seamless jawline/neck blend\n"
+                    "Nail Prep    | Gentle shaping & cuticle care without thinning plate\n"
+                    "Nail Finish  | Thin even coats + sealed free edge for longevity"
                 ),
                 "step_by_step_field_guide": (
+                    "PRE-SERVICE CHECK:\n"
+                    "- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\n"
+                    "APPLICATION STEPS:\n"
                     "1. Prep clean skin/nails and confirm desired look/finish with client.\n"
                     "2. Apply thin, blendable layers rather than heavy buildup at once.\n"
-                    "3. Seal nail free edges and inspect final look in natural/balanced lighting."
+                    "3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\n"
+                    "POST-SERVICE CHECK:\n"
+                    "- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves."
                 ),
                 "safety_and_traps": (
-                    "TRAP: Applying thick layers of polish or foundation all at once, causing smudging, "
-                    "creasing, or uneven texture."
+                    "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n"
+                    "- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n"
+                    "                                                                   |\n"
+                    "                                                                   v\n"
+                    "                                             [Natural / Balanced Light Inspection]"
                 ),
                 "real_life_scenario": (
                     "A client's foundation looks slightly too light in daylight—checking undertone and "
@@ -405,13 +479,13 @@ class Command(BaseCommand):
                 "title": "Barbing, Hairdressing, Makeup & Nail Art — Tier 3: Client Care, Pricing & Business",
                 "description": (
                     "PROFESSIONAL MASTERY TIER: Handle challenging client requests & touch-ups calmly, "
-                    "price services/packages/bridal or event bookings profitably, build a portfolio, "
-                    "manage appointments, and earn QR-verifiable certification."
+                    "price services/packages/bridal or event bookings profitably, manage event/mobile "
+                    "workflows, build a portfolio, and earn QR-verifiable certification."
                 ),
                 "tier": "tier_3",
                 "is_free_tier": False,
                 "level": "Advanced",
-                "duration_hours": 12,
+                "duration_hours": 14,
                 "credential_awarded": "Tier 3 Master Beauty & Grooming Practitioner QR Certificate",
                 "required_tools": (
                     "All Tier 1 & Tier 2 tools plus Portable / Mobile Kit Case (if doing home/event service), "
@@ -459,17 +533,35 @@ class Command(BaseCommand):
                     "keep chairs/bookings full year-round."
                 ),
                 "core_explanation": (
-                    "Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), "
-                    "and your skilled time. If a client asks for a minor adjustment right after a service, "
-                    "listen calmly and address reasonable fixes politely while setting clear expectations."
+                    "PROFITABLE PRICING & CLIENT RETENTION:\n"
+                    "- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n"
+                    "- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\n"
+                    "PRICING & RETENTION ELEMENTS:\n"
+                    "Element           | Purpose\n"
+                    "------------------+---------------------------------------------------\n"
+                    "Base + Add-On Menu| Clarifies what is included vs. optional extras\n"
+                    "Mobile / Event Fee| Covers travel time, transport, and setup buffers\n"
+                    "Follow-Up & Care  | Helps clients maintain results and refer others"
                 ),
                 "step_by_step_field_guide": (
+                    "PRE-BOOKING CHECK:\n"
+                    "- Confirm service scope, add-ons, estimated time, and price before starting.\n\n"
+                    "PRICING & CLIENT CARE STEPS:\n"
                     "1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n"
                     "2. Confirm scope, timing, and booking terms before starting.\n"
-                    "3. Follow up politely on care/maintenance and ask satisfied clients for referrals."
+                    "3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\n"
+                    "POST-SESSION CHECK:\n"
+                    "- Note client preferences for future visits and keep sanitation/kit restocked."
                 ),
                 "safety_and_traps": (
-                    "TRAP: Accepting last-minute underpriced event/group bookings without time buffers or clear scope."
+                    "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n"
+                    "- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n"
+                    "                                                               |\n"
+                    "                                                               v\n"
+                    "                                                [Repeat Bookings & Steady Income]"
                 ),
                 "real_life_scenario": (
                     "A client wants a slight adjustment to blend/length right at the end of a session—staying "
@@ -482,6 +574,59 @@ class Command(BaseCommand):
                 "checkpoint_questions": (
                     "1. What costs should be considered when pricing salon or mobile services?\n"
                     "2. Why confirm service scope and timing before starting?"
+                ),
+            },
+        )
+
+        TradeLesson.objects.update_or_create(
+            module=mod4,
+            order=2,
+            defaults={
+                "title": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards",
+                "estimated_minutes": 50,
+                "learning_objectives": (
+                    "- Plan event, bridal, or multi-client schedules with realistic time buffers.\n"
+                    "- Maintain portable hygiene, lighting, and documentation standards for studio, mobile, or partner programs."
+                ),
+                "why_it_matters": (
+                    "Running late on an event day or showing up to a home/community session with a messy, "
+                    "unhygienic kit costs major opportunities with clients and institutional partners."
+                ),
+                "core_explanation": (
+                    "EVENT WORKFLOW & PORTABLE STANDARDS:\n"
+                    "- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n"
+                    "- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos."
+                ),
+                "step_by_step_field_guide": (
+                    "PRE-EVENT CHECK:\n"
+                    "- Pack and verify all tools, disposables, backups, and schedule/call times the day before.\n\n"
+                    "EVENT & QUALITY STEPS:\n"
+                    "1. Map out person-by-person timings with a buffer window and confirm arrival details.\n"
+                    "2. Set up a clean, well-lit station and protect hygiene even on mobile/event locations.\n"
+                    "3. Request client permission before capturing portfolio photos and log lessons learned.\n\n"
+                    "POST-EVENT CHECK:\n"
+                    "- Clean/sanitize all tools and replenish used supplies before the next booking."
+                ),
+                "safety_and_traps": (
+                    "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n"
+                    "- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n"
+                    "                                                      |\n"
+                    "                                                      v\n"
+                    "                            [Consented Portfolio + Full Kit Reset]"
+                ),
+                "real_life_scenario": (
+                    "A bridal/event booking has four people getting ready before a tight ceremony time—"
+                    "assigning clear time slots with a buffer keeps everyone calm and on schedule."
+                ),
+                "practice_activity": (
+                    "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist."
+                ),
+                "checkpoint_questions": (
+                    "1. Why include a buffer when scheduling event or group beauty bookings?\n"
+                    "2. What should you do before taking or sharing photos of a client's look?"
                 ),
             },
         )
@@ -525,14 +670,21 @@ class Command(BaseCommand):
         )
 
         # =====================================================================
-        # GLOSSARY TERMS (AVAILABLE FROM TIER 1 & ACROSS ALL THREE TIERS)
+        # GLOSSARY TERMS (12 TERMS ACROSS TIER 1, TIER 2 & TIER 3)
         # =====================================================================
         glossary_items = [
             ("safety", "Disinfection", "Antimicrobial Surface & Tool Treatment", "Reduces harmful microorganisms on cleaned non-porous tools and surfaces.", "Clean debris first, then apply disinfectant for full contact time.", True, 1),
             ("safety", "Patch Test", "Small-Area Skin Sensitivity Check", "Tests a small area ahead of full application to check for irritation/allergy.", "Helps identify sensitivities before color, chemical, or adhesive services.", True, 2),
             ("equipment", "Guard / Lever", "Clipper Attachment Comb & Blade Taper Lever", "Controls cutting length and helps blend transitions smoothly.", "Adjust gradually and check symmetry from multiple angles.", True, 3),
             ("general", "Porosity", "Ability of Hair/Nail to Absorb & Hold Moisture", "Influences how products penetrate, process, and retain moisture.", "Guides product selection and gentle moisture/strengthening care.", True, 4),
-            ("business", "Service Scope", "Agreed Deliverables, Add-Ons & Time Window", "Clear agreement on what a session or event booking includes.", "Prevents misunderstandings on pricing, duration, and extras.", False, 5),
+            ("safety", "Cross-Contamination", "Unintended Transfer of Microbes or Residue", "Happens when shared tools, towels, or hands carry contaminants between clients.", "Sanitize/disinfect tools and use clean barriers between every client.", True, 5),
+            ("general", "Skin Undertone", "Warm, Cool, or Neutral Base Tone Under Skin", "Guides foundation/concealer matching so shades look natural rather than ashy/orange.", "Test along jawline/neck in balanced light before finalizing shade.", False, 6),
+            ("equipment", "Free Edge", "Unattached Tip of the Nail Plate", "The front edge of the nail extending past the finger bed.", "Shape evenly and seal with base/top/finish coat to prevent lifting.", False, 7),
+            ("tools", "Clipper Oil", "Lubricant for Clipper Blades", "Reduces friction, heat, and wear between moving cutter and stationary blades.", "Clean hair/debris first and apply a few drops regularly.", False, 8),
+            ("business", "Service Scope", "Agreed Deliverables, Add-Ons & Time Window", "Clear agreement on what a session or event booking includes.", "Prevents misunderstandings on pricing, duration, and extras.", False, 9),
+            ("business", "Time Buffer", "Extra Schedule Cushion Between Bookings", "Planned slack time to absorb setup, consultation, or minor delays.", "Keeps event/salon appointments running smoothly without rushed mistakes.", False, 10),
+            ("business", "Mobile Kit", "Portable Case for Home or Event Services", "Organized travel kit holding sanitized tools, disposables, and essentials.", "Protects hygiene and speed when working outside a fixed salon chair.", False, 11),
+            ("business", "Client Retention", "Repeat Visits & Word-of-Mouth Referrals", "Earned through consistent quality, hygiene, fair pricing, and polite care.", "Turns one-time clients into steady income over time.", False, 12),
         ]
 
         for group, term, expansion, definition, application, tier1_flag, order in glossary_items:
@@ -554,6 +706,6 @@ class Command(BaseCommand):
         self.stdout.write(
             self.style.SUCCESS(
                 "Seeded Barbing, Hairdressing, Makeup & Nail Art across Tier 1, Tier 2, and Tier 3, "
-                "including lessons, glossary terms, and quizzes!"
+                "including diagrams, reference tables, glossary terms, and quizzes!"
             )
         )

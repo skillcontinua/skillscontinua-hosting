@@ -6,6 +6,17 @@ class TradeCategory(models.Model):
     name = models.CharField(max_length=100, unique=True)  # e.g., Solar & Renewable Energy
     slug = models.SlugField(unique=True)
     description = models.TextField()
+    logo_image = models.ImageField(
+        upload_to="vocational/logos/",
+        blank=True,
+        null=True,
+        help_text="Trade emblem or partner-ready category logo",
+    )
+    logo_svg_or_icon = models.CharField(
+        max_length=100,
+        blank=True,
+        help_text="Optional icon class or short badge label for the trade",
+    )
 
     class Meta:
         verbose_name_plural = "Trade Categories"
@@ -34,6 +45,12 @@ class TradeCourse(models.Model):
     title = models.CharField(max_length=255)
     slug = models.SlugField(unique=True)
     description = models.TextField()
+    banner_image = models.ImageField(
+        upload_to="vocational/courses/",
+        blank=True,
+        null=True,
+        help_text="Optional visual banner or setup diagram image for this course tier",
+    )
 
     # 3-Tier & Proficiency Alignment
     tier = models.CharField(
@@ -139,6 +156,17 @@ class TradeLesson(models.Model):
     diagram_or_visual_guide = models.TextField(
         blank=True,
         help_text="Diagram descriptions, schematic callouts, image references, or video/audio walkthrough notes",
+    )
+    visual_image = models.ImageField(
+        upload_to="vocational/lessons/",
+        blank=True,
+        null=True,
+        help_text="Optional diagram, wiring chart, or bench setup image for this lesson",
+    )
+    video_url = models.URLField(
+        blank=True,
+        null=True,
+        help_text="Video walkthrough or field demonstration URL",
     )
     real_life_scenario = models.TextField(
         help_text="Simulated workplace, client, or fault-diagnostic problem solving"
