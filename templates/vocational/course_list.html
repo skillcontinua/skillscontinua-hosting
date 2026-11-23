@@ -1,34 +1,105 @@
 <!-- C:\hosting\skillscontinua_hosting\templates\vocational\course_list.html -->
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ LANGUAGE_CODE }}" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
 <head>
     <meta charset="UTF-8">
-    <title>SkillsContinua | Practical Course Catalog</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillsContinua | 3-Tier Practical Trade Catalog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
-    <nav class="navbar navbar-dark bg-dark px-4">
-        <a class="navbar-brand fw-bold" href="{% url 'core:home' %}">SkillsContinua</a>
-        <a href="{% url 'core:home' %}" class="btn btn-outline-light btn-sm">Home</a>
-    </nav>
-    <div class="container my-5">
-        <h1 class="fw-bold mb-3">Self-Employment & Vocational Catalog</h1>
-        <p class="text-muted mb-4">Practical, hands-on courses engineered for immediate income generation.</p>
-        <div class="row g-4">
-            {% for course in courses %}
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body">
-                            <span class="badge bg-primary mb-2">{{ course.category.name }}</span>
-                            <h4 class="fw-bold">{{ course.title }}</h4>
-                            <p class="text-muted">{{ course.description }}</p>
-                            <p class="small text-dark fw-bold">Duration: {{ course.duration_hours }} Hours | Level: {{ course.level }}</p>
-                            <a href="{% url 'vocational:course_detail' course.slug %}" class="btn btn-dark btn-sm">View Curriculum & Modules</a>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
+    <nav class="navbar navbar-dark bg-dark px-4 py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="{% url 'core:home' %}">SkillsContinua</a>
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+                <a href="{% url 'assessments:quiz_list' %}" class="btn btn-outline-info btn-sm">Assessments</a>
+                <a href="{% url 'assessments:verify_lookup' %}" class="btn btn-outline-warning btn-sm">Verify QR Credential</a>
+                <form action="{% url 'set_language' %}" method="post" class="d-flex align-items-center">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ request.get_full_path }}">
+                    <select name="language" onchange="this.form.submit()" class="form-select form-select-sm bg-dark text-white border-secondary" aria-label="Language">
+                        {% get_available_languages as LANGUAGES %}
+                        {% for lang_code, lang_name in LANGUAGES %}
+                            <option value="{{ lang_code }}" {% if lang_code == LANGUAGE_CODE %}selected{% endif %}>
+                                {{ lang_code|upper }} — {{ lang_name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </form>
+                <a href="{% url 'core:home' %}" class="btn btn-outline-light btn-sm">Home</a>
+            </div>
         </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="p-4 p-md-5 bg-white rounded-3 shadow-sm border mb-5">
+            <span class="badge bg-primary mb-2">3-TIER PRACTICAL MASTERY MODEL</span>
+            <h1 class="fw-bold mb-2">Vocational &amp; Self-Employment Field Manuals</h1>
+            <p class="lead text-muted mb-3">
+                Start free in <strong>Tier 1 (Foundation &amp; Value Preview)</strong> to master safety, tools, and core calculations—then unlock <strong>Tier 2 (Practical Proficiency)</strong> and <strong>Tier 3 (Professional Mastery &amp; QR-Verifiable Credential)</strong>.
+            </p>
+            <div class="d-flex flex-wrap gap-2 small">
+                <span class="badge bg-success-subtle text-success-emphasis border border-success-subtle px-3 py-2">Tier 1: Free Open Access</span>
+                <span class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle px-3 py-2">Tier 2: Affordable Practical Proficiency</span>
+                <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-3 py-2">Tier 3: Master Field Certification + QR Transcript</span>
+            </div>
+        </div>
+
+        {% for track in tracks %}
+            <section class="mb-5">
+                <div class="d-flex justify-content-between align-items-end flex-wrap gap-2 mb-3 border-bottom pb-2">
+                    <div>
+                        <h2 class="h4 fw-bold mb-1">{{ track.category.name }}</h2>
+                        <p class="text-muted small mb-0">{{ track.category.description }}</p>
+                    </div>
+                    <span class="badge bg-dark">{{ track.courses|length }} Tiers Available</span>
+                </div>
+
+                <div class="row g-4">
+                    {% for course in track.courses %}
+                        <div class="col-lg-4">
+                            <div class="card h-100 shadow-sm border-0 {% if course.tier == 'tier_1' %}border-top border-4 border-success{% elif course.tier == 'tier_2' %}border-top border-4 border-primary{% else %}border-top border-4 border-warning{% endif %}">
+                                <div class="card-body d-flex flex-column">
+                                    <div class="d-flex justify-content-between align-items-center mb-2 gap-1 flex-wrap">
+                                        {% if course.is_free_tier %}
+                                            <span class="badge bg-success">FREE — TIER 1 FOUNDATION</span>
+                                        {% elif course.tier == 'tier_2' %}
+                                            <span class="badge bg-primary">TIER 2 — PROFICIENCY</span>
+                                        {% else %}
+                                            <span class="badge bg-warning text-dark">TIER 3 — MASTER + QR</span>
+                                        {% endif %}
+                                        <span class="small text-muted fw-semibold">{{ course.duration_hours }} Hrs</span>
+                                    </div>
+
+                                    <h3 class="h5 fw-bold mb-2">{{ course.title }}</h3>
+                                    <p class="text-muted small flex-grow-1">{{ course.description }}</p>
+
+                                    {% if course.credential_awarded %}
+                                        <div class="bg-light rounded p-2 mb-3 small border">
+                                            <strong>Outcome:</strong> {{ course.credential_awarded }}
+                                        </div>
+                                    {% endif %}
+
+                                    <div class="d-grid">
+                                        <a href="{% url 'vocational:course_detail' course.slug %}" class="btn {% if course.is_free_tier %}btn-success{% elif course.tier == 'tier_2' %}btn-primary{% else %}btn-dark{% endif %} btn-sm fw-semibold">
+                                            {% if course.is_free_tier %}
+                                                Start Free Tier 1 Manual
+                                            {% else %}
+                                                Explore Syllabus &amp; Unlock {{ course.get_tier_display|truncatewords:2 }}
+                                            {% endif %}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </section>
+        {% empty %}
+            <div class="alert alert-warning">No vocational courses are currently seeded.</div>
+        {% endfor %}
     </div>
 </body>
 </html>
