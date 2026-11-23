@@ -288,12 +288,12 @@
     "pt": "Manutenção"
   },
   "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.": {
-    "fr": "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.",
-    "ig": "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.",
-    "sw": "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.",
-    "ar": "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.",
-    "es": "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.",
-    "pt": "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix."
+    "fr": "Dommage / Endommager",
+    "ig": "Mmebi / Imebi",
+    "sw": "Uharibifu",
+    "ar": "تلف / ضرر",
+    "es": "Daño / Dañar",
+    "pt": "Dano / Danificar"
   },
   "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]": {
     "fr": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]",
@@ -1208,12 +1208,12 @@
     "pt": "Bateria"
   },
   "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations": {
-    "fr": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations",
-    "ig": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations",
-    "sw": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations",
-    "ar": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations",
-    "es": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations",
-    "pt": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations"
+    "fr": "Pièce",
+    "ig": "Akụkụ",
+    "sw": "Sehemu / Kipuri",
+    "ar": "قطعة",
+    "es": "Pieza",
+    "pt": "Peça"
   },
   "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust.": {
     "fr": "Réparation",
@@ -1336,12 +1336,12 @@
     "pt": "Ferramenta"
   },
   "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]": {
-    "fr": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]",
-    "ig": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]",
-    "sw": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]",
-    "ar": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]",
-    "es": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]",
-    "pt": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]"
+    "fr": "Pièce",
+    "ig": "Akụkụ",
+    "sw": "Sehemu / Kipuri",
+    "ar": "قطعة",
+    "es": "Pieza",
+    "pt": "Peça"
   },
   "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business.": {
     "fr": "Maintenance",
@@ -2464,12 +2464,12 @@
     "pt": "Reparo"
   },
   "Baseline Functional & Cosmetic Inspection": {
-    "fr": "Baseline Functional & Cosmetic Inspection",
-    "ig": "Baseline Functional & Cosmetic Inspection",
-    "sw": "Baseline Functional & Cosmetic Inspection",
-    "ar": "Baseline Functional & Cosmetic Inspection",
-    "es": "Baseline Functional & Cosmetic Inspection",
-    "pt": "Baseline Functional & Cosmetic Inspection"
+    "fr": "Ligne",
+    "ig": "Ahịrị",
+    "sw": "Mstari / Laini",
+    "ar": "خط",
+    "es": "Línea",
+    "pt": "Linha"
   },
   "Testing and logging device condition and existing faults before repair begins.": {
     "fr": "Réparation",
@@ -2696,12 +2696,12 @@
     "pt": "BMS"
   },
   "Firmware / Recovery Mode": {
-    "fr": "Firmware / Recovery Mode",
-    "ig": "Firmware / Recovery Mode",
-    "sw": "Firmware / Recovery Mode",
-    "ar": "Firmware / Recovery Mode",
-    "es": "Firmware / Recovery Mode",
-    "pt": "Firmware / Recovery Mode"
+    "fr": "Mode",
+    "ig": "Ụdị / Mọọdụ",
+    "sw": "Hali / Modi",
+    "ar": "وضع التشغيل",
+    "es": "Modo",
+    "pt": "Modo"
   },
   "Low-Level Software Boot & Restore State": {
     "fr": "Low-Level Software Boot & Restore State",
@@ -2712,12 +2712,12 @@
     "pt": "Low-Level Software Boot & Restore State"
   },
   "Diagnostic or restore mode used for official OS updates or recovery.": {
-    "fr": "Diagnostic or restore mode used for official OS updates or recovery.",
-    "ig": "Diagnostic or restore mode used for official OS updates or recovery.",
-    "sw": "Diagnostic or restore mode used for official OS updates or recovery.",
-    "ar": "Diagnostic or restore mode used for official OS updates or recovery.",
-    "es": "Diagnostic or restore mode used for official OS updates or recovery.",
-    "pt": "Diagnostic or restore mode used for official OS updates or recovery."
+    "fr": "Mode",
+    "ig": "Ụdị / Mọọdụ",
+    "sw": "Hali / Modi",
+    "ar": "وضع التشغيل",
+    "es": "Modo",
+    "pt": "Modo"
   },
   "Requires exact model matching, steady power, and data-backup awareness.": {
     "fr": "Alimentation / Énergie",
@@ -2816,12 +2816,12 @@
     "pt": "Verificar"
   },
   "Prevents shorts and sets realistic expectations on liquid-damaged devices.": {
-    "fr": "Prevents shorts and sets realistic expectations on liquid-damaged devices.",
-    "ig": "Prevents shorts and sets realistic expectations on liquid-damaged devices.",
-    "sw": "Prevents shorts and sets realistic expectations on liquid-damaged devices.",
-    "ar": "Prevents shorts and sets realistic expectations on liquid-damaged devices.",
-    "es": "Prevents shorts and sets realistic expectations on liquid-damaged devices.",
-    "pt": "Prevents shorts and sets realistic expectations on liquid-damaged devices."
+    "fr": "Appareil",
+    "ig": "Ngwaọrụ",
+    "sw": "Kifaa",
+    "ar": "جهاز",
+    "es": "Dispositivo",
+    "pt": "Dispositivo"
   },
   "MC4": {
     "fr": "MC4",
@@ -3096,12 +3096,12 @@
     "pt": "Itemized Quote"
   },
   "Transparent Breakdown of Parts & Service": {
-    "fr": "Transparent Breakdown of Parts & Service",
-    "ig": "Transparent Breakdown of Parts & Service",
-    "sw": "Transparent Breakdown of Parts & Service",
-    "ar": "Transparent Breakdown of Parts & Service",
-    "es": "Transparent Breakdown of Parts & Service",
-    "pt": "Transparent Breakdown of Parts & Service"
+    "fr": "Pièce",
+    "ig": "Akụkụ",
+    "sw": "Sehemu / Kipuri",
+    "ar": "قطعة",
+    "es": "Pieza",
+    "pt": "Peça"
   },
   "Clear upfront pricing separating replacement parts and repair/diagnostic work.": {
     "fr": "Réparation",
@@ -3120,20 +3120,20 @@
     "pt": "Prevents billing surprises and builds customer confidence."
   },
   "Clear Breakdown of Parts & Service": {
-    "fr": "Clear Breakdown of Parts & Service",
-    "ig": "Clear Breakdown of Parts & Service",
-    "sw": "Clear Breakdown of Parts & Service",
-    "ar": "Clear Breakdown of Parts & Service",
-    "es": "Clear Breakdown of Parts & Service",
-    "pt": "Clear Breakdown of Parts & Service"
+    "fr": "Pièce",
+    "ig": "Akụkụ",
+    "sw": "Sehemu / Kipuri",
+    "ar": "قطعة",
+    "es": "Pieza",
+    "pt": "Peça"
   },
   "Upfront pricing separating replacement parts, service/labor, and timeline.": {
-    "fr": "Upfront pricing separating replacement parts, service/labor, and timeline.",
-    "ig": "Upfront pricing separating replacement parts, service/labor, and timeline.",
-    "sw": "Upfront pricing separating replacement parts, service/labor, and timeline.",
-    "ar": "Upfront pricing separating replacement parts, service/labor, and timeline.",
-    "es": "Upfront pricing separating replacement parts, service/labor, and timeline.",
-    "pt": "Upfront pricing separating replacement parts, service/labor, and timeline."
+    "fr": "Ligne",
+    "ig": "Ahịrị",
+    "sw": "Mstari / Laini",
+    "ar": "خط",
+    "es": "Línea",
+    "pt": "Linha"
   },
   "Builds trust and avoids billing surprises.": {
     "fr": "Builds trust and avoids billing surprises.",
@@ -3272,12 +3272,12 @@
     "pt": "Cabo"
   },
   "Prevents missing parts on site and keeps quotes clear and accurate.": {
-    "fr": "Prevents missing parts on site and keeps quotes clear and accurate.",
-    "ig": "Prevents missing parts on site and keeps quotes clear and accurate.",
-    "sw": "Prevents missing parts on site and keeps quotes clear and accurate.",
-    "ar": "Prevents missing parts on site and keeps quotes clear and accurate.",
-    "es": "Prevents missing parts on site and keeps quotes clear and accurate.",
-    "pt": "Prevents missing parts on site and keeps quotes clear and accurate."
+    "fr": "Pièce",
+    "ig": "Akụkụ",
+    "sw": "Sehemu / Kipuri",
+    "ar": "قطعة",
+    "es": "Pieza",
+    "pt": "Peça"
   },
   "RCD": {
     "fr": "RCD",
@@ -3336,11 +3336,11 @@
     "pt": "Teste"
   },
   "Catches wiring/configuration issues early and documents baseline performance.": {
-    "fr": "Catches wiring/configuration issues early and documents baseline performance.",
-    "ig": "Catches wiring/configuration issues early and documents baseline performance.",
-    "sw": "Catches wiring/configuration issues early and documents baseline performance.",
-    "ar": "Catches wiring/configuration issues early and documents baseline performance.",
-    "es": "Catches wiring/configuration issues early and documents baseline performance.",
-    "pt": "Catches wiring/configuration issues early and documents baseline performance."
+    "fr": "Ligne",
+    "ig": "Ahịrị",
+    "sw": "Mstari / Laini",
+    "ar": "خط",
+    "es": "Línea",
+    "pt": "Linha"
   }
 }
