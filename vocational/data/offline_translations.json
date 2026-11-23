@@ -16,9 +16,9 @@
     "pt": "Etapa 1: Higiene do Salão, Desinfecção de Ferramentas e Consulta de Pele/Cabelo do Cliente"
   },
   "- Clean and disinfect tools/surfaces between clients to prevent infection.\n- Run a clear client consultation, spot contraindications, and run patch tests when needed.": {
-    "fr": "- Clean and disinfect tools/surfaces between clients to prevent infection.\n- Run a clear client consultation, spot contraindications, and run patch tests when needed.",
-    "ig": "- Clean and disinfect tools/surfaces between clients to prevent infection.\n- Run a clear client consultation, spot contraindications, and run patch tests when needed.",
-    "sw": "- Clean and disinfect tools/surfaces between clients to prevent infection.\n- Run a clear client consultation, spot contraindications, and run patch tests when needed.",
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
     "ar": "- تنظيف وتطهير الأدوات والأسطح بين العملاء لمنع العدوى.\n- إجراء استشارة واضحة مع العميل وتحديد موانع الاستعمال وإجراء اختبارات التصحيح عند الحاجة.",
     "es": "- Limpiar y desinfectar herramientas/superficies entre clientes para prevenir infecciones.\n- Realizar una consulta clara con el cliente, detectar contraindicaciones y realizar pruebas de parche cuando sea necesario.",
     "pt": "- Limpar e desinfetar ferramentas/superfícies entre clientes para prevenir infecções.\n- Execute uma consulta clara ao cliente, identifique contra-indicações e execute testes de correção quando necessário."
@@ -136,12 +136,12 @@
     "pt": "Cabelo"
   },
   "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)": {
-    "fr": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)",
-    "ig": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)",
-    "sw": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)",
-    "ar": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)",
-    "es": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)",
-    "pt": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)"
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows.": {
     "fr": "Cheveux",
@@ -152,12 +152,12 @@
     "pt": "Cabelo"
   },
   "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.": {
-    "fr": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.",
-    "ig": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.",
-    "sw": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.",
-    "ar": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.",
-    "es": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.",
-    "pt": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?": {
     "fr": "Cheveux",
@@ -224,12 +224,12 @@
     "pt": "Pele"
   },
   "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.": {
-    "fr": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.",
-    "ig": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.",
-    "sw": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.",
-    "ar": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.",
-    "es": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.",
-    "pt": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light.": {
     "fr": "Ongle",
@@ -304,12 +304,12 @@
     "pt": "[Clear Scope & Quote] ---> [Timely + Hygienic Delivery] ---> [Follow-Up & Referrals]\n                                                               |\n                                                               v\n                                                [Repeat Bookings & Steady Income]"
   },
   "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty.": {
-    "fr": "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty.",
-    "ig": "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty.",
-    "sw": "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty.",
-    "ar": "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty.",
-    "es": "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty.",
-    "pt": "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option.": {
     "fr": "Cheveux",
@@ -496,12 +496,12 @@
     "pt": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification"
   },
   "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives.": {
-    "fr": "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives.",
-    "ig": "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives.",
-    "sw": "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives.",
-    "ar": "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives.",
-    "es": "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives.",
-    "pt": "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives."
+    "fr": "Nettoyer",
+    "ig": "Hichaa nke ọma",
+    "sw": "Safisha",
+    "ar": "تنظيف",
+    "es": "Limpiar",
+    "pt": "Limpar"
   },
   "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely.": {
     "fr": "Réparation",
@@ -544,20 +544,20 @@
     "pt": "Energia / Potência"
   },
   "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.": {
-    "fr": "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.",
-    "ig": "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.",
-    "sw": "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.",
-    "ar": "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.",
-    "es": "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.",
-    "pt": "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back.": {
-    "fr": "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back.",
-    "ig": "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back.",
-    "sw": "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back.",
-    "ar": "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back.",
-    "es": "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back.",
-    "pt": "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?": {
     "fr": "Stockage",
@@ -568,28 +568,28 @@
     "pt": "Armazenamento"
   },
   "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling": {
-    "fr": "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling",
-    "ig": "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling",
-    "sw": "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling",
-    "ar": "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling",
-    "es": "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling",
-    "pt": "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling"
+    "fr": "Installer",
+    "ig": "Wụnye / Tinye",
+    "sw": "Sakinisha",
+    "ar": "تركيب",
+    "es": "Instalar",
+    "pt": "Instalar"
   },
   "- Diagnose OS corruption, startup errors, and missing/faulty drivers.\n- Perform clean OS setup, driver installation, and basic BIOS/UEFI boot/security checks.\n- Protect client files and privacy before and after software changes.": {
-    "fr": "- Diagnose OS corruption, startup errors, and missing/faulty drivers.\n- Perform clean OS setup, driver installation, and basic BIOS/UEFI boot/security checks.\n- Protect client files and privacy before and after software changes.",
-    "ig": "- Diagnose OS corruption, startup errors, and missing/faulty drivers.\n- Perform clean OS setup, driver installation, and basic BIOS/UEFI boot/security checks.\n- Protect client files and privacy before and after software changes.",
-    "sw": "- Diagnose OS corruption, startup errors, and missing/faulty drivers.\n- Perform clean OS setup, driver installation, and basic BIOS/UEFI boot/security checks.\n- Protect client files and privacy before and after software changes.",
-    "ar": "- Diagnose OS corruption, startup errors, and missing/faulty drivers.\n- Perform clean OS setup, driver installation, and basic BIOS/UEFI boot/security checks.\n- Protect client files and privacy before and after software changes.",
-    "es": "- Diagnose OS corruption, startup errors, and missing/faulty drivers.\n- Perform clean OS setup, driver installation, and basic BIOS/UEFI boot/security checks.\n- Protect client files and privacy before and after software changes.",
-    "pt": "- Diagnose OS corruption, startup errors, and missing/faulty drivers.\n- Perform clean OS setup, driver installation, and basic BIOS/UEFI boot/security checks.\n- Protect client files and privacy before and after software changes."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "A fresh OS or wrong driver can leave Wi-Fi, audio, trackpad, or graphics dead—or wipe important client data if rushed without a backup check.": {
-    "fr": "A fresh OS or wrong driver can leave Wi-Fi, audio, trackpad, or graphics dead—or wipe important client data if rushed without a backup check.",
-    "ig": "A fresh OS or wrong driver can leave Wi-Fi, audio, trackpad, or graphics dead—or wipe important client data if rushed without a backup check.",
-    "sw": "A fresh OS or wrong driver can leave Wi-Fi, audio, trackpad, or graphics dead—or wipe important client data if rushed without a backup check.",
-    "ar": "A fresh OS or wrong driver can leave Wi-Fi, audio, trackpad, or graphics dead—or wipe important client data if rushed without a backup check.",
-    "es": "A fresh OS or wrong driver can leave Wi-Fi, audio, trackpad, or graphics dead—or wipe important client data if rushed without a backup check.",
-    "pt": "A fresh OS or wrong driver can leave Wi-Fi, audio, trackpad, or graphics dead—or wipe important client data if rushed without a backup check."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "OS, DRIVER & BIOS/UEFI DISCIPLINE:\n- Backup First: Confirm client data backup before formatting/reinstalling an OS.\n- Clean Boot & Drivers: Check boot order/UEFI mode (e.g., UEFI vs. legacy where applicable), install the OS cleanly, and install chipset, display, Wi-Fi/LAN, and audio drivers from trusted sources.\n- BIOS/UEFI Caution: Only update BIOS/UEFI when needed for a documented fix/compatibility, with steady power and exact model match—never interrupt a firmware flash.": {
     "fr": "Câble",
@@ -632,12 +632,12 @@
     "pt": "Tela"
   },
   "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop.": {
-    "fr": "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop.",
-    "ig": "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop.",
-    "sw": "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop.",
-    "ar": "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop.",
-    "es": "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop.",
-    "pt": "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?": {
     "fr": "Alimentation / Énergie",
@@ -664,12 +664,12 @@
     "pt": "Bateria"
   },
   "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.": {
-    "fr": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.",
-    "ig": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.",
-    "sw": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.",
-    "ar": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.",
-    "es": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.",
-    "pt": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork."
+    "fr": "Charge / Charger",
+    "ig": "Ịkwụ ụgwọ / Nchaji",
+    "sw": "Chaji",
+    "ar": "شحن",
+    "es": "Carga / Cargar",
+    "pt": "Carga / Carregar"
   },
   "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks": {
     "fr": "Batterie",
@@ -712,12 +712,12 @@
     "pt": "Tela"
   },
   "Write a step-by-step diagnostic checklist for a laptop that shows charging lights but gives no display.": {
-    "fr": "Write a step-by-step diagnostic checklist for a laptop that shows charging lights but gives no display.",
-    "ig": "Write a step-by-step diagnostic checklist for a laptop that shows charging lights but gives no display.",
-    "sw": "Write a step-by-step diagnostic checklist for a laptop that shows charging lights but gives no display.",
-    "ar": "Write a step-by-step diagnostic checklist for a laptop that shows charging lights but gives no display.",
-    "es": "Write a step-by-step diagnostic checklist for a laptop that shows charging lights but gives no display.",
-    "pt": "Write a step-by-step diagnostic checklist for a laptop that shows charging lights but gives no display."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "1. Why test external display output when a laptop's built-in screen stays blank?\n2. What should you check before suspecting a major motherboard failure on a 'won't power on' laptop?\n3. Why does keyboard mounting style (screw-in vs. riveted palmrest) matter when quoting a repair?": {
     "fr": "Carte mère",
@@ -744,12 +744,12 @@
     "pt": "Reparo"
   },
   "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.": {
-    "fr": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.",
-    "ig": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.",
-    "sw": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.",
-    "ar": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.",
-    "es": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.",
-    "pt": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior.": {
     "fr": "Batterie",
@@ -984,12 +984,12 @@
     "pt": "Reparo"
   },
   "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.": {
-    "fr": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.",
-    "ig": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.",
-    "sw": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.",
-    "ar": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.",
-    "es": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.",
-    "pt": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage."
+    "fr": "Outil",
+    "ig": "Ngwa ọrụ",
+    "sw": "Chombo",
+    "ar": "أداة",
+    "es": "Herramienta",
+    "pt": "Ferramenta"
   },
   "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential.": {
     "fr": "Réparation",
@@ -1024,12 +1024,12 @@
     "pt": "Reparo"
   },
   "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.": {
-    "fr": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.",
-    "ig": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.",
-    "sw": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.",
-    "ar": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.",
-    "es": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.",
-    "pt": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice."
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
+    "ar": "اختبار",
+    "es": "Prueba",
+    "pt": "Teste"
   },
   "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty.": {
     "fr": "Batterie",
@@ -1224,12 +1224,12 @@
     "pt": "Reparo"
   },
   "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.": {
-    "fr": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.",
-    "ig": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.",
-    "sw": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.",
-    "ar": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.",
-    "es": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.",
-    "pt": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records": {
     "fr": "Batterie",
@@ -1264,12 +1264,12 @@
     "pt": "Reparo"
   },
   "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.": {
-    "fr": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.",
-    "ig": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.",
-    "sw": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.",
-    "ar": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.",
-    "es": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.",
-    "pt": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals."
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
+    "ar": "اختبار",
+    "es": "Prueba",
+    "pt": "Teste"
   },
   "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms.": {
     "fr": "Réparation",
@@ -1328,12 +1328,12 @@
     "pt": "Carregador"
   },
   "- TRAP (Working Without Quote Approval): Doing extra paid work without client approval causes payment friction.\n- TRAP (Unclear Warranty Exclusions): Without clear written exclusions, clients may expect free fixes after a new spill, drop, or surge.\n- TRAP (Underpricing Below Sustainability): Pricing only for survival without covering tools, replacements, and learning stalls growth.": {
-    "fr": "- TRAP (Working Without Quote Approval): Doing extra paid work without client approval causes payment friction.\n- TRAP (Unclear Warranty Exclusions): Without clear written exclusions, clients may expect free fixes after a new spill, drop, or surge.\n- TRAP (Underpricing Below Sustainability): Pricing only for survival without covering tools, replacements, and learning stalls growth.",
-    "ig": "- TRAP (Working Without Quote Approval): Doing extra paid work without client approval causes payment friction.\n- TRAP (Unclear Warranty Exclusions): Without clear written exclusions, clients may expect free fixes after a new spill, drop, or surge.\n- TRAP (Underpricing Below Sustainability): Pricing only for survival without covering tools, replacements, and learning stalls growth.",
-    "sw": "- TRAP (Working Without Quote Approval): Doing extra paid work without client approval causes payment friction.\n- TRAP (Unclear Warranty Exclusions): Without clear written exclusions, clients may expect free fixes after a new spill, drop, or surge.\n- TRAP (Underpricing Below Sustainability): Pricing only for survival without covering tools, replacements, and learning stalls growth.",
-    "ar": "- TRAP (Working Without Quote Approval): Doing extra paid work without client approval causes payment friction.\n- TRAP (Unclear Warranty Exclusions): Without clear written exclusions, clients may expect free fixes after a new spill, drop, or surge.\n- TRAP (Underpricing Below Sustainability): Pricing only for survival without covering tools, replacements, and learning stalls growth.",
-    "es": "- TRAP (Working Without Quote Approval): Doing extra paid work without client approval causes payment friction.\n- TRAP (Unclear Warranty Exclusions): Without clear written exclusions, clients may expect free fixes after a new spill, drop, or surge.\n- TRAP (Underpricing Below Sustainability): Pricing only for survival without covering tools, replacements, and learning stalls growth.",
-    "pt": "- TRAP (Working Without Quote Approval): Doing extra paid work without client approval causes payment friction.\n- TRAP (Unclear Warranty Exclusions): Without clear written exclusions, clients may expect free fixes after a new spill, drop, or surge.\n- TRAP (Underpricing Below Sustainability): Pricing only for survival without covering tools, replacements, and learning stalls growth."
+    "fr": "Outil",
+    "ig": "Ngwa ọrụ",
+    "sw": "Chombo",
+    "ar": "أداة",
+    "es": "Herramienta",
+    "pt": "Ferramenta"
   },
   "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]": {
     "fr": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]",
@@ -1384,20 +1384,20 @@
     "pt": "Higiene"
   },
   "Running late on an event day or showing up to a home/community session with a messy, unhygienic kit costs major opportunities with clients and institutional partners.": {
-    "fr": "Running late on an event day or showing up to a home/community session with a messy, unhygienic kit costs major opportunities with clients and institutional partners.",
-    "ig": "Running late on an event day or showing up to a home/community session with a messy, unhygienic kit costs major opportunities with clients and institutional partners.",
-    "sw": "Running late on an event day or showing up to a home/community session with a messy, unhygienic kit costs major opportunities with clients and institutional partners.",
-    "ar": "Running late on an event day or showing up to a home/community session with a messy, unhygienic kit costs major opportunities with clients and institutional partners.",
-    "es": "Running late on an event day or showing up to a home/community session with a messy, unhygienic kit costs major opportunities with clients and institutional partners.",
-    "pt": "Running late on an event day or showing up to a home/community session with a messy, unhygienic kit costs major opportunities with clients and institutional partners."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "EVENT WORKFLOW & PORTABLE STANDARDS:\n- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos.": {
-    "fr": "EVENT WORKFLOW & PORTABLE STANDARDS:\n- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos.",
-    "ig": "EVENT WORKFLOW & PORTABLE STANDARDS:\n- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos.",
-    "sw": "EVENT WORKFLOW & PORTABLE STANDARDS:\n- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos.",
-    "ar": "EVENT WORKFLOW & PORTABLE STANDARDS:\n- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos.",
-    "es": "EVENT WORKFLOW & PORTABLE STANDARDS:\n- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos.",
-    "pt": "EVENT WORKFLOW & PORTABLE STANDARDS:\n- Build realistic per-person time estimates plus a buffer for setup, touch-ups, and unexpected delays.\n- Keep a dedicated portable kit with fresh disposables, sealed sanitizers, good lighting, and clear client consent before taking portfolio photos."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "PRE-EVENT CHECK:\n- Pack and verify all tools, disposables, backups, and schedule/call times the day before.\n\nEVENT & QUALITY STEPS:\n1. Map out person-by-person timings with a buffer window and confirm arrival details.\n2. Set up a clean, well-lit station and protect hygiene even on mobile/event locations.\n3. Request client permission before capturing portfolio photos and log lessons learned.\n\nPOST-EVENT CHECK:\n- Clean/sanitize all tools and replenish used supplies before the next booking.": {
     "fr": "Hygiène",
@@ -1416,12 +1416,12 @@
     "pt": "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly."
   },
   "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]": {
-    "fr": "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]",
-    "ig": "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]",
-    "sw": "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]",
-    "ar": "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]",
-    "es": "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]",
-    "pt": "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]"
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.": {
     "fr": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule.",
@@ -1432,12 +1432,12 @@
     "pt": "A bridal/event booking has four people getting ready before a tight ceremony time—assigning clear time slots with a buffer keeps everyone calm and on schedule."
   },
   "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist.": {
-    "fr": "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist.",
-    "ig": "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist.",
-    "sw": "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist.",
-    "ar": "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist.",
-    "es": "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist.",
-    "pt": "Build a 4-person event/appointment timeline with time buffers and a pre-departure kit checklist."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?": {
     "fr": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?",
@@ -1448,36 +1448,36 @@
     "pt": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?"
   },
   "Step 5: Thermal Cleaning, Heatsink Service & Repasting": {
-    "fr": "Step 5: Thermal Cleaning, Heatsink Service & Repasting",
-    "ig": "Step 5: Thermal Cleaning, Heatsink Service & Repasting",
-    "sw": "Step 5: Thermal Cleaning, Heatsink Service & Repasting",
-    "ar": "Step 5: Thermal Cleaning, Heatsink Service & Repasting",
-    "es": "Step 5: Thermal Cleaning, Heatsink Service & Repasting",
-    "pt": "Step 5: Thermal Cleaning, Heatsink Service & Repasting"
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "- Spot signs of thermal throttling, loud fan noise, dust blockage, and dried thermal paste.\n- Clean heatsinks and fans safely and apply fresh thermal paste evenly.\n- Verify cooler temperatures and quieter, steadier performance under load.": {
-    "fr": "- Spot signs of thermal throttling, loud fan noise, dust blockage, and dried thermal paste.\n- Clean heatsinks and fans safely and apply fresh thermal paste evenly.\n- Verify cooler temperatures and quieter, steadier performance under load.",
-    "ig": "- Spot signs of thermal throttling, loud fan noise, dust blockage, and dried thermal paste.\n- Clean heatsinks and fans safely and apply fresh thermal paste evenly.\n- Verify cooler temperatures and quieter, steadier performance under load.",
-    "sw": "- Spot signs of thermal throttling, loud fan noise, dust blockage, and dried thermal paste.\n- Clean heatsinks and fans safely and apply fresh thermal paste evenly.\n- Verify cooler temperatures and quieter, steadier performance under load.",
-    "ar": "- Spot signs of thermal throttling, loud fan noise, dust blockage, and dried thermal paste.\n- Clean heatsinks and fans safely and apply fresh thermal paste evenly.\n- Verify cooler temperatures and quieter, steadier performance under load.",
-    "es": "- Spot signs of thermal throttling, loud fan noise, dust blockage, and dried thermal paste.\n- Clean heatsinks and fans safely and apply fresh thermal paste evenly.\n- Verify cooler temperatures and quieter, steadier performance under load.",
-    "pt": "- Spot signs of thermal throttling, loud fan noise, dust blockage, and dried thermal paste.\n- Clean heatsinks and fans safely and apply fresh thermal paste evenly.\n- Verify cooler temperatures and quieter, steadier performance under load."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "Dust-clogged heatsinks and dried-out paste trap heat inside laptops and PCs—causing loud fans, sudden thermal shutdowns, sluggish performance, and premature component wear.": {
-    "fr": "Dust-clogged heatsinks and dried-out paste trap heat inside laptops and PCs—causing loud fans, sudden thermal shutdowns, sluggish performance, and premature component wear.",
-    "ig": "Dust-clogged heatsinks and dried-out paste trap heat inside laptops and PCs—causing loud fans, sudden thermal shutdowns, sluggish performance, and premature component wear.",
-    "sw": "Dust-clogged heatsinks and dried-out paste trap heat inside laptops and PCs—causing loud fans, sudden thermal shutdowns, sluggish performance, and premature component wear.",
-    "ar": "Dust-clogged heatsinks and dried-out paste trap heat inside laptops and PCs—causing loud fans, sudden thermal shutdowns, sluggish performance, and premature component wear.",
-    "es": "Dust-clogged heatsinks and dried-out paste trap heat inside laptops and PCs—causing loud fans, sudden thermal shutdowns, sluggish performance, and premature component wear.",
-    "pt": "Dust-clogged heatsinks and dried-out paste trap heat inside laptops and PCs—causing loud fans, sudden thermal shutdowns, sluggish performance, and premature component wear."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque": {
-    "fr": "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque",
-    "ig": "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque",
-    "sw": "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque",
-    "ar": "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque",
-    "es": "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque",
-    "pt": "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque"
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly.": {
     "fr": "Batterie",
@@ -1496,36 +1496,36 @@
     "pt": "Tensão"
   },
   "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]": {
-    "fr": "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]",
-    "ig": "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]",
-    "sw": "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]",
-    "ar": "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]",
-    "es": "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]",
-    "pt": "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]"
+    "fr": "Nettoyer",
+    "ig": "Hichaa nke ọma",
+    "sw": "Safisha",
+    "ar": "تنظيف",
+    "es": "Limpiar",
+    "pt": "Limpar"
   },
   "A client's laptop shuts down abruptly during video calls or spreadsheet work and blows hot air from the side vent. Inside, a thick mat of dust blocks the heatsink fins and the old paste is dry and cracked. Cleaning the fins/fan and repasting restores normal cooling and stops the shutdowns.": {
-    "fr": "A client's laptop shuts down abruptly during video calls or spreadsheet work and blows hot air from the side vent. Inside, a thick mat of dust blocks the heatsink fins and the old paste is dry and cracked. Cleaning the fins/fan and repasting restores normal cooling and stops the shutdowns.",
-    "ig": "A client's laptop shuts down abruptly during video calls or spreadsheet work and blows hot air from the side vent. Inside, a thick mat of dust blocks the heatsink fins and the old paste is dry and cracked. Cleaning the fins/fan and repasting restores normal cooling and stops the shutdowns.",
-    "sw": "A client's laptop shuts down abruptly during video calls or spreadsheet work and blows hot air from the side vent. Inside, a thick mat of dust blocks the heatsink fins and the old paste is dry and cracked. Cleaning the fins/fan and repasting restores normal cooling and stops the shutdowns.",
-    "ar": "A client's laptop shuts down abruptly during video calls or spreadsheet work and blows hot air from the side vent. Inside, a thick mat of dust blocks the heatsink fins and the old paste is dry and cracked. Cleaning the fins/fan and repasting restores normal cooling and stops the shutdowns.",
-    "es": "A client's laptop shuts down abruptly during video calls or spreadsheet work and blows hot air from the side vent. Inside, a thick mat of dust blocks the heatsink fins and the old paste is dry and cracked. Cleaning the fins/fan and repasting restores normal cooling and stops the shutdowns.",
-    "pt": "A client's laptop shuts down abruptly during video calls or spreadsheet work and blows hot air from the side vent. Inside, a thick mat of dust blocks the heatsink fins and the old paste is dry and cracked. Cleaning the fins/fan and repasting restores normal cooling and stops the shutdowns."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "Write out the steps for cleaning a laptop heatsink/fan and applying fresh thermal paste, including why you hold the fan blade during cleaning.": {
-    "fr": "Write out the steps for cleaning a laptop heatsink/fan and applying fresh thermal paste, including why you hold the fan blade during cleaning.",
-    "ig": "Write out the steps for cleaning a laptop heatsink/fan and applying fresh thermal paste, including why you hold the fan blade during cleaning.",
-    "sw": "Write out the steps for cleaning a laptop heatsink/fan and applying fresh thermal paste, including why you hold the fan blade during cleaning.",
-    "ar": "Write out the steps for cleaning a laptop heatsink/fan and applying fresh thermal paste, including why you hold the fan blade during cleaning.",
-    "es": "Write out the steps for cleaning a laptop heatsink/fan and applying fresh thermal paste, including why you hold the fan blade during cleaning.",
-    "pt": "Write out the steps for cleaning a laptop heatsink/fan and applying fresh thermal paste, including why you hold the fan blade during cleaning."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "1. What happens when a heatsink's cooling fins become blocked with dust?\n2. Why should you hold cooling fan blades steady when blowing out dust?\n3. Why apply a thin, even layer of thermal paste rather than a huge blob?": {
-    "fr": "1. What happens when a heatsink's cooling fins become blocked with dust?\n2. Why should you hold cooling fan blades steady when blowing out dust?\n3. Why apply a thin, even layer of thermal paste rather than a huge blob?",
-    "ig": "1. What happens when a heatsink's cooling fins become blocked with dust?\n2. Why should you hold cooling fan blades steady when blowing out dust?\n3. Why apply a thin, even layer of thermal paste rather than a huge blob?",
-    "sw": "1. What happens when a heatsink's cooling fins become blocked with dust?\n2. Why should you hold cooling fan blades steady when blowing out dust?\n3. Why apply a thin, even layer of thermal paste rather than a huge blob?",
-    "ar": "1. What happens when a heatsink's cooling fins become blocked with dust?\n2. Why should you hold cooling fan blades steady when blowing out dust?\n3. Why apply a thin, even layer of thermal paste rather than a huge blob?",
-    "es": "1. What happens when a heatsink's cooling fins become blocked with dust?\n2. Why should you hold cooling fan blades steady when blowing out dust?\n3. Why apply a thin, even layer of thermal paste rather than a huge blob?",
-    "pt": "1. What happens when a heatsink's cooling fins become blocked with dust?\n2. Why should you hold cooling fan blades steady when blowing out dust?\n3. Why apply a thin, even layer of thermal paste rather than a huge blob?"
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "Disinfection": {
     "fr": "Disinfection",
@@ -1536,28 +1536,28 @@
     "pt": "Disinfection"
   },
   "Antimicrobial Surface & Tool Treatment": {
-    "fr": "Antimicrobial Surface & Tool Treatment",
-    "ig": "Antimicrobial Surface & Tool Treatment",
-    "sw": "Antimicrobial Surface & Tool Treatment",
-    "ar": "Antimicrobial Surface & Tool Treatment",
-    "es": "Antimicrobial Surface & Tool Treatment",
-    "pt": "Antimicrobial Surface & Tool Treatment"
+    "fr": "Outil",
+    "ig": "Ngwa ọrụ",
+    "sw": "Chombo",
+    "ar": "أداة",
+    "es": "Herramienta",
+    "pt": "Ferramenta"
   },
   "Reduces harmful microorganisms on cleaned non-porous tools and surfaces.": {
-    "fr": "Reduces harmful microorganisms on cleaned non-porous tools and surfaces.",
-    "ig": "Reduces harmful microorganisms on cleaned non-porous tools and surfaces.",
-    "sw": "Reduces harmful microorganisms on cleaned non-porous tools and surfaces.",
-    "ar": "Reduces harmful microorganisms on cleaned non-porous tools and surfaces.",
-    "es": "Reduces harmful microorganisms on cleaned non-porous tools and surfaces.",
-    "pt": "Reduces harmful microorganisms on cleaned non-porous tools and surfaces."
+    "fr": "Outil",
+    "ig": "Ngwa ọrụ",
+    "sw": "Chombo",
+    "ar": "أداة",
+    "es": "Herramienta",
+    "pt": "Ferramenta"
   },
   "Clean debris first, then apply disinfectant for full contact time.": {
-    "fr": "Clean debris first, then apply disinfectant for full contact time.",
-    "ig": "Clean debris first, then apply disinfectant for full contact time.",
-    "sw": "Clean debris first, then apply disinfectant for full contact time.",
-    "ar": "Clean debris first, then apply disinfectant for full contact time.",
-    "es": "Clean debris first, then apply disinfectant for full contact time.",
-    "pt": "Clean debris first, then apply disinfectant for full contact time."
+    "fr": "Nettoyer",
+    "ig": "Hichaa nke ọma",
+    "sw": "Safisha",
+    "ar": "تنظيف",
+    "es": "Limpiar",
+    "pt": "Limpar"
   },
   "ESD": {
     "fr": "ESD",
@@ -1648,12 +1648,12 @@
     "pt": "Corrente"
   },
   "Measures the flow rate of electric charge through a conductor or device.": {
-    "fr": "Measures the flow rate of electric charge through a conductor or device.",
-    "ig": "Measures the flow rate of electric charge through a conductor or device.",
-    "sw": "Measures the flow rate of electric charge through a conductor or device.",
-    "ar": "Measures the flow rate of electric charge through a conductor or device.",
-    "es": "Measures the flow rate of electric charge through a conductor or device.",
-    "pt": "Measures the flow rate of electric charge through a conductor or device."
+    "fr": "Charge / Charger",
+    "ig": "Ịkwụ ụgwọ / Nchaji",
+    "sw": "Chaji",
+    "ar": "شحن",
+    "es": "Carga / Cargar",
+    "pt": "Carga / Carregar"
   },
   "Used to size cables, fuses, breakers, and clamp-meter current checks.": {
     "fr": "Courant",
@@ -1706,7 +1706,7 @@
   "Flexible Printed Circuit": {
     "fr": "Circuit imprimé flexible",
     "ig": "Sekit Ebipụtara Mgbanwe",
-    "sw": "Flexible Printed Circuit",
+    "sw": "Saketi / Mzunguko",
     "ar": "دائرة مطبوعة مرنة",
     "es": "Circuito impreso flexible",
     "pt": "Circuito Impresso Flexível"
@@ -1720,12 +1720,12 @@
     "pt": "PUBLICAR"
   },
   "Patch Test": {
-    "fr": "Patch Test",
-    "ig": "Patch Test",
-    "sw": "Patch Test",
-    "ar": "Patch Test",
-    "es": "Patch Test",
-    "pt": "Patch Test"
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
+    "ar": "اختبار",
+    "es": "Prueba",
+    "pt": "Teste"
   },
   "Small-Area Skin Sensitivity Check": {
     "fr": "Peau",
@@ -1736,12 +1736,12 @@
     "pt": "Pele"
   },
   "Tests a small area ahead of full application to check for irritation/allergy.": {
-    "fr": "Tests a small area ahead of full application to check for irritation/allergy.",
-    "ig": "Tests a small area ahead of full application to check for irritation/allergy.",
-    "sw": "Tests a small area ahead of full application to check for irritation/allergy.",
-    "ar": "Tests a small area ahead of full application to check for irritation/allergy.",
-    "es": "Tests a small area ahead of full application to check for irritation/allergy.",
-    "pt": "Tests a small area ahead of full application to check for irritation/allergy."
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
+    "ar": "اختبار",
+    "es": "Prueba",
+    "pt": "Teste"
   },
   "Helps identify sensitivities before color, chemical, or adhesive services.": {
     "fr": "Helps identify sensitivities before color, chemical, or adhesive services.",
@@ -1792,12 +1792,12 @@
     "pt": "Controls cutting length and helps blend transitions smoothly."
   },
   "Adjust gradually and check symmetry from multiple angles.": {
-    "fr": "Adjust gradually and check symmetry from multiple angles.",
-    "ig": "Adjust gradually and check symmetry from multiple angles.",
-    "sw": "Adjust gradually and check symmetry from multiple angles.",
-    "ar": "Adjust gradually and check symmetry from multiple angles.",
-    "es": "Adjust gradually and check symmetry from multiple angles.",
-    "pt": "Adjust gradually and check symmetry from multiple angles."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "LCD vs. OLED": {
     "fr": "LCD vs. OLED",
@@ -1824,12 +1824,12 @@
     "pt": "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light."
   },
   "Guides part selection, careful prying, and pressure/heat caution.": {
-    "fr": "Guides part selection, careful prying, and pressure/heat caution.",
-    "ig": "Guides part selection, careful prying, and pressure/heat caution.",
-    "sw": "Guides part selection, careful prying, and pressure/heat caution.",
-    "ar": "Guides part selection, careful prying, and pressure/heat caution.",
-    "es": "Guides part selection, careful prying, and pressure/heat caution.",
-    "pt": "Guides part selection, careful prying, and pressure/heat caution."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "NVR / DVR": {
     "fr": "NVR / DVR",
@@ -2032,12 +2032,12 @@
     "pt": "Cabo"
   },
   "Keep twists close to the RJ45 plug and test all 8 pins.": {
-    "fr": "Keep twists close to the RJ45 plug and test all 8 pins.",
-    "ig": "Keep twists close to the RJ45 plug and test all 8 pins.",
-    "sw": "Keep twists close to the RJ45 plug and test all 8 pins.",
-    "ar": "Keep twists close to the RJ45 plug and test all 8 pins.",
-    "es": "Keep twists close to the RJ45 plug and test all 8 pins.",
-    "pt": "Keep twists close to the RJ45 plug and test all 8 pins."
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
+    "ar": "اختبار",
+    "es": "Prueba",
+    "pt": "Teste"
   },
   "Cross-Contamination": {
     "fr": "Cross-Contamination",
@@ -2056,20 +2056,20 @@
     "pt": "Unintended Transfer of Microbes or Residue"
   },
   "Happens when shared tools, towels, or hands carry contaminants between clients.": {
-    "fr": "Happens when shared tools, towels, or hands carry contaminants between clients.",
-    "ig": "Happens when shared tools, towels, or hands carry contaminants between clients.",
-    "sw": "Happens when shared tools, towels, or hands carry contaminants between clients.",
-    "ar": "Happens when shared tools, towels, or hands carry contaminants between clients.",
-    "es": "Happens when shared tools, towels, or hands carry contaminants between clients.",
-    "pt": "Happens when shared tools, towels, or hands carry contaminants between clients."
+    "fr": "Outil",
+    "ig": "Ngwa ọrụ",
+    "sw": "Chombo",
+    "ar": "أداة",
+    "es": "Herramienta",
+    "pt": "Ferramenta"
   },
   "Sanitize/disinfect tools and use clean barriers between every client.": {
-    "fr": "Sanitize/disinfect tools and use clean barriers between every client.",
-    "ig": "Sanitize/disinfect tools and use clean barriers between every client.",
-    "sw": "Sanitize/disinfect tools and use clean barriers between every client.",
-    "ar": "Sanitize/disinfect tools and use clean barriers between every client.",
-    "es": "Sanitize/disinfect tools and use clean barriers between every client.",
-    "pt": "Sanitize/disinfect tools and use clean barriers between every client."
+    "fr": "Outil",
+    "ig": "Ngwa ọrụ",
+    "sw": "Chombo",
+    "ar": "أداة",
+    "es": "Herramienta",
+    "pt": "Ferramenta"
   },
   "IMEI": {
     "fr": "IMEI",
@@ -2224,12 +2224,12 @@
     "pt": "Guides foundation/concealer matching so shades look natural rather than ashy/orange."
   },
   "Test along jawline/neck in balanced light before finalizing shade.": {
-    "fr": "Test along jawline/neck in balanced light before finalizing shade.",
-    "ig": "Test along jawline/neck in balanced light before finalizing shade.",
-    "sw": "Test along jawline/neck in balanced light before finalizing shade.",
-    "ar": "Test along jawline/neck in balanced light before finalizing shade.",
-    "es": "Test along jawline/neck in balanced light before finalizing shade.",
-    "pt": "Test along jawline/neck in balanced light before finalizing shade."
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
+    "ar": "اختبار",
+    "es": "Prueba",
+    "pt": "Teste"
   },
   "T568B": {
     "fr": "T568B",
@@ -2360,12 +2360,12 @@
     "pt": "Bateria"
   },
   "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.": {
-    "fr": "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.",
-    "ig": "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.",
-    "sw": "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.",
-    "ar": "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.",
-    "es": "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.",
-    "pt": "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "MPPT": {
     "fr": "MPPT",
@@ -2400,12 +2400,12 @@
     "pt": "Máquina de cortar"
   },
   "Reduces friction, heat, and wear between moving cutter and stationary blades.": {
-    "fr": "Reduces friction, heat, and wear between moving cutter and stationary blades.",
-    "ig": "Reduces friction, heat, and wear between moving cutter and stationary blades.",
-    "sw": "Reduces friction, heat, and wear between moving cutter and stationary blades.",
-    "ar": "Reduces friction, heat, and wear between moving cutter and stationary blades.",
-    "es": "Reduces friction, heat, and wear between moving cutter and stationary blades.",
-    "pt": "Reduces friction, heat, and wear between moving cutter and stationary blades."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "Clean hair/debris first and apply a few drops regularly.": {
     "fr": "Cheveux",
@@ -2424,12 +2424,12 @@
     "pt": "Departamento de Defesa"
   },
   "Intake Check": {
-    "fr": "Intake Check",
-    "ig": "Intake Check",
-    "sw": "Intake Check",
-    "ar": "Intake Check",
-    "es": "Intake Check",
-    "pt": "Intake Check"
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "Pre-Repair Condition & Function Log": {
     "fr": "Réparation",
@@ -2496,28 +2496,28 @@
     "pt": "Charging Sub-Board"
   },
   "Lower Port & Charging Circuit Module": {
-    "fr": "Lower Port & Charging Circuit Module",
-    "ig": "Lower Port & Charging Circuit Module",
-    "sw": "Lower Port & Charging Circuit Module",
-    "ar": "Lower Port & Charging Circuit Module",
-    "es": "Lower Port & Charging Circuit Module",
-    "pt": "Lower Port & Charging Circuit Module"
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "Small board/flex housing the charging port, mic, or antenna contacts in many models.": {
-    "fr": "Small board/flex housing the charging port, mic, or antenna contacts in many models.",
-    "ig": "Small board/flex housing the charging port, mic, or antenna contacts in many models.",
-    "sw": "Small board/flex housing the charging port, mic, or antenna contacts in many models.",
-    "ar": "Small board/flex housing the charging port, mic, or antenna contacts in many models.",
-    "es": "Small board/flex housing the charging port, mic, or antenna contacts in many models.",
-    "pt": "Small board/flex housing the charging port, mic, or antenna contacts in many models."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "Allows clean modular replacement when a port or sub-circuit is damaged.": {
-    "fr": "Allows clean modular replacement when a port or sub-circuit is damaged.",
-    "ig": "Allows clean modular replacement when a port or sub-circuit is damaged.",
-    "sw": "Allows clean modular replacement when a port or sub-circuit is damaged.",
-    "ar": "Allows clean modular replacement when a port or sub-circuit is damaged.",
-    "es": "Allows clean modular replacement when a port or sub-circuit is damaged.",
-    "pt": "Allows clean modular replacement when a port or sub-circuit is damaged."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "DHCP / Static IP": {
     "fr": "DHCP / Static IP",
@@ -2632,12 +2632,12 @@
     "pt": "SoC"
   },
   "State of Charge": {
-    "fr": "State of Charge",
-    "ig": "State of Charge",
-    "sw": "State of Charge",
-    "ar": "State of Charge",
-    "es": "State of Charge",
-    "pt": "State of Charge"
+    "fr": "Charge / Charger",
+    "ig": "Ịkwụ ụgwọ / Nchaji",
+    "sw": "Chaji",
+    "ar": "شحن",
+    "es": "Carga / Cargar",
+    "pt": "Carga / Carregar"
   },
   "Remaining energy/charge level in a battery expressed as a percentage.": {
     "fr": "Batterie",
@@ -2648,12 +2648,12 @@
     "pt": "Bateria"
   },
   "Helps monitor charging progress and avoid deep discharge stress.": {
-    "fr": "Helps monitor charging progress and avoid deep discharge stress.",
-    "ig": "Helps monitor charging progress and avoid deep discharge stress.",
-    "sw": "Helps monitor charging progress and avoid deep discharge stress.",
-    "ar": "Helps monitor charging progress and avoid deep discharge stress.",
-    "es": "Helps monitor charging progress and avoid deep discharge stress.",
-    "pt": "Helps monitor charging progress and avoid deep discharge stress."
+    "fr": "Charge / Charger",
+    "ig": "Ịkwụ ụgwọ / Nchaji",
+    "sw": "Chaji",
+    "ar": "شحن",
+    "es": "Carga / Cargar",
+    "pt": "Carga / Carregar"
   },
   "Access Point (AP)": {
     "fr": "Access Point (AP)",
@@ -2664,12 +2664,12 @@
     "pt": "Access Point (AP)"
   },
   "Wireless LAN Access Point": {
-    "fr": "Wireless LAN Access Point",
-    "ig": "Wireless LAN Access Point",
-    "sw": "Wireless LAN Access Point",
-    "ar": "Wireless LAN Access Point",
-    "es": "Wireless LAN Access Point",
-    "pt": "Wireless LAN Access Point"
+    "fr": "Fil",
+    "ig": "Waya",
+    "sw": "Waya",
+    "ar": "سلك",
+    "es": "Cable / Hilo",
+    "pt": "Fio"
   },
   "Creates or expands Wi-Fi coverage connected back to a wired switch/router.": {
     "fr": "Routeur",
@@ -2680,12 +2680,12 @@
     "pt": "Roteador"
   },
   "Place centrally and wired via Cat6 for stronger, cleaner coverage.": {
-    "fr": "Place centrally and wired via Cat6 for stronger, cleaner coverage.",
-    "ig": "Place centrally and wired via Cat6 for stronger, cleaner coverage.",
-    "sw": "Place centrally and wired via Cat6 for stronger, cleaner coverage.",
-    "ar": "Place centrally and wired via Cat6 for stronger, cleaner coverage.",
-    "es": "Place centrally and wired via Cat6 for stronger, cleaner coverage.",
-    "pt": "Place centrally and wired via Cat6 for stronger, cleaner coverage."
+    "fr": "Fil",
+    "ig": "Waya",
+    "sw": "Waya",
+    "ar": "سلك",
+    "es": "Cable / Hilo",
+    "pt": "Fio"
   },
   "BMS": {
     "fr": "BMS",
@@ -2744,20 +2744,20 @@
     "pt": "Operating System & Device Driver Configuration"
   },
   "Installing/recovering the OS and matching hardware drivers for full function.": {
-    "fr": "Installing/recovering the OS and matching hardware drivers for full function.",
-    "ig": "Installing/recovering the OS and matching hardware drivers for full function.",
-    "sw": "Installing/recovering the OS and matching hardware drivers for full function.",
-    "ar": "Installing/recovering the OS and matching hardware drivers for full function.",
-    "es": "Installing/recovering the OS and matching hardware drivers for full function.",
-    "pt": "Installing/recovering the OS and matching hardware drivers for full function."
+    "fr": "Installer",
+    "ig": "Wụnye / Tinye",
+    "sw": "Sakinisha",
+    "ar": "تركيب",
+    "es": "Instalar",
+    "pt": "Instalar"
   },
   "Ensures Wi-Fi, audio, display, trackpad, and ports work smoothly.": {
-    "fr": "Ensures Wi-Fi, audio, display, trackpad, and ports work smoothly.",
-    "ig": "Ensures Wi-Fi, audio, display, trackpad, and ports work smoothly.",
-    "sw": "Ensures Wi-Fi, audio, display, trackpad, and ports work smoothly.",
-    "ar": "Ensures Wi-Fi, audio, display, trackpad, and ports work smoothly.",
-    "es": "Ensures Wi-Fi, audio, display, trackpad, and ports work smoothly.",
-    "pt": "Ensures Wi-Fi, audio, display, trackpad, and ports work smoothly."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "Time Buffer": {
     "fr": "Time Buffer",
@@ -2800,20 +2800,20 @@
     "pt": "Corrosion / Liquid Triage"
   },
   "Moisture & Oxidation Inspection/Cleaning": {
-    "fr": "Moisture & Oxidation Inspection/Cleaning",
-    "ig": "Moisture & Oxidation Inspection/Cleaning",
-    "sw": "Moisture & Oxidation Inspection/Cleaning",
-    "ar": "Moisture & Oxidation Inspection/Cleaning",
-    "es": "Moisture & Oxidation Inspection/Cleaning",
-    "pt": "Moisture & Oxidation Inspection/Cleaning"
+    "fr": "Nettoyer",
+    "ig": "Hichaa nke ọma",
+    "sw": "Safisha",
+    "ar": "تنظيف",
+    "es": "Limpiar",
+    "pt": "Limpar"
   },
   "Checking and cleaning conductive/corrosive residue after liquid exposure.": {
-    "fr": "Checking and cleaning conductive/corrosive residue after liquid exposure.",
-    "ig": "Checking and cleaning conductive/corrosive residue after liquid exposure.",
-    "sw": "Checking and cleaning conductive/corrosive residue after liquid exposure.",
-    "ar": "Checking and cleaning conductive/corrosive residue after liquid exposure.",
-    "es": "Checking and cleaning conductive/corrosive residue after liquid exposure.",
-    "pt": "Checking and cleaning conductive/corrosive residue after liquid exposure."
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "Prevents shorts and sets realistic expectations on liquid-damaged devices.": {
     "fr": "Prevents shorts and sets realistic expectations on liquid-damaged devices.",
@@ -2848,20 +2848,20 @@
     "pt": "Mobile Kit"
   },
   "Portable Case for Home or Event Services": {
-    "fr": "Portable Case for Home or Event Services",
-    "ig": "Portable Case for Home or Event Services",
-    "sw": "Portable Case for Home or Event Services",
-    "ar": "Portable Case for Home or Event Services",
-    "es": "Portable Case for Home or Event Services",
-    "pt": "Portable Case for Home or Event Services"
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "Organized travel kit holding sanitized tools, disposables, and essentials.": {
-    "fr": "Organized travel kit holding sanitized tools, disposables, and essentials.",
-    "ig": "Organized travel kit holding sanitized tools, disposables, and essentials.",
-    "sw": "Organized travel kit holding sanitized tools, disposables, and essentials.",
-    "ar": "Organized travel kit holding sanitized tools, disposables, and essentials.",
-    "es": "Organized travel kit holding sanitized tools, disposables, and essentials.",
-    "pt": "Organized travel kit holding sanitized tools, disposables, and essentials."
+    "fr": "Outil",
+    "ig": "Ngwa ọrụ",
+    "sw": "Chombo",
+    "ar": "أداة",
+    "es": "Herramienta",
+    "pt": "Ferramenta"
   },
   "Protects hygiene and speed when working outside a fixed salon chair.": {
     "fr": "Hygiène",
@@ -2912,20 +2912,20 @@
     "pt": "Thermal Throttling"
   },
   "Automatic Speed Reduction From High Heat": {
-    "fr": "Automatic Speed Reduction From High Heat",
-    "ig": "Automatic Speed Reduction From High Heat",
-    "sw": "Automatic Speed Reduction From High Heat",
-    "ar": "Automatic Speed Reduction From High Heat",
-    "es": "Automatic Speed Reduction From High Heat",
-    "pt": "Automatic Speed Reduction From High Heat"
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "Processor slowdown triggered to prevent overheating when cooling is restricted.": {
-    "fr": "Processor slowdown triggered to prevent overheating when cooling is restricted.",
-    "ig": "Processor slowdown triggered to prevent overheating when cooling is restricted.",
-    "sw": "Processor slowdown triggered to prevent overheating when cooling is restricted.",
-    "ar": "Processor slowdown triggered to prevent overheating when cooling is restricted.",
-    "es": "Processor slowdown triggered to prevent overheating when cooling is restricted.",
-    "pt": "Processor slowdown triggered to prevent overheating when cooling is restricted."
+    "fr": "Chaleur",
+    "ig": "Okpomọkụ",
+    "sw": "Joto",
+    "ar": "الحرارة",
+    "es": "Calor",
+    "pt": "Calor"
   },
   "Signals dust buildup, fan issues, or degraded thermal transfer.": {
     "fr": "Signal",
@@ -2976,12 +2976,12 @@
     "pt": "MCB"
   },
   "Miniature Circuit Breaker": {
-    "fr": "Miniature Circuit Breaker",
-    "ig": "Miniature Circuit Breaker",
-    "sw": "Miniature Circuit Breaker",
-    "ar": "Miniature Circuit Breaker",
-    "es": "Miniature Circuit Breaker",
-    "pt": "Miniature Circuit Breaker"
+    "fr": "Circuit",
+    "ig": "Sekịt / Usoro ọkụ",
+    "sw": "Saketi / Mzunguko",
+    "ar": "دائرة كهربائية",
+    "es": "Circuito",
+    "pt": "Circuito"
   },
   "Automatic switch that trips on overcurrent/short-circuit faults.": {
     "fr": "Courant",
@@ -3008,12 +3008,12 @@
     "pt": "Reparo"
   },
   "Quality Assurance Verification Checklist": {
-    "fr": "Quality Assurance Verification Checklist",
-    "ig": "Quality Assurance Verification Checklist",
-    "sw": "Quality Assurance Verification Checklist",
-    "ar": "Quality Assurance Verification Checklist",
-    "es": "Quality Assurance Verification Checklist",
-    "pt": "Quality Assurance Verification Checklist"
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "Systematic check of power, charging, display, touch, cameras, audio, and sensors.": {
     "fr": "Caméra",
@@ -3032,12 +3032,12 @@
     "pt": "Reparo"
   },
   "Final Quality Assurance Check": {
-    "fr": "Final Quality Assurance Check",
-    "ig": "Final Quality Assurance Check",
-    "sw": "Final Quality Assurance Check",
-    "ar": "Final Quality Assurance Check",
-    "es": "Final Quality Assurance Check",
-    "pt": "Final Quality Assurance Check"
+    "fr": "Vérifier",
+    "ig": "Lelee / Nyochaa",
+    "sw": "Kagua",
+    "ar": "فحص",
+    "es": "Verificar",
+    "pt": "Verificar"
   },
   "Testing power, charging, display, inputs, ports, and boot before handover.": {
     "fr": "Alimentation / Énergie",
@@ -3072,12 +3072,12 @@
     "pt": "Service Level / Preventive Care Agreement"
   },
   "Clear support scope and periodic inspection terms for client systems.": {
-    "fr": "Clear support scope and periodic inspection terms for client systems.",
-    "ig": "Clear support scope and periodic inspection terms for client systems.",
-    "sw": "Clear support scope and periodic inspection terms for client systems.",
-    "ar": "Clear support scope and periodic inspection terms for client systems.",
-    "es": "Clear support scope and periodic inspection terms for client systems.",
-    "pt": "Clear support scope and periodic inspection terms for client systems."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "Builds recurring revenue and keeps cameras, drives, and links healthy.": {
     "fr": "Caméra",
@@ -3240,12 +3240,12 @@
     "pt": "Segurança"
   },
   "Supports fault protection and surge/reference stability when properly installed.": {
-    "fr": "Supports fault protection and surge/reference stability when properly installed.",
-    "ig": "Supports fault protection and surge/reference stability when properly installed.",
-    "sw": "Supports fault protection and surge/reference stability when properly installed.",
-    "ar": "Supports fault protection and surge/reference stability when properly installed.",
-    "es": "Supports fault protection and surge/reference stability when properly installed.",
-    "pt": "Supports fault protection and surge/reference stability when properly installed."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "BoM": {
     "fr": "BoM",
@@ -3304,12 +3304,12 @@
     "pt": "Corrente"
   },
   "Supports personal protection on AC circuits alongside proper earthing.": {
-    "fr": "Supports personal protection on AC circuits alongside proper earthing.",
-    "ig": "Supports personal protection on AC circuits alongside proper earthing.",
-    "sw": "Supports personal protection on AC circuits alongside proper earthing.",
-    "ar": "Supports personal protection on AC circuits alongside proper earthing.",
-    "es": "Supports personal protection on AC circuits alongside proper earthing.",
-    "pt": "Supports personal protection on AC circuits alongside proper earthing."
+    "fr": "Port",
+    "ig": "Ọdụ ụgbọ / Pọọtụ",
+    "sw": "Lango / Bandari",
+    "ar": "منفذ",
+    "es": "Puerto",
+    "pt": "Porta"
   },
   "Commissioning": {
     "fr": "Commissioning",
@@ -3328,12 +3328,12 @@
     "pt": "Structured Startup & Verification Process"
   },
   "Step-by-step checks, settings, and load tests before handing a system over.": {
-    "fr": "Step-by-step checks, settings, and load tests before handing a system over.",
-    "ig": "Step-by-step checks, settings, and load tests before handing a system over.",
-    "sw": "Step-by-step checks, settings, and load tests before handing a system over.",
-    "ar": "Step-by-step checks, settings, and load tests before handing a system over.",
-    "es": "Step-by-step checks, settings, and load tests before handing a system over.",
-    "pt": "Step-by-step checks, settings, and load tests before handing a system over."
+    "fr": "Test / Essai",
+    "ig": "Nnwale",
+    "sw": "Jaribio / Kipimo",
+    "ar": "اختبار",
+    "es": "Prueba",
+    "pt": "Teste"
   },
   "Catches wiring/configuration issues early and documents baseline performance.": {
     "fr": "Catches wiring/configuration issues early and documents baseline performance.",
