@@ -64,8 +64,8 @@
     "pt": "[Cliente chega] ---> [Consulta + Verificação do couro cabeludo/pele/unhas]\n                                     |\n       +-----------------------------+ (Serviço Realizado)\n       v\n[Remover detritos] ---> [Desinfetar / Tempo total de contato] ---> [Limpar estação pronta]"
   },
   "A client arrives with an inflamed, flaky patch on their scalp—pausing chemical relaxer/color and advising care protects the client and prevents a severe reaction.": {
-    "fr": "A client arrives with an inflamed, flaky patch on their scalp—pausing chemical relaxer/color and advising care protects the client and prevents a severe reaction.",
-    "ig": "A client arrives with an inflamed, flaky patch on their scalp—pausing chemical relaxer/color and advising care protects the client and prevents a severe reaction.",
+    "fr": "Protéger",
+    "ig": "Chebe",
     "sw": "Mteja anafika akiwa na kiraka kilichovimba kichwani mwake—kusimamisha kirejezi/rangi ya kemikali na huduma ya ushauri humlinda mteja na kuzuia athari kali.",
     "ar": "يصل العميل مع وجود رقعة ملتهبة ومتقشرة على فروة رأسه، حيث يؤدي إيقاف الملطف الكيميائي/الملون مؤقتًا وتقديم الرعاية إلى حماية العميل ويمنع حدوث رد فعل شديد.",
     "es": "Un cliente llega con una zona inflamada y escamosa en el cuero cabelludo; suspender el colorante o alisador químico y aconsejarle cuidados protege al cliente y previene una reacción grave.",
@@ -488,12 +488,12 @@
     "pt": "Bateria"
   },
   "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification": {
-    "fr": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification",
-    "ig": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification",
-    "sw": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification",
-    "ar": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification",
-    "es": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification",
-    "pt": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification"
+    "fr": "Données",
+    "ig": "Data",
+    "sw": "Data",
+    "ar": "البيانات",
+    "es": "Datos",
+    "pt": "Dados"
   },
   "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives.": {
     "fr": "Nettoyer",
@@ -888,12 +888,12 @@
     "pt": "Roteador"
   },
   "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care": {
-    "fr": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care",
-    "ig": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care",
-    "sw": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care",
-    "ar": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care",
-    "es": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care",
-    "pt": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care"
+    "fr": "Données",
+    "ig": "Data",
+    "sw": "Data",
+    "ar": "البيانات",
+    "es": "Datos",
+    "pt": "Dados"
   },
   "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules.": {
     "fr": "Avertissement",
@@ -952,12 +952,12 @@
     "pt": "Tela"
   },
   "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash.": {
-    "fr": "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash.",
-    "ig": "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash.",
-    "sw": "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash.",
-    "ar": "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash.",
-    "es": "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash.",
-    "pt": "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash."
+    "fr": "Données",
+    "ig": "Data",
+    "sw": "Data",
+    "ar": "البيانات",
+    "es": "Datos",
+    "pt": "Dados"
   },
   "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?": {
     "fr": "Alimentation / Énergie",
@@ -1784,12 +1784,12 @@
     "pt": "Máquina de cortar"
   },
   "Controls cutting length and helps blend transitions smoothly.": {
-    "fr": "Controls cutting length and helps blend transitions smoothly.",
-    "ig": "Controls cutting length and helps blend transitions smoothly.",
-    "sw": "Controls cutting length and helps blend transitions smoothly.",
-    "ar": "Controls cutting length and helps blend transitions smoothly.",
-    "es": "Controls cutting length and helps blend transitions smoothly.",
-    "pt": "Controls cutting length and helps blend transitions smoothly."
+    "fr": "Coupe / Couper",
+    "ig": "Ịkpụ / Mbipụ",
+    "sw": "Mkato / Kukata",
+    "ar": "قص / قطع",
+    "es": "Corte / Cortar",
+    "pt": "Corte / Cortar"
   },
   "Adjust gradually and check symmetry from multiple angles.": {
     "fr": "Vérifier",
@@ -2144,12 +2144,12 @@
     "pt": "FRP / Activation Lock"
   },
   "Factory Reset / Account Activation Protection": {
-    "fr": "Factory Reset / Account Activation Protection",
-    "ig": "Factory Reset / Account Activation Protection",
-    "sw": "Factory Reset / Account Activation Protection",
-    "ar": "Factory Reset / Account Activation Protection",
-    "es": "Factory Reset / Account Activation Protection",
-    "pt": "Factory Reset / Account Activation Protection"
+    "fr": "Protéger",
+    "ig": "Chebe",
+    "sw": "Linda / Kinga",
+    "ar": "حماية",
+    "es": "Proteger",
+    "pt": "Proteger"
   },
   "Security lock requiring prior authorized account credentials after a reset.": {
     "fr": "Security lock requiring prior authorized account credentials after a reset.",
@@ -2176,12 +2176,12 @@
     "pt": "SPD"
   },
   "Surge Protection Device": {
-    "fr": "Surge Protection Device",
-    "ig": "Surge Protection Device",
-    "sw": "Surge Protection Device",
-    "ar": "Surge Protection Device",
-    "es": "Surge Protection Device",
-    "pt": "Surge Protection Device"
+    "fr": "Protéger",
+    "ig": "Chebe",
+    "sw": "Linda / Kinga",
+    "ar": "حماية",
+    "es": "Proteger",
+    "pt": "Proteger"
   },
   "Protects sensitive electronics against voltage spikes and transients.": {
     "fr": "Tension",
@@ -2312,12 +2312,12 @@
     "pt": "Intercom & Door Release"
   },
   "Entry Audio/Video & Lock Control": {
-    "fr": "Entry Audio/Video & Lock Control",
-    "ig": "Entry Audio/Video & Lock Control",
-    "sw": "Entry Audio/Video & Lock Control",
-    "ar": "Entry Audio/Video & Lock Control",
-    "es": "Entry Audio/Video & Lock Control",
-    "pt": "Entry Audio/Video & Lock Control"
+    "fr": "Contrôle / Commande",
+    "ig": "Njikwa",
+    "sw": "Udhibiti",
+    "ar": "تحكم",
+    "es": "Control",
+    "pt": "Controle"
   },
   "Communicates with visitors at an entry point and can release a door/gate lock.": {
     "fr": "Communicates with visitors at an entry point and can release a door/gate lock.",
@@ -2336,12 +2336,12 @@
     "pt": "Energia / Potência"
   },
   "Li-Ion Pouch Cell": {
-    "fr": "Li-Ion Pouch Cell",
-    "ig": "Li-Ion Pouch Cell",
-    "sw": "Li-Ion Pouch Cell",
-    "ar": "Li-Ion Pouch Cell",
-    "es": "Li-Ion Pouch Cell",
-    "pt": "Li-Ion Pouch Cell"
+    "fr": "Cellule",
+    "ig": "Sel / Mkpurụ batrị",
+    "sw": "Seli",
+    "ar": "خلية",
+    "es": "Celda",
+    "pt": "Célula"
   },
   "Lithium-Ion Rechargeable Battery": {
     "fr": "Batterie",
@@ -2488,12 +2488,12 @@
     "pt": "Reparo"
   },
   "Charging Sub-Board": {
-    "fr": "Charging Sub-Board",
-    "ig": "Charging Sub-Board",
-    "sw": "Charging Sub-Board",
-    "ar": "Charging Sub-Board",
-    "es": "Charging Sub-Board",
-    "pt": "Charging Sub-Board"
+    "fr": "Carte / Tableau",
+    "ig": "Bọọdụ",
+    "sw": "Bodi / Ubao",
+    "ar": "لوحة",
+    "es": "Placa / Tablero",
+    "pt": "Placa / Painel"
   },
   "Lower Port & Charging Circuit Module": {
     "fr": "Port",
@@ -2736,12 +2736,12 @@
     "pt": "OS & Driver Setup"
   },
   "Operating System & Device Driver Configuration": {
-    "fr": "Operating System & Device Driver Configuration",
-    "ig": "Operating System & Device Driver Configuration",
-    "sw": "Operating System & Device Driver Configuration",
-    "ar": "Operating System & Device Driver Configuration",
-    "es": "Operating System & Device Driver Configuration",
-    "pt": "Operating System & Device Driver Configuration"
+    "fr": "Système",
+    "ig": "Usoro / Sistem",
+    "sw": "Mfumo",
+    "ar": "نظام",
+    "es": "Sistema",
+    "pt": "Sistema"
   },
   "Installing/recovering the OS and matching hardware drivers for full function.": {
     "fr": "Installer",
@@ -3048,12 +3048,12 @@
     "pt": "Energia / Potência"
   },
   "Catches loose connections or missed items before the client leaves.": {
-    "fr": "Catches loose connections or missed items before the client leaves.",
-    "ig": "Catches loose connections or missed items before the client leaves.",
-    "sw": "Catches loose connections or missed items before the client leaves.",
-    "ar": "Catches loose connections or missed items before the client leaves.",
-    "es": "Catches loose connections or missed items before the client leaves.",
-    "pt": "Catches loose connections or missed items before the client leaves."
+    "fr": "Connexion",
+    "ig": "Njikọ",
+    "sw": "Muunganisho",
+    "ar": "اتصال",
+    "es": "Conexión",
+    "pt": "Conexão"
   },
   "SLA / Maintenance Plan": {
     "fr": "Maintenance",
