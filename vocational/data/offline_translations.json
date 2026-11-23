@@ -352,20 +352,20 @@
     "pt": "Catching a loose speaker, uncalibrated sensor, or smudge during in-shop QA saves your reputation and prevents frustrating return visits."
   },
   "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue.": {
-    "fr": "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue.",
-    "ig": "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue.",
-    "sw": "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue.",
-    "ar": "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue.",
-    "es": "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue.",
-    "pt": "POST-REPAIR QA CHECKLIST:\n- Power & Charging: Clean power-on/off, steady charging current, proper port fit.\n- Display & Touch: Uniform brightness/color, smooth touch across every corner, proximity sensor working during calls.\n- Audio & Cameras: Clear earpiece, loudspeaker, and mic recording; front and rear cameras focus cleanly with flash.\n- Connectivity & Finish: Wi-Fi, Bluetooth, cellular/SIM, buttons, and clean frame/glass with zero fingerprints or glue residue."
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "PRE-HANDOVER CHECK:\n- Reassemble all shields, screws, and covers cleanly and wipe away smudges/debris.\n\nQA EXECUTION STEPS:\n1. Test charging current and power stability.\n2. Test display brightness, touch response across all areas, and proximity/call behavior.\n3. Test earpiece, loudspeaker, microphone, front/rear cameras, flashlight, Wi-Fi, Bluetooth, and SIM/network.\n4. Walk through the working device with the client and share practical care tips.\n\nPOST-QA CHECK:\n- Mark the QA checklist complete and record warranty/care terms on the receipt.": {
-    "fr": "PRE-HANDOVER CHECK:\n- Reassemble all shields, screws, and covers cleanly and wipe away smudges/debris.\n\nQA EXECUTION STEPS:\n1. Test charging current and power stability.\n2. Test display brightness, touch response across all areas, and proximity/call behavior.\n3. Test earpiece, loudspeaker, microphone, front/rear cameras, flashlight, Wi-Fi, Bluetooth, and SIM/network.\n4. Walk through the working device with the client and share practical care tips.\n\nPOST-QA CHECK:\n- Mark the QA checklist complete and record warranty/care terms on the receipt.",
-    "ig": "PRE-HANDOVER CHECK:\n- Reassemble all shields, screws, and covers cleanly and wipe away smudges/debris.\n\nQA EXECUTION STEPS:\n1. Test charging current and power stability.\n2. Test display brightness, touch response across all areas, and proximity/call behavior.\n3. Test earpiece, loudspeaker, microphone, front/rear cameras, flashlight, Wi-Fi, Bluetooth, and SIM/network.\n4. Walk through the working device with the client and share practical care tips.\n\nPOST-QA CHECK:\n- Mark the QA checklist complete and record warranty/care terms on the receipt.",
-    "sw": "PRE-HANDOVER CHECK:\n- Reassemble all shields, screws, and covers cleanly and wipe away smudges/debris.\n\nQA EXECUTION STEPS:\n1. Test charging current and power stability.\n2. Test display brightness, touch response across all areas, and proximity/call behavior.\n3. Test earpiece, loudspeaker, microphone, front/rear cameras, flashlight, Wi-Fi, Bluetooth, and SIM/network.\n4. Walk through the working device with the client and share practical care tips.\n\nPOST-QA CHECK:\n- Mark the QA checklist complete and record warranty/care terms on the receipt.",
-    "ar": "PRE-HANDOVER CHECK:\n- Reassemble all shields, screws, and covers cleanly and wipe away smudges/debris.\n\nQA EXECUTION STEPS:\n1. Test charging current and power stability.\n2. Test display brightness, touch response across all areas, and proximity/call behavior.\n3. Test earpiece, loudspeaker, microphone, front/rear cameras, flashlight, Wi-Fi, Bluetooth, and SIM/network.\n4. Walk through the working device with the client and share practical care tips.\n\nPOST-QA CHECK:\n- Mark the QA checklist complete and record warranty/care terms on the receipt.",
-    "es": "PRE-HANDOVER CHECK:\n- Reassemble all shields, screws, and covers cleanly and wipe away smudges/debris.\n\nQA EXECUTION STEPS:\n1. Test charging current and power stability.\n2. Test display brightness, touch response across all areas, and proximity/call behavior.\n3. Test earpiece, loudspeaker, microphone, front/rear cameras, flashlight, Wi-Fi, Bluetooth, and SIM/network.\n4. Walk through the working device with the client and share practical care tips.\n\nPOST-QA CHECK:\n- Mark the QA checklist complete and record warranty/care terms on the receipt.",
-    "pt": "PRE-HANDOVER CHECK:\n- Reassemble all shields, screws, and covers cleanly and wipe away smudges/debris.\n\nQA EXECUTION STEPS:\n1. Test charging current and power stability.\n2. Test display brightness, touch response across all areas, and proximity/call behavior.\n3. Test earpiece, loudspeaker, microphone, front/rear cameras, flashlight, Wi-Fi, Bluetooth, and SIM/network.\n4. Walk through the working device with the client and share practical care tips.\n\nPOST-QA CHECK:\n- Mark the QA checklist complete and record warranty/care terms on the receipt."
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "- TRAP (Handing Back a Phone Untested After Closing): A skipped mic, proximity sensor, or camera check often triggers an immediate complaint.\n- TRAP (Leaving Smudges or Glue Residue): A clean, fingerprint-free device signals care and professionalism.\n- TRAP (Rushing Handover): Taking two minutes to show the working repair builds strong confidence.": {
     "fr": "- TRAP (Handing Back a Phone Untested After Closing): A skipped mic, proximity sensor, or camera check often triggers an immediate complaint.\n- TRAP (Leaving Smudges or Glue Residue): A clean, fingerprint-free device signals care and professionalism.\n- TRAP (Rushing Handover): Taking two minutes to show the working repair builds strong confidence.",
@@ -408,60 +408,60 @@
     "pt": "1. Why is testing the proximity sensor during a call important after screen work?\n2. Name five functional areas you should verify before handing a repaired phone back to a client.\n3. How does thorough in-shop QA protect a repair technician's income and reputation?"
   },
   "Step 1: Bench Safety, Power Isolation, Intake Checks & Data Protection": {
-    "fr": "Step 1: Bench Safety, Power Isolation, Intake Checks & Data Protection",
-    "ig": "Step 1: Bench Safety, Power Isolation, Intake Checks & Data Protection",
-    "sw": "Step 1: Bench Safety, Power Isolation, Intake Checks & Data Protection",
-    "ar": "Step 1: Bench Safety, Power Isolation, Intake Checks & Data Protection",
-    "es": "Step 1: Bench Safety, Power Isolation, Intake Checks & Data Protection",
-    "pt": "Step 1: Bench Safety, Power Isolation, Intake Checks & Data Protection"
+    "fr": "Sécurité",
+    "ig": "Nchekwa",
+    "sw": "Usalama",
+    "ar": "السلامة",
+    "es": "Seguridad",
+    "pt": "Segurança"
   },
   "- Isolate AC power and battery circuits safely before opening laptops or desktops.\n- Run a structured intake check covering power/charging, display, keyboard/trackpad, ports, audio, and storage/boot behavior.\n- Protect customer data and document pre-existing damage before beginning repairs.": {
-    "fr": "- Isolate AC power and battery circuits safely before opening laptops or desktops.\n- Run a structured intake check covering power/charging, display, keyboard/trackpad, ports, audio, and storage/boot behavior.\n- Protect customer data and document pre-existing damage before beginning repairs.",
-    "ig": "- Isolate AC power and battery circuits safely before opening laptops or desktops.\n- Run a structured intake check covering power/charging, display, keyboard/trackpad, ports, audio, and storage/boot behavior.\n- Protect customer data and document pre-existing damage before beginning repairs.",
-    "sw": "- Isolate AC power and battery circuits safely before opening laptops or desktops.\n- Run a structured intake check covering power/charging, display, keyboard/trackpad, ports, audio, and storage/boot behavior.\n- Protect customer data and document pre-existing damage before beginning repairs.",
-    "ar": "- Isolate AC power and battery circuits safely before opening laptops or desktops.\n- Run a structured intake check covering power/charging, display, keyboard/trackpad, ports, audio, and storage/boot behavior.\n- Protect customer data and document pre-existing damage before beginning repairs.",
-    "es": "- Isolate AC power and battery circuits safely before opening laptops or desktops.\n- Run a structured intake check covering power/charging, display, keyboard/trackpad, ports, audio, and storage/boot behavior.\n- Protect customer data and document pre-existing damage before beginning repairs.",
-    "pt": "- Isolate AC power and battery circuits safely before opening laptops or desktops.\n- Run a structured intake check covering power/charging, display, keyboard/trackpad, ports, audio, and storage/boot behavior.\n- Protect customer data and document pre-existing damage before beginning repairs."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "Opening a laptop with residual battery/AC power can short a board or damage a display flex, while skipping intake checks invites blame for cracked hinges, dead ports, or pre-existing data/boot issues.": {
-    "fr": "Opening a laptop with residual battery/AC power can short a board or damage a display flex, while skipping intake checks invites blame for cracked hinges, dead ports, or pre-existing data/boot issues.",
-    "ig": "Opening a laptop with residual battery/AC power can short a board or damage a display flex, while skipping intake checks invites blame for cracked hinges, dead ports, or pre-existing data/boot issues.",
-    "sw": "Opening a laptop with residual battery/AC power can short a board or damage a display flex, while skipping intake checks invites blame for cracked hinges, dead ports, or pre-existing data/boot issues.",
-    "ar": "Opening a laptop with residual battery/AC power can short a board or damage a display flex, while skipping intake checks invites blame for cracked hinges, dead ports, or pre-existing data/boot issues.",
-    "es": "Opening a laptop with residual battery/AC power can short a board or damage a display flex, while skipping intake checks invites blame for cracked hinges, dead ports, or pre-existing data/boot issues.",
-    "pt": "Opening a laptop with residual battery/AC power can short a board or damage a display flex, while skipping intake checks invites blame for cracked hinges, dead ports, or pre-existing data/boot issues."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "LAPTOP & PC INTAKE & SAFETY MATRIX:\n- Power Isolation: Unplug charger/power cable, remove removable batteries, and disconnect internal battery connectors as soon as the bottom case is off.\n- ESD & Workspace Care: Work on a grounded ESD mat with a wrist strap, keep drinks/liquids away from the bench, and organize screws by length and location.\n- Baseline Intake Check: Inspect chassis hinges, corners, ports, and screen for cracks/dents/liquid signs; test power-on, display image/backlight, keyboard/touchpad, USB/charging ports, Wi-Fi/audio, and boot status.\n- Data & Liability Care: Remind clients to back up important files before OS/drive/repair work and log existing faults on the intake form.\n\nINTAKE TRIAGE CHECKLIST:\nCheck Area    | Key Inspection Points Before Opening\n--------------+-------------------------------------------------------------\nChassis/Hinge | Hinge stiffness/cracks, corner dents, swell, missing screws\nPower & Boot  | Adapter/port state, POST/BIOS screen, OS boot & battery health\nI/O & Data    | Display/touch, keyboard/trackpad, USB/audio/Wi-Fi + backup notice": {
-    "fr": "LAPTOP & PC INTAKE & SAFETY MATRIX:\n- Power Isolation: Unplug charger/power cable, remove removable batteries, and disconnect internal battery connectors as soon as the bottom case is off.\n- ESD & Workspace Care: Work on a grounded ESD mat with a wrist strap, keep drinks/liquids away from the bench, and organize screws by length and location.\n- Baseline Intake Check: Inspect chassis hinges, corners, ports, and screen for cracks/dents/liquid signs; test power-on, display image/backlight, keyboard/touchpad, USB/charging ports, Wi-Fi/audio, and boot status.\n- Data & Liability Care: Remind clients to back up important files before OS/drive/repair work and log existing faults on the intake form.\n\nINTAKE TRIAGE CHECKLIST:\nCheck Area    | Key Inspection Points Before Opening\n--------------+-------------------------------------------------------------\nChassis/Hinge | Hinge stiffness/cracks, corner dents, swell, missing screws\nPower & Boot  | Adapter/port state, POST/BIOS screen, OS boot & battery health\nI/O & Data    | Display/touch, keyboard/trackpad, USB/audio/Wi-Fi + backup notice",
-    "ig": "LAPTOP & PC INTAKE & SAFETY MATRIX:\n- Power Isolation: Unplug charger/power cable, remove removable batteries, and disconnect internal battery connectors as soon as the bottom case is off.\n- ESD & Workspace Care: Work on a grounded ESD mat with a wrist strap, keep drinks/liquids away from the bench, and organize screws by length and location.\n- Baseline Intake Check: Inspect chassis hinges, corners, ports, and screen for cracks/dents/liquid signs; test power-on, display image/backlight, keyboard/touchpad, USB/charging ports, Wi-Fi/audio, and boot status.\n- Data & Liability Care: Remind clients to back up important files before OS/drive/repair work and log existing faults on the intake form.\n\nINTAKE TRIAGE CHECKLIST:\nCheck Area    | Key Inspection Points Before Opening\n--------------+-------------------------------------------------------------\nChassis/Hinge | Hinge stiffness/cracks, corner dents, swell, missing screws\nPower & Boot  | Adapter/port state, POST/BIOS screen, OS boot & battery health\nI/O & Data    | Display/touch, keyboard/trackpad, USB/audio/Wi-Fi + backup notice",
-    "sw": "LAPTOP & PC INTAKE & SAFETY MATRIX:\n- Power Isolation: Unplug charger/power cable, remove removable batteries, and disconnect internal battery connectors as soon as the bottom case is off.\n- ESD & Workspace Care: Work on a grounded ESD mat with a wrist strap, keep drinks/liquids away from the bench, and organize screws by length and location.\n- Baseline Intake Check: Inspect chassis hinges, corners, ports, and screen for cracks/dents/liquid signs; test power-on, display image/backlight, keyboard/touchpad, USB/charging ports, Wi-Fi/audio, and boot status.\n- Data & Liability Care: Remind clients to back up important files before OS/drive/repair work and log existing faults on the intake form.\n\nINTAKE TRIAGE CHECKLIST:\nCheck Area    | Key Inspection Points Before Opening\n--------------+-------------------------------------------------------------\nChassis/Hinge | Hinge stiffness/cracks, corner dents, swell, missing screws\nPower & Boot  | Adapter/port state, POST/BIOS screen, OS boot & battery health\nI/O & Data    | Display/touch, keyboard/trackpad, USB/audio/Wi-Fi + backup notice",
-    "ar": "LAPTOP & PC INTAKE & SAFETY MATRIX:\n- Power Isolation: Unplug charger/power cable, remove removable batteries, and disconnect internal battery connectors as soon as the bottom case is off.\n- ESD & Workspace Care: Work on a grounded ESD mat with a wrist strap, keep drinks/liquids away from the bench, and organize screws by length and location.\n- Baseline Intake Check: Inspect chassis hinges, corners, ports, and screen for cracks/dents/liquid signs; test power-on, display image/backlight, keyboard/touchpad, USB/charging ports, Wi-Fi/audio, and boot status.\n- Data & Liability Care: Remind clients to back up important files before OS/drive/repair work and log existing faults on the intake form.\n\nINTAKE TRIAGE CHECKLIST:\nCheck Area    | Key Inspection Points Before Opening\n--------------+-------------------------------------------------------------\nChassis/Hinge | Hinge stiffness/cracks, corner dents, swell, missing screws\nPower & Boot  | Adapter/port state, POST/BIOS screen, OS boot & battery health\nI/O & Data    | Display/touch, keyboard/trackpad, USB/audio/Wi-Fi + backup notice",
-    "es": "LAPTOP & PC INTAKE & SAFETY MATRIX:\n- Power Isolation: Unplug charger/power cable, remove removable batteries, and disconnect internal battery connectors as soon as the bottom case is off.\n- ESD & Workspace Care: Work on a grounded ESD mat with a wrist strap, keep drinks/liquids away from the bench, and organize screws by length and location.\n- Baseline Intake Check: Inspect chassis hinges, corners, ports, and screen for cracks/dents/liquid signs; test power-on, display image/backlight, keyboard/touchpad, USB/charging ports, Wi-Fi/audio, and boot status.\n- Data & Liability Care: Remind clients to back up important files before OS/drive/repair work and log existing faults on the intake form.\n\nINTAKE TRIAGE CHECKLIST:\nCheck Area    | Key Inspection Points Before Opening\n--------------+-------------------------------------------------------------\nChassis/Hinge | Hinge stiffness/cracks, corner dents, swell, missing screws\nPower & Boot  | Adapter/port state, POST/BIOS screen, OS boot & battery health\nI/O & Data    | Display/touch, keyboard/trackpad, USB/audio/Wi-Fi + backup notice",
-    "pt": "LAPTOP & PC INTAKE & SAFETY MATRIX:\n- Power Isolation: Unplug charger/power cable, remove removable batteries, and disconnect internal battery connectors as soon as the bottom case is off.\n- ESD & Workspace Care: Work on a grounded ESD mat with a wrist strap, keep drinks/liquids away from the bench, and organize screws by length and location.\n- Baseline Intake Check: Inspect chassis hinges, corners, ports, and screen for cracks/dents/liquid signs; test power-on, display image/backlight, keyboard/touchpad, USB/charging ports, Wi-Fi/audio, and boot status.\n- Data & Liability Care: Remind clients to back up important files before OS/drive/repair work and log existing faults on the intake form.\n\nINTAKE TRIAGE CHECKLIST:\nCheck Area    | Key Inspection Points Before Opening\n--------------+-------------------------------------------------------------\nChassis/Hinge | Hinge stiffness/cracks, corner dents, swell, missing screws\nPower & Boot  | Adapter/port state, POST/BIOS screen, OS boot & battery health\nI/O & Data    | Display/touch, keyboard/trackpad, USB/audio/Wi-Fi + backup notice"
+    "fr": "Sécurité",
+    "ig": "Nchekwa",
+    "sw": "Usalama",
+    "ar": "السلامة",
+    "es": "Seguridad",
+    "pt": "Segurança"
   },
   "PRE-WORK CHECK:\n- Clear the bench, put on your ESD wrist strap on a grounded mat, and keep a screw map/tray ready.\n\nINTAKE & SAFETY STEPS:\n1. Inspect the laptop or PC case for hinge stress, cracks, swollen batteries, loose/missing screws, or liquid stains and record them.\n2. Check power/charging behavior, screen display, keyboard/trackpad, ports, fan/heat behavior, and boot/login response.\n3. Advise the client on data backup and record any pre-existing faults before opening.\n4. Unplug external power, remove bottom cover screws in order, and disconnect the battery lead before touching internal parts.\n\nPOST-INTAKE CHECK:\n- Confirm power is isolated and your intake notes match the actual condition of the machine.": {
-    "fr": "PRE-WORK CHECK:\n- Clear the bench, put on your ESD wrist strap on a grounded mat, and keep a screw map/tray ready.\n\nINTAKE & SAFETY STEPS:\n1. Inspect the laptop or PC case for hinge stress, cracks, swollen batteries, loose/missing screws, or liquid stains and record them.\n2. Check power/charging behavior, screen display, keyboard/trackpad, ports, fan/heat behavior, and boot/login response.\n3. Advise the client on data backup and record any pre-existing faults before opening.\n4. Unplug external power, remove bottom cover screws in order, and disconnect the battery lead before touching internal parts.\n\nPOST-INTAKE CHECK:\n- Confirm power is isolated and your intake notes match the actual condition of the machine.",
-    "ig": "PRE-WORK CHECK:\n- Clear the bench, put on your ESD wrist strap on a grounded mat, and keep a screw map/tray ready.\n\nINTAKE & SAFETY STEPS:\n1. Inspect the laptop or PC case for hinge stress, cracks, swollen batteries, loose/missing screws, or liquid stains and record them.\n2. Check power/charging behavior, screen display, keyboard/trackpad, ports, fan/heat behavior, and boot/login response.\n3. Advise the client on data backup and record any pre-existing faults before opening.\n4. Unplug external power, remove bottom cover screws in order, and disconnect the battery lead before touching internal parts.\n\nPOST-INTAKE CHECK:\n- Confirm power is isolated and your intake notes match the actual condition of the machine.",
-    "sw": "PRE-WORK CHECK:\n- Clear the bench, put on your ESD wrist strap on a grounded mat, and keep a screw map/tray ready.\n\nINTAKE & SAFETY STEPS:\n1. Inspect the laptop or PC case for hinge stress, cracks, swollen batteries, loose/missing screws, or liquid stains and record them.\n2. Check power/charging behavior, screen display, keyboard/trackpad, ports, fan/heat behavior, and boot/login response.\n3. Advise the client on data backup and record any pre-existing faults before opening.\n4. Unplug external power, remove bottom cover screws in order, and disconnect the battery lead before touching internal parts.\n\nPOST-INTAKE CHECK:\n- Confirm power is isolated and your intake notes match the actual condition of the machine.",
-    "ar": "PRE-WORK CHECK:\n- Clear the bench, put on your ESD wrist strap on a grounded mat, and keep a screw map/tray ready.\n\nINTAKE & SAFETY STEPS:\n1. Inspect the laptop or PC case for hinge stress, cracks, swollen batteries, loose/missing screws, or liquid stains and record them.\n2. Check power/charging behavior, screen display, keyboard/trackpad, ports, fan/heat behavior, and boot/login response.\n3. Advise the client on data backup and record any pre-existing faults before opening.\n4. Unplug external power, remove bottom cover screws in order, and disconnect the battery lead before touching internal parts.\n\nPOST-INTAKE CHECK:\n- Confirm power is isolated and your intake notes match the actual condition of the machine.",
-    "es": "PRE-WORK CHECK:\n- Clear the bench, put on your ESD wrist strap on a grounded mat, and keep a screw map/tray ready.\n\nINTAKE & SAFETY STEPS:\n1. Inspect the laptop or PC case for hinge stress, cracks, swollen batteries, loose/missing screws, or liquid stains and record them.\n2. Check power/charging behavior, screen display, keyboard/trackpad, ports, fan/heat behavior, and boot/login response.\n3. Advise the client on data backup and record any pre-existing faults before opening.\n4. Unplug external power, remove bottom cover screws in order, and disconnect the battery lead before touching internal parts.\n\nPOST-INTAKE CHECK:\n- Confirm power is isolated and your intake notes match the actual condition of the machine.",
-    "pt": "PRE-WORK CHECK:\n- Clear the bench, put on your ESD wrist strap on a grounded mat, and keep a screw map/tray ready.\n\nINTAKE & SAFETY STEPS:\n1. Inspect the laptop or PC case for hinge stress, cracks, swollen batteries, loose/missing screws, or liquid stains and record them.\n2. Check power/charging behavior, screen display, keyboard/trackpad, ports, fan/heat behavior, and boot/login response.\n3. Advise the client on data backup and record any pre-existing faults before opening.\n4. Unplug external power, remove bottom cover screws in order, and disconnect the battery lead before touching internal parts.\n\nPOST-INTAKE CHECK:\n- Confirm power is isolated and your intake notes match the actual condition of the machine."
+    "fr": "Sécurité",
+    "ig": "Nchekwa",
+    "sw": "Usalama",
+    "ar": "السلامة",
+    "es": "Seguridad",
+    "pt": "Segurança"
   },
   "- TRAP (Working With Battery Still Connected): Leaving the battery plugged in while unplugging LCD, keyboard, or Wi-Fi cables can cause shorts or backlight/board damage.\n- TRAP (Ignoring Cracked Hinge Mounts): Opening a laptop lid with a seized hinge or cracked brass insert can rip the display bezel or palmrest apart.\n- TRAP (Assuming Data Is Safe During Repair): Drops, drive faults, or OS recovery can affect data—always set expectations clearly.": {
-    "fr": "- TRAP (Working With Battery Still Connected): Leaving the battery plugged in while unplugging LCD, keyboard, or Wi-Fi cables can cause shorts or backlight/board damage.\n- TRAP (Ignoring Cracked Hinge Mounts): Opening a laptop lid with a seized hinge or cracked brass insert can rip the display bezel or palmrest apart.\n- TRAP (Assuming Data Is Safe During Repair): Drops, drive faults, or OS recovery can affect data—always set expectations clearly.",
-    "ig": "- TRAP (Working With Battery Still Connected): Leaving the battery plugged in while unplugging LCD, keyboard, or Wi-Fi cables can cause shorts or backlight/board damage.\n- TRAP (Ignoring Cracked Hinge Mounts): Opening a laptop lid with a seized hinge or cracked brass insert can rip the display bezel or palmrest apart.\n- TRAP (Assuming Data Is Safe During Repair): Drops, drive faults, or OS recovery can affect data—always set expectations clearly.",
-    "sw": "- TRAP (Working With Battery Still Connected): Leaving the battery plugged in while unplugging LCD, keyboard, or Wi-Fi cables can cause shorts or backlight/board damage.\n- TRAP (Ignoring Cracked Hinge Mounts): Opening a laptop lid with a seized hinge or cracked brass insert can rip the display bezel or palmrest apart.\n- TRAP (Assuming Data Is Safe During Repair): Drops, drive faults, or OS recovery can affect data—always set expectations clearly.",
-    "ar": "- TRAP (Working With Battery Still Connected): Leaving the battery plugged in while unplugging LCD, keyboard, or Wi-Fi cables can cause shorts or backlight/board damage.\n- TRAP (Ignoring Cracked Hinge Mounts): Opening a laptop lid with a seized hinge or cracked brass insert can rip the display bezel or palmrest apart.\n- TRAP (Assuming Data Is Safe During Repair): Drops, drive faults, or OS recovery can affect data—always set expectations clearly.",
-    "es": "- TRAP (Working With Battery Still Connected): Leaving the battery plugged in while unplugging LCD, keyboard, or Wi-Fi cables can cause shorts or backlight/board damage.\n- TRAP (Ignoring Cracked Hinge Mounts): Opening a laptop lid with a seized hinge or cracked brass insert can rip the display bezel or palmrest apart.\n- TRAP (Assuming Data Is Safe During Repair): Drops, drive faults, or OS recovery can affect data—always set expectations clearly.",
-    "pt": "- TRAP (Working With Battery Still Connected): Leaving the battery plugged in while unplugging LCD, keyboard, or Wi-Fi cables can cause shorts or backlight/board damage.\n- TRAP (Ignoring Cracked Hinge Mounts): Opening a laptop lid with a seized hinge or cracked brass insert can rip the display bezel or palmrest apart.\n- TRAP (Assuming Data Is Safe During Repair): Drops, drive faults, or OS recovery can affect data—always set expectations clearly."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "[Machine Arrives] ---> [Log Hinges/Case/Faults + Data Notice]\n                 ---> [Unplug AC + ESD Mat/Strap + Open Safely]\n                 ---> [Disconnect Battery Before Internal Work]": {
-    "fr": "[Machine Arrives] ---> [Log Hinges/Case/Faults + Data Notice]\n                 ---> [Unplug AC + ESD Mat/Strap + Open Safely]\n                 ---> [Disconnect Battery Before Internal Work]",
-    "ig": "[Machine Arrives] ---> [Log Hinges/Case/Faults + Data Notice]\n                 ---> [Unplug AC + ESD Mat/Strap + Open Safely]\n                 ---> [Disconnect Battery Before Internal Work]",
-    "sw": "[Machine Arrives] ---> [Log Hinges/Case/Faults + Data Notice]\n                 ---> [Unplug AC + ESD Mat/Strap + Open Safely]\n                 ---> [Disconnect Battery Before Internal Work]",
-    "ar": "[Machine Arrives] ---> [Log Hinges/Case/Faults + Data Notice]\n                 ---> [Unplug AC + ESD Mat/Strap + Open Safely]\n                 ---> [Disconnect Battery Before Internal Work]",
-    "es": "[Machine Arrives] ---> [Log Hinges/Case/Faults + Data Notice]\n                 ---> [Unplug AC + ESD Mat/Strap + Open Safely]\n                 ---> [Disconnect Battery Before Internal Work]",
-    "pt": "[Machine Arrives] ---> [Log Hinges/Case/Faults + Data Notice]\n                 ---> [Unplug AC + ESD Mat/Strap + Open Safely]\n                 ---> [Disconnect Battery Before Internal Work]"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "A client brings in a laptop with a dim/flickering screen. At intake, you notice a loose hinge on the right side and a USB port that feels wobbly, and you note both on the intake sheet. After servicing the display/cable, the client sees the hinge still needs attention—your intake record shows you spotted it from the start and gives a clear basis for a follow-up quote.": {
     "fr": "A client brings in a laptop with a dim/flickering screen. At intake, you notice a loose hinge on the right side and a USB port that feels wobbly, and you note both on the intake sheet. After servicing the display/cable, the client sees the hinge still needs attention—your intake record shows you spotted it from the start and gives a clear basis for a follow-up quote.",
@@ -480,12 +480,12 @@
     "pt": "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice."
   },
   "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?": {
-    "fr": "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?",
-    "ig": "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?",
-    "sw": "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?",
-    "ar": "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?",
-    "es": "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?",
-    "pt": "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification": {
     "fr": "Step 3: RAM & SSD Upgrades, Data Migration & Boot Verification",
@@ -520,20 +520,20 @@
     "pt": "MEMORY & STORAGE UPGRADE STANDARDS:\n- RAM Seating: Align the key notch on the module with the slot key, insert at the required angle, press firmly until side clips lock, and lay flat (on angled SO-DIMM slots).\n- SSD Installation: Align M.2 connector notch, seat gently without forcing, secure with the retention screw, or mount 2.5-inch drives cleanly.\n- Data & OS Check: Confirm whether the client needs a fresh OS install or data/system transfer, and verify total RAM and drive recognition in BIOS/UEFI and the OS."
   },
   "PRE-WORK CHECK:\n- Unplug charger, open case, disconnect battery, and ground with ESD strap.\n\nUPGRADE & VERIFICATION STEPS:\n1. Remove or install RAM module(s) by aligning the key notch and locking clips evenly.\n2. Install or replace the SSD/storage drive and secure its mounting screw/bracket cleanly.\n3. Reconnect the battery and test power-on—confirm the new RAM and drive appear in BIOS/UEFI.\n4. Complete OS installation or data transfer, install key drivers, and verify normal boot and file access.\n\nPOST-UPGRADE CHECK:\n- Close the chassis, torque screws properly, and confirm smooth startup without errors.": {
-    "fr": "PRE-WORK CHECK:\n- Unplug charger, open case, disconnect battery, and ground with ESD strap.\n\nUPGRADE & VERIFICATION STEPS:\n1. Remove or install RAM module(s) by aligning the key notch and locking clips evenly.\n2. Install or replace the SSD/storage drive and secure its mounting screw/bracket cleanly.\n3. Reconnect the battery and test power-on—confirm the new RAM and drive appear in BIOS/UEFI.\n4. Complete OS installation or data transfer, install key drivers, and verify normal boot and file access.\n\nPOST-UPGRADE CHECK:\n- Close the chassis, torque screws properly, and confirm smooth startup without errors.",
-    "ig": "PRE-WORK CHECK:\n- Unplug charger, open case, disconnect battery, and ground with ESD strap.\n\nUPGRADE & VERIFICATION STEPS:\n1. Remove or install RAM module(s) by aligning the key notch and locking clips evenly.\n2. Install or replace the SSD/storage drive and secure its mounting screw/bracket cleanly.\n3. Reconnect the battery and test power-on—confirm the new RAM and drive appear in BIOS/UEFI.\n4. Complete OS installation or data transfer, install key drivers, and verify normal boot and file access.\n\nPOST-UPGRADE CHECK:\n- Close the chassis, torque screws properly, and confirm smooth startup without errors.",
-    "sw": "PRE-WORK CHECK:\n- Unplug charger, open case, disconnect battery, and ground with ESD strap.\n\nUPGRADE & VERIFICATION STEPS:\n1. Remove or install RAM module(s) by aligning the key notch and locking clips evenly.\n2. Install or replace the SSD/storage drive and secure its mounting screw/bracket cleanly.\n3. Reconnect the battery and test power-on—confirm the new RAM and drive appear in BIOS/UEFI.\n4. Complete OS installation or data transfer, install key drivers, and verify normal boot and file access.\n\nPOST-UPGRADE CHECK:\n- Close the chassis, torque screws properly, and confirm smooth startup without errors.",
-    "ar": "PRE-WORK CHECK:\n- Unplug charger, open case, disconnect battery, and ground with ESD strap.\n\nUPGRADE & VERIFICATION STEPS:\n1. Remove or install RAM module(s) by aligning the key notch and locking clips evenly.\n2. Install or replace the SSD/storage drive and secure its mounting screw/bracket cleanly.\n3. Reconnect the battery and test power-on—confirm the new RAM and drive appear in BIOS/UEFI.\n4. Complete OS installation or data transfer, install key drivers, and verify normal boot and file access.\n\nPOST-UPGRADE CHECK:\n- Close the chassis, torque screws properly, and confirm smooth startup without errors.",
-    "es": "PRE-WORK CHECK:\n- Unplug charger, open case, disconnect battery, and ground with ESD strap.\n\nUPGRADE & VERIFICATION STEPS:\n1. Remove or install RAM module(s) by aligning the key notch and locking clips evenly.\n2. Install or replace the SSD/storage drive and secure its mounting screw/bracket cleanly.\n3. Reconnect the battery and test power-on—confirm the new RAM and drive appear in BIOS/UEFI.\n4. Complete OS installation or data transfer, install key drivers, and verify normal boot and file access.\n\nPOST-UPGRADE CHECK:\n- Close the chassis, torque screws properly, and confirm smooth startup without errors.",
-    "pt": "PRE-WORK CHECK:\n- Unplug charger, open case, disconnect battery, and ground with ESD strap.\n\nUPGRADE & VERIFICATION STEPS:\n1. Remove or install RAM module(s) by aligning the key notch and locking clips evenly.\n2. Install or replace the SSD/storage drive and secure its mounting screw/bracket cleanly.\n3. Reconnect the battery and test power-on—confirm the new RAM and drive appear in BIOS/UEFI.\n4. Complete OS installation or data transfer, install key drivers, and verify normal boot and file access.\n\nPOST-UPGRADE CHECK:\n- Close the chassis, torque screws properly, and confirm smooth startup without errors."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "- TRAP (Forcing RAM Backward): The notch prevents backward insertion—forcing it can crack the slot or module.\n- TRAP (Stripping Tiny M.2 Screws): Using an ill-fitting screwdriver can strip soft M.2 screw heads.\n- TRAP (Forgetting to Reconnect Battery Before Testing): Always reconnect the battery and verify assembly before closing up.": {
-    "fr": "- TRAP (Forcing RAM Backward): The notch prevents backward insertion—forcing it can crack the slot or module.\n- TRAP (Stripping Tiny M.2 Screws): Using an ill-fitting screwdriver can strip soft M.2 screw heads.\n- TRAP (Forgetting to Reconnect Battery Before Testing): Always reconnect the battery and verify assembly before closing up.",
-    "ig": "- TRAP (Forcing RAM Backward): The notch prevents backward insertion—forcing it can crack the slot or module.\n- TRAP (Stripping Tiny M.2 Screws): Using an ill-fitting screwdriver can strip soft M.2 screw heads.\n- TRAP (Forgetting to Reconnect Battery Before Testing): Always reconnect the battery and verify assembly before closing up.",
-    "sw": "- TRAP (Forcing RAM Backward): The notch prevents backward insertion—forcing it can crack the slot or module.\n- TRAP (Stripping Tiny M.2 Screws): Using an ill-fitting screwdriver can strip soft M.2 screw heads.\n- TRAP (Forgetting to Reconnect Battery Before Testing): Always reconnect the battery and verify assembly before closing up.",
-    "ar": "- TRAP (Forcing RAM Backward): The notch prevents backward insertion—forcing it can crack the slot or module.\n- TRAP (Stripping Tiny M.2 Screws): Using an ill-fitting screwdriver can strip soft M.2 screw heads.\n- TRAP (Forgetting to Reconnect Battery Before Testing): Always reconnect the battery and verify assembly before closing up.",
-    "es": "- TRAP (Forcing RAM Backward): The notch prevents backward insertion—forcing it can crack the slot or module.\n- TRAP (Stripping Tiny M.2 Screws): Using an ill-fitting screwdriver can strip soft M.2 screw heads.\n- TRAP (Forgetting to Reconnect Battery Before Testing): Always reconnect the battery and verify assembly before closing up.",
-    "pt": "- TRAP (Forcing RAM Backward): The notch prevents backward insertion—forcing it can crack the slot or module.\n- TRAP (Stripping Tiny M.2 Screws): Using an ill-fitting screwdriver can strip soft M.2 screw heads.\n- TRAP (Forgetting to Reconnect Battery Before Testing): Always reconnect the battery and verify assembly before closing up."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]": {
     "fr": "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]",
@@ -656,12 +656,12 @@
     "pt": "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation"
   },
   "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly.": {
-    "fr": "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly.",
-    "ig": "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly.",
-    "sw": "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly.",
-    "ar": "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly.",
-    "es": "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly.",
-    "pt": "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.": {
     "fr": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork.",
@@ -672,12 +672,12 @@
     "pt": "'Laptop won't turn on or charge' is one of the highest-stakes customer complaints. Methodical isolation saves money on unnecessary parts and prevents risky guesswork."
   },
   "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks": {
-    "fr": "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks",
-    "ig": "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks",
-    "sw": "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks",
-    "ar": "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks",
-    "es": "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks",
-    "pt": "SYSTEMATIC POWER & PERIPHERAL DIAGNOSTICS:\n- Power & Charging Path: Verify AC adapter output/condition, inspect DC barrel jack or USB-C port/cable for looseness or damage, and check whether the laptop runs/charges with battery connected or isolated.\n- No-Boot / POST Triage: Check power LEDs, fan spin, external display output, and single-stick/known-good RAM/storage before assuming a dead motherboard.\n- Keyboards, Trackpads & Ports: Check ribbon cable seating/latches and liquid/corrosion signs; note that many modern slim laptops rivet keyboards into the top case, affecting replacement cost and labor.\n\nFAULT ISOLATION QUICK GUIDE:\nSymptom                 | First Places to Inspect\n------------------------+-------------------------------------------------------------\nNo Power / No Charge    | Adapter V/W, DC/USB-C port & cable, battery/power rail\nLights On, No Display   | External monitor output, RAM seating, POST/display cable\nDead Keys / Trackpad    | Ribbon cable & latch seating, liquid/corrosion marks"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "PRE-WORK CHECK:\n- Unplug power and wear ESD protection before opening or reseating internal connectors.\n\nDIAGNOSTIC STEPS:\n1. Test with a verified compatible adapter and inspect the charging port/DC jack for wobble, looseness, or damage.\n2. Check power/charging LEDs, fan reaction, and external monitor output to separate display issues from no-POST issues.\n3. Reseat RAM and inspect keyboard/trackpad/port flex cables and latches cleanly.\n4. Summarize root cause, repair options, and any board-level risk clearly before proceeding.\n\nPOST-DIAGNOSTIC CHECK:\n- Log exact test observations so the quote matches the actual fault.": {
     "fr": "PRE-WORK CHECK:\n- Unplug power and wear ESD protection before opening or reseating internal connectors.\n\nDIAGNOSTIC STEPS:\n1. Test with a verified compatible adapter and inspect the charging port/DC jack for wobble, looseness, or damage.\n2. Check power/charging LEDs, fan reaction, and external monitor output to separate display issues from no-POST issues.\n3. Reseat RAM and inspect keyboard/trackpad/port flex cables and latches cleanly.\n4. Summarize root cause, repair options, and any board-level risk clearly before proceeding.\n\nPOST-DIAGNOSTIC CHECK:\n- Log exact test observations so the quote matches the actual fault.",
@@ -752,20 +752,20 @@
     "pt": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks."
   },
   "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior.": {
-    "fr": "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior.",
-    "ig": "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior.",
-    "sw": "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior.",
-    "ar": "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior.",
-    "es": "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior.",
-    "pt": "POST-REPAIR QA CHECKLIST:\n- Power & Battery: Charger connects/charges properly, battery is detected, and power-on/restart works cleanly.\n- Display & Input: Clear image, working brightness/hinge, every key and touchpad zone responsive.\n- Connectivity & Media: Wi-Fi/network, audio/mic, webcam, and USB/video ports working.\n- Thermal & Physical Finish: Reasonable temperatures/fan behavior, all screws and panels secure, clean exterior."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "PRE-HANDOVER CHECK:\n- Confirm all chassis screws are installed and tightened appropriately and no loose parts remain.\n\nQA EXECUTION STEPS:\n1. Verify adapter charging, battery status, and clean startup/restart.\n2. Test screen image/brightness, hinge smoothness, keyboard keys, and touchpad.\n3. Test Wi-Fi, speakers/mic, webcam, and available USB/charging/display ports.\n4. Observe temperatures/fan noise during normal/moderate activity, wipe the chassis clean, and walk through the working machine with the client.\n\nPOST-QA CHECK:\n- Record completed checks and share practical usage/care tips at handover.": {
-    "fr": "PRE-HANDOVER CHECK:\n- Confirm all chassis screws are installed and tightened appropriately and no loose parts remain.\n\nQA EXECUTION STEPS:\n1. Verify adapter charging, battery status, and clean startup/restart.\n2. Test screen image/brightness, hinge smoothness, keyboard keys, and touchpad.\n3. Test Wi-Fi, speakers/mic, webcam, and available USB/charging/display ports.\n4. Observe temperatures/fan noise during normal/moderate activity, wipe the chassis clean, and walk through the working machine with the client.\n\nPOST-QA CHECK:\n- Record completed checks and share practical usage/care tips at handover.",
-    "ig": "PRE-HANDOVER CHECK:\n- Confirm all chassis screws are installed and tightened appropriately and no loose parts remain.\n\nQA EXECUTION STEPS:\n1. Verify adapter charging, battery status, and clean startup/restart.\n2. Test screen image/brightness, hinge smoothness, keyboard keys, and touchpad.\n3. Test Wi-Fi, speakers/mic, webcam, and available USB/charging/display ports.\n4. Observe temperatures/fan noise during normal/moderate activity, wipe the chassis clean, and walk through the working machine with the client.\n\nPOST-QA CHECK:\n- Record completed checks and share practical usage/care tips at handover.",
-    "sw": "PRE-HANDOVER CHECK:\n- Confirm all chassis screws are installed and tightened appropriately and no loose parts remain.\n\nQA EXECUTION STEPS:\n1. Verify adapter charging, battery status, and clean startup/restart.\n2. Test screen image/brightness, hinge smoothness, keyboard keys, and touchpad.\n3. Test Wi-Fi, speakers/mic, webcam, and available USB/charging/display ports.\n4. Observe temperatures/fan noise during normal/moderate activity, wipe the chassis clean, and walk through the working machine with the client.\n\nPOST-QA CHECK:\n- Record completed checks and share practical usage/care tips at handover.",
-    "ar": "PRE-HANDOVER CHECK:\n- Confirm all chassis screws are installed and tightened appropriately and no loose parts remain.\n\nQA EXECUTION STEPS:\n1. Verify adapter charging, battery status, and clean startup/restart.\n2. Test screen image/brightness, hinge smoothness, keyboard keys, and touchpad.\n3. Test Wi-Fi, speakers/mic, webcam, and available USB/charging/display ports.\n4. Observe temperatures/fan noise during normal/moderate activity, wipe the chassis clean, and walk through the working machine with the client.\n\nPOST-QA CHECK:\n- Record completed checks and share practical usage/care tips at handover.",
-    "es": "PRE-HANDOVER CHECK:\n- Confirm all chassis screws are installed and tightened appropriately and no loose parts remain.\n\nQA EXECUTION STEPS:\n1. Verify adapter charging, battery status, and clean startup/restart.\n2. Test screen image/brightness, hinge smoothness, keyboard keys, and touchpad.\n3. Test Wi-Fi, speakers/mic, webcam, and available USB/charging/display ports.\n4. Observe temperatures/fan noise during normal/moderate activity, wipe the chassis clean, and walk through the working machine with the client.\n\nPOST-QA CHECK:\n- Record completed checks and share practical usage/care tips at handover.",
-    "pt": "PRE-HANDOVER CHECK:\n- Confirm all chassis screws are installed and tightened appropriately and no loose parts remain.\n\nQA EXECUTION STEPS:\n1. Verify adapter charging, battery status, and clean startup/restart.\n2. Test screen image/brightness, hinge smoothness, keyboard keys, and touchpad.\n3. Test Wi-Fi, speakers/mic, webcam, and available USB/charging/display ports.\n4. Observe temperatures/fan noise during normal/moderate activity, wipe the chassis clean, and walk through the working machine with the client.\n\nPOST-QA CHECK:\n- Record completed checks and share practical usage/care tips at handover."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "- TRAP (Skipping Keyboard/Port Checks After Case Work): Ribbon cables can sit slightly loose or get pinched during reassembly.\n- TRAP (Leaving Extra Screws Behind): Missing or leftover screws can mean loose parts inside or weak structural fastening.\n- TRAP (Handing Over Dirty/Smudged Gear): Wiping down the lid, palmrest, and screen shows pride in your craft.": {
     "fr": "- TRAP (Skipping Keyboard/Port Checks After Case Work): Ribbon cables can sit slightly loose or get pinched during reassembly.\n- TRAP (Leaving Extra Screws Behind): Missing or leftover screws can mean loose parts inside or weak structural fastening.\n- TRAP (Handing Over Dirty/Smudged Gear): Wiping down the lid, palmrest, and screen shows pride in your craft.",
@@ -836,8 +836,8 @@
     "ig": "ISI NKE IKE, IKE NA AKWỤKWỌ Azụmahịa:\n- Nchekwa ike & ịwa ahụ: Jikọọ NVRs, switches na ngwa netwọkụ nwere nkwado UPS na mgbochi ịwa ahụ megide mwepu ọkụ na mkpọ ọkụ.\n- Nkwenye nzere: Dochie okwuntughe ụlọ nrụpụta na igwefoto, NVR na ndị na-anya ụgbọ ala tupu enyefee ya, ma tọọ ụbọchị/oge ziri ezi.\n- Nkwupụta okwu & SLA: Wepụta ngwaike, cabling / conduit / igbe, na ọrụ iche iche, ma na-enye atụmatụ nleba anya / nlekọta ahazi.",
     "sw": "USTAHILI, UGUMU NA UFAFANUZI WA KIBIASHARA:\n- Ulinzi wa Nguvu na Upasuaji: Oanisha NVR, swichi na gia za mtandao zilizo na chelezo ya UPS na ulinzi wa mawimbi dhidi ya kukatika kwa umeme na miiba ya voltage.\n- Ugumu wa Kitambulisho: Badilisha manenosiri chaguomsingi ya kiwanda kwenye kamera, NVR na vipanga njia kabla ya kukabidhi, na uweke tarehe/saa sahihi.\n- Nukuu na SLA kwa Uwazi: Tengeneza maunzi, kabati/mfereji/sanduku, na kazi kando, na toa mipango iliyoratibiwa ya ukaguzi/utunzaji.",
     "ar": "المرونة والتصلب والوضوح التجاري:\n- حماية الطاقة وزيادة التيار: قم بإقران مسجلات الفيديو الشبكية (NVR) والمفاتيح ومعدات الشبكة مع النسخ الاحتياطي UPS والحماية من زيادة التيار ضد انقطاع التيار الكهربائي وارتفاع الجهد.\n- تقوية بيانات الاعتماد: استبدل كلمات المرور الافتراضية للمصنع على الكاميرات ومسجلات الفيديو الشبكية وأجهزة التوجيه قبل التسليم، وقم بتعيين التاريخ/الوقت الدقيق.\n- عرض أسعار شفاف واتفاقية مستوى الخدمة: قم بتفصيل الأجهزة والكابلات/القنوات/الصناديق والعمالة بشكل منفصل، وتقديم خطط الفحص/الصيانة المجدولة.",
-    "es": "RESILIENCE, HARDENING & COMMERCIAL CLARITY:\n- Power & Surge Protection: Pair NVRs, switches, and network gear with UPS backup and surge protection against power outages and voltage spikes.\n- Credential Hardening: Replace factory default passwords on cameras, NVRs, and routers before handover, and set accurate date/time.\n- Transparent Quoting & SLA: Itemize hardware, cabling/conduit/boxes, and labor separately, and offer scheduled inspection/maintenance plans.",
-    "pt": "RESILIENCE, HARDENING & COMMERCIAL CLARITY:\n- Power & Surge Protection: Pair NVRs, switches, and network gear with UPS backup and surge protection against power outages and voltage spikes.\n- Credential Hardening: Replace factory default passwords on cameras, NVRs, and routers before handover, and set accurate date/time.\n- Transparent Quoting & SLA: Itemize hardware, cabling/conduit/boxes, and labor separately, and offer scheduled inspection/maintenance plans."
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "PRE-HANDOVER CHECK:\n- Confirm all cables are labelled, mounts are tight, and live/recorded/network checks pass.\n\nHARDENING & HANDOVER STEPS:\n1. Change default passwords, set accurate date/time, and verify UPS runtime on NVR/router.\n2. Present itemized quote covering hardware, cabling/conduit/boxes, and installation labor.\n3. Deliver labeled cable/camera map, login handover sheet, and maintenance plan option.\n\nPOST-HANDOVER CHECK:\n- Walk the client through basic playback/app/intercom use and emergency contacts.": {
     "fr": "VÉRIFICATION AVANT LA REMISE :\n- Vérifiez que tous les câbles sont étiquetés, que les supports sont bien serrés et que les vérifications en direct/enregistrées/réseau sont réussies.\n\nÉTAPES DE DURCISSEMENT ET DE TRANSFERT :\n1. Modifiez les mots de passe par défaut, définissez la date/heure précise et vérifiez le fonctionnement de l'onduleur sur NVR/routeur.\n2. Présentez un devis détaillé couvrant le matériel, le câblage/conduit/boîtiers et la main-d'œuvre d'installation.\n3. Fournissez une carte étiquetée des câbles/caméras, une feuille de transfert de connexion et une option de plan de maintenance.\n\nVÉRIFICATION APRÈS LA REMISE :\n- Guidez le client à travers l'utilisation de base de la lecture/de l'application/de l'interphone et des contacts d'urgence.",
@@ -896,12 +896,12 @@
     "pt": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care"
   },
   "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules.": {
-    "fr": "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules.",
-    "ig": "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules.",
-    "sw": "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules.",
-    "ar": "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules.",
-    "es": "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules.",
-    "pt": "- Distinguish software boot/app/storage issues from hardware faults.\n- Execute safe forced restarts, cache/app troubleshooting, or official firmware recovery when authorized.\n- Follow strict data-backup warnings and legal account/ownership rules."
+    "fr": "Avertissement",
+    "ig": "Ịdọ aka na ntị",
+    "sw": "Onyo",
+    "ar": "تحذير",
+    "es": "Advertencia",
+    "pt": "Aviso"
   },
   "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.": {
     "fr": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.",
@@ -912,36 +912,36 @@
     "pt": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability."
   },
   "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)": {
-    "fr": "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)",
-    "ig": "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)",
-    "sw": "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)",
-    "ar": "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)",
-    "es": "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)",
-    "pt": "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)"
+    "fr": "Avertissement",
+    "ig": "Ịdọ aka na ntị",
+    "sw": "Onyo",
+    "ar": "تحذير",
+    "es": "Advertencia",
+    "pt": "Aviso"
   },
   "PRE-WORK CHECK:\n- Confirm battery charge level or stable power before starting any update/flash process.\n\nSOFTWARE STEPS:\n1. Record exact symptom, OS build/version, and storage/battery status.\n2. Warn the customer about data-loss risk and confirm backup status before any reset or firmware flash.\n3. Use verified firmware/tools matching the exact model/region and keep power steady throughout recovery.\n4. Verify boot, Wi-Fi/cellular, camera, audio, and touch after recovery completes.\n\nPOST-RECOVERY CHECK:\n- Document the software action taken and ensure customer accounts/privacy are respected.": {
-    "fr": "PRE-WORK CHECK:\n- Confirm battery charge level or stable power before starting any update/flash process.\n\nSOFTWARE STEPS:\n1. Record exact symptom, OS build/version, and storage/battery status.\n2. Warn the customer about data-loss risk and confirm backup status before any reset or firmware flash.\n3. Use verified firmware/tools matching the exact model/region and keep power steady throughout recovery.\n4. Verify boot, Wi-Fi/cellular, camera, audio, and touch after recovery completes.\n\nPOST-RECOVERY CHECK:\n- Document the software action taken and ensure customer accounts/privacy are respected.",
-    "ig": "PRE-WORK CHECK:\n- Confirm battery charge level or stable power before starting any update/flash process.\n\nSOFTWARE STEPS:\n1. Record exact symptom, OS build/version, and storage/battery status.\n2. Warn the customer about data-loss risk and confirm backup status before any reset or firmware flash.\n3. Use verified firmware/tools matching the exact model/region and keep power steady throughout recovery.\n4. Verify boot, Wi-Fi/cellular, camera, audio, and touch after recovery completes.\n\nPOST-RECOVERY CHECK:\n- Document the software action taken and ensure customer accounts/privacy are respected.",
-    "sw": "PRE-WORK CHECK:\n- Confirm battery charge level or stable power before starting any update/flash process.\n\nSOFTWARE STEPS:\n1. Record exact symptom, OS build/version, and storage/battery status.\n2. Warn the customer about data-loss risk and confirm backup status before any reset or firmware flash.\n3. Use verified firmware/tools matching the exact model/region and keep power steady throughout recovery.\n4. Verify boot, Wi-Fi/cellular, camera, audio, and touch after recovery completes.\n\nPOST-RECOVERY CHECK:\n- Document the software action taken and ensure customer accounts/privacy are respected.",
-    "ar": "PRE-WORK CHECK:\n- Confirm battery charge level or stable power before starting any update/flash process.\n\nSOFTWARE STEPS:\n1. Record exact symptom, OS build/version, and storage/battery status.\n2. Warn the customer about data-loss risk and confirm backup status before any reset or firmware flash.\n3. Use verified firmware/tools matching the exact model/region and keep power steady throughout recovery.\n4. Verify boot, Wi-Fi/cellular, camera, audio, and touch after recovery completes.\n\nPOST-RECOVERY CHECK:\n- Document the software action taken and ensure customer accounts/privacy are respected.",
-    "es": "PRE-WORK CHECK:\n- Confirm battery charge level or stable power before starting any update/flash process.\n\nSOFTWARE STEPS:\n1. Record exact symptom, OS build/version, and storage/battery status.\n2. Warn the customer about data-loss risk and confirm backup status before any reset or firmware flash.\n3. Use verified firmware/tools matching the exact model/region and keep power steady throughout recovery.\n4. Verify boot, Wi-Fi/cellular, camera, audio, and touch after recovery completes.\n\nPOST-RECOVERY CHECK:\n- Document the software action taken and ensure customer accounts/privacy are respected.",
-    "pt": "PRE-WORK CHECK:\n- Confirm battery charge level or stable power before starting any update/flash process.\n\nSOFTWARE STEPS:\n1. Record exact symptom, OS build/version, and storage/battery status.\n2. Warn the customer about data-loss risk and confirm backup status before any reset or firmware flash.\n3. Use verified firmware/tools matching the exact model/region and keep power steady throughout recovery.\n4. Verify boot, Wi-Fi/cellular, camera, audio, and touch after recovery completes.\n\nPOST-RECOVERY CHECK:\n- Document the software action taken and ensure customer accounts/privacy are respected."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "- TRAP (Wiping Data Without Warning): Factory-resetting or flashing a client's phone without warning about data loss destroys trust.\n- TRAP (Flashing Wrong Firmware/Region or Losing Power Mid-Flash): Can brick or soft-lock a device.\n- TRAP (Bypassing Account Locks Without Legitimate Proof): Creates legal, ethical, and security risks.": {
-    "fr": "- TRAP (Wiping Data Without Warning): Factory-resetting or flashing a client's phone without warning about data loss destroys trust.\n- TRAP (Flashing Wrong Firmware/Region or Losing Power Mid-Flash): Can brick or soft-lock a device.\n- TRAP (Bypassing Account Locks Without Legitimate Proof): Creates legal, ethical, and security risks.",
-    "ig": "- TRAP (Wiping Data Without Warning): Factory-resetting or flashing a client's phone without warning about data loss destroys trust.\n- TRAP (Flashing Wrong Firmware/Region or Losing Power Mid-Flash): Can brick or soft-lock a device.\n- TRAP (Bypassing Account Locks Without Legitimate Proof): Creates legal, ethical, and security risks.",
-    "sw": "- TRAP (Wiping Data Without Warning): Factory-resetting or flashing a client's phone without warning about data loss destroys trust.\n- TRAP (Flashing Wrong Firmware/Region or Losing Power Mid-Flash): Can brick or soft-lock a device.\n- TRAP (Bypassing Account Locks Without Legitimate Proof): Creates legal, ethical, and security risks.",
-    "ar": "- TRAP (Wiping Data Without Warning): Factory-resetting or flashing a client's phone without warning about data loss destroys trust.\n- TRAP (Flashing Wrong Firmware/Region or Losing Power Mid-Flash): Can brick or soft-lock a device.\n- TRAP (Bypassing Account Locks Without Legitimate Proof): Creates legal, ethical, and security risks.",
-    "es": "- TRAP (Wiping Data Without Warning): Factory-resetting or flashing a client's phone without warning about data loss destroys trust.\n- TRAP (Flashing Wrong Firmware/Region or Losing Power Mid-Flash): Can brick or soft-lock a device.\n- TRAP (Bypassing Account Locks Without Legitimate Proof): Creates legal, ethical, and security risks.",
-    "pt": "- TRAP (Wiping Data Without Warning): Factory-resetting or flashing a client's phone without warning about data loss destroys trust.\n- TRAP (Flashing Wrong Firmware/Region or Losing Power Mid-Flash): Can brick or soft-lock a device.\n- TRAP (Bypassing Account Locks Without Legitimate Proof): Creates legal, ethical, and security risks."
+    "fr": "Avertissement",
+    "ig": "Ịdọ aka na ntị",
+    "sw": "Onyo",
+    "ar": "تحذير",
+    "es": "Advertencia",
+    "pt": "Aviso"
   },
   "[Symptom + Storage/Battery Check] ---> [Safe Triage / Force Restart]\n                                    ---> [Backup Warning + Ownership Check]\n                                    ---> [Official Recovery + Post-Boot Test]": {
-    "fr": "[Symptom + Storage/Battery Check] ---> [Safe Triage / Force Restart]\n                                    ---> [Backup Warning + Ownership Check]\n                                    ---> [Official Recovery + Post-Boot Test]",
-    "ig": "[Symptom + Storage/Battery Check] ---> [Safe Triage / Force Restart]\n                                    ---> [Backup Warning + Ownership Check]\n                                    ---> [Official Recovery + Post-Boot Test]",
-    "sw": "[Symptom + Storage/Battery Check] ---> [Safe Triage / Force Restart]\n                                    ---> [Backup Warning + Ownership Check]\n                                    ---> [Official Recovery + Post-Boot Test]",
-    "ar": "[Symptom + Storage/Battery Check] ---> [Safe Triage / Force Restart]\n                                    ---> [Backup Warning + Ownership Check]\n                                    ---> [Official Recovery + Post-Boot Test]",
-    "es": "[Symptom + Storage/Battery Check] ---> [Safe Triage / Force Restart]\n                                    ---> [Backup Warning + Ownership Check]\n                                    ---> [Official Recovery + Post-Boot Test]",
-    "pt": "[Symptom + Storage/Battery Check] ---> [Safe Triage / Force Restart]\n                                    ---> [Backup Warning + Ownership Check]\n                                    ---> [Official Recovery + Post-Boot Test]"
+    "fr": "Avertissement",
+    "ig": "Ịdọ aka na ntị",
+    "sw": "Onyo",
+    "ar": "تحذير",
+    "es": "Advertencia",
+    "pt": "Aviso"
   },
   "A phone is stuck on the logo screen after an interrupted update. You explain that recovery may reset data if unbacked up, apply the matching official recovery package with steady power, and verify normal boot and connectivity before returning it.": {
     "fr": "A phone is stuck on the logo screen after an interrupted update. You explain that recovery may reset data if unbacked up, apply the matching official recovery package with steady power, and verify normal boot and connectivity before returning it.",
@@ -1032,12 +1032,12 @@
     "pt": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice."
   },
   "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty.": {
-    "fr": "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty.",
-    "ig": "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty.",
-    "sw": "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty.",
-    "ar": "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty.",
-    "es": "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty.",
-    "pt": "Draft a clear repair quote & warranty note template for a smartphone screen or battery replacement, including what is covered and what voids warranty."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?": {
     "fr": "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?",
@@ -1064,28 +1064,28 @@
     "pt": "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs."
   },
   "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer.": {
-    "fr": "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer.",
-    "ig": "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer.",
-    "sw": "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer.",
-    "ar": "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer.",
-    "es": "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer.",
-    "pt": "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "CORE LAPTOP & PC TERMINOLOGY:\n- POST (Power-On Self-Test): Built-in hardware check run when powered on before loading the operating system.\n- BIOS / UEFI: Low-level firmware stored on the board that initializes hardware, sets boot order, and manages security/power options.\n- RAM (Random Access Memory): Fast temporary working memory; capacity and speed strongly affect multitasking.\n- SSD (NVMe vs. SATA) / HDD: Solid-state drives have no moving platters and are much faster/more shock-resistant than mechanical HDDs; verify interface/form factor before buying.\n- DC Jack / USB-C PD: Power input port or USB-C Power Delivery charging standard—match voltage, wattage, and connector/protocol.\n- Thermal Paste / Thermal Pads: Heat-transfer compound/pads bridging CPU/GPU/VRMs to the heatsink.\n\nSUBSYSTEM & SPEC REFERENCE:\nTerm / Component | Role in System / Repair\n-----------------+-------------------------------------------------------------\nPOST & BIOS/UEFI | Pre-OS hardware check & firmware configuration/boot control\nRAM & SSD/HDD    | Active working memory & persistent storage (NVMe/SATA)\nDC Jack / PD / TP| Power entry/negotiation & CPU-to-heatsink thermal transfer": {
-    "fr": "CORE LAPTOP & PC TERMINOLOGY:\n- POST (Power-On Self-Test): Built-in hardware check run when powered on before loading the operating system.\n- BIOS / UEFI: Low-level firmware stored on the board that initializes hardware, sets boot order, and manages security/power options.\n- RAM (Random Access Memory): Fast temporary working memory; capacity and speed strongly affect multitasking.\n- SSD (NVMe vs. SATA) / HDD: Solid-state drives have no moving platters and are much faster/more shock-resistant than mechanical HDDs; verify interface/form factor before buying.\n- DC Jack / USB-C PD: Power input port or USB-C Power Delivery charging standard—match voltage, wattage, and connector/protocol.\n- Thermal Paste / Thermal Pads: Heat-transfer compound/pads bridging CPU/GPU/VRMs to the heatsink.\n\nSUBSYSTEM & SPEC REFERENCE:\nTerm / Component | Role in System / Repair\n-----------------+-------------------------------------------------------------\nPOST & BIOS/UEFI | Pre-OS hardware check & firmware configuration/boot control\nRAM & SSD/HDD    | Active working memory & persistent storage (NVMe/SATA)\nDC Jack / PD / TP| Power entry/negotiation & CPU-to-heatsink thermal transfer",
-    "ig": "CORE LAPTOP & PC TERMINOLOGY:\n- POST (Power-On Self-Test): Built-in hardware check run when powered on before loading the operating system.\n- BIOS / UEFI: Low-level firmware stored on the board that initializes hardware, sets boot order, and manages security/power options.\n- RAM (Random Access Memory): Fast temporary working memory; capacity and speed strongly affect multitasking.\n- SSD (NVMe vs. SATA) / HDD: Solid-state drives have no moving platters and are much faster/more shock-resistant than mechanical HDDs; verify interface/form factor before buying.\n- DC Jack / USB-C PD: Power input port or USB-C Power Delivery charging standard—match voltage, wattage, and connector/protocol.\n- Thermal Paste / Thermal Pads: Heat-transfer compound/pads bridging CPU/GPU/VRMs to the heatsink.\n\nSUBSYSTEM & SPEC REFERENCE:\nTerm / Component | Role in System / Repair\n-----------------+-------------------------------------------------------------\nPOST & BIOS/UEFI | Pre-OS hardware check & firmware configuration/boot control\nRAM & SSD/HDD    | Active working memory & persistent storage (NVMe/SATA)\nDC Jack / PD / TP| Power entry/negotiation & CPU-to-heatsink thermal transfer",
-    "sw": "CORE LAPTOP & PC TERMINOLOGY:\n- POST (Power-On Self-Test): Built-in hardware check run when powered on before loading the operating system.\n- BIOS / UEFI: Low-level firmware stored on the board that initializes hardware, sets boot order, and manages security/power options.\n- RAM (Random Access Memory): Fast temporary working memory; capacity and speed strongly affect multitasking.\n- SSD (NVMe vs. SATA) / HDD: Solid-state drives have no moving platters and are much faster/more shock-resistant than mechanical HDDs; verify interface/form factor before buying.\n- DC Jack / USB-C PD: Power input port or USB-C Power Delivery charging standard—match voltage, wattage, and connector/protocol.\n- Thermal Paste / Thermal Pads: Heat-transfer compound/pads bridging CPU/GPU/VRMs to the heatsink.\n\nSUBSYSTEM & SPEC REFERENCE:\nTerm / Component | Role in System / Repair\n-----------------+-------------------------------------------------------------\nPOST & BIOS/UEFI | Pre-OS hardware check & firmware configuration/boot control\nRAM & SSD/HDD    | Active working memory & persistent storage (NVMe/SATA)\nDC Jack / PD / TP| Power entry/negotiation & CPU-to-heatsink thermal transfer",
-    "ar": "CORE LAPTOP & PC TERMINOLOGY:\n- POST (Power-On Self-Test): Built-in hardware check run when powered on before loading the operating system.\n- BIOS / UEFI: Low-level firmware stored on the board that initializes hardware, sets boot order, and manages security/power options.\n- RAM (Random Access Memory): Fast temporary working memory; capacity and speed strongly affect multitasking.\n- SSD (NVMe vs. SATA) / HDD: Solid-state drives have no moving platters and are much faster/more shock-resistant than mechanical HDDs; verify interface/form factor before buying.\n- DC Jack / USB-C PD: Power input port or USB-C Power Delivery charging standard—match voltage, wattage, and connector/protocol.\n- Thermal Paste / Thermal Pads: Heat-transfer compound/pads bridging CPU/GPU/VRMs to the heatsink.\n\nSUBSYSTEM & SPEC REFERENCE:\nTerm / Component | Role in System / Repair\n-----------------+-------------------------------------------------------------\nPOST & BIOS/UEFI | Pre-OS hardware check & firmware configuration/boot control\nRAM & SSD/HDD    | Active working memory & persistent storage (NVMe/SATA)\nDC Jack / PD / TP| Power entry/negotiation & CPU-to-heatsink thermal transfer",
-    "es": "CORE LAPTOP & PC TERMINOLOGY:\n- POST (Power-On Self-Test): Built-in hardware check run when powered on before loading the operating system.\n- BIOS / UEFI: Low-level firmware stored on the board that initializes hardware, sets boot order, and manages security/power options.\n- RAM (Random Access Memory): Fast temporary working memory; capacity and speed strongly affect multitasking.\n- SSD (NVMe vs. SATA) / HDD: Solid-state drives have no moving platters and are much faster/more shock-resistant than mechanical HDDs; verify interface/form factor before buying.\n- DC Jack / USB-C PD: Power input port or USB-C Power Delivery charging standard—match voltage, wattage, and connector/protocol.\n- Thermal Paste / Thermal Pads: Heat-transfer compound/pads bridging CPU/GPU/VRMs to the heatsink.\n\nSUBSYSTEM & SPEC REFERENCE:\nTerm / Component | Role in System / Repair\n-----------------+-------------------------------------------------------------\nPOST & BIOS/UEFI | Pre-OS hardware check & firmware configuration/boot control\nRAM & SSD/HDD    | Active working memory & persistent storage (NVMe/SATA)\nDC Jack / PD / TP| Power entry/negotiation & CPU-to-heatsink thermal transfer",
-    "pt": "CORE LAPTOP & PC TERMINOLOGY:\n- POST (Power-On Self-Test): Built-in hardware check run when powered on before loading the operating system.\n- BIOS / UEFI: Low-level firmware stored on the board that initializes hardware, sets boot order, and manages security/power options.\n- RAM (Random Access Memory): Fast temporary working memory; capacity and speed strongly affect multitasking.\n- SSD (NVMe vs. SATA) / HDD: Solid-state drives have no moving platters and are much faster/more shock-resistant than mechanical HDDs; verify interface/form factor before buying.\n- DC Jack / USB-C PD: Power input port or USB-C Power Delivery charging standard—match voltage, wattage, and connector/protocol.\n- Thermal Paste / Thermal Pads: Heat-transfer compound/pads bridging CPU/GPU/VRMs to the heatsink.\n\nSUBSYSTEM & SPEC REFERENCE:\nTerm / Component | Role in System / Repair\n-----------------+-------------------------------------------------------------\nPOST & BIOS/UEFI | Pre-OS hardware check & firmware configuration/boot control\nRAM & SSD/HDD    | Active working memory & persistent storage (NVMe/SATA)\nDC Jack / PD / TP| Power entry/negotiation & CPU-to-heatsink thermal transfer"
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "PRE-WORK CHECK:\n- Check the exact model number, charger rating (V / W), and current RAM/storage specs before buying upgrades or parts.\n\nSPEC & TERMINOLOGY CHECK STEPS:\n1. Check whether the machine passes POST / enters BIOS/UEFI or stops with no display/beep/LED codes.\n2. Identify exact RAM type/slots and storage type (M.2 NVMe, M.2 SATA, 2.5-inch SATA) before recommending upgrades.\n3. Check power adapter voltage/wattage and charging port condition when diagnosing power/charging faults.\n4. Note fan noise, dust buildup, or high temperatures that point toward thermal/cooling service.\n\nPOST-CHECK:\n- Record exact specs and findings clearly so quotes and replacements match the machine.": {
-    "fr": "PRE-WORK CHECK:\n- Check the exact model number, charger rating (V / W), and current RAM/storage specs before buying upgrades or parts.\n\nSPEC & TERMINOLOGY CHECK STEPS:\n1. Check whether the machine passes POST / enters BIOS/UEFI or stops with no display/beep/LED codes.\n2. Identify exact RAM type/slots and storage type (M.2 NVMe, M.2 SATA, 2.5-inch SATA) before recommending upgrades.\n3. Check power adapter voltage/wattage and charging port condition when diagnosing power/charging faults.\n4. Note fan noise, dust buildup, or high temperatures that point toward thermal/cooling service.\n\nPOST-CHECK:\n- Record exact specs and findings clearly so quotes and replacements match the machine.",
-    "ig": "PRE-WORK CHECK:\n- Check the exact model number, charger rating (V / W), and current RAM/storage specs before buying upgrades or parts.\n\nSPEC & TERMINOLOGY CHECK STEPS:\n1. Check whether the machine passes POST / enters BIOS/UEFI or stops with no display/beep/LED codes.\n2. Identify exact RAM type/slots and storage type (M.2 NVMe, M.2 SATA, 2.5-inch SATA) before recommending upgrades.\n3. Check power adapter voltage/wattage and charging port condition when diagnosing power/charging faults.\n4. Note fan noise, dust buildup, or high temperatures that point toward thermal/cooling service.\n\nPOST-CHECK:\n- Record exact specs and findings clearly so quotes and replacements match the machine.",
-    "sw": "PRE-WORK CHECK:\n- Check the exact model number, charger rating (V / W), and current RAM/storage specs before buying upgrades or parts.\n\nSPEC & TERMINOLOGY CHECK STEPS:\n1. Check whether the machine passes POST / enters BIOS/UEFI or stops with no display/beep/LED codes.\n2. Identify exact RAM type/slots and storage type (M.2 NVMe, M.2 SATA, 2.5-inch SATA) before recommending upgrades.\n3. Check power adapter voltage/wattage and charging port condition when diagnosing power/charging faults.\n4. Note fan noise, dust buildup, or high temperatures that point toward thermal/cooling service.\n\nPOST-CHECK:\n- Record exact specs and findings clearly so quotes and replacements match the machine.",
-    "ar": "PRE-WORK CHECK:\n- Check the exact model number, charger rating (V / W), and current RAM/storage specs before buying upgrades or parts.\n\nSPEC & TERMINOLOGY CHECK STEPS:\n1. Check whether the machine passes POST / enters BIOS/UEFI or stops with no display/beep/LED codes.\n2. Identify exact RAM type/slots and storage type (M.2 NVMe, M.2 SATA, 2.5-inch SATA) before recommending upgrades.\n3. Check power adapter voltage/wattage and charging port condition when diagnosing power/charging faults.\n4. Note fan noise, dust buildup, or high temperatures that point toward thermal/cooling service.\n\nPOST-CHECK:\n- Record exact specs and findings clearly so quotes and replacements match the machine.",
-    "es": "PRE-WORK CHECK:\n- Check the exact model number, charger rating (V / W), and current RAM/storage specs before buying upgrades or parts.\n\nSPEC & TERMINOLOGY CHECK STEPS:\n1. Check whether the machine passes POST / enters BIOS/UEFI or stops with no display/beep/LED codes.\n2. Identify exact RAM type/slots and storage type (M.2 NVMe, M.2 SATA, 2.5-inch SATA) before recommending upgrades.\n3. Check power adapter voltage/wattage and charging port condition when diagnosing power/charging faults.\n4. Note fan noise, dust buildup, or high temperatures that point toward thermal/cooling service.\n\nPOST-CHECK:\n- Record exact specs and findings clearly so quotes and replacements match the machine.",
-    "pt": "PRE-WORK CHECK:\n- Check the exact model number, charger rating (V / W), and current RAM/storage specs before buying upgrades or parts.\n\nSPEC & TERMINOLOGY CHECK STEPS:\n1. Check whether the machine passes POST / enters BIOS/UEFI or stops with no display/beep/LED codes.\n2. Identify exact RAM type/slots and storage type (M.2 NVMe, M.2 SATA, 2.5-inch SATA) before recommending upgrades.\n3. Check power adapter voltage/wattage and charging port condition when diagnosing power/charging faults.\n4. Note fan noise, dust buildup, or high temperatures that point toward thermal/cooling service.\n\nPOST-CHECK:\n- Record exact specs and findings clearly so quotes and replacements match the machine."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "- TRAP (Buying the Wrong Charger or RAM/SSD Type): Mismatched RAM generation, wrong SSD interface, or an underpowered charger causes boot failure, throttling, or charging issues.\n- TRAP (Confusing 'No Windows Boot' With 'Dead Hardware'): A laptop that enters BIOS/UEFI but fails to load Windows may have a boot-order, OS, or drive issue rather than a dead motherboard.\n- TRAP (Reusing Dried-Out Thermal Paste): Leaving old, chalky paste or torn thermal pads after removing a heatsink leads to overheating.": {
     "fr": "- TRAP (Buying the Wrong Charger or RAM/SSD Type): Mismatched RAM generation, wrong SSD interface, or an underpowered charger causes boot failure, throttling, or charging issues.\n- TRAP (Confusing 'No Windows Boot' With 'Dead Hardware'): A laptop that enters BIOS/UEFI but fails to load Windows may have a boot-order, OS, or drive issue rather than a dead motherboard.\n- TRAP (Reusing Dried-Out Thermal Paste): Leaving old, chalky paste or torn thermal pads after removing a heatsink leads to overheating.",
@@ -1152,36 +1152,36 @@
     "pt": "Laptop screens and hinges are delicate and expensive. Yanking a display cable with power on or forcing a stiff hinge can ruin a new panel or crack the palmrest."
   },
   "DISPLAY & HINGE SERVICE RULES:\n- Power Off First: Always disconnect AC and battery before unplugging or seating display cables.\n- Hinge Tension & Anchors: Stiff or seized hinges put heavy leverage on small brass screw inserts in the lid or palmrest—inspect mounts and ease hinge stiffness where needed.\n- Panel & Cable Care: Unclip bezels gently, release adhesive/screws carefully, remove connector tape/latches without pulling wires, and test image/brightness before snapping trim shut.": {
-    "fr": "DISPLAY & HINGE SERVICE RULES:\n- Power Off First: Always disconnect AC and battery before unplugging or seating display cables.\n- Hinge Tension & Anchors: Stiff or seized hinges put heavy leverage on small brass screw inserts in the lid or palmrest—inspect mounts and ease hinge stiffness where needed.\n- Panel & Cable Care: Unclip bezels gently, release adhesive/screws carefully, remove connector tape/latches without pulling wires, and test image/brightness before snapping trim shut.",
-    "ig": "DISPLAY & HINGE SERVICE RULES:\n- Power Off First: Always disconnect AC and battery before unplugging or seating display cables.\n- Hinge Tension & Anchors: Stiff or seized hinges put heavy leverage on small brass screw inserts in the lid or palmrest—inspect mounts and ease hinge stiffness where needed.\n- Panel & Cable Care: Unclip bezels gently, release adhesive/screws carefully, remove connector tape/latches without pulling wires, and test image/brightness before snapping trim shut.",
-    "sw": "DISPLAY & HINGE SERVICE RULES:\n- Power Off First: Always disconnect AC and battery before unplugging or seating display cables.\n- Hinge Tension & Anchors: Stiff or seized hinges put heavy leverage on small brass screw inserts in the lid or palmrest—inspect mounts and ease hinge stiffness where needed.\n- Panel & Cable Care: Unclip bezels gently, release adhesive/screws carefully, remove connector tape/latches without pulling wires, and test image/brightness before snapping trim shut.",
-    "ar": "DISPLAY & HINGE SERVICE RULES:\n- Power Off First: Always disconnect AC and battery before unplugging or seating display cables.\n- Hinge Tension & Anchors: Stiff or seized hinges put heavy leverage on small brass screw inserts in the lid or palmrest—inspect mounts and ease hinge stiffness where needed.\n- Panel & Cable Care: Unclip bezels gently, release adhesive/screws carefully, remove connector tape/latches without pulling wires, and test image/brightness before snapping trim shut.",
-    "es": "DISPLAY & HINGE SERVICE RULES:\n- Power Off First: Always disconnect AC and battery before unplugging or seating display cables.\n- Hinge Tension & Anchors: Stiff or seized hinges put heavy leverage on small brass screw inserts in the lid or palmrest—inspect mounts and ease hinge stiffness where needed.\n- Panel & Cable Care: Unclip bezels gently, release adhesive/screws carefully, remove connector tape/latches without pulling wires, and test image/brightness before snapping trim shut.",
-    "pt": "DISPLAY & HINGE SERVICE RULES:\n- Power Off First: Always disconnect AC and battery before unplugging or seating display cables.\n- Hinge Tension & Anchors: Stiff or seized hinges put heavy leverage on small brass screw inserts in the lid or palmrest—inspect mounts and ease hinge stiffness where needed.\n- Panel & Cable Care: Unclip bezels gently, release adhesive/screws carefully, remove connector tape/latches without pulling wires, and test image/brightness before snapping trim shut."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "PRE-WORK CHECK:\n- Disconnect charger and battery; confirm replacement panel connector pinout, size, resolution, and mount type match.\n\nDISPLAY & HINGE STEPS:\n1. Carefully release front bezel clips/adhesive without prying sharply into the LCD panel.\n2. Unscrew/release panel mounts and hinge screws; support the lid so it doesn't snap backward.\n3. Disconnect the display cable carefully, install the replacement panel/hinge hardware, and reconnect the cable securely.\n4. Reconnect battery temporarily, power on to test display image, brightness, and camera/hinge motion, then finish bezel/screw assembly.\n\nPOST-REPAIR CHECK:\n- Open and close the lid smoothly while checking for uniform screen image and no bezel gaps.": {
-    "fr": "PRE-WORK CHECK:\n- Disconnect charger and battery; confirm replacement panel connector pinout, size, resolution, and mount type match.\n\nDISPLAY & HINGE STEPS:\n1. Carefully release front bezel clips/adhesive without prying sharply into the LCD panel.\n2. Unscrew/release panel mounts and hinge screws; support the lid so it doesn't snap backward.\n3. Disconnect the display cable carefully, install the replacement panel/hinge hardware, and reconnect the cable securely.\n4. Reconnect battery temporarily, power on to test display image, brightness, and camera/hinge motion, then finish bezel/screw assembly.\n\nPOST-REPAIR CHECK:\n- Open and close the lid smoothly while checking for uniform screen image and no bezel gaps.",
-    "ig": "PRE-WORK CHECK:\n- Disconnect charger and battery; confirm replacement panel connector pinout, size, resolution, and mount type match.\n\nDISPLAY & HINGE STEPS:\n1. Carefully release front bezel clips/adhesive without prying sharply into the LCD panel.\n2. Unscrew/release panel mounts and hinge screws; support the lid so it doesn't snap backward.\n3. Disconnect the display cable carefully, install the replacement panel/hinge hardware, and reconnect the cable securely.\n4. Reconnect battery temporarily, power on to test display image, brightness, and camera/hinge motion, then finish bezel/screw assembly.\n\nPOST-REPAIR CHECK:\n- Open and close the lid smoothly while checking for uniform screen image and no bezel gaps.",
-    "sw": "PRE-WORK CHECK:\n- Disconnect charger and battery; confirm replacement panel connector pinout, size, resolution, and mount type match.\n\nDISPLAY & HINGE STEPS:\n1. Carefully release front bezel clips/adhesive without prying sharply into the LCD panel.\n2. Unscrew/release panel mounts and hinge screws; support the lid so it doesn't snap backward.\n3. Disconnect the display cable carefully, install the replacement panel/hinge hardware, and reconnect the cable securely.\n4. Reconnect battery temporarily, power on to test display image, brightness, and camera/hinge motion, then finish bezel/screw assembly.\n\nPOST-REPAIR CHECK:\n- Open and close the lid smoothly while checking for uniform screen image and no bezel gaps.",
-    "ar": "PRE-WORK CHECK:\n- Disconnect charger and battery; confirm replacement panel connector pinout, size, resolution, and mount type match.\n\nDISPLAY & HINGE STEPS:\n1. Carefully release front bezel clips/adhesive without prying sharply into the LCD panel.\n2. Unscrew/release panel mounts and hinge screws; support the lid so it doesn't snap backward.\n3. Disconnect the display cable carefully, install the replacement panel/hinge hardware, and reconnect the cable securely.\n4. Reconnect battery temporarily, power on to test display image, brightness, and camera/hinge motion, then finish bezel/screw assembly.\n\nPOST-REPAIR CHECK:\n- Open and close the lid smoothly while checking for uniform screen image and no bezel gaps.",
-    "es": "PRE-WORK CHECK:\n- Disconnect charger and battery; confirm replacement panel connector pinout, size, resolution, and mount type match.\n\nDISPLAY & HINGE STEPS:\n1. Carefully release front bezel clips/adhesive without prying sharply into the LCD panel.\n2. Unscrew/release panel mounts and hinge screws; support the lid so it doesn't snap backward.\n3. Disconnect the display cable carefully, install the replacement panel/hinge hardware, and reconnect the cable securely.\n4. Reconnect battery temporarily, power on to test display image, brightness, and camera/hinge motion, then finish bezel/screw assembly.\n\nPOST-REPAIR CHECK:\n- Open and close the lid smoothly while checking for uniform screen image and no bezel gaps.",
-    "pt": "PRE-WORK CHECK:\n- Disconnect charger and battery; confirm replacement panel connector pinout, size, resolution, and mount type match.\n\nDISPLAY & HINGE STEPS:\n1. Carefully release front bezel clips/adhesive without prying sharply into the LCD panel.\n2. Unscrew/release panel mounts and hinge screws; support the lid so it doesn't snap backward.\n3. Disconnect the display cable carefully, install the replacement panel/hinge hardware, and reconnect the cable securely.\n4. Reconnect battery temporarily, power on to test display image, brightness, and camera/hinge motion, then finish bezel/screw assembly.\n\nPOST-REPAIR CHECK:\n- Open and close the lid smoothly while checking for uniform screen image and no bezel gaps."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "- TRAP (Unplugging Display Cable With Battery Connected): Can cause shorts or blow display/backlight circuits.\n- TRAP (Forcing a Seized Hinge): Opening a jammed hinge without freeing/repairing mounts can rip brass inserts straight out of plastic.\n- TRAP (Flexing the Panel Hard While Removing Tape): Bending a thin LCD/LED panel can cause pressure lines or cracks.": {
-    "fr": "- TRAP (Unplugging Display Cable With Battery Connected): Can cause shorts or blow display/backlight circuits.\n- TRAP (Forcing a Seized Hinge): Opening a jammed hinge without freeing/repairing mounts can rip brass inserts straight out of plastic.\n- TRAP (Flexing the Panel Hard While Removing Tape): Bending a thin LCD/LED panel can cause pressure lines or cracks.",
-    "ig": "- TRAP (Unplugging Display Cable With Battery Connected): Can cause shorts or blow display/backlight circuits.\n- TRAP (Forcing a Seized Hinge): Opening a jammed hinge without freeing/repairing mounts can rip brass inserts straight out of plastic.\n- TRAP (Flexing the Panel Hard While Removing Tape): Bending a thin LCD/LED panel can cause pressure lines or cracks.",
-    "sw": "- TRAP (Unplugging Display Cable With Battery Connected): Can cause shorts or blow display/backlight circuits.\n- TRAP (Forcing a Seized Hinge): Opening a jammed hinge without freeing/repairing mounts can rip brass inserts straight out of plastic.\n- TRAP (Flexing the Panel Hard While Removing Tape): Bending a thin LCD/LED panel can cause pressure lines or cracks.",
-    "ar": "- TRAP (Unplugging Display Cable With Battery Connected): Can cause shorts or blow display/backlight circuits.\n- TRAP (Forcing a Seized Hinge): Opening a jammed hinge without freeing/repairing mounts can rip brass inserts straight out of plastic.\n- TRAP (Flexing the Panel Hard While Removing Tape): Bending a thin LCD/LED panel can cause pressure lines or cracks.",
-    "es": "- TRAP (Unplugging Display Cable With Battery Connected): Can cause shorts or blow display/backlight circuits.\n- TRAP (Forcing a Seized Hinge): Opening a jammed hinge without freeing/repairing mounts can rip brass inserts straight out of plastic.\n- TRAP (Flexing the Panel Hard While Removing Tape): Bending a thin LCD/LED panel can cause pressure lines or cracks.",
-    "pt": "- TRAP (Unplugging Display Cable With Battery Connected): Can cause shorts or blow display/backlight circuits.\n- TRAP (Forcing a Seized Hinge): Opening a jammed hinge without freeing/repairing mounts can rip brass inserts straight out of plastic.\n- TRAP (Flexing the Panel Hard While Removing Tape): Bending a thin LCD/LED panel can cause pressure lines or cracks."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "[Isolate AC & Battery] ---> [Gentle Bezel & Hinge Access] ---> [Clean Cable Swap]\n                      ---> [Test Display & Hinge Motion] ---> [Final Trim & Screw Check]": {
-    "fr": "[Isolate AC & Battery] ---> [Gentle Bezel & Hinge Access] ---> [Clean Cable Swap]\n                      ---> [Test Display & Hinge Motion] ---> [Final Trim & Screw Check]",
-    "ig": "[Isolate AC & Battery] ---> [Gentle Bezel & Hinge Access] ---> [Clean Cable Swap]\n                      ---> [Test Display & Hinge Motion] ---> [Final Trim & Screw Check]",
-    "sw": "[Isolate AC & Battery] ---> [Gentle Bezel & Hinge Access] ---> [Clean Cable Swap]\n                      ---> [Test Display & Hinge Motion] ---> [Final Trim & Screw Check]",
-    "ar": "[Isolate AC & Battery] ---> [Gentle Bezel & Hinge Access] ---> [Clean Cable Swap]\n                      ---> [Test Display & Hinge Motion] ---> [Final Trim & Screw Check]",
-    "es": "[Isolate AC & Battery] ---> [Gentle Bezel & Hinge Access] ---> [Clean Cable Swap]\n                      ---> [Test Display & Hinge Motion] ---> [Final Trim & Screw Check]",
-    "pt": "[Isolate AC & Battery] ---> [Gentle Bezel & Hinge Access] ---> [Clean Cable Swap]\n                      ---> [Test Display & Hinge Motion] ---> [Final Trim & Screw Check]"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "A laptop lid pops open with a cracking sound and the lower corner of the screen frame separates. Inspection shows a seized/broken hinge mount stressing the housing. Repairing/securing the hinge and replacing the damaged panel/trim restores smooth lid operation without repeating the break.": {
     "fr": "A laptop lid pops open with a cracking sound and the lower corner of the screen frame separates. Inspection shows a seized/broken hinge mount stressing the housing. Repairing/securing the hinge and replacing the damaged panel/trim restores smooth lid operation without repeating the break.",
@@ -1200,12 +1200,12 @@
     "pt": "Write out the key precautions when replacing a laptop screen and inspecting hinges, including how you test before sealing the bezel."
   },
   "1. Why must AC power and the battery be disconnected before handling display cables?\n2. What happens if a stiff or broken laptop hinge is ignored during a screen repair?\n3. Why should you test the screen and lid movement before snapping the bezel completely shut?": {
-    "fr": "1. Why must AC power and the battery be disconnected before handling display cables?\n2. What happens if a stiff or broken laptop hinge is ignored during a screen repair?\n3. Why should you test the screen and lid movement before snapping the bezel completely shut?",
-    "ig": "1. Why must AC power and the battery be disconnected before handling display cables?\n2. What happens if a stiff or broken laptop hinge is ignored during a screen repair?\n3. Why should you test the screen and lid movement before snapping the bezel completely shut?",
-    "sw": "1. Why must AC power and the battery be disconnected before handling display cables?\n2. What happens if a stiff or broken laptop hinge is ignored during a screen repair?\n3. Why should you test the screen and lid movement before snapping the bezel completely shut?",
-    "ar": "1. Why must AC power and the battery be disconnected before handling display cables?\n2. What happens if a stiff or broken laptop hinge is ignored during a screen repair?\n3. Why should you test the screen and lid movement before snapping the bezel completely shut?",
-    "es": "1. Why must AC power and the battery be disconnected before handling display cables?\n2. What happens if a stiff or broken laptop hinge is ignored during a screen repair?\n3. Why should you test the screen and lid movement before snapping the bezel completely shut?",
-    "pt": "1. Why must AC power and the battery be disconnected before handling display cables?\n2. What happens if a stiff or broken laptop hinge is ignored during a screen repair?\n3. Why should you test the screen and lid movement before snapping the bezel completely shut?"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations": {
     "fr": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations",
@@ -1232,12 +1232,12 @@
     "pt": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back."
   },
   "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records": {
-    "fr": "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records",
-    "ig": "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records",
-    "sw": "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records",
-    "ar": "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records",
-    "es": "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records",
-    "pt": "SUSTAINABLE REPAIR SHOP & PARTNER HABITS:\n- Transparent Quoting: State part cost, service/labor fee, and expected turnaround upfront; get client approval before ordering parts or doing paid work.\n- Clear Warranty Boundaries: Define what is covered (e.g., workmanship or defective replacement part on the serviced item during the stated period) and what is excluded (new impact/drops, liquid spills, power surges, normal battery wear, or tampering).\n- Handover QA & Records: Test power, charging, display, keyboard/touchpad, ports, Wi-Fi/audio, and boot before handing over, and keep clear job records for accountability and partner/livelihood reporting.\n\nOPERATIONS & TRUST MATRIX:\nPractice          | Why It Matters for Growth & Partners\n------------------+-------------------------------------------------------------\nItemized Quote    | Prevents disputes & builds price fairness credibility\nClear Warranty    | Sets realistic expectations & protects against misuse claims\nHandover QA & Log | Cuts comebacks & supports business/program records"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.": {
     "fr": "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.",
@@ -1480,20 +1480,20 @@
     "pt": "THERMAL & COOLING SERVICE STANDARDS:\n- Symptoms: Fan spinning loudly at idle/light tasks, hot palmrest/exhaust, sudden shutoffs under workload, or CPU/GPU slowing down (thermal throttling).\n- Clean & Repaste: Remove dust lint from heatsink fins and fan blades, clean old thermal paste thoroughly from CPU/GPU dies and heatsink bases with lint-free wipes/IPA, and apply a controlled, thin, even layer of fresh thermal paste.\n- Even Mounting Pressure: Tighten heatsink screws gradually in sequence/cross-pattern per design so contact pressure is even.\n\nTHERMAL SERVICE REFERENCE:\nSymptom / Step    | Key Action / Standard\n------------------+-------------------------------------------------------------\nOverheat / Thrott | Check fan airflow, fin dust blockage & dried paste/pads\nFan & Fin Clean   | Hold fan blades gently; clear lint from fins & vents\nPaste & Mounting  | Clean old paste with IPA; thin even coat + even screw torque"
   },
   "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly.": {
-    "fr": "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly.",
-    "ig": "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly.",
-    "sw": "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly.",
-    "ar": "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly.",
-    "es": "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly.",
-    "pt": "PRE-WORK CHECK:\n- Power off, unplug AC, and disconnect the battery.\n\nCOOLING SERVICE STEPS:\n1. Remove fan/heatsink assembly carefully (holding fan blades so they do not spin rapidly) and clear dust/lint from fin vents.\n2. Wipe away old dried thermal paste from processor and heatsink surfaces cleanly; check thermal pads.\n3. Apply a proper, controlled amount of fresh thermal paste to the processor die(s).\n4. Re-seat the heatsink evenly, tighten screws gradually without over-torquing, reconnect fan and battery, and test temperatures/fan behavior.\n\nPOST-SERVICE CHECK:\n- Confirm the fan spins smoothly and airflow exits the vent cleanly."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "- TRAP (Too Much or Too Little Thermal Paste): Too little leaves dry spots; excess can squeeze out onto nearby components or insulate poorly.\n- TRAP (Spinning Fans Fast With Air Blasts): Overspinning a DC fan can wear bearings or induce voltage back into the board.\n- TRAP (Uneven Heatsink Tightening): Tightening one screw all the way down first can tilt the cooler and leave poor contact.": {
-    "fr": "- TRAP (Too Much or Too Little Thermal Paste): Too little leaves dry spots; excess can squeeze out onto nearby components or insulate poorly.\n- TRAP (Spinning Fans Fast With Air Blasts): Overspinning a DC fan can wear bearings or induce voltage back into the board.\n- TRAP (Uneven Heatsink Tightening): Tightening one screw all the way down first can tilt the cooler and leave poor contact.",
-    "ig": "- TRAP (Too Much or Too Little Thermal Paste): Too little leaves dry spots; excess can squeeze out onto nearby components or insulate poorly.\n- TRAP (Spinning Fans Fast With Air Blasts): Overspinning a DC fan can wear bearings or induce voltage back into the board.\n- TRAP (Uneven Heatsink Tightening): Tightening one screw all the way down first can tilt the cooler and leave poor contact.",
-    "sw": "- TRAP (Too Much or Too Little Thermal Paste): Too little leaves dry spots; excess can squeeze out onto nearby components or insulate poorly.\n- TRAP (Spinning Fans Fast With Air Blasts): Overspinning a DC fan can wear bearings or induce voltage back into the board.\n- TRAP (Uneven Heatsink Tightening): Tightening one screw all the way down first can tilt the cooler and leave poor contact.",
-    "ar": "- TRAP (Too Much or Too Little Thermal Paste): Too little leaves dry spots; excess can squeeze out onto nearby components or insulate poorly.\n- TRAP (Spinning Fans Fast With Air Blasts): Overspinning a DC fan can wear bearings or induce voltage back into the board.\n- TRAP (Uneven Heatsink Tightening): Tightening one screw all the way down first can tilt the cooler and leave poor contact.",
-    "es": "- TRAP (Too Much or Too Little Thermal Paste): Too little leaves dry spots; excess can squeeze out onto nearby components or insulate poorly.\n- TRAP (Spinning Fans Fast With Air Blasts): Overspinning a DC fan can wear bearings or induce voltage back into the board.\n- TRAP (Uneven Heatsink Tightening): Tightening one screw all the way down first can tilt the cooler and leave poor contact.",
-    "pt": "- TRAP (Too Much or Too Little Thermal Paste): Too little leaves dry spots; excess can squeeze out onto nearby components or insulate poorly.\n- TRAP (Spinning Fans Fast With Air Blasts): Overspinning a DC fan can wear bearings or induce voltage back into the board.\n- TRAP (Uneven Heatsink Tightening): Tightening one screw all the way down first can tilt the cooler and leave poor contact."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]": {
     "fr": "[Dust & Old Paste] ---> [Clean Fins/Fan + Wipe Old Paste]\n                   ---> [Apply Thin Fresh Paste + Even Screw Tension]\n                   ---> [Verify Cooler, Quieter Operation]",
@@ -1616,20 +1616,20 @@
     "pt": "Electrical Potential Difference"
   },
   "Measures electrical push/pressure driving current around a circuit.": {
-    "fr": "Measures electrical push/pressure driving current around a circuit.",
-    "ig": "Measures electrical push/pressure driving current around a circuit.",
-    "sw": "Measures electrical push/pressure driving current around a circuit.",
-    "ar": "Measures electrical push/pressure driving current around a circuit.",
-    "es": "Measures electrical push/pressure driving current around a circuit.",
-    "pt": "Measures electrical push/pressure driving current around a circuit."
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "Check DC string/battery voltage and AC output voltage safely with a multimeter.": {
-    "fr": "Check DC string/battery voltage and AC output voltage safely with a multimeter.",
-    "ig": "Check DC string/battery voltage and AC output voltage safely with a multimeter.",
-    "sw": "Check DC string/battery voltage and AC output voltage safely with a multimeter.",
-    "ar": "Check DC string/battery voltage and AC output voltage safely with a multimeter.",
-    "es": "Check DC string/battery voltage and AC output voltage safely with a multimeter.",
-    "pt": "Check DC string/battery voltage and AC output voltage safely with a multimeter."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "A (Amps)": {
     "fr": "A (Amps)",
@@ -1640,12 +1640,12 @@
     "pt": "A (Amps)"
   },
   "Ampere — Electric Current": {
-    "fr": "Ampere — Electric Current",
-    "ig": "Ampere — Electric Current",
-    "sw": "Ampere — Electric Current",
-    "ar": "Ampere — Electric Current",
-    "es": "Ampere — Electric Current",
-    "pt": "Ampere — Electric Current"
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "Measures the flow rate of electric charge through a conductor or device.": {
     "fr": "Measures the flow rate of electric charge through a conductor or device.",
@@ -1656,12 +1656,12 @@
     "pt": "Measures the flow rate of electric charge through a conductor or device."
   },
   "Used to size cables, fuses, breakers, and clamp-meter current checks.": {
-    "fr": "Used to size cables, fuses, breakers, and clamp-meter current checks.",
-    "ig": "Used to size cables, fuses, breakers, and clamp-meter current checks.",
-    "sw": "Used to size cables, fuses, breakers, and clamp-meter current checks.",
-    "ar": "Used to size cables, fuses, breakers, and clamp-meter current checks.",
-    "es": "Used to size cables, fuses, breakers, and clamp-meter current checks.",
-    "pt": "Used to size cables, fuses, breakers, and clamp-meter current checks."
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "Analog HD (TVI/CVI/AHD)": {
     "fr": "Analog HD (TVI/CVI/AHD)",
@@ -1872,12 +1872,12 @@
     "pt": "Rate of energy transfer or consumption (W = V x A for DC)."
   },
   "Used to audit appliance loads and check inverter continuous/surge capacity.": {
-    "fr": "Used to audit appliance loads and check inverter continuous/surge capacity.",
-    "ig": "Used to audit appliance loads and check inverter continuous/surge capacity.",
-    "sw": "Used to audit appliance loads and check inverter continuous/surge capacity.",
-    "ar": "Used to audit appliance loads and check inverter continuous/surge capacity.",
-    "es": "Used to audit appliance loads and check inverter continuous/surge capacity.",
-    "pt": "Used to audit appliance loads and check inverter continuous/surge capacity."
+    "fr": "Onduleur",
+    "ig": "Inveta",
+    "sw": "Inveta",
+    "ar": "عاكس (إنفرتر)",
+    "es": "Inversor",
+    "pt": "Inversor"
   },
   "PoE": {
     "fr": "PoE",
@@ -1936,20 +1936,20 @@
     "pt": "USB Amp Meter"
   },
   "USB Voltage & Current Tester": {
-    "fr": "USB Voltage & Current Tester",
-    "ig": "USB Voltage & Current Tester",
-    "sw": "USB Voltage & Current Tester",
-    "ar": "USB Voltage & Current Tester",
-    "es": "USB Voltage & Current Tester",
-    "pt": "USB Voltage & Current Tester"
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "Measures charging voltage (V) and current draw (A) between charger and device.": {
-    "fr": "Measures charging voltage (V) and current draw (A) between charger and device.",
-    "ig": "Measures charging voltage (V) and current draw (A) between charger and device.",
-    "sw": "Measures charging voltage (V) and current draw (A) between charger and device.",
-    "ar": "Measures charging voltage (V) and current draw (A) between charger and device.",
-    "es": "Measures charging voltage (V) and current draw (A) between charger and device.",
-    "pt": "Measures charging voltage (V) and current draw (A) between charger and device."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "Helps spot faulty cables, dirty ports, or weak charging early.": {
     "fr": "Helps spot faulty cables, dirty ports, or weak charging early.",
@@ -1984,28 +1984,28 @@
     "pt": "Ah (Amp-Hour)"
   },
   "Battery Charge Capacity Rating": {
-    "fr": "Battery Charge Capacity Rating",
-    "ig": "Battery Charge Capacity Rating",
-    "sw": "Battery Charge Capacity Rating",
-    "ar": "Battery Charge Capacity Rating",
-    "es": "Battery Charge Capacity Rating",
-    "pt": "Battery Charge Capacity Rating"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "Indicates charge capacity at a specified nominal voltage over a rated discharge period.": {
-    "fr": "Indicates charge capacity at a specified nominal voltage over a rated discharge period.",
-    "ig": "Indicates charge capacity at a specified nominal voltage over a rated discharge period.",
-    "sw": "Indicates charge capacity at a specified nominal voltage over a rated discharge period.",
-    "ar": "Indicates charge capacity at a specified nominal voltage over a rated discharge period.",
-    "es": "Indicates charge capacity at a specified nominal voltage over a rated discharge period.",
-    "pt": "Indicates charge capacity at a specified nominal voltage over a rated discharge period."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "Multiply by nominal voltage and safe DoD to estimate usable Watt-hours.": {
-    "fr": "Multiply by nominal voltage and safe DoD to estimate usable Watt-hours.",
-    "ig": "Multiply by nominal voltage and safe DoD to estimate usable Watt-hours.",
-    "sw": "Multiply by nominal voltage and safe DoD to estimate usable Watt-hours.",
-    "ar": "Multiply by nominal voltage and safe DoD to estimate usable Watt-hours.",
-    "es": "Multiply by nominal voltage and safe DoD to estimate usable Watt-hours.",
-    "pt": "Multiply by nominal voltage and safe DoD to estimate usable Watt-hours."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "Cat6": {
     "fr": "Cat6",
@@ -2120,12 +2120,12 @@
     "pt": "Power input port or negotiated charging standard supplying system power."
   },
   "Check physical integrity, fit, and proper voltage/wattage rating.": {
-    "fr": "Check physical integrity, fit, and proper voltage/wattage rating.",
-    "ig": "Check physical integrity, fit, and proper voltage/wattage rating.",
-    "sw": "Check physical integrity, fit, and proper voltage/wattage rating.",
-    "ar": "Check physical integrity, fit, and proper voltage/wattage rating.",
-    "es": "Check physical integrity, fit, and proper voltage/wattage rating.",
-    "pt": "Check physical integrity, fit, and proper voltage/wattage rating."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "FRP": {
     "fr": "PRF",
@@ -2184,12 +2184,12 @@
     "pt": "Surge Protection Device"
   },
   "Protects sensitive electronics against voltage spikes and transients.": {
-    "fr": "Protects sensitive electronics against voltage spikes and transients.",
-    "ig": "Protects sensitive electronics against voltage spikes and transients.",
+    "fr": "Tension",
+    "ig": "Voltaji",
     "sw": "Hulinda vifaa vya elektroniki nyeti dhidi ya spikes za voltage na muda mfupi.",
-    "ar": "Protects sensitive electronics against voltage spikes and transients.",
-    "es": "Protects sensitive electronics against voltage spikes and transients.",
-    "pt": "Protects sensitive electronics against voltage spikes and transients."
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "Helps prevent surge damage along power and exposed runs.": {
     "fr": "Aide à prévenir les dommages causés par les surtensions le long des circuits électriques et exposés.",
@@ -2344,20 +2344,20 @@
     "pt": "Li-Ion Pouch Cell"
   },
   "Lithium-Ion Rechargeable Battery": {
-    "fr": "Lithium-Ion Rechargeable Battery",
-    "ig": "Lithium-Ion Rechargeable Battery",
-    "sw": "Lithium-Ion Rechargeable Battery",
-    "ar": "Lithium-Ion Rechargeable Battery",
-    "es": "Lithium-Ion Rechargeable Battery",
-    "pt": "Lithium-Ion Rechargeable Battery"
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "High-energy battery cell sensitive to puncture, crushing, over-heat, or swelling.": {
-    "fr": "High-energy battery cell sensitive to puncture, crushing, over-heat, or swelling.",
-    "ig": "High-energy battery cell sensitive to puncture, crushing, over-heat, or swelling.",
-    "sw": "High-energy battery cell sensitive to puncture, crushing, over-heat, or swelling.",
-    "ar": "High-energy battery cell sensitive to puncture, crushing, over-heat, or swelling.",
-    "es": "High-energy battery cell sensitive to puncture, crushing, over-heat, or swelling.",
-    "pt": "High-energy battery cell sensitive to puncture, crushing, over-heat, or swelling."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.": {
     "fr": "Never pry with sharp metal or apply excessive heat; keep fire-safe bin ready.",
@@ -2640,12 +2640,12 @@
     "pt": "State of Charge"
   },
   "Remaining energy/charge level in a battery expressed as a percentage.": {
-    "fr": "Remaining energy/charge level in a battery expressed as a percentage.",
-    "ig": "Remaining energy/charge level in a battery expressed as a percentage.",
-    "sw": "Remaining energy/charge level in a battery expressed as a percentage.",
-    "ar": "Remaining energy/charge level in a battery expressed as a percentage.",
-    "es": "Remaining energy/charge level in a battery expressed as a percentage.",
-    "pt": "Remaining energy/charge level in a battery expressed as a percentage."
+    "fr": "Batterie",
+    "ig": "Batrị",
+    "sw": "Betri",
+    "ar": "بطارية",
+    "es": "Batería",
+    "pt": "Bateria"
   },
   "Helps monitor charging progress and avoid deep discharge stress.": {
     "fr": "Helps monitor charging progress and avoid deep discharge stress.",
@@ -2888,12 +2888,12 @@
     "pt": "Surge Protective Device / Uninterruptible Power Supply"
   },
   "Guards against voltage spikes and keeps critical gear powered during outages.": {
-    "fr": "Guards against voltage spikes and keeps critical gear powered during outages.",
-    "ig": "Guards against voltage spikes and keeps critical gear powered during outages.",
-    "sw": "Guards against voltage spikes and keeps critical gear powered during outages.",
-    "ar": "Guards against voltage spikes and keeps critical gear powered during outages.",
-    "es": "Guards against voltage spikes and keeps critical gear powered during outages.",
-    "pt": "Guards against voltage spikes and keeps critical gear powered during outages."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "Protects NVRs, switches, and routers from grid fluctuations and blackouts.": {
     "fr": "Protects NVRs, switches, and routers from grid fluctuations and blackouts.",
@@ -2984,20 +2984,20 @@
     "pt": "Miniature Circuit Breaker"
   },
   "Automatic switch that trips on overcurrent/short-circuit faults.": {
-    "fr": "Automatic switch that trips on overcurrent/short-circuit faults.",
-    "ig": "Automatic switch that trips on overcurrent/short-circuit faults.",
-    "sw": "Automatic switch that trips on overcurrent/short-circuit faults.",
-    "ar": "Automatic switch that trips on overcurrent/short-circuit faults.",
-    "es": "Automatic switch that trips on overcurrent/short-circuit faults.",
-    "pt": "Automatic switch that trips on overcurrent/short-circuit faults."
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "Must match circuit voltage/current and DC vs. AC rating requirements.": {
-    "fr": "Must match circuit voltage/current and DC vs. AC rating requirements.",
-    "ig": "Must match circuit voltage/current and DC vs. AC rating requirements.",
-    "sw": "Must match circuit voltage/current and DC vs. AC rating requirements.",
-    "ar": "Must match circuit voltage/current and DC vs. AC rating requirements.",
-    "es": "Must match circuit voltage/current and DC vs. AC rating requirements.",
-    "pt": "Must match circuit voltage/current and DC vs. AC rating requirements."
+    "fr": "Tension",
+    "ig": "Voltaji",
+    "sw": "Volti",
+    "ar": "الجهد الكهربائي",
+    "es": "Voltaje",
+    "pt": "Tensão"
   },
   "Post-Repair QA": {
     "fr": "Post-Repair QA",
@@ -3224,20 +3224,20 @@
     "pt": "GND / Earthing"
   },
   "Protective Grounding / Earth Bonding": {
-    "fr": "Protective Grounding / Earth Bonding",
-    "ig": "Protective Grounding / Earth Bonding",
-    "sw": "Protective Grounding / Earth Bonding",
-    "ar": "Protective Grounding / Earth Bonding",
-    "es": "Protective Grounding / Earth Bonding",
-    "pt": "Protective Grounding / Earth Bonding"
+    "fr": "Mise à la terre",
+    "ig": "Njikọ ala",
+    "sw": "Uunganishaji ardhini",
+    "ar": "التأريض",
+    "es": "Puesta a tierra",
+    "pt": "Aterramento"
   },
   "Connects exposed conductive frames/equipment to earth for safety and fault paths.": {
-    "fr": "Connects exposed conductive frames/equipment to earth for safety and fault paths.",
-    "ig": "Connects exposed conductive frames/equipment to earth for safety and fault paths.",
-    "sw": "Connects exposed conductive frames/equipment to earth for safety and fault paths.",
-    "ar": "Connects exposed conductive frames/equipment to earth for safety and fault paths.",
-    "es": "Connects exposed conductive frames/equipment to earth for safety and fault paths.",
-    "pt": "Connects exposed conductive frames/equipment to earth for safety and fault paths."
+    "fr": "Sécurité",
+    "ig": "Nchekwa",
+    "sw": "Usalama",
+    "ar": "السلامة",
+    "es": "Seguridad",
+    "pt": "Segurança"
   },
   "Supports fault protection and surge/reference stability when properly installed.": {
     "fr": "Supports fault protection and surge/reference stability when properly installed.",
@@ -3288,20 +3288,20 @@
     "pt": "RCD"
   },
   "Residual Current Device": {
-    "fr": "Residual Current Device",
-    "ig": "Residual Current Device",
-    "sw": "Residual Current Device",
-    "ar": "Residual Current Device",
-    "es": "Residual Current Device",
-    "pt": "Residual Current Device"
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "Protective device that trips on earth-leakage current to reduce shock risk.": {
-    "fr": "Protective device that trips on earth-leakage current to reduce shock risk.",
-    "ig": "Protective device that trips on earth-leakage current to reduce shock risk.",
-    "sw": "Protective device that trips on earth-leakage current to reduce shock risk.",
-    "ar": "Protective device that trips on earth-leakage current to reduce shock risk.",
-    "es": "Protective device that trips on earth-leakage current to reduce shock risk.",
-    "pt": "Protective device that trips on earth-leakage current to reduce shock risk."
+    "fr": "Courant",
+    "ig": "Ọkụ eletrik",
+    "sw": "Mkondo wa umeme",
+    "ar": "التيار الكهربائي",
+    "es": "Corriente",
+    "pt": "Corrente"
   },
   "Supports personal protection on AC circuits alongside proper earthing.": {
     "fr": "Supports personal protection on AC circuits alongside proper earthing.",
