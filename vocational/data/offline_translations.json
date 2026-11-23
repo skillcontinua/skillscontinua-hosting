@@ -48,17 +48,17 @@
     "pt": "VERIFICAÇÃO PRÉ-SESSÃO:\n- Higienize as mãos, prepare uma estação limpa e coloque uma toalha/capa/tira para o pescoço limpa.\n\nETAPAS DE CONSULTA E HIGIENE:\n1. Higienize as mãos e prepare uma estação limpa com uma toalha/capa/tira para o pescoço limpa.\n2. Inspecione o cabelo, couro cabeludo, pele ou unhas do cliente quanto a irritações, cortes ou sensibilidades.\n3. Confirme as expectativas de estilo/tom/comprimento e realize um teste de remendo antes do uso de produtos químicos/cor/adesivo.\n4. Limpe e desinfete as ferramentas após o serviço.\n\nVERIFICAÇÃO PÓS-SESSÃO:\n- Descarte os itens descartáveis com segurança e reinicie a estação para o próximo cliente."
   },
   "- TRAP (Disinfecting Over Dirt/Hair): Wiping or spraying a dirty blade or brush without removing debris reduces disinfectant effectiveness.\n- TRAP (Rushing Past Red Flags): Ignoring inflamed scalp/skin or skipping patch tests can trigger severe reactions.": {
-    "fr": "- TRAP (Disinfecting Over Dirt/Hair): Wiping or spraying a dirty blade or brush without removing debris reduces disinfectant effectiveness.\n- TRAP (Rushing Past Red Flags): Ignoring inflamed scalp/skin or skipping patch tests can trigger severe reactions.",
-    "ig": "- TRAP (Disinfecting Over Dirt/Hair): Wiping or spraying a dirty blade or brush without removing debris reduces disinfectant effectiveness.\n- TRAP (Rushing Past Red Flags): Ignoring inflamed scalp/skin or skipping patch tests can trigger severe reactions.",
-    "sw": "- TRAP (Disinfecting Over Dirt/Hair): Wiping or spraying a dirty blade or brush without removing debris reduces disinfectant effectiveness.\n- TRAP (Rushing Past Red Flags): Ignoring inflamed scalp/skin or skipping patch tests can trigger severe reactions.",
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
     "ar": "- TRAP (تطهير الأوساخ/الشعر): مسح أو رش شفرة أو فرشاة متسخة دون إزالة الحطام يقلل من فعالية المطهر.\n- فخ (التسرع في تجاوز الأعلام الحمراء): يمكن أن يؤدي تجاهل فروة الرأس/الجلد الملتهبة أو تخطي اختبارات البقعة إلى ردود فعل شديدة.",
     "es": "- TRAP (desinfección sobre suciedad/cabello): Limpiar o rociar una cuchilla o un cepillo sucio sin eliminar los residuos reduce la eficacia del desinfectante.\n- TRAMPA (Rushing Past Red Flags): Ignorar el cuero cabelludo o la piel inflamados o saltarse las pruebas de parche puede desencadenar reacciones graves.",
     "pt": "- TRAP (Desinfecção sobre sujeira/cabelo): Limpar ou borrifar uma lâmina ou escova suja sem remover detritos reduz a eficácia do desinfetante.\n- TRAP (Rushing Past Red Flags): Ignorar couro cabeludo/pele inflamados ou pular testes de contato pode desencadear reações graves."
   },
   "[Client Arrives] ---> [Consultation + Scalp/Skin/Nail Check]\n                                     |\n       +-----------------------------+ (Service Performed)\n       v\n[Remove Debris] ---> [Disinfect / Full Contact Time] ---> [Clean Station Ready]": {
-    "fr": "[Client Arrives] ---> [Consultation + Scalp/Skin/Nail Check]\n                                     |\n       +-----------------------------+ (Service Performed)\n       v\n[Remove Debris] ---> [Disinfect / Full Contact Time] ---> [Clean Station Ready]",
-    "ig": "[Client Arrives] ---> [Consultation + Scalp/Skin/Nail Check]\n                                     |\n       +-----------------------------+ (Service Performed)\n       v\n[Remove Debris] ---> [Disinfect / Full Contact Time] ---> [Clean Station Ready]",
-    "sw": "[Client Arrives] ---> [Consultation + Scalp/Skin/Nail Check]\n                                     |\n       +-----------------------------+ (Service Performed)\n       v\n[Remove Debris] ---> [Disinfect / Full Contact Time] ---> [Clean Station Ready]",
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
     "ar": "[وصول العميل] ---> [استشارة + فحص فروة الرأس/الجلد/الأظافر]\n                                     |\n       +-----------------------------+ (تم تنفيذ الخدمة)\n       ضد\n[إزالة الحطام] ---> [التطهير / وقت الاتصال الكامل] ---> [تجهيز المحطة النظيفة]",
     "es": "[Llega el cliente] ---> [Consulta + Revisión del cuero cabelludo/piel/uñas]\n                                     |\n       +-----------------------+ (Servicio realizado)\n       v\n[Eliminar residuos] ---> [Desinfectar / Tiempo de contacto completo] ---> [Estación de limpieza lista]",
     "pt": "[Cliente chega] ---> [Consulta + Verificação do couro cabeludo/pele/unhas]\n                                     |\n       +-----------------------------+ (Serviço Realizado)\n       v\n[Remover detritos] ---> [Desinfetar / Tempo total de contato] ---> [Limpar estação pronta]"
@@ -80,8 +80,8 @@
     "pt": "Escreva uma consulta de cliente de 5 pontos e uma lista de verificação de higiene para barbear, cabelo, maquiagem ou unhas."
   },
   "1. Why must debris be removed before disinfecting a tool?\n2. Why run a patch test before applying hair color, chemicals, or adhesives?": {
-    "fr": "1. Why must debris be removed before disinfecting a tool?\n2. Why run a patch test before applying hair color, chemicals, or adhesives?",
-    "ig": "1. Why must debris be removed before disinfecting a tool?\n2. Why run a patch test before applying hair color, chemicals, or adhesives?",
+    "fr": "Cheveux",
+    "ig": "Ntutu",
     "sw": "1. Kwa nini uchafu lazima uondolewe kabla ya kuua chombo?\n2. Kwa nini ufanye mtihani wa kiraka kabla ya kutumia rangi ya nywele, kemikali, au viambatisho?",
     "ar": "1. لماذا يجب إزالة الحطام قبل تطهير الأداة؟\n2. لماذا يتم إجراء اختبار البقعة قبل تطبيق لون الشعر أو المواد الكيميائية أو المواد اللاصقة؟",
     "es": "1. ¿Por qué se deben eliminar los residuos antes de desinfectar una herramienta?\n2. ¿Por qué realizar una prueba de parche antes de aplicar tintes, productos químicos o adhesivos para el cabello?",
@@ -96,20 +96,20 @@
     "pt": "Máquina de cortar"
   },
   "- Establish clean guidelines, blend guard transitions smoothly, and line up edges carefully.\n- Handle natural and treated hair gently while cleansing, conditioning, and styling.": {
-    "fr": "- Establish clean guidelines, blend guard transitions smoothly, and line up edges carefully.\n- Handle natural and treated hair gently while cleansing, conditioning, and styling.",
-    "ig": "- Establish clean guidelines, blend guard transitions smoothly, and line up edges carefully.\n- Handle natural and treated hair gently while cleansing, conditioning, and styling.",
-    "sw": "- Establish clean guidelines, blend guard transitions smoothly, and line up edges carefully.\n- Handle natural and treated hair gently while cleansing, conditioning, and styling.",
-    "ar": "- Establish clean guidelines, blend guard transitions smoothly, and line up edges carefully.\n- Handle natural and treated hair gently while cleansing, conditioning, and styling.",
-    "es": "- Establish clean guidelines, blend guard transitions smoothly, and line up edges carefully.\n- Handle natural and treated hair gently while cleansing, conditioning, and styling.",
-    "pt": "- Establish clean guidelines, blend guard transitions smoothly, and line up edges carefully.\n- Handle natural and treated hair gently while cleansing, conditioning, and styling."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars.": {
-    "fr": "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars.",
-    "ig": "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars.",
-    "sw": "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars.",
-    "ar": "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars.",
-    "es": "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars.",
-    "pt": "Crisp blends, natural hairlines, and healthy hair care turn first-time clients into loyal regulars."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "CLIPPER BLENDING & HAIR CARE:\n- Work in structured sections from the bottom up, using controlled flick/scoop motion with guards and lever adjustments to soften harsh lines while preserving natural hairlines.\n- Detangle gently from ends toward roots with moisture/slip, and protect hair against excessive heat or tension.\n\nCRAFT & CARE BENCHMARK:\nArea              | Key Standard\n------------------+--------------------------------------------------\nFades & Blends    | Clean guideline + gradual guard/lever transitions\nHairline / Edges  | Crisp yet natural—avoid pushing hairlines back\nDetangling/Styling| Start at ends, add moisture/slip, check symmetry": {
     "fr": "Tondeuse",
@@ -120,20 +120,20 @@
     "pt": "Máquina de cortar"
   },
   "PRE-SERVICE CHECK:\n- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\nCRAFT STEPS:\n1. Comb hair in natural growth direction and set initial length/guideline.\n2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\nPOST-SERVICE CHECK:\n- Inspect front, left/right profiles, and back in balanced light before finishing.": {
-    "fr": "PRE-SERVICE CHECK:\n- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\nCRAFT STEPS:\n1. Comb hair in natural growth direction and set initial length/guideline.\n2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\nPOST-SERVICE CHECK:\n- Inspect front, left/right profiles, and back in balanced light before finishing.",
-    "ig": "PRE-SERVICE CHECK:\n- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\nCRAFT STEPS:\n1. Comb hair in natural growth direction and set initial length/guideline.\n2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\nPOST-SERVICE CHECK:\n- Inspect front, left/right profiles, and back in balanced light before finishing.",
-    "sw": "PRE-SERVICE CHECK:\n- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\nCRAFT STEPS:\n1. Comb hair in natural growth direction and set initial length/guideline.\n2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\nPOST-SERVICE CHECK:\n- Inspect front, left/right profiles, and back in balanced light before finishing.",
-    "ar": "PRE-SERVICE CHECK:\n- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\nCRAFT STEPS:\n1. Comb hair in natural growth direction and set initial length/guideline.\n2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\nPOST-SERVICE CHECK:\n- Inspect front, left/right profiles, and back in balanced light before finishing.",
-    "es": "PRE-SERVICE CHECK:\n- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\nCRAFT STEPS:\n1. Comb hair in natural growth direction and set initial length/guideline.\n2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\nPOST-SERVICE CHECK:\n- Inspect front, left/right profiles, and back in balanced light before finishing.",
-    "pt": "PRE-SERVICE CHECK:\n- Confirm guard/length/style expectations and inspect hair/scalp condition.\n\nCRAFT STEPS:\n1. Comb hair in natural growth direction and set initial length/guideline.\n2. Step through guards smoothly, blending lines with controlled wrist/lever motion.\n3. Detangle gently from ends toward roots, condition/style cleanly, and check symmetry in mirror.\n\nPOST-SERVICE CHECK:\n- Inspect front, left/right profiles, and back in balanced light before finishing."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort.": {
-    "fr": "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort.",
-    "ig": "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort.",
-    "sw": "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort.",
-    "ar": "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort.",
-    "es": "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort.",
-    "pt": "- TRAP (Pushing Back Hairlines): Over-lining with sharp trimmers pushes natural hairlines back and looks harsh as it grows.\n- TRAP (Rough Root-to-Tip Tugging): Pulling knots from the root causes breakage and client discomfort."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)": {
     "fr": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)",
@@ -144,12 +144,12 @@
     "pt": "[Natural Growth / Section] ---> [Set Guideline] ---> [Guard/Lever Blend]\n                                                       |\n   [Front / Sides / Back Symmetry Check] <---------------+ (Detangle Ends-Up / Style)"
   },
   "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows.": {
-    "fr": "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows.",
-    "ig": "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows.",
-    "sw": "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows.",
-    "ar": "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows.",
-    "es": "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows.",
-    "pt": "A client asks for a clean, natural look that grows out neatly over two weeks—keeping a natural hairline and smooth gradient avoids harsh lines as hair grows."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.": {
     "fr": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles.",
@@ -160,68 +160,68 @@
     "pt": "Practice blending a smooth transition across two guard sizes and check symmetry from front, profile, and back angles."
   },
   "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?": {
-    "fr": "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?",
-    "ig": "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?",
-    "sw": "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?",
-    "ar": "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?",
-    "es": "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?",
-    "pt": "1. Why is keeping a natural hairline important in barbing?\n2. When detangling hair, where should you start—at the roots or at the ends?"
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "Step 4: Skin Prep, Shade Matching, Makeup Blending & Nail Care / Finishes": {
-    "fr": "Step 4: Skin Prep, Shade Matching, Makeup Blending & Nail Care / Finishes",
-    "ig": "Step 4: Skin Prep, Shade Matching, Makeup Blending & Nail Care / Finishes",
-    "sw": "Step 4: Skin Prep, Shade Matching, Makeup Blending & Nail Care / Finishes",
-    "ar": "Step 4: Skin Prep, Shade Matching, Makeup Blending & Nail Care / Finishes",
-    "es": "Step 4: Skin Prep, Shade Matching, Makeup Blending & Nail Care / Finishes",
-    "pt": "Step 4: Skin Prep, Shade Matching, Makeup Blending & Nail Care / Finishes"
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
+    "ar": "الجلد / البشرة",
+    "es": "Piel",
+    "pt": "Pele"
   },
   "- Prep skin, match undertone/complexion naturally, and blend makeup without harsh lines.\n- Shape, prep, and finish nails cleanly with smooth edges and lasting polish/coatings.": {
-    "fr": "- Prep skin, match undertone/complexion naturally, and blend makeup without harsh lines.\n- Shape, prep, and finish nails cleanly with smooth edges and lasting polish/coatings.",
-    "ig": "- Prep skin, match undertone/complexion naturally, and blend makeup without harsh lines.\n- Shape, prep, and finish nails cleanly with smooth edges and lasting polish/coatings.",
-    "sw": "- Prep skin, match undertone/complexion naturally, and blend makeup without harsh lines.\n- Shape, prep, and finish nails cleanly with smooth edges and lasting polish/coatings.",
-    "ar": "- Prep skin, match undertone/complexion naturally, and blend makeup without harsh lines.\n- Shape, prep, and finish nails cleanly with smooth edges and lasting polish/coatings.",
-    "es": "- Prep skin, match undertone/complexion naturally, and blend makeup without harsh lines.\n- Shape, prep, and finish nails cleanly with smooth edges and lasting polish/coatings.",
-    "pt": "- Prep skin, match undertone/complexion naturally, and blend makeup without harsh lines.\n- Shape, prep, and finish nails cleanly with smooth edges and lasting polish/coatings."
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
+    "ar": "الجلد / البشرة",
+    "es": "Piel",
+    "pt": "Pele"
   },
   "Ashy foundation or lifted/uneven nails are easy to spot—mastering prep and blending makes your work look polished in person and in photos.": {
-    "fr": "Ashy foundation or lifted/uneven nails are easy to spot—mastering prep and blending makes your work look polished in person and in photos.",
-    "ig": "Ashy foundation or lifted/uneven nails are easy to spot—mastering prep and blending makes your work look polished in person and in photos.",
-    "sw": "Ashy foundation or lifted/uneven nails are easy to spot—mastering prep and blending makes your work look polished in person and in photos.",
-    "ar": "Ashy foundation or lifted/uneven nails are easy to spot—mastering prep and blending makes your work look polished in person and in photos.",
-    "es": "Ashy foundation or lifted/uneven nails are easy to spot—mastering prep and blending makes your work look polished in person and in photos.",
-    "pt": "Ashy foundation or lifted/uneven nails are easy to spot—mastering prep and blending makes your work look polished in person and in photos."
+    "fr": "Ongle",
+    "ig": "Mbọ",
+    "sw": "Ukucha",
+    "ar": "ظفر",
+    "es": "Uña",
+    "pt": "Unha"
   },
   "MAKEUP & NAIL FINISH STANDARDS:\n- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\nMAKEUP & NAIL QUALITY CHECK:\nCraft        | Primary Detail to Nail\n-------------+-----------------------------------------------------\nMakeup Base  | Undertone match + seamless jawline/neck blend\nNail Prep    | Gentle shaping & cuticle care without thinning plate\nNail Finish  | Thin even coats + sealed free edge for longevity": {
-    "fr": "MAKEUP & NAIL FINISH STANDARDS:\n- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\nMAKEUP & NAIL QUALITY CHECK:\nCraft        | Primary Detail to Nail\n-------------+-----------------------------------------------------\nMakeup Base  | Undertone match + seamless jawline/neck blend\nNail Prep    | Gentle shaping & cuticle care without thinning plate\nNail Finish  | Thin even coats + sealed free edge for longevity",
-    "ig": "MAKEUP & NAIL FINISH STANDARDS:\n- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\nMAKEUP & NAIL QUALITY CHECK:\nCraft        | Primary Detail to Nail\n-------------+-----------------------------------------------------\nMakeup Base  | Undertone match + seamless jawline/neck blend\nNail Prep    | Gentle shaping & cuticle care without thinning plate\nNail Finish  | Thin even coats + sealed free edge for longevity",
-    "sw": "MAKEUP & NAIL FINISH STANDARDS:\n- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\nMAKEUP & NAIL QUALITY CHECK:\nCraft        | Primary Detail to Nail\n-------------+-----------------------------------------------------\nMakeup Base  | Undertone match + seamless jawline/neck blend\nNail Prep    | Gentle shaping & cuticle care without thinning plate\nNail Finish  | Thin even coats + sealed free edge for longevity",
-    "ar": "MAKEUP & NAIL FINISH STANDARDS:\n- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\nMAKEUP & NAIL QUALITY CHECK:\nCraft        | Primary Detail to Nail\n-------------+-----------------------------------------------------\nMakeup Base  | Undertone match + seamless jawline/neck blend\nNail Prep    | Gentle shaping & cuticle care without thinning plate\nNail Finish  | Thin even coats + sealed free edge for longevity",
-    "es": "MAKEUP & NAIL FINISH STANDARDS:\n- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\nMAKEUP & NAIL QUALITY CHECK:\nCraft        | Primary Detail to Nail\n-------------+-----------------------------------------------------\nMakeup Base  | Undertone match + seamless jawline/neck blend\nNail Prep    | Gentle shaping & cuticle care without thinning plate\nNail Finish  | Thin even coats + sealed free edge for longevity",
-    "pt": "MAKEUP & NAIL FINISH STANDARDS:\n- Match base shades to undertone and test along the jawline/neck in balanced light, blending edges seamlessly in thin layers.\n- For nails: shape evenly, prep gently without over-filing live nail plates, apply thin even coats, and seal the free edge.\n\nMAKEUP & NAIL QUALITY CHECK:\nCraft        | Primary Detail to Nail\n-------------+-----------------------------------------------------\nMakeup Base  | Undertone match + seamless jawline/neck blend\nNail Prep    | Gentle shaping & cuticle care without thinning plate\nNail Finish  | Thin even coats + sealed free edge for longevity"
+    "fr": "Ongle",
+    "ig": "Mbọ",
+    "sw": "Ukucha",
+    "ar": "ظفر",
+    "es": "Uña",
+    "pt": "Unha"
   },
   "PRE-SERVICE CHECK:\n- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\nAPPLICATION STEPS:\n1. Prep clean skin/nails and confirm desired look/finish with client.\n2. Apply thin, blendable layers rather than heavy buildup at once.\n3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\nPOST-SERVICE CHECK:\n- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves.": {
-    "fr": "PRE-SERVICE CHECK:\n- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\nAPPLICATION STEPS:\n1. Prep clean skin/nails and confirm desired look/finish with client.\n2. Apply thin, blendable layers rather than heavy buildup at once.\n3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\nPOST-SERVICE CHECK:\n- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves.",
-    "ig": "PRE-SERVICE CHECK:\n- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\nAPPLICATION STEPS:\n1. Prep clean skin/nails and confirm desired look/finish with client.\n2. Apply thin, blendable layers rather than heavy buildup at once.\n3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\nPOST-SERVICE CHECK:\n- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves.",
-    "sw": "PRE-SERVICE CHECK:\n- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\nAPPLICATION STEPS:\n1. Prep clean skin/nails and confirm desired look/finish with client.\n2. Apply thin, blendable layers rather than heavy buildup at once.\n3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\nPOST-SERVICE CHECK:\n- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves.",
-    "ar": "PRE-SERVICE CHECK:\n- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\nAPPLICATION STEPS:\n1. Prep clean skin/nails and confirm desired look/finish with client.\n2. Apply thin, blendable layers rather than heavy buildup at once.\n3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\nPOST-SERVICE CHECK:\n- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves.",
-    "es": "PRE-SERVICE CHECK:\n- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\nAPPLICATION STEPS:\n1. Prep clean skin/nails and confirm desired look/finish with client.\n2. Apply thin, blendable layers rather than heavy buildup at once.\n3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\nPOST-SERVICE CHECK:\n- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves.",
-    "pt": "PRE-SERVICE CHECK:\n- Confirm skin/nail condition and check undertone/finish preferences in good light.\n\nAPPLICATION STEPS:\n1. Prep clean skin/nails and confirm desired look/finish with client.\n2. Apply thin, blendable layers rather than heavy buildup at once.\n3. Seal nail free edges and inspect final look in natural/balanced lighting.\n\nPOST-SERVICE CHECK:\n- Check for harsh edges, uneven product pooling, or unsealed tips before client leaves."
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
+    "ar": "الجلد / البشرة",
+    "es": "Piel",
+    "pt": "Pele"
   },
   "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting.": {
-    "fr": "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting.",
-    "ig": "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting.",
-    "sw": "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting.",
-    "ar": "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting.",
-    "es": "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting.",
-    "pt": "- TRAP (Thick Single-Coat Buildup): Applying thick layers of polish or foundation all at once causes smudging, creasing, or lifting.\n- TRAP (Over-Filing Natural Nails): Aggressive filing weakens the nail plate and causes pain/lifting."
+    "fr": "Ongle",
+    "ig": "Mbọ",
+    "sw": "Ukucha",
+    "ar": "ظفر",
+    "es": "Uña",
+    "pt": "Unha"
   },
   "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n                                                                   |\n                                                                   v\n                                             [Natural / Balanced Light Inspection]": {
-    "fr": "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n                                                                   |\n                                                                   v\n                                             [Natural / Balanced Light Inspection]",
-    "ig": "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n                                                                   |\n                                                                   v\n                                             [Natural / Balanced Light Inspection]",
-    "sw": "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n                                                                   |\n                                                                   v\n                                             [Natural / Balanced Light Inspection]",
-    "ar": "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n                                                                   |\n                                                                   v\n                                             [Natural / Balanced Light Inspection]",
-    "es": "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n                                                                   |\n                                                                   v\n                                             [Natural / Balanced Light Inspection]",
-    "pt": "[Clean Skin / Prepped Nail] ---> [Thin Buildable Layers] ---> [Seal Edges / Blend]\n                                                                   |\n                                                                   v\n                                             [Natural / Balanced Light Inspection]"
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
+    "ar": "الجلد / البشرة",
+    "es": "Piel",
+    "pt": "Pele"
   },
   "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.": {
     "fr": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch.",
@@ -232,20 +232,20 @@
     "pt": "A client's foundation looks slightly too light in daylight—checking undertone and blending down toward the neck/jawline in balanced light prevents mismatch."
   },
   "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light.": {
-    "fr": "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light.",
-    "ig": "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light.",
-    "sw": "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light.",
-    "ar": "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light.",
-    "es": "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light.",
-    "pt": "Complete a full makeup look or manicure/nail-art set and inspect edges, blending, and finish under bright light."
+    "fr": "Ongle",
+    "ig": "Mbọ",
+    "sw": "Ukucha",
+    "ar": "ظفر",
+    "es": "Uña",
+    "pt": "Unha"
   },
   "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n2. What does sealing the free edge of a nail help prevent?": {
-    "fr": "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n2. What does sealing the free edge of a nail help prevent?",
-    "ig": "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n2. What does sealing the free edge of a nail help prevent?",
-    "sw": "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n2. What does sealing the free edge of a nail help prevent?",
-    "ar": "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n2. What does sealing the free edge of a nail help prevent?",
-    "es": "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n2. What does sealing the free edge of a nail help prevent?",
-    "pt": "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n2. What does sealing the free edge of a nail help prevent?"
+    "fr": "Ongle",
+    "ig": "Mbọ",
+    "sw": "Ukucha",
+    "ar": "ظفر",
+    "es": "Uña",
+    "pt": "Unha"
   },
   "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients": {
     "fr": "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients",
@@ -264,28 +264,28 @@
     "pt": "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals."
   },
   "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round.": {
-    "fr": "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round.",
-    "ig": "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round.",
-    "sw": "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round.",
-    "ar": "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round.",
-    "es": "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round.",
-    "pt": "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "PROFITABLE PRICING & CLIENT RETENTION:\n- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\nPRICING & RETENTION ELEMENTS:\nElement           | Purpose\n------------------+---------------------------------------------------\nBase + Add-On Menu| Clarifies what is included vs. optional extras\nMobile / Event Fee| Covers travel time, transport, and setup buffers\nFollow-Up & Care  | Helps clients maintain results and refer others": {
-    "fr": "PROFITABLE PRICING & CLIENT RETENTION:\n- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\nPRICING & RETENTION ELEMENTS:\nElement           | Purpose\n------------------+---------------------------------------------------\nBase + Add-On Menu| Clarifies what is included vs. optional extras\nMobile / Event Fee| Covers travel time, transport, and setup buffers\nFollow-Up & Care  | Helps clients maintain results and refer others",
-    "ig": "PROFITABLE PRICING & CLIENT RETENTION:\n- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\nPRICING & RETENTION ELEMENTS:\nElement           | Purpose\n------------------+---------------------------------------------------\nBase + Add-On Menu| Clarifies what is included vs. optional extras\nMobile / Event Fee| Covers travel time, transport, and setup buffers\nFollow-Up & Care  | Helps clients maintain results and refer others",
-    "sw": "PROFITABLE PRICING & CLIENT RETENTION:\n- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\nPRICING & RETENTION ELEMENTS:\nElement           | Purpose\n------------------+---------------------------------------------------\nBase + Add-On Menu| Clarifies what is included vs. optional extras\nMobile / Event Fee| Covers travel time, transport, and setup buffers\nFollow-Up & Care  | Helps clients maintain results and refer others",
-    "ar": "PROFITABLE PRICING & CLIENT RETENTION:\n- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\nPRICING & RETENTION ELEMENTS:\nElement           | Purpose\n------------------+---------------------------------------------------\nBase + Add-On Menu| Clarifies what is included vs. optional extras\nMobile / Event Fee| Covers travel time, transport, and setup buffers\nFollow-Up & Care  | Helps clients maintain results and refer others",
-    "es": "PROFITABLE PRICING & CLIENT RETENTION:\n- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\nPRICING & RETENTION ELEMENTS:\nElement           | Purpose\n------------------+---------------------------------------------------\nBase + Add-On Menu| Clarifies what is included vs. optional extras\nMobile / Event Fee| Covers travel time, transport, and setup buffers\nFollow-Up & Care  | Helps clients maintain results and refer others",
-    "pt": "PROFITABLE PRICING & CLIENT RETENTION:\n- Factor in product/consumable cost, chair/kit overhead, travel time (for mobile/events), and your skilled time.\n- If a client asks for a minor adjustment right after a service, listen calmly and address reasonable fixes politely while setting clear expectations.\n\nPRICING & RETENTION ELEMENTS:\nElement           | Purpose\n------------------+---------------------------------------------------\nBase + Add-On Menu| Clarifies what is included vs. optional extras\nMobile / Event Fee| Covers travel time, transport, and setup buffers\nFollow-Up & Care  | Helps clients maintain results and refer others"
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "PRE-BOOKING CHECK:\n- Confirm service scope, add-ons, estimated time, and price before starting.\n\nPRICING & CLIENT CARE STEPS:\n1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n2. Confirm scope, timing, and booking terms before starting.\n3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\nPOST-SESSION CHECK:\n- Note client preferences for future visits and keep sanitation/kit restocked.": {
-    "fr": "PRE-BOOKING CHECK:\n- Confirm service scope, add-ons, estimated time, and price before starting.\n\nPRICING & CLIENT CARE STEPS:\n1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n2. Confirm scope, timing, and booking terms before starting.\n3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\nPOST-SESSION CHECK:\n- Note client preferences for future visits and keep sanitation/kit restocked.",
-    "ig": "PRE-BOOKING CHECK:\n- Confirm service scope, add-ons, estimated time, and price before starting.\n\nPRICING & CLIENT CARE STEPS:\n1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n2. Confirm scope, timing, and booking terms before starting.\n3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\nPOST-SESSION CHECK:\n- Note client preferences for future visits and keep sanitation/kit restocked.",
-    "sw": "PRE-BOOKING CHECK:\n- Confirm service scope, add-ons, estimated time, and price before starting.\n\nPRICING & CLIENT CARE STEPS:\n1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n2. Confirm scope, timing, and booking terms before starting.\n3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\nPOST-SESSION CHECK:\n- Note client preferences for future visits and keep sanitation/kit restocked.",
-    "ar": "PRE-BOOKING CHECK:\n- Confirm service scope, add-ons, estimated time, and price before starting.\n\nPRICING & CLIENT CARE STEPS:\n1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n2. Confirm scope, timing, and booking terms before starting.\n3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\nPOST-SESSION CHECK:\n- Note client preferences for future visits and keep sanitation/kit restocked.",
-    "es": "PRE-BOOKING CHECK:\n- Confirm service scope, add-ons, estimated time, and price before starting.\n\nPRICING & CLIENT CARE STEPS:\n1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n2. Confirm scope, timing, and booking terms before starting.\n3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\nPOST-SESSION CHECK:\n- Note client preferences for future visits and keep sanitation/kit restocked.",
-    "pt": "PRE-BOOKING CHECK:\n- Confirm service scope, add-ons, estimated time, and price before starting.\n\nPRICING & CLIENT CARE STEPS:\n1. Build a clear price list covering base services, add-ons, and event/mobile rates.\n2. Confirm scope, timing, and booking terms before starting.\n3. Follow up politely on care/maintenance and ask satisfied clients for referrals.\n\nPOST-SESSION CHECK:\n- Note client preferences for future visits and keep sanitation/kit restocked."
+    "fr": "Maintenance",
+    "ig": "Nlekọta mgbe niile",
+    "sw": "Matengenezo",
+    "ar": "الصيانة",
+    "es": "Mantenimiento",
+    "pt": "Manutenção"
   },
   "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.": {
     "fr": "- TRAP (Underpriced Rush Bookings): Accepting last-minute underpriced event/group bookings without time buffers or clear scope leads to stress and errors.\n- TRAP (Defensive Reactions): Arguing over minor adjustments damages trust faster than a small fix.",
@@ -312,12 +312,12 @@
     "pt": "A client wants a slight adjustment to blend/length right at the end of a session—staying calm, checking what is possible safely, and finishing cleanly turns tension into loyalty."
   },
   "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option.": {
-    "fr": "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option.",
-    "ig": "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option.",
-    "sw": "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option.",
-    "ar": "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option.",
-    "es": "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option.",
-    "pt": "Create a service price & add-on sheet for your chosen specialty (barbing, hair, makeup, or nails) including a mobile/event option."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?": {
     "fr": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?",
@@ -328,12 +328,12 @@
     "pt": "1. What costs should be considered when pricing salon or mobile services?\n2. Why confirm service scope and timing before starting?"
   },
   "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist": {
-    "fr": "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist",
-    "ig": "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist",
-    "sw": "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist",
-    "ar": "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist",
-    "es": "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist",
-    "pt": "Step 9: End-to-End Post-Repair Quality Assurance (QA) & Handover Checklist"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "- Run a complete post-repair QA check across power, display, touch, charging, audio, cameras, connectivity, and sensors.\n- Clean the device and workspace and hand over with clear care instructions.\n- Catch minor issues in-shop before the customer walks out.": {
     "fr": "Caméra",
@@ -392,12 +392,12 @@
     "pt": "Tela"
   },
   "Write a 10-item post-repair QA checklist you can print and use on every finished smartphone repair.": {
-    "fr": "Write a 10-item post-repair QA checklist you can print and use on every finished smartphone repair.",
-    "ig": "Write a 10-item post-repair QA checklist you can print and use on every finished smartphone repair.",
-    "sw": "Write a 10-item post-repair QA checklist you can print and use on every finished smartphone repair.",
-    "ar": "Write a 10-item post-repair QA checklist you can print and use on every finished smartphone repair.",
-    "es": "Write a 10-item post-repair QA checklist you can print and use on every finished smartphone repair.",
-    "pt": "Write a 10-item post-repair QA checklist you can print and use on every finished smartphone repair."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "1. Why is testing the proximity sensor during a call important after screen work?\n2. Name five functional areas you should verify before handing a repaired phone back to a client.\n3. How does thorough in-shop QA protect a repair technician's income and reputation?": {
     "fr": "Écran",
@@ -472,12 +472,12 @@
     "pt": "Tela"
   },
   "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice.": {
-    "fr": "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice.",
-    "ig": "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice.",
-    "sw": "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice.",
-    "ar": "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice.",
-    "es": "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice.",
-    "pt": "Perform a 15-minute intake inspection on a laptop or desktop: check case/hinges/ports, test power/display/input/boot behavior, and write an intake summary with pre-existing issues and data advice."
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "1. Why should you disconnect the internal battery after opening a laptop case and before unplugging cables?\n2. Why is logging existing hinge cracks or port wear at intake so important?\n3. What should you tell a client about data before starting hardware or OS troubleshooting?": {
     "fr": "Batterie",
@@ -504,12 +504,12 @@
     "pt": "- Install or reseat RAM modules and NVMe/SATA SSDs cleanly without damaging slots or retention clips.\n- Plan safe data transfer/migration and verify full capacity and boot stability.\n- Troubleshoot basic 'no boot after upgrade' symptoms like unseated RAM or loose drives."
   },
   "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely.": {
-    "fr": "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely.",
-    "ig": "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely.",
-    "sw": "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely.",
-    "ar": "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely.",
-    "es": "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely.",
-    "pt": "Upgrading slow mechanical drives to SSDs and adding appropriate RAM is one of the highest-value, most common repairs—delivering noticeable speed gains when done cleanly and safely."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "MEMORY & STORAGE UPGRADE STANDARDS:\n- RAM Seating: Align the key notch on the module with the slot key, insert at the required angle, press firmly until side clips lock, and lay flat (on angled SO-DIMM slots).\n- SSD Installation: Align M.2 connector notch, seat gently without forcing, secure with the retention screw, or mount 2.5-inch drives cleanly.\n- Data & OS Check: Confirm whether the client needs a fresh OS install or data/system transfer, and verify total RAM and drive recognition in BIOS/UEFI and the OS.": {
     "fr": "Connecteur",
@@ -536,12 +536,12 @@
     "pt": "Bateria"
   },
   "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]": {
-    "fr": "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]",
-    "ig": "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]",
-    "sw": "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]",
-    "ar": "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]",
-    "es": "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]",
-    "pt": "[Isolate Power & ESD] ---> [Align Notch & Seat RAM / SSD] ---> [Verify in BIOS/UEFI]\n                     ---> [OS / Data Setup & Boot Test]"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.": {
     "fr": "A client complains that a 4GB RAM / mechanical-HDD laptop takes several minutes to boot and freezes when opening a browser and spreadsheets. Upgrading to an SSD and matching RAM capacity (where supported) transforms responsiveness—provided you verify compatibility and back up data first.",
@@ -560,12 +560,12 @@
     "pt": "List the steps to safely upgrade RAM and an M.2 SSD on a laptop, including two checks you run before handing the laptop back."
   },
   "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?": {
-    "fr": "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?",
-    "ig": "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?",
-    "sw": "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?",
-    "ar": "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?",
-    "es": "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?",
-    "pt": "1. How does the notch on a RAM stick or M.2 SSD help prevent wrong insertion?\n2. Why is checking BIOS/UEFI a helpful step right after installing new RAM or an SSD?\n3. What should you do before wiping or replacing a client's primary storage drive?"
+    "fr": "Stockage",
+    "ig": "Nchekwa data",
+    "sw": "Hifadhi",
+    "ar": "التخزين",
+    "es": "Almacenamiento",
+    "pt": "Armazenamento"
   },
   "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling": {
     "fr": "Step 6: OS Installation, Drivers, BIOS/UEFI Diagnostics & Safe Data Handling",
@@ -600,28 +600,28 @@
     "pt": "Cabo"
   },
   "PRE-WORK CHECK:\n- Confirm customer data backup status and connect reliable AC power.\n\nOS & DRIVER STEPS:\n1. Verify BIOS/UEFI drive detection, boot settings, and system time/date.\n2. Back up/transfer user files as agreed before any drive format or OS installation.\n3. Complete OS installation and install required drivers (Wi-Fi, chipset, display, audio, trackpad).\n4. Test internet/Wi-Fi, sound, display scaling/brightness, USB ports, and sleep/wake/restart behavior.\n\nPOST-SETUP CHECK:\n- Confirm no critical hardware devices show driver errors and client data/accounts are handled cleanly.": {
-    "fr": "PRE-WORK CHECK:\n- Confirm customer data backup status and connect reliable AC power.\n\nOS & DRIVER STEPS:\n1. Verify BIOS/UEFI drive detection, boot settings, and system time/date.\n2. Back up/transfer user files as agreed before any drive format or OS installation.\n3. Complete OS installation and install required drivers (Wi-Fi, chipset, display, audio, trackpad).\n4. Test internet/Wi-Fi, sound, display scaling/brightness, USB ports, and sleep/wake/restart behavior.\n\nPOST-SETUP CHECK:\n- Confirm no critical hardware devices show driver errors and client data/accounts are handled cleanly.",
-    "ig": "PRE-WORK CHECK:\n- Confirm customer data backup status and connect reliable AC power.\n\nOS & DRIVER STEPS:\n1. Verify BIOS/UEFI drive detection, boot settings, and system time/date.\n2. Back up/transfer user files as agreed before any drive format or OS installation.\n3. Complete OS installation and install required drivers (Wi-Fi, chipset, display, audio, trackpad).\n4. Test internet/Wi-Fi, sound, display scaling/brightness, USB ports, and sleep/wake/restart behavior.\n\nPOST-SETUP CHECK:\n- Confirm no critical hardware devices show driver errors and client data/accounts are handled cleanly.",
-    "sw": "PRE-WORK CHECK:\n- Confirm customer data backup status and connect reliable AC power.\n\nOS & DRIVER STEPS:\n1. Verify BIOS/UEFI drive detection, boot settings, and system time/date.\n2. Back up/transfer user files as agreed before any drive format or OS installation.\n3. Complete OS installation and install required drivers (Wi-Fi, chipset, display, audio, trackpad).\n4. Test internet/Wi-Fi, sound, display scaling/brightness, USB ports, and sleep/wake/restart behavior.\n\nPOST-SETUP CHECK:\n- Confirm no critical hardware devices show driver errors and client data/accounts are handled cleanly.",
-    "ar": "PRE-WORK CHECK:\n- Confirm customer data backup status and connect reliable AC power.\n\nOS & DRIVER STEPS:\n1. Verify BIOS/UEFI drive detection, boot settings, and system time/date.\n2. Back up/transfer user files as agreed before any drive format or OS installation.\n3. Complete OS installation and install required drivers (Wi-Fi, chipset, display, audio, trackpad).\n4. Test internet/Wi-Fi, sound, display scaling/brightness, USB ports, and sleep/wake/restart behavior.\n\nPOST-SETUP CHECK:\n- Confirm no critical hardware devices show driver errors and client data/accounts are handled cleanly.",
-    "es": "PRE-WORK CHECK:\n- Confirm customer data backup status and connect reliable AC power.\n\nOS & DRIVER STEPS:\n1. Verify BIOS/UEFI drive detection, boot settings, and system time/date.\n2. Back up/transfer user files as agreed before any drive format or OS installation.\n3. Complete OS installation and install required drivers (Wi-Fi, chipset, display, audio, trackpad).\n4. Test internet/Wi-Fi, sound, display scaling/brightness, USB ports, and sleep/wake/restart behavior.\n\nPOST-SETUP CHECK:\n- Confirm no critical hardware devices show driver errors and client data/accounts are handled cleanly.",
-    "pt": "PRE-WORK CHECK:\n- Confirm customer data backup status and connect reliable AC power.\n\nOS & DRIVER STEPS:\n1. Verify BIOS/UEFI drive detection, boot settings, and system time/date.\n2. Back up/transfer user files as agreed before any drive format or OS installation.\n3. Complete OS installation and install required drivers (Wi-Fi, chipset, display, audio, trackpad).\n4. Test internet/Wi-Fi, sound, display scaling/brightness, USB ports, and sleep/wake/restart behavior.\n\nPOST-SETUP CHECK:\n- Confirm no critical hardware devices show driver errors and client data/accounts are handled cleanly."
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "- TRAP (Formatting Without Checking Backups): Wiping a drive without confirming backups can cause permanent loss of client work or photos.\n- TRAP (Unnecessary Risky BIOS/UEFI Flashes): Updating firmware with unstable power or wrong model files can brick the board.\n- TRAP (Leaving Missing Wi-Fi/Audio Drivers): Handing back a laptop without Wi-Fi or sound drivers creates immediate frustration.": {
-    "fr": "- TRAP (Formatting Without Checking Backups): Wiping a drive without confirming backups can cause permanent loss of client work or photos.\n- TRAP (Unnecessary Risky BIOS/UEFI Flashes): Updating firmware with unstable power or wrong model files can brick the board.\n- TRAP (Leaving Missing Wi-Fi/Audio Drivers): Handing back a laptop without Wi-Fi or sound drivers creates immediate frustration.",
-    "ig": "- TRAP (Formatting Without Checking Backups): Wiping a drive without confirming backups can cause permanent loss of client work or photos.\n- TRAP (Unnecessary Risky BIOS/UEFI Flashes): Updating firmware with unstable power or wrong model files can brick the board.\n- TRAP (Leaving Missing Wi-Fi/Audio Drivers): Handing back a laptop without Wi-Fi or sound drivers creates immediate frustration.",
-    "sw": "- TRAP (Formatting Without Checking Backups): Wiping a drive without confirming backups can cause permanent loss of client work or photos.\n- TRAP (Unnecessary Risky BIOS/UEFI Flashes): Updating firmware with unstable power or wrong model files can brick the board.\n- TRAP (Leaving Missing Wi-Fi/Audio Drivers): Handing back a laptop without Wi-Fi or sound drivers creates immediate frustration.",
-    "ar": "- TRAP (Formatting Without Checking Backups): Wiping a drive without confirming backups can cause permanent loss of client work or photos.\n- TRAP (Unnecessary Risky BIOS/UEFI Flashes): Updating firmware with unstable power or wrong model files can brick the board.\n- TRAP (Leaving Missing Wi-Fi/Audio Drivers): Handing back a laptop without Wi-Fi or sound drivers creates immediate frustration.",
-    "es": "- TRAP (Formatting Without Checking Backups): Wiping a drive without confirming backups can cause permanent loss of client work or photos.\n- TRAP (Unnecessary Risky BIOS/UEFI Flashes): Updating firmware with unstable power or wrong model files can brick the board.\n- TRAP (Leaving Missing Wi-Fi/Audio Drivers): Handing back a laptop without Wi-Fi or sound drivers creates immediate frustration.",
-    "pt": "- TRAP (Formatting Without Checking Backups): Wiping a drive without confirming backups can cause permanent loss of client work or photos.\n- TRAP (Unnecessary Risky BIOS/UEFI Flashes): Updating firmware with unstable power or wrong model files can brick the board.\n- TRAP (Leaving Missing Wi-Fi/Audio Drivers): Handing back a laptop without Wi-Fi or sound drivers creates immediate frustration."
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "[Backup Check + AC Power] ---> [BIOS/UEFI & Clean OS Install]\n                          ---> [Drivers + I/O / Sleep / Restart QA]": {
-    "fr": "[Backup Check + AC Power] ---> [BIOS/UEFI & Clean OS Install]\n                          ---> [Drivers + I/O / Sleep / Restart QA]",
-    "ig": "[Backup Check + AC Power] ---> [BIOS/UEFI & Clean OS Install]\n                          ---> [Drivers + I/O / Sleep / Restart QA]",
-    "sw": "[Backup Check + AC Power] ---> [BIOS/UEFI & Clean OS Install]\n                          ---> [Drivers + I/O / Sleep / Restart QA]",
-    "ar": "[Backup Check + AC Power] ---> [BIOS/UEFI & Clean OS Install]\n                          ---> [Drivers + I/O / Sleep / Restart QA]",
-    "es": "[Backup Check + AC Power] ---> [BIOS/UEFI & Clean OS Install]\n                          ---> [Drivers + I/O / Sleep / Restart QA]",
-    "pt": "[Backup Check + AC Power] ---> [BIOS/UEFI & Clean OS Install]\n                          ---> [Drivers + I/O / Sleep / Restart QA]"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "A laptop loops on a startup repair screen after a failed system update. You explain data-backup options to the client, perform a clean OS recovery on steady power, install the missing Wi-Fi and audio drivers, and verify normal boot before handover.": {
     "fr": "Écran",
@@ -640,20 +640,20 @@
     "pt": "List 5 post-install checks you run after reinstalling an OS and drivers on a laptop."
   },
   "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?": {
-    "fr": "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?",
-    "ig": "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?",
-    "sw": "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?",
-    "ar": "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?",
-    "es": "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?",
-    "pt": "1. Why verify data backup before formatting or reinstalling an operating system?\n2. Which drivers should you verify right after an OS setup so the laptop is usable day-to-day?\n3. Why is steady power essential during firmware/BIOS/UEFI operations?"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation": {
-    "fr": "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation",
-    "ig": "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation",
-    "sw": "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation",
-    "ar": "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation",
-    "es": "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation",
-    "pt": "Step 7: Power/Charging Faults, Keyboard/Port Servicing & Systematic Fault Isolation"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "- Diagnose 'no power / won't charge' and dead keyboard/trackpad/port symptoms systematically.\n- Isolate external charger/DC-in issues from internal battery, memory, storage, or motherboard faults.\n- Know when to escalate or explain board-level limits honestly.": {
     "fr": "Batterie",
@@ -696,12 +696,12 @@
     "pt": "Placa-mãe"
   },
   "[No Power / Boot Fault] ---> [Adapter & Port/DC Check] ---> [LED / Fan / External Display]\n                        ---> [RAM / Flex Seating] ---> [Clear Root-Cause Quote]": {
-    "fr": "[No Power / Boot Fault] ---> [Adapter & Port/DC Check] ---> [LED / Fan / External Display]\n                        ---> [RAM / Flex Seating] ---> [Clear Root-Cause Quote]",
-    "ig": "[No Power / Boot Fault] ---> [Adapter & Port/DC Check] ---> [LED / Fan / External Display]\n                        ---> [RAM / Flex Seating] ---> [Clear Root-Cause Quote]",
-    "sw": "[No Power / Boot Fault] ---> [Adapter & Port/DC Check] ---> [LED / Fan / External Display]\n                        ---> [RAM / Flex Seating] ---> [Clear Root-Cause Quote]",
-    "ar": "[No Power / Boot Fault] ---> [Adapter & Port/DC Check] ---> [LED / Fan / External Display]\n                        ---> [RAM / Flex Seating] ---> [Clear Root-Cause Quote]",
-    "es": "[No Power / Boot Fault] ---> [Adapter & Port/DC Check] ---> [LED / Fan / External Display]\n                        ---> [RAM / Flex Seating] ---> [Clear Root-Cause Quote]",
-    "pt": "[No Power / Boot Fault] ---> [Adapter & Port/DC Check] ---> [LED / Fan / External Display]\n                        ---> [RAM / Flex Seating] ---> [Clear Root-Cause Quote]"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "A client brings a laptop with 'no screen' and a few dead keys. Testing on an external monitor shows the computer boots cleanly to Windows, while inspecting the top case reveals a loose keyboard ribbon and liquid residue on the old palmrest—giving a clear, targeted repair plan.": {
     "fr": "Écran",
@@ -728,20 +728,20 @@
     "pt": "Placa-mãe"
   },
   "Step 9: Full Post-Repair Quality Assurance (QA), Stress Check & Handover": {
-    "fr": "Step 9: Full Post-Repair Quality Assurance (QA), Stress Check & Handover",
-    "ig": "Step 9: Full Post-Repair Quality Assurance (QA), Stress Check & Handover",
-    "sw": "Step 9: Full Post-Repair Quality Assurance (QA), Stress Check & Handover",
-    "ar": "Step 9: Full Post-Repair Quality Assurance (QA), Stress Check & Handover",
-    "es": "Step 9: Full Post-Repair Quality Assurance (QA), Stress Check & Handover",
-    "pt": "Step 9: Full Post-Repair Quality Assurance (QA), Stress Check & Handover"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "- Run a complete post-repair QA check across power/charging, display, keyboard/touchpad, ports, audio, Wi-Fi, and thermals.\n- Verify stability under real everyday use before returning the machine.\n- Hand over cleanly with clear care tips and completion notes.": {
-    "fr": "- Run a complete post-repair QA check across power/charging, display, keyboard/touchpad, ports, audio, Wi-Fi, and thermals.\n- Verify stability under real everyday use before returning the machine.\n- Hand over cleanly with clear care tips and completion notes.",
-    "ig": "- Run a complete post-repair QA check across power/charging, display, keyboard/touchpad, ports, audio, Wi-Fi, and thermals.\n- Verify stability under real everyday use before returning the machine.\n- Hand over cleanly with clear care tips and completion notes.",
-    "sw": "- Run a complete post-repair QA check across power/charging, display, keyboard/touchpad, ports, audio, Wi-Fi, and thermals.\n- Verify stability under real everyday use before returning the machine.\n- Hand over cleanly with clear care tips and completion notes.",
-    "ar": "- Run a complete post-repair QA check across power/charging, display, keyboard/touchpad, ports, audio, Wi-Fi, and thermals.\n- Verify stability under real everyday use before returning the machine.\n- Hand over cleanly with clear care tips and completion notes.",
-    "es": "- Run a complete post-repair QA check across power/charging, display, keyboard/touchpad, ports, audio, Wi-Fi, and thermals.\n- Verify stability under real everyday use before returning the machine.\n- Hand over cleanly with clear care tips and completion notes.",
-    "pt": "- Run a complete post-repair QA check across power/charging, display, keyboard/touchpad, ports, audio, Wi-Fi, and thermals.\n- Verify stability under real everyday use before returning the machine.\n- Hand over cleanly with clear care tips and completion notes."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.": {
     "fr": "A laptop that boots once on the bench can still have a dead USB port, sticky key, uncalibrated brightness, or high heat under load—catching these in QA prevents embarrassing callbacks.",
@@ -776,12 +776,12 @@
     "pt": "Tela"
   },
   "[Reassembly Complete] ---> [Power, Charge & Boot Check]\n                     ---> [Display, Keys, Touchpad & Ports]\n                     ---> [Thermal Check & Clean Handover]": {
-    "fr": "[Reassembly Complete] ---> [Power, Charge & Boot Check]\n                     ---> [Display, Keys, Touchpad & Ports]\n                     ---> [Thermal Check & Clean Handover]",
-    "ig": "[Reassembly Complete] ---> [Power, Charge & Boot Check]\n                     ---> [Display, Keys, Touchpad & Ports]\n                     ---> [Thermal Check & Clean Handover]",
-    "sw": "[Reassembly Complete] ---> [Power, Charge & Boot Check]\n                     ---> [Display, Keys, Touchpad & Ports]\n                     ---> [Thermal Check & Clean Handover]",
-    "ar": "[Reassembly Complete] ---> [Power, Charge & Boot Check]\n                     ---> [Display, Keys, Touchpad & Ports]\n                     ---> [Thermal Check & Clean Handover]",
-    "es": "[Reassembly Complete] ---> [Power, Charge & Boot Check]\n                     ---> [Display, Keys, Touchpad & Ports]\n                     ---> [Thermal Check & Clean Handover]",
-    "pt": "[Reassembly Complete] ---> [Power, Charge & Boot Check]\n                     ---> [Display, Keys, Touchpad & Ports]\n                     ---> [Thermal Check & Clean Handover]"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "After replacing a keyboard and servicing cooling, your QA check catches two keys that need re-seating on the connector. Fixing them before calling the client means the machine works seamlessly on first pickup.": {
     "fr": "Connecteur",
@@ -792,36 +792,36 @@
     "pt": "Conector"
   },
   "Create a practical post-repair QA checklist for laptops and desktops covering power, display, input/ports, thermal behavior, and physical finish.": {
-    "fr": "Create a practical post-repair QA checklist for laptops and desktops covering power, display, input/ports, thermal behavior, and physical finish.",
-    "ig": "Create a practical post-repair QA checklist for laptops and desktops covering power, display, input/ports, thermal behavior, and physical finish.",
-    "sw": "Create a practical post-repair QA checklist for laptops and desktops covering power, display, input/ports, thermal behavior, and physical finish.",
-    "ar": "Create a practical post-repair QA checklist for laptops and desktops covering power, display, input/ports, thermal behavior, and physical finish.",
-    "es": "Create a practical post-repair QA checklist for laptops and desktops covering power, display, input/ports, thermal behavior, and physical finish.",
-    "pt": "Create a practical post-repair QA checklist for laptops and desktops covering power, display, input/ports, thermal behavior, and physical finish."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "1. Why should you test ports, keyboard/touchpad, and Wi-Fi/audio even if you only came in for one main repair?\n2. Why is observing fan/temperature behavior under load helpful before handover?\n3. What does a clean exterior and organized handover signal to a client?": {
-    "fr": "1. Why should you test ports, keyboard/touchpad, and Wi-Fi/audio even if you only came in for one main repair?\n2. Why is observing fan/temperature behavior under load helpful before handover?\n3. What does a clean exterior and organized handover signal to a client?",
-    "ig": "1. Why should you test ports, keyboard/touchpad, and Wi-Fi/audio even if you only came in for one main repair?\n2. Why is observing fan/temperature behavior under load helpful before handover?\n3. What does a clean exterior and organized handover signal to a client?",
-    "sw": "1. Why should you test ports, keyboard/touchpad, and Wi-Fi/audio even if you only came in for one main repair?\n2. Why is observing fan/temperature behavior under load helpful before handover?\n3. What does a clean exterior and organized handover signal to a client?",
-    "ar": "1. Why should you test ports, keyboard/touchpad, and Wi-Fi/audio even if you only came in for one main repair?\n2. Why is observing fan/temperature behavior under load helpful before handover?\n3. What does a clean exterior and organized handover signal to a client?",
-    "es": "1. Why should you test ports, keyboard/touchpad, and Wi-Fi/audio even if you only came in for one main repair?\n2. Why is observing fan/temperature behavior under load helpful before handover?\n3. What does a clean exterior and organized handover signal to a client?",
-    "pt": "1. Why should you test ports, keyboard/touchpad, and Wi-Fi/audio even if you only came in for one main repair?\n2. Why is observing fan/temperature behavior under load helpful before handover?\n3. What does a clean exterior and organized handover signal to a client?"
+    "fr": "Signal",
+    "ig": "Akara ngosi",
+    "sw": "Ishara",
+    "ar": "إشارة",
+    "es": "Señal",
+    "pt": "Sinal"
   },
   "Step 6: Security Hardening, UPS/Surge Protection, Quoting & Maintenance Plans": {
     "fr": "Étape 6 : Renforcement de la sécurité, UPS/protection contre les surtensions, devis et plans de maintenance",
     "ig": "Kwụpụ 6: Nchekwa nchekwa, UPS/Nchekwa ịwa ahụ, Nkwupụta & Atụmatụ Nlekọta",
     "sw": "Hatua ya 6: Ugumu wa Usalama, Ulinzi wa UPS/Surge, Mipango ya Kunukuu na Matengenezo",
     "ar": "الخطوة 6: التعزيز الأمني، وحماية UPS/الارتفاع المفاجئ، وخطط التسعير والصيانة",
-    "es": "Step 6: Security Hardening, UPS/Surge Protection, Quoting & Maintenance Plans",
-    "pt": "Step 6: Security Hardening, UPS/Surge Protection, Quoting & Maintenance Plans"
+    "es": "Mantenimiento",
+    "pt": "Manutenção"
   },
   "- Secure devices with strong passwords, UPS backup, and surge protection.\n- Quote installations cleanly (equipment + cabling/BoS + labor + maintenance) and hand over documentation.": {
     "fr": "- Sécurisez les appareils avec des mots de passe forts, une sauvegarde UPS et une protection contre les surtensions.\n- Coter proprement les installations (matériel + câblage/BoS + main d'oeuvre + maintenance) et remettre la documentation.",
     "ig": "- Chekwaa ngwaọrụ nwere okwuntughe siri ike, nkwado UPS na nchebe ịwa ahụ.\n- Kwuo nrụnye nke ọma (ngwaọrụ + cabling/BoS + ọrụ + mmezi) ma nyefee akwụkwọ.",
     "sw": "- Linda vifaa vilivyo na nywila dhabiti, chelezo cha UPS, na ulinzi wa upasuaji.\n- Nukuu usakinishaji kwa usafi (vifaa + kabati/BoS + kazi + matengenezo) na ukabidhi hati.",
-    "ar": "- Secure devices with strong passwords, UPS backup, and surge protection.\n- Quote installations cleanly (equipment + cabling/BoS + labor + maintenance) and hand over documentation.",
-    "es": "- Secure devices with strong passwords, UPS backup, and surge protection.\n- Quote installations cleanly (equipment + cabling/BoS + labor + maintenance) and hand over documentation.",
-    "pt": "- Secure devices with strong passwords, UPS backup, and surge protection.\n- Quote installations cleanly (equipment + cabling/BoS + labor + maintenance) and hand over documentation."
+    "ar": "الصيانة",
+    "es": "Mantenimiento",
+    "pt": "Manutenção"
   },
   "Power surges and un-itemized cable costs are two of the biggest threats to installer profitability and client satisfaction.": {
     "fr": "Les surtensions et les coûts de câbles non détaillés sont deux des plus grandes menaces pour la rentabilité des installateurs et la satisfaction des clients.",
@@ -860,16 +860,16 @@
     "ig": "[AC / Grid / Generator] ---> [Nchekwa Ịwa Ahụ + UPS]\n                                    |\n                                    v\n            [NVR + PoE Gbanwee + Router] ---> [Password siri ike + Map + SLA]",
     "sw": "[AC / Gridi / Jenereta] ---> [Ulinzi wa Upasuaji + UPS]\n                                    |\n                                    v\n            [NVR + PoE Badili + Kipanga njia] ---> [Nenosiri Madhubuti + Ramani + SLA]",
     "ar": "[التيار المتردد / الشبكة / المولد] ---> [الحماية من زيادة التيار + UPS]\n                                    |\n                                    ضد\n            [NVR + PoE سويتش + راوتر] ---> [كلمات مرور قوية + خريطة + اتفاقية مستوى الخدمة]",
-    "es": "[AC / Grid / Generator] ---> [Surge Protection + UPS]\n                                    |\n                                    v\n            [NVR + PoE Switch + Router] ---> [Strong Passwords + Map + SLA]",
-    "pt": "[AC / Grid / Generator] ---> [Surge Protection + UPS]\n                                    |\n                                    v\n            [NVR + PoE Switch + Router] ---> [Strong Passwords + Map + SLA]"
+    "es": "Enrutador / Router",
+    "pt": "Roteador"
   },
   "A brief power flicker restarts an un-backed-up NVR/router and misses a critical event—adding a small UPS keeps recording and internet running seamlessly.": {
     "fr": "Un bref scintillement de courant redémarre un NVR/routeur non sauvegardé et manque un événement critique : l'ajout d'un petit onduleur permet de maintenir l'enregistrement et le fonctionnement d'Internet de manière transparente.",
     "ig": "Igwe ọkụ ọkụ dị nkenke na-amaliteghachi NVR/ rawụta anaghị akwado ya wee tufuo emume dị oke egwu - na-agbakwunye obere UPS na-eme ndekọ na ịntanetị na-agba ọsọ n'enweghị nsogbu.",
     "sw": "Kimulikaji kifupi cha umeme huwasha upya NVR/ruta isiyo na nakala na hukosa tukio muhimu—kuongeza UPS ndogo huendelea kurekodi na intaneti kufanya kazi kwa urahisi.",
-    "ar": "A brief power flicker restarts an un-backed-up NVR/router and misses a critical event—adding a small UPS keeps recording and internet running seamlessly.",
-    "es": "A brief power flicker restarts an un-backed-up NVR/router and misses a critical event—adding a small UPS keeps recording and internet running seamlessly.",
-    "pt": "A brief power flicker restarts an un-backed-up NVR/router and misses a critical event—adding a small UPS keeps recording and internet running seamlessly."
+    "ar": "موجه (راوتر)",
+    "es": "Enrutador / Router",
+    "pt": "Roteador"
   },
   "Draft a handover checklist and quote outline for an 8-camera + Wi-Fi AP installation.": {
     "fr": "Rédigez une liste de contrôle de transfert et un aperçu du devis pour une installation de 8 caméras + point d'accès Wi-Fi.",
@@ -883,9 +883,9 @@
     "fr": "1. Pourquoi est-il important d'ajouter un UPS à un NVR et à un routeur/switch principal ?\n2. Pourquoi modifier les mots de passe par défaut des appareils avant de confier un système ?",
     "ig": "1. Gịnị kpatara ịgbakwunye UPS na NVR na isi rawụta/mgbanwe ji dị mkpa?\n2. Gịnị mere ịgbanwe ndabere ngwaọrụ okwuntughe tupu inyefe a usoro?",
     "sw": "1. Kwa nini kuongeza UPS kwenye NVR na kipanga njia/switch kuu ni muhimu?\n2. Kwa nini ubadilishe manenosiri ya kifaa kabla ya kukabidhi mfumo?",
-    "ar": "1. Why is adding a UPS to an NVR and main router/switch important?\n2. Why change default device passwords before handing over a system?",
-    "es": "1. Why is adding a UPS to an NVR and main router/switch important?\n2. Why change default device passwords before handing over a system?",
-    "pt": "1. Why is adding a UPS to an NVR and main router/switch important?\n2. Why change default device passwords before handing over a system?"
+    "ar": "موجه (راوتر)",
+    "es": "Enrutador / Router",
+    "pt": "Roteador"
   },
   "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care": {
     "fr": "Step 6: Software Diagnostics, OS Recovery, Flashing & Ethical Account/Data Care",
@@ -960,28 +960,28 @@
     "pt": "Write a short customer-facing explanation of why data backup matters before a software reset or re-flash."
   },
   "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?": {
-    "fr": "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?",
-    "ig": "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?",
-    "sw": "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?",
-    "ar": "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?",
-    "es": "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?",
-    "pt": "1. Why should you warn a customer about data loss before performing a factory reset or firmware flash?\n2. Why must firmware match the exact device model/variant?\n3. Why is stable power critical during firmware recovery?"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Step 10: Transparent Pricing, Warranty Boundaries & Sustainable Repair Business": {
-    "fr": "Step 10: Transparent Pricing, Warranty Boundaries & Sustainable Repair Business",
-    "ig": "Step 10: Transparent Pricing, Warranty Boundaries & Sustainable Repair Business",
-    "sw": "Step 10: Transparent Pricing, Warranty Boundaries & Sustainable Repair Business",
-    "ar": "Step 10: Transparent Pricing, Warranty Boundaries & Sustainable Repair Business",
-    "es": "Step 10: Transparent Pricing, Warranty Boundaries & Sustainable Repair Business",
-    "pt": "Step 10: Transparent Pricing, Warranty Boundaries & Sustainable Repair Business"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "- Price repairs clearly by separating part cost/grade, technician labor, and diagnostic/risk factors.\n- Set fair, clear warranty terms that exclude new drops, liquid damage, or unauthorized tampering.\n- Build repeat customers and referrals through honesty, speed, and verifiable credentials.": {
-    "fr": "- Price repairs clearly by separating part cost/grade, technician labor, and diagnostic/risk factors.\n- Set fair, clear warranty terms that exclude new drops, liquid damage, or unauthorized tampering.\n- Build repeat customers and referrals through honesty, speed, and verifiable credentials.",
-    "ig": "- Price repairs clearly by separating part cost/grade, technician labor, and diagnostic/risk factors.\n- Set fair, clear warranty terms that exclude new drops, liquid damage, or unauthorized tampering.\n- Build repeat customers and referrals through honesty, speed, and verifiable credentials.",
-    "sw": "- Price repairs clearly by separating part cost/grade, technician labor, and diagnostic/risk factors.\n- Set fair, clear warranty terms that exclude new drops, liquid damage, or unauthorized tampering.\n- Build repeat customers and referrals through honesty, speed, and verifiable credentials.",
-    "ar": "- Price repairs clearly by separating part cost/grade, technician labor, and diagnostic/risk factors.\n- Set fair, clear warranty terms that exclude new drops, liquid damage, or unauthorized tampering.\n- Build repeat customers and referrals through honesty, speed, and verifiable credentials.",
-    "es": "- Price repairs clearly by separating part cost/grade, technician labor, and diagnostic/risk factors.\n- Set fair, clear warranty terms that exclude new drops, liquid damage, or unauthorized tampering.\n- Build repeat customers and referrals through honesty, speed, and verifiable credentials.",
-    "pt": "- Price repairs clearly by separating part cost/grade, technician labor, and diagnostic/risk factors.\n- Set fair, clear warranty terms that exclude new drops, liquid damage, or unauthorized tampering.\n- Build repeat customers and referrals through honesty, speed, and verifiable credentials."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.": {
     "fr": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage.",
@@ -992,12 +992,12 @@
     "pt": "Underpricing parts or labor eats up your working capital and prevents you from buying good tools, while unclear warranties cause disputes over accidental damage."
   },
   "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential.": {
-    "fr": "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential.",
-    "ig": "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential.",
-    "sw": "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential.",
-    "ar": "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential.",
-    "es": "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential.",
-    "pt": "SUSTAINABLE REPAIR SHOP PRACTICES:\n- Clear Quoting: Explain part options/quality levels honestly, state labor/service charges clearly, and confirm approval before starting work.\n- Clear Warranty Rules: Define warranty duration and scope plainly—covering workmanship/defective replacement parts under normal use, while excluding new impact/cracks, liquid exposure, or third-party tampering.\n- Trust & Growth: Keep promises, protect customer privacy, maintain clean records, and display your verified QR credential."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "PRE-QUOTE CHECK:\n- Confirm exact part availability, cost, and realistic turnaround time before quoting.\n\nQUOTING & BUSINESS STEPS:\n1. Give a clear quote showing part option, service/labor fee, and estimated completion time.\n2. State warranty terms and exclusions plainly so both technician and client understand coverage.\n3. Track part costs, repair revenue, and repeat/referral sources so your shop stays profitable.\n4. Encourage safe chargers, protective cases, and regular backups to help clients avoid future damage.\n\nPOST-HANDOVER CHECK:\n- Provide a clear receipt/record with date, repair summary, and warranty terms.": {
     "fr": "Chargeur",
@@ -1008,20 +1008,20 @@
     "pt": "Carregador"
   },
   "- TRAP (Pricing Only for the Part and Forgetting Labor & Risk): If a repair only covers raw part cost, you earn nothing for your skill, time, tools, or overhead.\n- TRAP (Vague 'Lifetime/All-Inclusive' Promises): Ambiguous warranty wording leads to arguments when a client drops the phone again or spills liquid on it.\n- TRAP (Cutting Corners on Cheap/Unsafe Parts): Repeated failures from poor parts ruin trust faster than charging a fair price for reliable work.": {
-    "fr": "- TRAP (Pricing Only for the Part and Forgetting Labor & Risk): If a repair only covers raw part cost, you earn nothing for your skill, time, tools, or overhead.\n- TRAP (Vague 'Lifetime/All-Inclusive' Promises): Ambiguous warranty wording leads to arguments when a client drops the phone again or spills liquid on it.\n- TRAP (Cutting Corners on Cheap/Unsafe Parts): Repeated failures from poor parts ruin trust faster than charging a fair price for reliable work.",
-    "ig": "- TRAP (Pricing Only for the Part and Forgetting Labor & Risk): If a repair only covers raw part cost, you earn nothing for your skill, time, tools, or overhead.\n- TRAP (Vague 'Lifetime/All-Inclusive' Promises): Ambiguous warranty wording leads to arguments when a client drops the phone again or spills liquid on it.\n- TRAP (Cutting Corners on Cheap/Unsafe Parts): Repeated failures from poor parts ruin trust faster than charging a fair price for reliable work.",
-    "sw": "- TRAP (Pricing Only for the Part and Forgetting Labor & Risk): If a repair only covers raw part cost, you earn nothing for your skill, time, tools, or overhead.\n- TRAP (Vague 'Lifetime/All-Inclusive' Promises): Ambiguous warranty wording leads to arguments when a client drops the phone again or spills liquid on it.\n- TRAP (Cutting Corners on Cheap/Unsafe Parts): Repeated failures from poor parts ruin trust faster than charging a fair price for reliable work.",
-    "ar": "- TRAP (Pricing Only for the Part and Forgetting Labor & Risk): If a repair only covers raw part cost, you earn nothing for your skill, time, tools, or overhead.\n- TRAP (Vague 'Lifetime/All-Inclusive' Promises): Ambiguous warranty wording leads to arguments when a client drops the phone again or spills liquid on it.\n- TRAP (Cutting Corners on Cheap/Unsafe Parts): Repeated failures from poor parts ruin trust faster than charging a fair price for reliable work.",
-    "es": "- TRAP (Pricing Only for the Part and Forgetting Labor & Risk): If a repair only covers raw part cost, you earn nothing for your skill, time, tools, or overhead.\n- TRAP (Vague 'Lifetime/All-Inclusive' Promises): Ambiguous warranty wording leads to arguments when a client drops the phone again or spills liquid on it.\n- TRAP (Cutting Corners on Cheap/Unsafe Parts): Repeated failures from poor parts ruin trust faster than charging a fair price for reliable work.",
-    "pt": "- TRAP (Pricing Only for the Part and Forgetting Labor & Risk): If a repair only covers raw part cost, you earn nothing for your skill, time, tools, or overhead.\n- TRAP (Vague 'Lifetime/All-Inclusive' Promises): Ambiguous warranty wording leads to arguments when a client drops the phone again or spills liquid on it.\n- TRAP (Cutting Corners on Cheap/Unsafe Parts): Repeated failures from poor parts ruin trust faster than charging a fair price for reliable work."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Fair Repair Quote = [Verified Part / Grade] + [Technician Labor & Bench Overhead]\n                  + [Written Turnaround & Clear Warranty Terms]": {
-    "fr": "Fair Repair Quote = [Verified Part / Grade] + [Technician Labor & Bench Overhead]\n                  + [Written Turnaround & Clear Warranty Terms]",
-    "ig": "Fair Repair Quote = [Verified Part / Grade] + [Technician Labor & Bench Overhead]\n                  + [Written Turnaround & Clear Warranty Terms]",
-    "sw": "Fair Repair Quote = [Verified Part / Grade] + [Technician Labor & Bench Overhead]\n                  + [Written Turnaround & Clear Warranty Terms]",
-    "ar": "Fair Repair Quote = [Verified Part / Grade] + [Technician Labor & Bench Overhead]\n                  + [Written Turnaround & Clear Warranty Terms]",
-    "es": "Fair Repair Quote = [Verified Part / Grade] + [Technician Labor & Bench Overhead]\n                  + [Written Turnaround & Clear Warranty Terms]",
-    "pt": "Fair Repair Quote = [Verified Part / Grade] + [Technician Labor & Bench Overhead]\n                  + [Written Turnaround & Clear Warranty Terms]"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.": {
     "fr": "A client asks for a discount below your part and labor cost. Instead of cutting corners or losing money, you explain the difference in part quality/reliability, show how your quote covers careful testing and clean assembly, and offer clear options so the client can make an informed choice.",
@@ -1040,28 +1040,28 @@
     "pt": "Bateria"
   },
   "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?": {
-    "fr": "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?",
-    "ig": "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?",
-    "sw": "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?",
-    "ar": "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?",
-    "es": "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?",
-    "pt": "1. Why is pricing only the replacement part without accounting for labor and shop overhead unsustainable?\n2. What common situations should be clearly excluded from a standard repair warranty?\n3. How do honest communication and clear records build long-term repair business growth?"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Step 2: Core Laptop & PC Hardware, BIOS/UEFI & Storage Terminology": {
-    "fr": "Step 2: Core Laptop & PC Hardware, BIOS/UEFI & Storage Terminology",
-    "ig": "Step 2: Core Laptop & PC Hardware, BIOS/UEFI & Storage Terminology",
-    "sw": "Step 2: Core Laptop & PC Hardware, BIOS/UEFI & Storage Terminology",
-    "ar": "Step 2: Core Laptop & PC Hardware, BIOS/UEFI & Storage Terminology",
-    "es": "Step 2: Core Laptop & PC Hardware, BIOS/UEFI & Storage Terminology",
-    "pt": "Step 2: Core Laptop & PC Hardware, BIOS/UEFI & Storage Terminology"
+    "fr": "Stockage",
+    "ig": "Nchekwa data",
+    "sw": "Hifadhi",
+    "ar": "التخزين",
+    "es": "Almacenamiento",
+    "pt": "Armazenamento"
   },
   "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs.": {
-    "fr": "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs.",
-    "ig": "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs.",
-    "sw": "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs.",
-    "ar": "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs.",
-    "es": "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs.",
-    "pt": "- Explain essential PC/laptop terms including POST, BIOS/UEFI, RAM, SSD (NVMe/SATA), DC jack/USB-C PD, and thermal paste.\n- Match symptoms and parts accurately when diagnosing or quoting repairs."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Ordering DDR4 instead of DDR5, NVMe instead of SATA (or vice versa), or the wrong charger voltage/wattage wastes money and delays repairs. Knowing core terms makes troubleshooting faster and clearer.": {
     "fr": "Tension",
@@ -1096,12 +1096,12 @@
     "pt": "Placa-mãe"
   },
   "[Power On] ---> [POST / BIOS-UEFI Check] ---> [Storage / OS Boot]\n                |\n                +---> Checks RAM, Power/Charging & Thermal/Cooling Health": {
-    "fr": "[Power On] ---> [POST / BIOS-UEFI Check] ---> [Storage / OS Boot]\n                |\n                +---> Checks RAM, Power/Charging & Thermal/Cooling Health",
-    "ig": "[Power On] ---> [POST / BIOS-UEFI Check] ---> [Storage / OS Boot]\n                |\n                +---> Checks RAM, Power/Charging & Thermal/Cooling Health",
-    "sw": "[Power On] ---> [POST / BIOS-UEFI Check] ---> [Storage / OS Boot]\n                |\n                +---> Checks RAM, Power/Charging & Thermal/Cooling Health",
-    "ar": "[Power On] ---> [POST / BIOS-UEFI Check] ---> [Storage / OS Boot]\n                |\n                +---> Checks RAM, Power/Charging & Thermal/Cooling Health",
-    "es": "[Power On] ---> [POST / BIOS-UEFI Check] ---> [Storage / OS Boot]\n                |\n                +---> Checks RAM, Power/Charging & Thermal/Cooling Health",
-    "pt": "[Power On] ---> [POST / BIOS-UEFI Check] ---> [Storage / OS Boot]\n                |\n                +---> Checks RAM, Power/Charging & Thermal/Cooling Health"
+    "fr": "Stockage",
+    "ig": "Nchekwa data",
+    "sw": "Hifadhi",
+    "ar": "التخزين",
+    "es": "Almacenamiento",
+    "pt": "Armazenamento"
   },
   "A client says their laptop 'won't turn on at all.' When you press power, the keyboard backlight or indicator lights come on and you can access BIOS/UEFI, but Windows shows an error. Knowing the difference between a dead power rail and a boot/OS/drive issue saves time and gives an accurate diagnosis.": {
     "fr": "Diagnostic",
@@ -1216,12 +1216,12 @@
     "pt": "Step 8: Honest Quoting, Warranty Boundaries & Sustainable Workshop / Partner Operations"
   },
   "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust.": {
-    "fr": "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust.",
-    "ig": "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust.",
-    "sw": "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust.",
-    "ar": "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust.",
-    "es": "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust.",
-    "pt": "- Prepare clear, fair repair quotes separating parts, labor/diagnostic time, and turnaround.\n- Set clear warranty terms and explain exclusions (physical drops, liquid spills, misuse, wear) plainly.\n- Maintain clean records that build repeat customers and livelihood/partner trust."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.": {
     "fr": "Technical skill alone doesn't sustain a business or livelihood hub—fair pricing, clear boundaries, and reliable handover checks are what keep clients and partners coming back.",
@@ -1240,12 +1240,12 @@
     "pt": "Bateria"
   },
   "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.": {
-    "fr": "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.",
-    "ig": "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.",
-    "sw": "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.",
-    "ar": "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.",
-    "es": "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking.",
-    "pt": "PRE-HANDOVER CHECK:\n- Run a final check of charging, boot, display, keyboard/trackpad, USB/audio/Wi-Fi, and case screws.\n\nQUOTING & HANDOVER STEPS:\n1. Share a clear quote (parts, service/labor, and timeline) and confirm approval before starting.\n2. Complete the repair and perform a full post-repair functional test.\n3. Walk the client through the working machine, explain care & warranty terms clearly, and log the completed job.\n\nPOST-HANDOVER CHECK:\n- Store intake, quote, and completion notes neatly for follow-up support and business tracking."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "- TRAP (Hidden Extra Charges at Pickup): Adding surprise fees after repair damages trust fast.\n- TRAP (Unclear Warranty Terms): Vague 'lifetime' or undefined guarantees create costly arguments later.\n- TRAP (Rushing Handover Without Testing Ports & Keys): Always check every key, port, and charger connection before closing the ticket.": {
     "fr": "Chargeur",
@@ -1256,12 +1256,12 @@
     "pt": "Carregador"
   },
   "[Clear Quote + Approval] ---> [Careful Repair + Full Post-QA]\n                           ---> [Clear Warranty + Logged Handover]": {
-    "fr": "[Clear Quote + Approval] ---> [Careful Repair + Full Post-QA]\n                           ---> [Clear Warranty + Logged Handover]",
-    "ig": "[Clear Quote + Approval] ---> [Careful Repair + Full Post-QA]\n                           ---> [Clear Warranty + Logged Handover]",
-    "sw": "[Clear Quote + Approval] ---> [Careful Repair + Full Post-QA]\n                           ---> [Clear Warranty + Logged Handover]",
-    "ar": "[Clear Quote + Approval] ---> [Careful Repair + Full Post-QA]\n                           ---> [Clear Warranty + Logged Handover]",
-    "es": "[Clear Quote + Approval] ---> [Careful Repair + Full Post-QA]\n                           ---> [Clear Warranty + Logged Handover]",
-    "pt": "[Clear Quote + Approval] ---> [Careful Repair + Full Post-QA]\n                           ---> [Clear Warranty + Logged Handover]"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.": {
     "fr": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals.",
@@ -1272,52 +1272,52 @@
     "pt": "A small business or livelihood program needs 8 laptops serviced and upgraded before a training cohort starts. Because you provide clear itemized quotes, realistic timelines, tested machines, and clean handover records, you win ongoing work and strong referrals."
   },
   "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms.": {
-    "fr": "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms.",
-    "ig": "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms.",
-    "sw": "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms.",
-    "ar": "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms.",
-    "es": "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms.",
-    "pt": "Draft a simple 1-page laptop repair & handover sheet covering intake notes, quoted parts/labor, final QA checks, and warranty terms."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "1. Why should a client approve a clear quote before you fit replacement parts or complete paid work?\n2. What post-repair issues are typically excluded from a hardware repair warranty?\n3. How do good job logs and final QA checks help both a small repair business and partner programs?": {
-    "fr": "1. Why should a client approve a clear quote before you fit replacement parts or complete paid work?\n2. What post-repair issues are typically excluded from a hardware repair warranty?\n3. How do good job logs and final QA checks help both a small repair business and partner programs?",
-    "ig": "1. Why should a client approve a clear quote before you fit replacement parts or complete paid work?\n2. What post-repair issues are typically excluded from a hardware repair warranty?\n3. How do good job logs and final QA checks help both a small repair business and partner programs?",
-    "sw": "1. Why should a client approve a clear quote before you fit replacement parts or complete paid work?\n2. What post-repair issues are typically excluded from a hardware repair warranty?\n3. How do good job logs and final QA checks help both a small repair business and partner programs?",
-    "ar": "1. Why should a client approve a clear quote before you fit replacement parts or complete paid work?\n2. What post-repair issues are typically excluded from a hardware repair warranty?\n3. How do good job logs and final QA checks help both a small repair business and partner programs?",
-    "es": "1. Why should a client approve a clear quote before you fit replacement parts or complete paid work?\n2. What post-repair issues are typically excluded from a hardware repair warranty?\n3. How do good job logs and final QA checks help both a small repair business and partner programs?",
-    "pt": "1. Why should a client approve a clear quote before you fit replacement parts or complete paid work?\n2. What post-repair issues are typically excluded from a hardware repair warranty?\n3. How do good job logs and final QA checks help both a small repair business and partner programs?"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Step 10: Fair Quoting, Warranty Boundaries & Sustainable Repair Business": {
-    "fr": "Step 10: Fair Quoting, Warranty Boundaries & Sustainable Repair Business",
-    "ig": "Step 10: Fair Quoting, Warranty Boundaries & Sustainable Repair Business",
-    "sw": "Step 10: Fair Quoting, Warranty Boundaries & Sustainable Repair Business",
-    "ar": "Step 10: Fair Quoting, Warranty Boundaries & Sustainable Repair Business",
-    "es": "Step 10: Fair Quoting, Warranty Boundaries & Sustainable Repair Business",
-    "pt": "Step 10: Fair Quoting, Warranty Boundaries & Sustainable Repair Business"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "- Quote repairs clearly by separating parts, labor/service fee, and turnaround expectations.\n- Define clear warranty terms and exclusions (liquid spills, new drops/impacts, power surges, unauthorized tampering).\n- Build sustainable income and client trust through honesty, reliability, and verifiable credentials.": {
-    "fr": "- Quote repairs clearly by separating parts, labor/service fee, and turnaround expectations.\n- Define clear warranty terms and exclusions (liquid spills, new drops/impacts, power surges, unauthorized tampering).\n- Build sustainable income and client trust through honesty, reliability, and verifiable credentials.",
-    "ig": "- Quote repairs clearly by separating parts, labor/service fee, and turnaround expectations.\n- Define clear warranty terms and exclusions (liquid spills, new drops/impacts, power surges, unauthorized tampering).\n- Build sustainable income and client trust through honesty, reliability, and verifiable credentials.",
-    "sw": "- Quote repairs clearly by separating parts, labor/service fee, and turnaround expectations.\n- Define clear warranty terms and exclusions (liquid spills, new drops/impacts, power surges, unauthorized tampering).\n- Build sustainable income and client trust through honesty, reliability, and verifiable credentials.",
-    "ar": "- Quote repairs clearly by separating parts, labor/service fee, and turnaround expectations.\n- Define clear warranty terms and exclusions (liquid spills, new drops/impacts, power surges, unauthorized tampering).\n- Build sustainable income and client trust through honesty, reliability, and verifiable credentials.",
-    "es": "- Quote repairs clearly by separating parts, labor/service fee, and turnaround expectations.\n- Define clear warranty terms and exclusions (liquid spills, new drops/impacts, power surges, unauthorized tampering).\n- Build sustainable income and client trust through honesty, reliability, and verifiable credentials.",
-    "pt": "- Quote repairs clearly by separating parts, labor/service fee, and turnaround expectations.\n- Define clear warranty terms and exclusions (liquid spills, new drops/impacts, power surges, unauthorized tampering).\n- Build sustainable income and client trust through honesty, reliability, and verifiable credentials."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Sustainable repair technicians price their time and parts fairly, set clear boundaries before work begins, and earn repeat business from individuals, offices, schools, and community clients.": {
-    "fr": "Sustainable repair technicians price their time and parts fairly, set clear boundaries before work begins, and earn repeat business from individuals, offices, schools, and community clients.",
-    "ig": "Sustainable repair technicians price their time and parts fairly, set clear boundaries before work begins, and earn repeat business from individuals, offices, schools, and community clients.",
-    "sw": "Sustainable repair technicians price their time and parts fairly, set clear boundaries before work begins, and earn repeat business from individuals, offices, schools, and community clients.",
-    "ar": "Sustainable repair technicians price their time and parts fairly, set clear boundaries before work begins, and earn repeat business from individuals, offices, schools, and community clients.",
-    "es": "Sustainable repair technicians price their time and parts fairly, set clear boundaries before work begins, and earn repeat business from individuals, offices, schools, and community clients.",
-    "pt": "Sustainable repair technicians price their time and parts fairly, set clear boundaries before work begins, and earn repeat business from individuals, offices, schools, and community clients."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "TRANSPARENT REPAIR BUSINESS STANDARDS:\n- Clear Quotes: Itemize replacement part cost/grade, labor/service fee, and realistic completion time—and get approval before doing extra work.\n- Clear Warranty Terms: State clearly what is covered (defective replaced part or repair workmanship under normal use) and what is excluded (new liquid spills, drops/impact, power surge/bad adapter use, or opening/tampering elsewhere).\n- Long-Term Trust: Keep accurate job records, protect client privacy, advise on surge/heat/backup habits, and showcase your verified credential.": {
-    "fr": "TRANSPARENT REPAIR BUSINESS STANDARDS:\n- Clear Quotes: Itemize replacement part cost/grade, labor/service fee, and realistic completion time—and get approval before doing extra work.\n- Clear Warranty Terms: State clearly what is covered (defective replaced part or repair workmanship under normal use) and what is excluded (new liquid spills, drops/impact, power surge/bad adapter use, or opening/tampering elsewhere).\n- Long-Term Trust: Keep accurate job records, protect client privacy, advise on surge/heat/backup habits, and showcase your verified credential.",
-    "ig": "TRANSPARENT REPAIR BUSINESS STANDARDS:\n- Clear Quotes: Itemize replacement part cost/grade, labor/service fee, and realistic completion time—and get approval before doing extra work.\n- Clear Warranty Terms: State clearly what is covered (defective replaced part or repair workmanship under normal use) and what is excluded (new liquid spills, drops/impact, power surge/bad adapter use, or opening/tampering elsewhere).\n- Long-Term Trust: Keep accurate job records, protect client privacy, advise on surge/heat/backup habits, and showcase your verified credential.",
-    "sw": "TRANSPARENT REPAIR BUSINESS STANDARDS:\n- Clear Quotes: Itemize replacement part cost/grade, labor/service fee, and realistic completion time—and get approval before doing extra work.\n- Clear Warranty Terms: State clearly what is covered (defective replaced part or repair workmanship under normal use) and what is excluded (new liquid spills, drops/impact, power surge/bad adapter use, or opening/tampering elsewhere).\n- Long-Term Trust: Keep accurate job records, protect client privacy, advise on surge/heat/backup habits, and showcase your verified credential.",
-    "ar": "TRANSPARENT REPAIR BUSINESS STANDARDS:\n- Clear Quotes: Itemize replacement part cost/grade, labor/service fee, and realistic completion time—and get approval before doing extra work.\n- Clear Warranty Terms: State clearly what is covered (defective replaced part or repair workmanship under normal use) and what is excluded (new liquid spills, drops/impact, power surge/bad adapter use, or opening/tampering elsewhere).\n- Long-Term Trust: Keep accurate job records, protect client privacy, advise on surge/heat/backup habits, and showcase your verified credential.",
-    "es": "TRANSPARENT REPAIR BUSINESS STANDARDS:\n- Clear Quotes: Itemize replacement part cost/grade, labor/service fee, and realistic completion time—and get approval before doing extra work.\n- Clear Warranty Terms: State clearly what is covered (defective replaced part or repair workmanship under normal use) and what is excluded (new liquid spills, drops/impact, power surge/bad adapter use, or opening/tampering elsewhere).\n- Long-Term Trust: Keep accurate job records, protect client privacy, advise on surge/heat/backup habits, and showcase your verified credential.",
-    "pt": "TRANSPARENT REPAIR BUSINESS STANDARDS:\n- Clear Quotes: Itemize replacement part cost/grade, labor/service fee, and realistic completion time—and get approval before doing extra work.\n- Clear Warranty Terms: State clearly what is covered (defective replaced part or repair workmanship under normal use) and what is excluded (new liquid spills, drops/impact, power surge/bad adapter use, or opening/tampering elsewhere).\n- Long-Term Trust: Keep accurate job records, protect client privacy, advise on surge/heat/backup habits, and showcase your verified credential."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "PRE-QUOTE CHECK:\n- Verify exact part availability/cost and realistic time needed before giving a quote.\n\nQUOTING & BUSINESS STEPS:\n1. Present a clear quote separating part cost, service/labor fee, and expected turnaround.\n2. Explain warranty period, covered items, and clear exclusions before starting.\n3. Track repair income, part costs, and client/office referrals so your business grows steadily.\n4. Give simple prevention tips (proper charger/surge protection, good ventilation, regular backups) at handover.\n\nPOST-HANDOVER CHECK:\n- Provide a clear summary receipt showing work done, date, and warranty terms.": {
     "fr": "Chargeur",
@@ -1344,12 +1344,12 @@
     "pt": "Sustainable Quote = [Parts & Grade] + [Labor & Bench Skill] + [Turnaround]\n                  + [Clear Warranty Coverage & Exclusions]"
   },
   "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business.": {
-    "fr": "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business.",
-    "ig": "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business.",
-    "sw": "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business.",
-    "ar": "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business.",
-    "es": "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business.",
-    "pt": "A small office brings in four laptops for SSD upgrades and cooling service. You provide a clear itemized quote per laptop (SSD/parts, service labor, turnaround time, and warranty terms), deliver all four on schedule with full QA checks, and win ongoing maintenance business."
+    "fr": "Maintenance",
+    "ig": "Nlekọta mgbe niile",
+    "sw": "Matengenezo",
+    "ar": "الصيانة",
+    "es": "Mantenimiento",
+    "pt": "Manutenção"
   },
   "Draft a clear repair quote and warranty terms box for a laptop SSD/RAM upgrade or screen/cooling service, including covered items and exclusions.": {
     "fr": "Écran",
@@ -1360,12 +1360,12 @@
     "pt": "Tela"
   },
   "1. Why is separating part costs from labor/service fees helpful when quoting a client?\n2. Name three situations that should be clearly excluded from a standard repair warranty.\n3. How do clear records and honest communication help attract repeat office or individual clients?": {
-    "fr": "1. Why is separating part costs from labor/service fees helpful when quoting a client?\n2. Name three situations that should be clearly excluded from a standard repair warranty.\n3. How do clear records and honest communication help attract repeat office or individual clients?",
-    "ig": "1. Why is separating part costs from labor/service fees helpful when quoting a client?\n2. Name three situations that should be clearly excluded from a standard repair warranty.\n3. How do clear records and honest communication help attract repeat office or individual clients?",
-    "sw": "1. Why is separating part costs from labor/service fees helpful when quoting a client?\n2. Name three situations that should be clearly excluded from a standard repair warranty.\n3. How do clear records and honest communication help attract repeat office or individual clients?",
-    "ar": "1. Why is separating part costs from labor/service fees helpful when quoting a client?\n2. Name three situations that should be clearly excluded from a standard repair warranty.\n3. How do clear records and honest communication help attract repeat office or individual clients?",
-    "es": "1. Why is separating part costs from labor/service fees helpful when quoting a client?\n2. Name three situations that should be clearly excluded from a standard repair warranty.\n3. How do clear records and honest communication help attract repeat office or individual clients?",
-    "pt": "1. Why is separating part costs from labor/service fees helpful when quoting a client?\n2. Name three situations that should be clearly excluded from a standard repair warranty.\n3. How do clear records and honest communication help attract repeat office or individual clients?"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards": {
     "fr": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards",
@@ -1592,12 +1592,12 @@
     "pt": "Câmera"
   },
   "Uses PoE or local power and connects to an NVR or switch.": {
-    "fr": "Uses PoE or local power and connects to an NVR or switch.",
-    "ig": "Uses PoE or local power and connects to an NVR or switch.",
-    "sw": "Uses PoE or local power and connects to an NVR or switch.",
-    "ar": "Uses PoE or local power and connects to an NVR or switch.",
-    "es": "Uses PoE or local power and connects to an NVR or switch.",
-    "pt": "Uses PoE or local power and connects to an NVR or switch."
+    "fr": "Commutateur / Interrupteur",
+    "ig": "Swiịchị",
+    "sw": "Swichi",
+    "ar": "مفتاح / محول",
+    "es": "Interruptor / Switch",
+    "pt": "Interruptor / Switch"
   },
   "V (Volts)": {
     "fr": "V (Volts)",
@@ -1728,12 +1728,12 @@
     "pt": "Patch Test"
   },
   "Small-Area Skin Sensitivity Check": {
-    "fr": "Small-Area Skin Sensitivity Check",
-    "ig": "Small-Area Skin Sensitivity Check",
-    "sw": "Small-Area Skin Sensitivity Check",
-    "ar": "Small-Area Skin Sensitivity Check",
-    "es": "Small-Area Skin Sensitivity Check",
-    "pt": "Small-Area Skin Sensitivity Check"
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
+    "ar": "الجلد / البشرة",
+    "es": "Piel",
+    "pt": "Pele"
   },
   "Tests a small area ahead of full application to check for irritation/allergy.": {
     "fr": "Tests a small area ahead of full application to check for irritation/allergy.",
@@ -1856,12 +1856,12 @@
     "pt": "W (Watts)"
   },
   "Electrical Power": {
-    "fr": "Electrical Power",
-    "ig": "Electrical Power",
-    "sw": "Electrical Power",
-    "ar": "Electrical Power",
-    "es": "Electrical Power",
-    "pt": "Electrical Power"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Rate of energy transfer or consumption (W = V x A for DC).": {
     "fr": "Rate of energy transfer or consumption (W = V x A for DC).",
@@ -1896,12 +1896,12 @@
     "pt": "Porosity"
   },
   "Ability of Hair/Nail to Absorb & Hold Moisture": {
-    "fr": "Ability of Hair/Nail to Absorb & Hold Moisture",
-    "ig": "Ability of Hair/Nail to Absorb & Hold Moisture",
-    "sw": "Ability of Hair/Nail to Absorb & Hold Moisture",
-    "ar": "Ability of Hair/Nail to Absorb & Hold Moisture",
-    "es": "Ability of Hair/Nail to Absorb & Hold Moisture",
-    "pt": "Ability of Hair/Nail to Absorb & Hold Moisture"
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "Influences how products penetrate, process, and retain moisture.": {
     "fr": "Influences how products penetrate, process, and retain moisture.",
@@ -2112,12 +2112,12 @@
     "pt": "Conector"
   },
   "Power input port or negotiated charging standard supplying system power.": {
-    "fr": "Power input port or negotiated charging standard supplying system power.",
-    "ig": "Power input port or negotiated charging standard supplying system power.",
-    "sw": "Power input port or negotiated charging standard supplying system power.",
-    "ar": "Power input port or negotiated charging standard supplying system power.",
-    "es": "Power input port or negotiated charging standard supplying system power.",
-    "pt": "Power input port or negotiated charging standard supplying system power."
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Check physical integrity, fit, and proper voltage/wattage rating.": {
     "fr": "Tension",
@@ -2193,27 +2193,27 @@
   },
   "Helps prevent surge damage along power and exposed runs.": {
     "fr": "Aide à prévenir les dommages causés par les surtensions le long des circuits électriques et exposés.",
-    "ig": "Helps prevent surge damage along power and exposed runs.",
-    "sw": "Helps prevent surge damage along power and exposed runs.",
-    "ar": "Helps prevent surge damage along power and exposed runs.",
-    "es": "Helps prevent surge damage along power and exposed runs.",
-    "pt": "Helps prevent surge damage along power and exposed runs."
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Skin Undertone": {
-    "fr": "Skin Undertone",
-    "ig": "Skin Undertone",
-    "sw": "Skin Undertone",
-    "ar": "Skin Undertone",
-    "es": "Skin Undertone",
-    "pt": "Skin Undertone"
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
+    "ar": "الجلد / البشرة",
+    "es": "Piel",
+    "pt": "Pele"
   },
   "Warm, Cool, or Neutral Base Tone Under Skin": {
-    "fr": "Warm, Cool, or Neutral Base Tone Under Skin",
-    "ig": "Warm, Cool, or Neutral Base Tone Under Skin",
-    "sw": "Warm, Cool, or Neutral Base Tone Under Skin",
-    "ar": "Warm, Cool, or Neutral Base Tone Under Skin",
-    "es": "Warm, Cool, or Neutral Base Tone Under Skin",
-    "pt": "Warm, Cool, or Neutral Base Tone Under Skin"
+    "fr": "Peau",
+    "ig": "Akparam ahụ",
+    "sw": "Ngozi",
+    "ar": "الجلد / البشرة",
+    "es": "Piel",
+    "pt": "Pele"
   },
   "Guides foundation/concealer matching so shades look natural rather than ashy/orange.": {
     "fr": "Guides foundation/concealer matching so shades look natural rather than ashy/orange.",
@@ -2280,20 +2280,20 @@
     "pt": "Free Edge"
   },
   "Unattached Tip of the Nail Plate": {
-    "fr": "Unattached Tip of the Nail Plate",
-    "ig": "Unattached Tip of the Nail Plate",
-    "sw": "Unattached Tip of the Nail Plate",
-    "ar": "Unattached Tip of the Nail Plate",
-    "es": "Unattached Tip of the Nail Plate",
-    "pt": "Unattached Tip of the Nail Plate"
+    "fr": "Ongle",
+    "ig": "Mbọ",
+    "sw": "Ukucha",
+    "ar": "ظفر",
+    "es": "Uña",
+    "pt": "Unha"
   },
   "The front edge of the nail extending past the finger bed.": {
-    "fr": "The front edge of the nail extending past the finger bed.",
-    "ig": "The front edge of the nail extending past the finger bed.",
-    "sw": "The front edge of the nail extending past the finger bed.",
-    "ar": "The front edge of the nail extending past the finger bed.",
-    "es": "The front edge of the nail extending past the finger bed.",
-    "pt": "The front edge of the nail extending past the finger bed."
+    "fr": "Ongle",
+    "ig": "Mbọ",
+    "sw": "Ukucha",
+    "ar": "ظفر",
+    "es": "Uña",
+    "pt": "Unha"
   },
   "Shape evenly and seal with base/top/finish coat to prevent lifting.": {
     "fr": "Shape evenly and seal with base/top/finish coat to prevent lifting.",
@@ -2328,12 +2328,12 @@
     "pt": "Communicates with visitors at an entry point and can release a door/gate lock."
   },
   "Verify call clarity, wiring continuity, and safe power/control routing.": {
-    "fr": "Verify call clarity, wiring continuity, and safe power/control routing.",
-    "ig": "Verify call clarity, wiring continuity, and safe power/control routing.",
-    "sw": "Verify call clarity, wiring continuity, and safe power/control routing.",
-    "ar": "Verify call clarity, wiring continuity, and safe power/control routing.",
-    "es": "Verify call clarity, wiring continuity, and safe power/control routing.",
-    "pt": "Verify call clarity, wiring continuity, and safe power/control routing."
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Li-Ion Pouch Cell": {
     "fr": "Li-Ion Pouch Cell",
@@ -2408,12 +2408,12 @@
     "pt": "Reduces friction, heat, and wear between moving cutter and stationary blades."
   },
   "Clean hair/debris first and apply a few drops regularly.": {
-    "fr": "Clean hair/debris first and apply a few drops regularly.",
-    "ig": "Clean hair/debris first and apply a few drops regularly.",
-    "sw": "Clean hair/debris first and apply a few drops regularly.",
-    "ar": "Clean hair/debris first and apply a few drops regularly.",
-    "es": "Clean hair/debris first and apply a few drops regularly.",
-    "pt": "Clean hair/debris first and apply a few drops regularly."
+    "fr": "Cheveux",
+    "ig": "Ntutu",
+    "sw": "Nywele",
+    "ar": "الشعر",
+    "es": "Cabello",
+    "pt": "Cabelo"
   },
   "DoD": {
     "fr": "Ministère de la Défense",
@@ -2432,20 +2432,20 @@
     "pt": "Intake Check"
   },
   "Pre-Repair Condition & Function Log": {
-    "fr": "Pre-Repair Condition & Function Log",
-    "ig": "Pre-Repair Condition & Function Log",
-    "sw": "Pre-Repair Condition & Function Log",
-    "ar": "Pre-Repair Condition & Function Log",
-    "es": "Pre-Repair Condition & Function Log",
-    "pt": "Pre-Repair Condition & Function Log"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Recording exterior condition, existing faults, and data risks before repair.": {
-    "fr": "Recording exterior condition, existing faults, and data risks before repair.",
-    "ig": "Recording exterior condition, existing faults, and data risks before repair.",
-    "sw": "Recording exterior condition, existing faults, and data risks before repair.",
-    "ar": "Recording exterior condition, existing faults, and data risks before repair.",
-    "es": "Recording exterior condition, existing faults, and data risks before repair.",
-    "pt": "Recording exterior condition, existing faults, and data risks before repair."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Prevents blame for pre-existing issues and guides accurate quoting.": {
     "fr": "Prevents blame for pre-existing issues and guides accurate quoting.",
@@ -2456,12 +2456,12 @@
     "pt": "Prevents blame for pre-existing issues and guides accurate quoting."
   },
   "Pre-Repair Intake Check": {
-    "fr": "Pre-Repair Intake Check",
-    "ig": "Pre-Repair Intake Check",
-    "sw": "Pre-Repair Intake Check",
-    "ar": "Pre-Repair Intake Check",
-    "es": "Pre-Repair Intake Check",
-    "pt": "Pre-Repair Intake Check"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Baseline Functional & Cosmetic Inspection": {
     "fr": "Baseline Functional & Cosmetic Inspection",
@@ -2472,20 +2472,20 @@
     "pt": "Baseline Functional & Cosmetic Inspection"
   },
   "Testing and logging device condition and existing faults before repair begins.": {
-    "fr": "Testing and logging device condition and existing faults before repair begins.",
-    "ig": "Testing and logging device condition and existing faults before repair begins.",
-    "sw": "Testing and logging device condition and existing faults before repair begins.",
-    "ar": "Testing and logging device condition and existing faults before repair begins.",
-    "es": "Testing and logging device condition and existing faults before repair begins.",
-    "pt": "Testing and logging device condition and existing faults before repair begins."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Protects technicians and customers against misunderstandings after repair.": {
-    "fr": "Protects technicians and customers against misunderstandings after repair.",
-    "ig": "Protects technicians and customers against misunderstandings after repair.",
-    "sw": "Protects technicians and customers against misunderstandings after repair.",
-    "ar": "Protects technicians and customers against misunderstandings after repair.",
-    "es": "Protects technicians and customers against misunderstandings after repair.",
-    "pt": "Protects technicians and customers against misunderstandings after repair."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Charging Sub-Board": {
     "fr": "Charging Sub-Board",
@@ -2672,12 +2672,12 @@
     "pt": "Wireless LAN Access Point"
   },
   "Creates or expands Wi-Fi coverage connected back to a wired switch/router.": {
-    "fr": "Creates or expands Wi-Fi coverage connected back to a wired switch/router.",
-    "ig": "Creates or expands Wi-Fi coverage connected back to a wired switch/router.",
-    "sw": "Creates or expands Wi-Fi coverage connected back to a wired switch/router.",
-    "ar": "Creates or expands Wi-Fi coverage connected back to a wired switch/router.",
-    "es": "Creates or expands Wi-Fi coverage connected back to a wired switch/router.",
-    "pt": "Creates or expands Wi-Fi coverage connected back to a wired switch/router."
+    "fr": "Routeur",
+    "ig": "Rụta",
+    "sw": "Rota",
+    "ar": "موجه (راوتر)",
+    "es": "Enrutador / Router",
+    "pt": "Roteador"
   },
   "Place centrally and wired via Cat6 for stronger, cleaner coverage.": {
     "fr": "Place centrally and wired via Cat6 for stronger, cleaner coverage.",
@@ -2720,12 +2720,12 @@
     "pt": "Diagnostic or restore mode used for official OS updates or recovery."
   },
   "Requires exact model matching, steady power, and data-backup awareness.": {
-    "fr": "Requires exact model matching, steady power, and data-backup awareness.",
-    "ig": "Requires exact model matching, steady power, and data-backup awareness.",
-    "sw": "Requires exact model matching, steady power, and data-backup awareness.",
-    "ar": "Requires exact model matching, steady power, and data-backup awareness.",
-    "es": "Requires exact model matching, steady power, and data-backup awareness.",
-    "pt": "Requires exact model matching, steady power, and data-backup awareness."
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "OS & Driver Setup": {
     "fr": "OS & Driver Setup",
@@ -2880,12 +2880,12 @@
     "pt": "SPD / UPS"
   },
   "Surge Protective Device / Uninterruptible Power Supply": {
-    "fr": "Surge Protective Device / Uninterruptible Power Supply",
-    "ig": "Surge Protective Device / Uninterruptible Power Supply",
-    "sw": "Surge Protective Device / Uninterruptible Power Supply",
-    "ar": "Surge Protective Device / Uninterruptible Power Supply",
-    "es": "Surge Protective Device / Uninterruptible Power Supply",
-    "pt": "Surge Protective Device / Uninterruptible Power Supply"
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Guards against voltage spikes and keeps critical gear powered during outages.": {
     "fr": "Tension",
@@ -2896,12 +2896,12 @@
     "pt": "Tensão"
   },
   "Protects NVRs, switches, and routers from grid fluctuations and blackouts.": {
-    "fr": "Protects NVRs, switches, and routers from grid fluctuations and blackouts.",
-    "ig": "Protects NVRs, switches, and routers from grid fluctuations and blackouts.",
-    "sw": "Protects NVRs, switches, and routers from grid fluctuations and blackouts.",
-    "ar": "Protects NVRs, switches, and routers from grid fluctuations and blackouts.",
-    "es": "Protects NVRs, switches, and routers from grid fluctuations and blackouts.",
-    "pt": "Protects NVRs, switches, and routers from grid fluctuations and blackouts."
+    "fr": "Routeur",
+    "ig": "Rụta",
+    "sw": "Rota",
+    "ar": "موجه (راوتر)",
+    "es": "Enrutador / Router",
+    "pt": "Roteador"
   },
   "Thermal Throttling": {
     "fr": "Thermal Throttling",
@@ -2928,12 +2928,12 @@
     "pt": "Processor slowdown triggered to prevent overheating when cooling is restricted."
   },
   "Signals dust buildup, fan issues, or degraded thermal transfer.": {
-    "fr": "Signals dust buildup, fan issues, or degraded thermal transfer.",
-    "ig": "Signals dust buildup, fan issues, or degraded thermal transfer.",
-    "sw": "Signals dust buildup, fan issues, or degraded thermal transfer.",
-    "ar": "Signals dust buildup, fan issues, or degraded thermal transfer.",
-    "es": "Signals dust buildup, fan issues, or degraded thermal transfer.",
-    "pt": "Signals dust buildup, fan issues, or degraded thermal transfer."
+    "fr": "Signal",
+    "ig": "Akara ngosi",
+    "sw": "Ishara",
+    "ar": "إشارة",
+    "es": "Señal",
+    "pt": "Sinal"
   },
   "Client Retention": {
     "fr": "Client Retention",
@@ -3000,12 +3000,12 @@
     "pt": "Tensão"
   },
   "Post-Repair QA": {
-    "fr": "Post-Repair QA",
-    "ig": "Post-Repair QA",
-    "sw": "Post-Repair QA",
-    "ar": "Post-Repair QA",
-    "es": "Post-Repair QA",
-    "pt": "Post-Repair QA"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Quality Assurance Verification Checklist": {
     "fr": "Quality Assurance Verification Checklist",
@@ -3024,12 +3024,12 @@
     "pt": "Câmera"
   },
   "Ensures every repaired phone is ready before client handover.": {
-    "fr": "Ensures every repaired phone is ready before client handover.",
-    "ig": "Ensures every repaired phone is ready before client handover.",
-    "sw": "Ensures every repaired phone is ready before client handover.",
-    "ar": "Ensures every repaired phone is ready before client handover.",
-    "es": "Ensures every repaired phone is ready before client handover.",
-    "pt": "Ensures every repaired phone is ready before client handover."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Final Quality Assurance Check": {
     "fr": "Final Quality Assurance Check",
@@ -3040,12 +3040,12 @@
     "pt": "Final Quality Assurance Check"
   },
   "Testing power, charging, display, inputs, ports, and boot before handover.": {
-    "fr": "Testing power, charging, display, inputs, ports, and boot before handover.",
-    "ig": "Testing power, charging, display, inputs, ports, and boot before handover.",
-    "sw": "Testing power, charging, display, inputs, ports, and boot before handover.",
-    "ar": "Testing power, charging, display, inputs, ports, and boot before handover.",
-    "es": "Testing power, charging, display, inputs, ports, and boot before handover.",
-    "pt": "Testing power, charging, display, inputs, ports, and boot before handover."
+    "fr": "Alimentation / Énergie",
+    "ig": "Ike ọkụ",
+    "sw": "Nguvu / Umeme",
+    "ar": "الطاقة / القدرة",
+    "es": "Energía / Potencia",
+    "pt": "Energia / Potência"
   },
   "Catches loose connections or missed items before the client leaves.": {
     "fr": "Catches loose connections or missed items before the client leaves.",
@@ -3056,12 +3056,12 @@
     "pt": "Catches loose connections or missed items before the client leaves."
   },
   "SLA / Maintenance Plan": {
-    "fr": "SLA / Maintenance Plan",
-    "ig": "SLA / Maintenance Plan",
-    "sw": "SLA / Maintenance Plan",
-    "ar": "SLA / Maintenance Plan",
-    "es": "SLA / Maintenance Plan",
-    "pt": "SLA / Maintenance Plan"
+    "fr": "Maintenance",
+    "ig": "Nlekọta mgbe niile",
+    "sw": "Matengenezo",
+    "ar": "الصيانة",
+    "es": "Mantenimiento",
+    "pt": "Manutenção"
   },
   "Service Level / Preventive Care Agreement": {
     "fr": "Service Level / Preventive Care Agreement",
@@ -3104,12 +3104,12 @@
     "pt": "Transparent Breakdown of Parts & Service"
   },
   "Clear upfront pricing separating replacement parts and repair/diagnostic work.": {
-    "fr": "Clear upfront pricing separating replacement parts and repair/diagnostic work.",
-    "ig": "Clear upfront pricing separating replacement parts and repair/diagnostic work.",
-    "sw": "Clear upfront pricing separating replacement parts and repair/diagnostic work.",
-    "ar": "Clear upfront pricing separating replacement parts and repair/diagnostic work.",
-    "es": "Clear upfront pricing separating replacement parts and repair/diagnostic work.",
-    "pt": "Clear upfront pricing separating replacement parts and repair/diagnostic work."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Prevents billing surprises and builds customer confidence.": {
     "fr": "Prevents billing surprises and builds customer confidence.",
@@ -3168,36 +3168,36 @@
     "pt": "Warranty Scope"
   },
   "Defined Coverage & Exclusions After Repair": {
-    "fr": "Defined Coverage & Exclusions After Repair",
-    "ig": "Defined Coverage & Exclusions After Repair",
-    "sw": "Defined Coverage & Exclusions After Repair",
-    "ar": "Defined Coverage & Exclusions After Repair",
-    "es": "Defined Coverage & Exclusions After Repair",
-    "pt": "Defined Coverage & Exclusions After Repair"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Clear statement of what post-repair issues are covered and what is excluded.": {
-    "fr": "Clear statement of what post-repair issues are covered and what is excluded.",
-    "ig": "Clear statement of what post-repair issues are covered and what is excluded.",
-    "sw": "Clear statement of what post-repair issues are covered and what is excluded.",
-    "ar": "Clear statement of what post-repair issues are covered and what is excluded.",
-    "es": "Clear statement of what post-repair issues are covered and what is excluded.",
-    "pt": "Clear statement of what post-repair issues are covered and what is excluded."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Protects both the customer and the repair business/partner hub.": {
-    "fr": "Protects both the customer and the repair business/partner hub.",
-    "ig": "Protects both the customer and the repair business/partner hub.",
-    "sw": "Protects both the customer and the repair business/partner hub.",
-    "ar": "Protects both the customer and the repair business/partner hub.",
-    "es": "Protects both the customer and the repair business/partner hub.",
-    "pt": "Protects both the customer and the repair business/partner hub."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Defined Repair Coverage & Exclusions": {
-    "fr": "Defined Repair Coverage & Exclusions",
-    "ig": "Defined Repair Coverage & Exclusions",
-    "sw": "Defined Repair Coverage & Exclusions",
-    "ar": "Defined Repair Coverage & Exclusions",
-    "es": "Defined Repair Coverage & Exclusions",
-    "pt": "Defined Repair Coverage & Exclusions"
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "Clear statement of what is covered vs. excluded (such as drops or spills).": {
     "fr": "Clear statement of what is covered vs. excluded (such as drops or spills).",
@@ -3208,12 +3208,12 @@
     "pt": "Clear statement of what is covered vs. excluded (such as drops or spills)."
   },
   "Protects both the customer and the repair workshop/partner hub.": {
-    "fr": "Protects both the customer and the repair workshop/partner hub.",
-    "ig": "Protects both the customer and the repair workshop/partner hub.",
-    "sw": "Protects both the customer and the repair workshop/partner hub.",
-    "ar": "Protects both the customer and the repair workshop/partner hub.",
-    "es": "Protects both the customer and the repair workshop/partner hub.",
-    "pt": "Protects both the customer and the repair workshop/partner hub."
+    "fr": "Réparation",
+    "ig": "Nrụzi",
+    "sw": "Ukarabati",
+    "ar": "إصلاح / صيانة",
+    "es": "Reparación",
+    "pt": "Reparo"
   },
   "GND / Earthing": {
     "fr": "GND / Earthing",
