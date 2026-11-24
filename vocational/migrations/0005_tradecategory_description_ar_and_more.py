@@ -21,15 +21,13 @@ def _make_idempotent(migration_cls):
             field_name = op.name
 
             def _guarded_forwards(apps, schema_editor, _orig=orig_forwards, _m=model_name, _f=field_name):
-                model = apps.get_model("vocational", _m)
-                table = model._meta.db_table
+                table = f"vocational_{_m.lower()}"
                 if _f in _existing_columns(schema_editor, table):
                     return
                 return _orig(apps, schema_editor)
 
             def _guarded_backwards(apps, schema_editor, _orig=orig_backwards, _m=model_name, _f=field_name):
-                model = apps.get_model("vocational", _m)
-                table = model._meta.db_table
+                table = f"vocational_{_m.lower()}"
                 if _f not in _existing_columns(schema_editor, table):
                     return
                 return _orig(apps, schema_editor)
