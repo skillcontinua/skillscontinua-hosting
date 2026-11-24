@@ -17,20 +17,20 @@ def _make_idempotent(migration_cls):
         if hasattr(op, "model_name") and hasattr(op, "name") and hasattr(op, "field"):
             orig_forwards = op.database_forwards
             orig_backwards = op.database_backwards
-            model_name = op.model_name
-            field_name = op.name
+            target_table = f"vocational_{op.model_name.lower()}"
+            target_col = op.name
 
-            def _guarded_forwards(apps, schema_editor, _orig=orig_forwards, _m=model_name, _f=field_name):
-                table = f"vocational_{_m.lower()}"
-                if _f in _existing_columns(schema_editor, table):
+            def _guarded_forwards(*args, _orig=orig_forwards, _t=target_table, _c=target_col, **kwargs):
+                schema_editor = kwargs.get("schema_editor") or (args[1] if len(args) > 1 else None)
+                if schema_editor is not None and _c in _existing_columns(schema_editor, _t):
                     return
-                return _orig(apps, schema_editor)
+                return _orig(*args, **kwargs)
 
-            def _guarded_backwards(apps, schema_editor, _orig=orig_backwards, _m=model_name, _f=field_name):
-                table = f"vocational_{_m.lower()}"
-                if _f not in _existing_columns(schema_editor, table):
+            def _guarded_backwards(*args, _orig=orig_backwards, _t=target_table, _c=target_col, **kwargs):
+                schema_editor = kwargs.get("schema_editor") or (args[1] if len(args) > 1 else None)
+                if schema_editor is not None and _c not in _existing_columns(schema_editor, _t):
                     return
-                return _orig(apps, schema_editor)
+                return _orig(*args, **kwargs)
 
             op.database_forwards = _guarded_forwards
             op.database_backwards = _guarded_backwards
