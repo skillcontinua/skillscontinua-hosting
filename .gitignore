@@ -18,4 +18,5 @@ media/
 .idea/
 Thumbs.db
 desktop.ini
-venv/
+*.sqlite3
+/staticfiles/
