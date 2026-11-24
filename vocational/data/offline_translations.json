@@ -1816,12 +1816,12 @@
     "pt": "Liquid Crystal vs. Organic Light-Emitting Diode Display"
   },
   "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light.": {
-    "fr": "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light.",
-    "ig": "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light.",
-    "sw": "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light.",
-    "ar": "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light.",
-    "es": "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light.",
-    "pt": "LCD uses a backlight layer; OLED/AMOLED pixels emit their own light."
+    "fr": "L'écran LCD utilise une couche de rétroéclairage ; les pixels OLED/AMOLED émettent leur propre lumière.",
+    "ig": "LCD na-eji oyi ìhie azụ eme ihe; pikselụ OLED/AMOLED na-amịpụta ìhè nke ha.",
+    "sw": "LCD hutumia tabaka la mwanga wa nyuma; pikseli za OLED/AMOLED hutoa mwanga wake wenyewe.",
+    "ar": "تستخدم شاشة LCD طبقة إضاءة خلفية؛ بينما تصدر بكسلات OLED/AMOLED ضوءها الخاص.",
+    "es": "LCD usa una capa de retroiluminación; los píxeles OLED/AMOLED emiten su propia luz.",
+    "pt": "LCD usa uma camada de retroiluminação; os pixels OLED/AMOLED emitem sua própria luz."
   },
   "Guides part selection, careful prying, and pressure/heat caution.": {
     "fr": "Chaleur",
@@ -2152,12 +2152,12 @@
     "pt": "Proteger"
   },
   "Security lock requiring prior authorized account credentials after a reset.": {
-    "fr": "Security lock requiring prior authorized account credentials after a reset.",
-    "ig": "Security lock requiring prior authorized account credentials after a reset.",
-    "sw": "Security lock requiring prior authorized account credentials after a reset.",
-    "ar": "Security lock requiring prior authorized account credentials after a reset.",
-    "es": "Security lock requiring prior authorized account credentials after a reset.",
-    "pt": "Security lock requiring prior authorized account credentials after a reset."
+    "fr": "Verrouillage de sécurité exigeant les identifiants d'un compte autorisé après une réinitialisation.",
+    "ig": "Mkpochi nchebe nke na-achọ nzere akaụntụ e nyere ikike tupu mgbe a tọghachiri ngwaọrụ.",
+    "sw": "Kufunga kwa usalama kunakohitaji stakabadhi za akaunti iliyoidhinishwa awali baada ya kuweka upya.",
+    "ar": "قفل أمني يتطلب بيانات اعتماد حساب مخوّل مسبقاً بعد إعادة الضبط.",
+    "es": "Bloqueo de seguridad que exige credenciales de cuenta autorizadas previamente tras un restablecimiento.",
+    "pt": "Bloqueio de segurança que exige credenciais de conta autorizadas previamente após uma redefinição."
   },
   "Requires legitimate owner verification and ethical handling.": {
     "fr": "Requires legitimate owner verification and ethical handling.",
@@ -2216,12 +2216,12 @@
     "pt": "Pele"
   },
   "Guides foundation/concealer matching so shades look natural rather than ashy/orange.": {
-    "fr": "Guides foundation/concealer matching so shades look natural rather than ashy/orange.",
-    "ig": "Guides foundation/concealer matching so shades look natural rather than ashy/orange.",
-    "sw": "Guides foundation/concealer matching so shades look natural rather than ashy/orange.",
-    "ar": "Guides foundation/concealer matching so shades look natural rather than ashy/orange.",
-    "es": "Guides foundation/concealer matching so shades look natural rather than ashy/orange.",
-    "pt": "Guides foundation/concealer matching so shades look natural rather than ashy/orange."
+    "fr": "Guide le choix du fond de teint ou de l'anticerne afin que les teintes paraissent naturelles plutôt que grisâtres ou orangées.",
+    "ig": "Na-enyere aka ịhọrọ ntọala/ihe mkpuchi dabara adaba ka ụcha dị ka nke okike kama ịdị ka ntụ ntụ ma ọ bụ oroma.",
+    "sw": "Huongoza ulinganishaji wa foundation/concealer ili vivuli vionekane vya asili badala ya kijivu au rangi ya chungwa.",
+    "ar": "يساعد في مطابقة كريم الأساس أو خافي العيوب لتبدو الدرجات طبيعية بدلاً من باهتة أو برتقالية.",
+    "es": "Guía la combinación de base o corrector para que los tonos se vean naturales en lugar de cenizos o anaranjados.",
+    "pt": "Orienta a combinação de base ou corretivo para que os tons pareçam naturais em vez de acinzentados ou alaranjados."
   },
   "Test along jawline/neck in balanced light before finalizing shade.": {
     "fr": "Test / Essai",
@@ -2320,12 +2320,12 @@
     "pt": "Controle"
   },
   "Communicates with visitors at an entry point and can release a door/gate lock.": {
-    "fr": "Communicates with visitors at an entry point and can release a door/gate lock.",
-    "ig": "Communicates with visitors at an entry point and can release a door/gate lock.",
-    "sw": "Communicates with visitors at an entry point and can release a door/gate lock.",
-    "ar": "Communicates with visitors at an entry point and can release a door/gate lock.",
-    "es": "Communicates with visitors at an entry point and can release a door/gate lock.",
-    "pt": "Communicates with visitors at an entry point and can release a door/gate lock."
+    "fr": "Communique avec les visiteurs à un point d'entrée et peut déverrouiller une porte ou un portail.",
+    "ig": "Na-ekwurịta okwu na ndị ọbịa n'ọnụ ụzọ mbata ma nwee ike imeghe mkpọchi ụzọ ma ọ bụ ọnụ ụzọ ámá.",
+    "sw": "Huwasiliana na wageni katika sehemu ya kuingilia na inaweza kufungua kufuli ya mlango au geti.",
+    "ar": "يتواصل مع الزوار عند نقطة الدخول ويمكنه فتح قفل الباب أو البوابة.",
+    "es": "Se comunica con los visitantes en un punto de entrada y puede abrir la cerradura de una puerta o portón.",
+    "pt": "Comunica-se com visitantes em um ponto de entrada e pode destravar a fechadura de uma porta ou portão."
   },
   "Verify call clarity, wiring continuity, and safe power/control routing.": {
     "fr": "Alimentation / Énergie",
@@ -2576,12 +2576,12 @@
     "pt": "Lid Pivot & Mounting Bracket"
   },
   "Mechanical joint linking the display lid to the base chassis.": {
-    "fr": "Mechanical joint linking the display lid to the base chassis.",
-    "ig": "Mechanical joint linking the display lid to the base chassis.",
-    "sw": "Mechanical joint linking the display lid to the base chassis.",
-    "ar": "Mechanical joint linking the display lid to the base chassis.",
-    "es": "Mechanical joint linking the display lid to the base chassis.",
-    "pt": "Mechanical joint linking the display lid to the base chassis."
+    "fr": "Articulation mécanique reliant le capot de l'écran au châssis de base.",
+    "ig": "Njikọ igwe nke na-ejikọ mkpuchi ngosipụta na isi ụlọ ngwaọrụ.",
+    "sw": "Kiungo cha kimakanika kinachounganisha kifuniko cha skrini na fremu ya msingi.",
+    "ar": "مفصل ميكانيكي يربط غطاء الشاشة بالهيكل الأساسي.",
+    "es": "Articulación mecánica que une la tapa de la pantalla con el chasis base.",
+    "pt": "Articulação mecânica que liga a tampa da tela ao chassi base."
   },
   "Inspect for stiffness or broken mounts so lid opening doesn't crack housings.": {
     "fr": "Ouvert / Ouvrir",
@@ -2608,12 +2608,12 @@
     "pt": "Tempo"
   },
   "Clear agreement on what a session or event booking includes.": {
-    "fr": "Clear agreement on what a session or event booking includes.",
-    "ig": "Clear agreement on what a session or event booking includes.",
-    "sw": "Clear agreement on what a session or event booking includes.",
-    "ar": "Clear agreement on what a session or event booking includes.",
-    "es": "Clear agreement on what a session or event booking includes.",
-    "pt": "Clear agreement on what a session or event booking includes."
+    "fr": "Accord clair sur ce que comprend la réservation d'une séance ou d'un événement.",
+    "ig": "Nkwekọrịta doro anya gbasara ihe ndokwa oge nnọkọ ma ọ bụ mmemme gụnyere.",
+    "sw": "Makubaliano wazi kuhusu kile ambacho uhifadhi wa kipindi au tukio unajumuisha.",
+    "ar": "اتفاق واضح حول ما يشمله حجز الجلسة أو الفعالية.",
+    "es": "Acuerdo claro sobre lo que incluye la reserva de una sesión o evento.",
+    "pt": "Acordo claro sobre o que a reserva de uma sessão ou evento inclui."
   },
   "Prevents misunderstandings on pricing, duration, and extras.": {
     "fr": "Prevents misunderstandings on pricing, duration, and extras.",
@@ -3200,12 +3200,12 @@
     "pt": "Reparo"
   },
   "Clear statement of what is covered vs. excluded (such as drops or spills).": {
-    "fr": "Clear statement of what is covered vs. excluded (such as drops or spills).",
-    "ig": "Clear statement of what is covered vs. excluded (such as drops or spills).",
-    "sw": "Clear statement of what is covered vs. excluded (such as drops or spills).",
-    "ar": "Clear statement of what is covered vs. excluded (such as drops or spills).",
-    "es": "Clear statement of what is covered vs. excluded (such as drops or spills).",
-    "pt": "Clear statement of what is covered vs. excluded (such as drops or spills)."
+    "fr": "Déclaration claire de ce qui est couvert et de ce qui est exclu (comme les chutes ou les éclaboussures).",
+    "ig": "Nkwupụta doro anya gbasara ihe akwụrụ ụgwọ maka ya na ihe a na-etinyeghị (dịka ọdịda ma ọ bụ mmiri wụfuru).",
+    "sw": "Tamko la wazi kuhusu kinachofunikwa na kisichofunikwa (kama vile kuanguka au kumwagika).",
+    "ar": "بيان واضح لما هو مشمول وما هو مستثنى (مثل السقوط أو انسكاب السوائل).",
+    "es": "Declaración clara de qué está cubierto y qué está excluido (como caídas o derrames).",
+    "pt": "Declaração clara do que é coberto versus excluído (como quedas ou derramamentos)."
   },
   "Protects both the customer and the repair workshop/partner hub.": {
     "fr": "Réparation",
