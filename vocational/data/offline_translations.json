@@ -248,20 +248,20 @@
     "pt": "Unha"
   },
   "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients": {
-    "fr": "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients",
-    "ig": "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients",
-    "sw": "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients",
-    "ar": "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients",
-    "es": "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients",
-    "pt": "Step 5: Pricing Services & Packages, Handling Feedback & Building Repeat Clients"
+    "fr": "Étape 5 : Tarification des services et forfaits, gestion des retours et fidélisation des clients",
+    "ig": "Nzọụkwụ 5: Ịtụ ọnụ ọrụ na ngwugwu, ijikwa nzaghachi ndị ahịa na ịkpọlite ndị na-alọghachi",
+    "sw": "Hatua ya 5: Kupanga bei za huduma na vifurushi, kushughulikia maoni na kujenga wateja wa kudumu",
+    "ar": "الخطوة 5: تسعير الخدمات والباقات، والتعامل مع الملاحظات، وبناء عملاء دائمين",
+    "es": "Paso 5: Precios de servicios y paquetes, gestión de comentarios y fidelización de clientes",
+    "pt": "Etapa 5: Precificação de serviços e pacotes, tratamento de feedback e fidelização de clientes"
   },
   "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals.": {
-    "fr": "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals.",
-    "ig": "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals.",
-    "sw": "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals.",
-    "ar": "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals.",
-    "es": "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals.",
-    "pt": "- Price standard services, add-ons, and event/group bookings profitably.\n- Handle client feedback professionally and build repeat bookings and referrals."
+    "fr": "- Tarifer de manière rentable les services standards, les options et les réservations d'événements ou de groupes.\n- Gérer les retours clients de façon professionnelle et favoriser les réservations répétées et les recommandations.",
+    "ig": "- Tụọ ọnụ ọrụ nkịtị, ihe mgbakwunye, na ndokwa mmemme ma ọ bụ otu n'ụzọ na-eweta uru.\n- Jikwaa nzaghachi ndị ahịa nke ọma ma wulite ndokwa ugboro ugboro na ntụaka.",
+    "sw": "- Panga bei za huduma za kawaida, nyongeza, na nafasi za matukio au vikundi kwa faida.\n- Shughulikia maoni ya wateja kwa weledi na ujenge nafasi zinazojirudia pamoja na mapendekezo.",
+    "ar": "- تسعير الخدمات الأساسية والإضافات وحجوزات الفعاليات أو المجموعات بشكل مربح.\n- التعامل مع ملاحظات العملاء باحترافية وبناء حجوزات متكررة وإحالات.",
+    "es": "- Fijar precios rentables para servicios estándar, adicionales y reservas de eventos o grupos.\n- Gestionar los comentarios de los clientes de forma profesional y fomentar reservas recurrentes y recomendaciones.",
+    "pt": "- Precificar com lucratividade serviços padrão, adicionais e reservas de eventos ou grupos.\n- Lidar com o feedback dos clientes de forma profissional e gerar reservas recorrentes e indicações."
   },
   "Great hands get you started, but clear pricing, reliability, and calm client care keep chairs/bookings full year-round.": {
     "fr": "Cheveux",
@@ -904,12 +904,12 @@
     "pt": "Aviso"
   },
   "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.": {
-    "fr": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.",
-    "ig": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.",
-    "sw": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.",
-    "ar": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.",
-    "es": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability.",
-    "pt": "A reset or firmware flash can erase irreplaceable photos or chats if the customer wasn't warned, and unauthorized lock bypasses create serious legal and ethical liability."
+    "fr": "Une réinitialisation ou un flashage du micrologiciel peut effacer des photos ou discussions irremplaçables si le client n'a pas été averti, et le contournement non autorisé de verrous crée de graves responsabilités juridiques et éthiques.",
+    "ig": "Ntọghachi ma ọ bụ ntinye firmware ọhụrụ nwere ike ihichapụ foto ma ọ bụ mkparịta ụka na-apụghị idochi ma ọ bụrụ na a dọghị onye ahịa aka na ntị, ịgafe mkpọchi n'enweghị ikike na-ebutekwara nnukwu nsogbu iwu na ụkpụrụ.",
+    "sw": "Kuweka upya au kuflashi firmware kunaweza kufuta picha au jumbe zisizoweza kurejelewa ikiwa mteja hakuonywa, na kuruka kufuli bila idhini huleta uwajibikaji mkubwa wa kisheria na kimaadili.",
+    "ar": "يمكن أن تؤدي إعادة الضبط أو تفليش البرنامج الثابت إلى مسح صور أو محادثات لا تُعوّض إذا لم يتم تحذير العميل، كما أن تجاوز القفل دون إذن يسبب مسؤولية قانونية وأخلاقية جسيمة.",
+    "es": "Un restablecimiento o flasheo de firmware puede borrar fotos o chats irremplazables si no se advirtió al cliente, y omitir bloqueos sin autorización genera una grave responsabilidad legal y ética.",
+    "pt": "Uma redefinição ou gravação de firmware pode apagar fotos ou conversas insubstituíveis se o cliente não for avisado, e burlar bloqueios sem autorização gera séria responsabilidade legal e ética."
   },
   "SOFTWARE RECOVERY & ETHICS:\n- Safe Triage First: Check storage space, stuck background apps, corrupted updates, and forced-restart behavior before wiping data.\n- Data & Ownership Discipline: Always explain that resets/re-flashes can wipe user data unless backed up, and verify legitimate ownership/credentials rather than assisting with unauthorized lock circumvention.\n\nSOFTWARE ESCALATION LADDER:\nLevel 1 | Force restart, check storage & test in safe/diagnostic state\nLevel 2 | Targeted app/update fix without data loss where possible\nLevel 3 | Official recovery/re-flash (after backup warning & ownership check)": {
     "fr": "Avertissement",
@@ -1112,12 +1112,12 @@
     "pt": "Diagnóstico"
   },
   "Write clear definitions and one field use for: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, and thermal paste.": {
-    "fr": "Write clear definitions and one field use for: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, and thermal paste.",
-    "ig": "Write clear definitions and one field use for: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, and thermal paste.",
-    "sw": "Write clear definitions and one field use for: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, and thermal paste.",
-    "ar": "Write clear definitions and one field use for: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, and thermal paste.",
-    "es": "Write clear definitions and one field use for: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, and thermal paste.",
-    "pt": "Write clear definitions and one field use for: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, and thermal paste."
+    "fr": "Rédigez des définitions claires et un usage terrain pour : POST, BIOS/UEFI, RAM, NVMe vs SSD SATA et pâte thermique.",
+    "ig": "Dee nkọwa doro anya na otu ojiji n'ọrụ ubi maka: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD, na thermal paste.",
+    "sw": "Andika maelezo wazi na matumizi moja ya ugani kwa: POST, BIOS/UEFI, RAM, NVMe dhidi ya SATA SSD, na thermal paste.",
+    "ar": "اكتب تعريفات واضحة واستخداماً عملياً واحداً لكل من: POST، وBIOS/UEFI، وRAM، وNVMe مقابل SATA SSD، والمعجون الحراري.",
+    "es": "Escribe definiciones claras y un uso en campo para: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD y pasta térmica.",
+    "pt": "Escreva definições claras e um uso em campo para: POST, BIOS/UEFI, RAM, NVMe vs. SATA SSD e pasta térmica."
   },
   "1. What is POST, and why is checking whether a laptop reaches BIOS/UEFI helpful during diagnosis?\n2. Why must you check both form factor and interface (such as NVMe vs. SATA) before buying an SSD?\n3. What is the job of thermal paste between a processor and heatsink?": {
     "fr": "Diagnostic",
@@ -1368,12 +1368,12 @@
     "pt": "Reparo"
   },
   "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards": {
-    "fr": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards",
-    "ig": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards",
-    "sw": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards",
-    "ar": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards",
-    "es": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards",
-    "pt": "Step 6: Event/Bridal Scheduling, Mobile Kit Readiness & Quality Standards"
+    "fr": "Étape 6 : Planification d'événements et mariages, préparation du kit mobile et normes de qualité",
+    "ig": "Nzọụkwụ 6: Nhazi oge mmemme/agbamakwụkwọ, njikere ngwa ọrụ mkpanaka na ụkpụrụ ịdị mma",
+    "sw": "Hatua ya 6: Upangaji ratiba ya matukio/maharusi, utayari wa kifaa cha kwenda nacho na viwango vya ubora",
+    "ar": "الخطوة 6: جدولة الفعاليات والأعراس، وجاهزية العدة المتنقلة، ومعايير الجودة",
+    "es": "Paso 6: Programación de eventos y novias, preparación del kit móvil y estándares de calidad",
+    "pt": "Etapa 6: Agendamento de eventos e noivas, preparo do kit móvel e padrões de qualidade"
   },
   "- Plan event, bridal, or multi-client schedules with realistic time buffers.\n- Maintain portable hygiene, lighting, and documentation standards for studio, mobile, or partner programs.": {
     "fr": "Hygiène",
@@ -1408,12 +1408,12 @@
     "pt": "Higiene"
   },
   "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly.": {
-    "fr": "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly.",
-    "ig": "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly.",
-    "sw": "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly.",
-    "ar": "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly.",
-    "es": "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly.",
-    "pt": "- TRAP (Zero Schedule Buffer): Booking back-to-back clients with zero cushion causes rushing and mistakes.\n- TRAP (Posting Client Photos Without Permission): Always ask consent before sharing client images publicly."
+    "fr": "- PIÈGE (Aucune marge dans l'emploi du temps) : Enchaîner les clients sans temps tampon provoque la précipitation et des erreurs.\n- PIÈGE (Publier des photos de clients sans autorisation) : Demandez toujours le consentement avant de partager publiquement l'image d'un client.",
+    "ig": "- ỌNYÀ (Enweghị oge nkwado): Ịdebanye aha ndị ahịa na-esote ibe ha n'enweghị oge ezumike na-akpata ịgba ọsọ na mmejọ.\n- ỌNYÀ (Izipụ foto ndị ahịa n'enweghị ikike): Jụọ nkwenye mgbe niile tupu ị kesaa foto onye ahịa n'ihu ọha.",
+    "sw": "- MTEGO (Hakuna muda wa akiba wa ratiba): Kupanga wateja mfululizo bila nafasi ya kupumua husababisha haraka na makosa.\n- MTEGO (Kuchapisha picha za wateja bila idhini): Daima omba ridhaa kabla ya kushiriki picha za mteja hadharani.",
+    "ar": "- فخ (عدم وجود وقت احتياطي في الجدول): حجز العملاء المتتاليين دون فاصل زمني يسبب العجلة والأخطاء.\n- فخ (نشر صور العملاء دون إذن): اطلب الموافقة دائماً قبل مشاركة صور العملاء علناً.",
+    "es": "- TRAMPA (Sin margen en la agenda): Agendar clientes seguidos sin tiempo de margen provoca prisas y errores.\n- TRAMPA (Publicar fotos de clientes sin permiso): Pide siempre consentimiento antes de compartir imágenes de clientes públicamente.",
+    "pt": "- ARMADILHA (Sem margem na agenda): Agendar clientes em sequência sem tempo de folga causa pressa e erros.\n- ARMADILHA (Postar fotos de clientes sem permissão): Peça sempre consentimento antes de compartilhar imagens de clientes publicamente."
   },
   "[Day-Before Kit & Schedule Check] ---> [Buffered On-Site Execution]\n                                                      |\n                                                      v\n                            [Consented Portfolio + Full Kit Reset]": {
     "fr": "Vérifier",
@@ -1440,12 +1440,12 @@
     "pt": "Verificar"
   },
   "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?": {
-    "fr": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?",
-    "ig": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?",
-    "sw": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?",
-    "ar": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?",
-    "es": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?",
-    "pt": "1. Why include a buffer when scheduling event or group beauty bookings?\n2. What should you do before taking or sharing photos of a client's look?"
+    "fr": "1. Pourquoi prévoir une marge lors de la planification de réservations beauté pour un événement ou un groupe ?\n2. Que devez-vous faire avant de prendre ou de partager des photos du maquillage ou de la coiffure d'un client ?",
+    "ig": "1. Gịnị mere o ji dị mkpa itinye oge nkwado mgbe ị na-ahazi ndokwa ịma mma maka mmemme ma ọ bụ otu?\n2. Gịnị ka ị kwesịrị ime tupu ị see ma ọ bụ kesaa foto nke ọdịdị onye ahịa?",
+    "sw": "1. Kwa nini uweke muda wa akiba unapopanga nafasi za urembo za tukio au kikundi?\n2. Unapaswa kufanya nini kabla ya kupiga au kushiriki picha za muonekano wa mteja?",
+    "ar": "1. لماذا يُدرج وقت احتياطي عند جدولة حجوزات التجميل للفعاليات أو المجموعات؟\n2. ماذا يجب أن تفعل قبل التقاط أو مشاركة صور إطلالة العميل؟",
+    "es": "1. ¿Por qué incluir un margen al programar reservas de belleza para eventos o grupos?\n2. ¿Qué debes hacer antes de tomar o compartir fotos del aspecto de un cliente?",
+    "pt": "1. Por que incluir uma margem ao agendar serviços de beleza para eventos ou grupos?\n2. O que você deve fazer antes de tirar ou compartilhar fotos do visual de um cliente?"
   },
   "Step 5: Thermal Cleaning, Heatsink Service & Repasting": {
     "fr": "Chaleur",
@@ -1688,12 +1688,12 @@
     "pt": "Cabo"
   },
   "Connects to a compatible DVR and helps upgrade older coax sites.": {
-    "fr": "Connects to a compatible DVR and helps upgrade older coax sites.",
-    "ig": "Connects to a compatible DVR and helps upgrade older coax sites.",
-    "sw": "Connects to a compatible DVR and helps upgrade older coax sites.",
-    "ar": "Connects to a compatible DVR and helps upgrade older coax sites.",
-    "es": "Connects to a compatible DVR and helps upgrade older coax sites.",
-    "pt": "Connects to a compatible DVR and helps upgrade older coax sites."
+    "fr": "Se connecte à un enregistreur DVR compatible et aide à moderniser les sites câblés en coaxial.",
+    "ig": "Na-ejikọ na DVR kwekọrọ ma na-enyere aka kwalite saịtị ochie nwere eriri coax.",
+    "sw": "Huunganisha kwenye DVR inayooana na husaidia kuboresha maeneo ya zamani yenye waya za coax.",
+    "ar": "يتصل بجهاز تسجيل DVR متوافق ويساعد في تحديث المواقع القديمة ذات الكابلات المحورية.",
+    "es": "Se conecta a un DVR compatible y ayuda a actualizar instalaciones antiguas con cable coaxial.",
+    "pt": "Conecta-se a um DVR compatível e ajuda a atualizar instalações antigas com cabo coaxial."
   },
   "FPC": {
     "fr": "FPC",
@@ -1744,12 +1744,12 @@
     "pt": "Teste"
   },
   "Helps identify sensitivities before color, chemical, or adhesive services.": {
-    "fr": "Helps identify sensitivities before color, chemical, or adhesive services.",
-    "ig": "Helps identify sensitivities before color, chemical, or adhesive services.",
-    "sw": "Helps identify sensitivities before color, chemical, or adhesive services.",
-    "ar": "Helps identify sensitivities before color, chemical, or adhesive services.",
-    "es": "Helps identify sensitivities before color, chemical, or adhesive services.",
-    "pt": "Helps identify sensitivities before color, chemical, or adhesive services."
+    "fr": "Aide à identifier les sensibilités avant les services de coloration, de traitement chimique ou d'adhésif.",
+    "ig": "Na-enyere aka ịchọpụta mmetụta uche tupu ọrụ agba, ọgwụ kemịkalụ, ma ọ bụ ihe mmado.",
+    "sw": "Husaidia kutambua mzio au usikivu kabla ya huduma za rangi, kemikali, au gundi.",
+    "ar": "يساعد في تحديد التحسس قبل خدمات الصبغة أو المواد الكيميائية أو اللاصقة.",
+    "es": "Ayuda a identificar sensibilidades antes de servicios de color, químicos o adhesivos.",
+    "pt": "Ajuda a identificar sensibilidades antes de serviços de coloração, químicos ou adesivos."
   },
   "BIOS / UEFI": {
     "fr": "BIOS/UEFI",
@@ -2160,12 +2160,12 @@
     "pt": "Bloqueio de segurança que exige credenciais de conta autorizadas previamente após uma redefinição."
   },
   "Requires legitimate owner verification and ethical handling.": {
-    "fr": "Requires legitimate owner verification and ethical handling.",
-    "ig": "Requires legitimate owner verification and ethical handling.",
-    "sw": "Requires legitimate owner verification and ethical handling.",
-    "ar": "Requires legitimate owner verification and ethical handling.",
-    "es": "Requires legitimate owner verification and ethical handling.",
-    "pt": "Requires legitimate owner verification and ethical handling."
+    "fr": "Exige une vérification légitime du propriétaire et une gestion éthique.",
+    "ig": "Na-achọ nkwenye ziri ezi nke onye nwe ya na njikwa dabara n'ụkpụrụ.",
+    "sw": "Huhitaji uthibitisho halali wa mmiliki na usimamizi wa kimaadili.",
+    "ar": "يتطلب التحقق المشروع من المالك والتعامل الأخلاقي.",
+    "es": "Requiere verificación legítima del propietario y manejo ético.",
+    "pt": "Exige verificação legítima do proprietário e tratamento ético."
   },
   "SPD": {
     "fr": "SPD",
@@ -2256,12 +2256,12 @@
     "pt": "Pino"
   },
   "Maintains consistent pairing across patch cords and structured drops.": {
-    "fr": "Maintains consistent pairing across patch cords and structured drops.",
-    "ig": "Maintains consistent pairing across patch cords and structured drops.",
-    "sw": "Maintains consistent pairing across patch cords and structured drops.",
-    "ar": "Maintains consistent pairing across patch cords and structured drops.",
-    "es": "Maintains consistent pairing across patch cords and structured drops.",
-    "pt": "Maintains consistent pairing across patch cords and structured drops."
+    "fr": "Maintient un appairage cohérent sur les cordons de brassage et les liaisons structurées.",
+    "ig": "Na-edobe njikọ dabara adaba n'ofe eriri patch na njikọ netwọk a haziri ahazi.",
+    "sw": "Hudumisha ulinganifu wa jozi za waya katika nyaya za patch na miunganisho iliyopangwa.",
+    "ar": "يحافظ على توافق الأزواج عبر أسلاك التوصيل والوصلات المهيكلة.",
+    "es": "Mantiene un emparejamiento constante en cables de conexión y puntos estructurados.",
+    "pt": "Mantém o pareamento consistente em cabos de conexão e pontos estruturados."
   },
   "Voc": {
     "fr": "COV",
@@ -2296,12 +2296,12 @@
     "pt": "Unha"
   },
   "Shape evenly and seal with base/top/finish coat to prevent lifting.": {
-    "fr": "Shape evenly and seal with base/top/finish coat to prevent lifting.",
-    "ig": "Shape evenly and seal with base/top/finish coat to prevent lifting.",
-    "sw": "Shape evenly and seal with base/top/finish coat to prevent lifting.",
-    "ar": "Shape evenly and seal with base/top/finish coat to prevent lifting.",
-    "es": "Shape evenly and seal with base/top/finish coat to prevent lifting.",
-    "pt": "Shape evenly and seal with base/top/finish coat to prevent lifting."
+    "fr": "Façonnez uniformément et scellez avec une couche de base, de finition ou de top coat pour éviter le décollement.",
+    "ig": "Kpụzie nke ọma ma jiri akwa ntọala, elu, ma ọ bụ njedebe mechie ya ka ọ ghara ịdọpụ.",
+    "sw": "Chonga sawasawa na ufunge kwa tabaka la msingi, la juu, au la mwisho ili kuzuia kubanduka.",
+    "ar": "شكّل بالتساوي وأغلِق بطبقة أساس أو طبقة علوية أو نهائية لمنع التقشر والرفع.",
+    "es": "Da forma de manera uniforme y sella con capa base, superior o de acabado para evitar levantamientos.",
+    "pt": "Modele de forma uniforme e sele com base, top coat ou camada final para evitar descolamento."
   },
   "Intercom & Door Release": {
     "fr": "Intercom & Door Release",
@@ -2616,12 +2616,12 @@
     "pt": "Acordo claro sobre o que a reserva de uma sessão ou evento inclui."
   },
   "Prevents misunderstandings on pricing, duration, and extras.": {
-    "fr": "Prevents misunderstandings on pricing, duration, and extras.",
-    "ig": "Prevents misunderstandings on pricing, duration, and extras.",
-    "sw": "Prevents misunderstandings on pricing, duration, and extras.",
-    "ar": "Prevents misunderstandings on pricing, duration, and extras.",
-    "es": "Prevents misunderstandings on pricing, duration, and extras.",
-    "pt": "Prevents misunderstandings on pricing, duration, and extras."
+    "fr": "Évite les malentendus sur les tarifs, la durée et les suppléments.",
+    "ig": "Na-egbochi nghọtahie gbasara ọnụ ahịa, ogologo oge, na ihe mgbakwunye.",
+    "sw": "Huzuia kutoelewana kuhusu bei, muda, na huduma za ziada.",
+    "ar": "يمنع سوء الفهم حول التسعير والمدة والإضافات.",
+    "es": "Evita malentendidos sobre precios, duración y extras.",
+    "pt": "Evita mal-entendidos sobre preços, duração e extras."
   },
   "SoC": {
     "fr": "SoC",
@@ -2784,12 +2784,12 @@
     "pt": "Tempo"
   },
   "Keeps event/salon appointments running smoothly without rushed mistakes.": {
-    "fr": "Keeps event/salon appointments running smoothly without rushed mistakes.",
-    "ig": "Keeps event/salon appointments running smoothly without rushed mistakes.",
-    "sw": "Keeps event/salon appointments running smoothly without rushed mistakes.",
-    "ar": "Keeps event/salon appointments running smoothly without rushed mistakes.",
-    "es": "Keeps event/salon appointments running smoothly without rushed mistakes.",
-    "pt": "Keeps event/salon appointments running smoothly without rushed mistakes."
+    "fr": "Permet aux rendez-vous d'événement ou de salon de se dérouler sans précipitation ni erreurs.",
+    "ig": "Na-eme ka nhọpụta mmemme ma ọ bụ salon gaa nke ọma n'enweghị ọsọ ọsọ na mmejọ.",
+    "sw": "Hufanya miadi ya matukio au saluni iende vizuri bila haraka wala makosa.",
+    "ar": "يحافظ على سير مواعيد الفعاليات أو الصالون بسلاسة دون تسرع أو أخطاء.",
+    "es": "Mantiene las citas de eventos o salón avanzando con fluidez sin prisas ni errores.",
+    "pt": "Mantém os agendamentos de eventos ou salão fluindo sem pressa nem erros."
   },
   "Corrosion / Liquid Triage": {
     "fr": "Corrosion / Liquid Triage",
@@ -3112,12 +3112,12 @@
     "pt": "Reparo"
   },
   "Prevents billing surprises and builds customer confidence.": {
-    "fr": "Prevents billing surprises and builds customer confidence.",
-    "ig": "Prevents billing surprises and builds customer confidence.",
-    "sw": "Prevents billing surprises and builds customer confidence.",
-    "ar": "Prevents billing surprises and builds customer confidence.",
-    "es": "Prevents billing surprises and builds customer confidence.",
-    "pt": "Prevents billing surprises and builds customer confidence."
+    "fr": "Évite les mauvaises surprises de facturation et renforce la confiance du client.",
+    "ig": "Na-egbochi ihe ijuanya na ụgwọ ọrụ ma na-eme ka onye ahịa nwee obi ike.",
+    "sw": "Huzuia mshangao wa malipo na hujenga imani ya mteja.",
+    "ar": "يمنع مفاجآت الفوترة ويعزز ثقة العميل.",
+    "es": "Evita sorpresas en la facturación y fortalece la confianza del cliente.",
+    "pt": "Evita surpresas na cobrança e fortalece a confiança do cliente."
   },
   "Clear Breakdown of Parts & Service": {
     "fr": "Pièce",
@@ -3136,12 +3136,12 @@
     "pt": "Linha"
   },
   "Builds trust and avoids billing surprises.": {
-    "fr": "Builds trust and avoids billing surprises.",
-    "ig": "Builds trust and avoids billing surprises.",
-    "sw": "Builds trust and avoids billing surprises.",
-    "ar": "Builds trust and avoids billing surprises.",
-    "es": "Builds trust and avoids billing surprises.",
-    "pt": "Builds trust and avoids billing surprises."
+    "fr": "Instaure la confiance et évite les mauvaises surprises sur la facturation.",
+    "ig": "Na-ewulite ntụkwasị obi ma na-ezere ihe ijuanya na ụgwọ ọrụ.",
+    "sw": "Hujenga uaminifu na kuepuka mshangao wa malipo.",
+    "ar": "يبني الثقة ويتجنب مفاجآت الفوترة.",
+    "es": "Genera confianza y evita sorpresas en la facturación.",
+    "pt": "Gera confiança e evita surpresas na cobrança."
   },
   "EPDM": {
     "fr": "EPDM",
