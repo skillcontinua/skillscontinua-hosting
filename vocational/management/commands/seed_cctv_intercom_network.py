@@ -385,6 +385,25 @@ class Command(BaseCommand):
             },
         )
 
+        TradeLesson.objects.update_or_create(
+            module=mod2,
+            order=2,
+            defaults={
+                "title": "Step 3B: Weatherproofing Outdoor Junctions, Audio/Video Intercom Wiring & Recording Verification",
+                "estimated_minutes": 60,
+                "is_free_preview": False,
+                "learning_objectives": "- Seal outdoor camera and intercom junctions against rain, dust, and moisture ingress.\n- Wire intercom stations cleanly and verify continuous/event recording and playback before sign-off.",
+                "why_it_matters": "Moisture entering outdoor connectors or unverified NVR recording schedules leads to blind spots and missed footage right when security incidents happen.",
+                "core_explanation": "WEATHER SEALING & RECORDING VERIFICATION:\n- Protect exterior connections with drip loops, rated enclosures/glands, and proper sealing so water cannot wick into cables or terminals.\n- Confirm intercom voice/door-release operation and verify NVR storage retention, motion/schedule rules, and clock accuracy.\n\nFIELD SIGN-OFF BENCHMARK:\nCheck Area       | Verification Standard\n-----------------+--------------------------------------------------\nOutdoor Enclosures| Drip loop below entry + sealed glands/gaskets\nIntercom Station | Clear two-way audio/video + reliable door trigger\nRecorder & Clock | Active recording schedule + accurate date/time sync",
+                "step_by_step_field_guide": "PRE-CHECK:\n- Confirm outdoor rating, cable slack/drip loop, and intercom call/unlock requirements.\n\nCOMMISSIONING STEPS:\n1. Form a drip loop below outdoor entry points and seal junction boxes/glands tightly.\n2. Terminate and test intercom indoor/outdoor stations for clarity and release response.\n3. Verify NVR/storage recording mode, retention days, and system time zone/clock.\n\nPOST-CHECK:\n- Play back test clips and confirm zero missed cameras or unrecorded channels.",
+                "safety_and_traps": "- TRAP (Unsealed Cable Entry): Rainwater running along cable jackets enters enclosures and corrodes terminals.\n- TRAP (Assuming Default Recording): Leaving NVR channels on default or unscheduled settings can miss events.",
+                "diagram_or_visual_guide": "[Outdoor Camera / Intercom] ---> [Drip Loop & Sealed Box] ---> [PoE Switch / NVR]\n                                                                        |\n                                       [Playback, Time Sync & Retention Check]",
+                "real_life_scenario": "After heavy rain, an unsealed exterior junction box causes intermittent camera dropouts—sealing the enclosure and adding a proper drip loop restores steady operation.",
+                "practice_activity": "Build a 6-point commissioning checklist covering outdoor weather sealing, intercom audio/door release, and NVR playback verification.",
+                "checkpoint_questions": "1. Why is a drip loop below an exterior cable entry point important?\n2. What should you check on an NVR or recorder before handing over an installation?"
+            },
+        )
+
         mod3, _ = TradeModule.objects.update_or_create(
             trade_course=tier2_course,
             order=2,
@@ -446,6 +465,25 @@ class Command(BaseCommand):
                     "1. Why is running a wired Cat6 link to an Access Point better than relying only on weak signal repeaters?\n"
                     "2. Why label cables and ports during installation?"
                 ),
+            },
+        )
+
+        TradeLesson.objects.update_or_create(
+            module=mod3,
+            order=2,
+            defaults={
+                "title": "Step 4B: VLAN/Subnet Segmentation, Wi-Fi Channel Planning & Rack/Patch Documentation",
+                "estimated_minutes": 55,
+                "is_free_preview": False,
+                "learning_objectives": "- Separate security/IoT traffic from general user traffic using clean IP/VLAN boundaries.\n- Plan non-overlapping Wi-Fi channels and document patch panels, switch ports, and IP assignments.",
+                "why_it_matters": "Unplanned Wi-Fi channels cause interference and slow throughput, while undocumented switch ports turn future troubleshooting into guesswork.",
+                "core_explanation": "SEGMENTATION, WI-FI & DOCUMENTATION:\n- Keep camera/intercom/management addresses organized and separate from untrusted guest or general traffic where supported.\n- Assign non-overlapping channels and sensible placement for access points, and keep a clear port/IP/label record.\n\nNETWORK HYGIENE MATRIX:\nLayer          | Clean Standard\n---------------+--------------------------------------------------\nIP & Segments  | Documented static/DHCP ranges + isolated IoT/cam path\nWireless APs   | Non-overlapping channels + tested coverage at target zones\nPatch & Labels | Matching cable/port labels + accurate port map",
+                "step_by_step_field_guide": "PRE-CHECK:\n- Map connected devices (NVRs, cameras, intercoms, APs, PCs) and note static vs. DHCP roles.\n\nCONFIGURATION STEPS:\n1. Verify IP addressing, gateway, and subnet consistency across switches, APs, and devices.\n2. Configure non-overlapping Wi-Fi channels and check signal strength in key rooms.\n3. Label patch panel/switch ports and record device names, MAC/IP details, and locations.\n\nPOST-CHECK:\n- Test connectivity across wired and wireless segments and save the port/IP map.",
+                "safety_and_traps": "- TRAP (Duplicate Static IPs): Two devices sharing a static IP cause intermittent drops and conflicts.\n- TRAP (Unlabelled Patch Cables): Guessing port mappings later wastes hours during faults or upgrades.",
+                "diagram_or_visual_guide": "[Router / Gateway] ---> [Managed/PoE Switch] ---> [Labels & Port/IP Map]\n                                    |---> [Camera / Intercom Segment]\n                                    |---> [Tuned Wi-Fi Access Points]",
+                "real_life_scenario": "Two nearby access points on overlapping channels slow down video streams—assigning clean channels and documenting switch ports stabilizes throughput.",
+                "practice_activity": "Draft a sample switch-port and IP allocation table for 6 network/security devices plus 2 access points.",
+                "checkpoint_questions": "1. What problem occurs when two network devices are assigned the same static IP address?\n2. Why document switch ports and cable labels at installation time?"
             },
         )
 
@@ -646,6 +684,44 @@ class Command(BaseCommand):
                     "1. Why is adding a UPS to an NVR and main router/switch important?\n"
                     "2. Why change default device passwords before handing over a system?"
                 ),
+            },
+        )
+
+        TradeLesson.objects.update_or_create(
+            module=mod4,
+            order=3,
+            defaults={
+                "title": "Step 7: Packet Loss, Latency & PoE Power-Budget Diagnostics Under Load",
+                "estimated_minutes": 60,
+                "is_free_preview": False,
+                "learning_objectives": "- Diagnose intermittent streams, high latency, or packet loss using structured layer-by-layer checks.\n- Verify PoE power draw against switch wattage budgets so cameras and APs do not brown out under load.",
+                "why_it_matters": "Devices may power up during light testing yet reboot or drop frames when IR night-vision LEDs or peak traffic load engage.",
+                "core_explanation": "LOAD & POWER-BUDGET DIAGNOSTICS:\n- Compare total connected PoE load (including IR illumination, heaters, or intercoms) against the switch's available wattage budget.\n- Isolate faults systematically: physical link/cable -> PoE power/port -> IP/routing/bandwidth -> NVR/endpoint.\n\nFAULT ISOLATION TABLE:\nSymptom               | Likely Cause / Check\n----------------------+--------------------------------------------------\nCamera drops at night | IR LEDs push PoE draw over budget or voltage drop on long run\nChoppy/laggy stream   | High packet loss, duplex/link issue, or saturated link\nDevice offline        | Loose termination, dead port, or IP/gateway mismatch",
+                "step_by_step_field_guide": "PRE-CHECK:\n- Note which cameras, intercoms, or APs drop, when they fail, and current switch PoE usage.\n\nDIAGNOSTIC STEPS:\n1. Check physical cable integrity, terminations, link lights, and port status.\n2. Add up PoE device draw under full load (such as night/IR mode) vs. switch budget.\n3. Test reachability/latency and packet loss between endpoints, recorder, and gateway.\n\nPOST-CHECK:\n- Rebalance loads or re-terminate/replace faulty runs and confirm sustained stability.",
+                "safety_and_traps": "- TRAP (Testing Only in Daylight): Daytime PoE draw is lower without full IR illumination—always check night/peak load.\n- TRAP (Changing Multiple Settings at Once): Altering IPs, cables, and switch rules together hides the true root cause.",
+                "diagram_or_visual_guide": "[Symptom Reported] ---> [Physical & PoE Budget Check] ---> [Latency / Packet Loss Test]\n                                                                       |\n                                              [Targeted Fix & Load Re-Verify]",
+                "real_life_scenario": "Outdoor cameras stay online all afternoon but go offline after dark—checking PoE wattage under full IR load reveals the switch budget is exceeded.",
+                "practice_activity": "Calculate PoE load for 6 cameras (9 W each at peak) plus 1 access point (13 W) and compare against a 90 W PoE budget.",
+                "checkpoint_questions": "1. Why can a PoE switch pass daytime checks yet drop cameras at night?\n2. Why change one variable at a time during network or CCTV fault isolation?"
+            },
+        )
+
+        TradeLesson.objects.update_or_create(
+            module=mod4,
+            order=4,
+            defaults={
+                "title": "Step 8: Handover Checklists, Site As-Built Diagrams & Service-Level Agreements",
+                "estimated_minutes": 50,
+                "is_free_preview": False,
+                "learning_objectives": "- Deliver a clear handover pack with as-built diagrams, credentials/settings record, and user walkthrough.\n- Structure maintenance plans and service-level expectations around response times and preventive visits.",
+                "why_it_matters": "A clean handover and clear maintenance agreement prevent after-hours disputes and create predictable recurring service revenue.",
+                "core_explanation": "HANDOVER & SERVICE AGREEMENTS:\n- Provide a clean as-built summary showing camera/intercom/AP placements, cable/port labels, and basic user instructions.\n- Define preventive maintenance intervals, response expectations, and covered vs. out-of-scope items clearly.\n\nHANDOVER & MAINTENANCE ESSENTIALS:\nDeliverable       | Purpose\n------------------+--------------------------------------------------\nAs-Built Summary  | Shows device locations, labels & basic system layout\nUser Walkthrough  | Trains client on live view, playback & intercom use\nMaintenance Plan  | Sets inspection cadence, response window & clear scope",
+                "step_by_step_field_guide": "PRE-HANDOVER CHECK:\n- Confirm every camera angle, intercom call/unlock, network drop, and backup/UPS works as promised.\n\nHANDOVER STEPS:\n1. Walk the client through daily operation, playback/export basics, and safety/power notes.\n2. Share the as-built layout, port/device notes, and emergency/support contact details.\n3. Review maintenance schedule and response terms so both sides share clear expectations.\n\nPOST-HANDOVER CHECK:\n- Obtain sign-off and log follow-up check dates for ongoing support.",
+                "safety_and_traps": "- TRAP (Leaving Default Passwords or No Records): Leaving default credentials or zero documentation creates security and support headaches.\n- TRAP (Vague Maintenance Promises): Unclear response times or scope cause friction when urgent faults arise.",
+                "diagram_or_visual_guide": "[System Verified] ---> [As-Built Map & Client Demo] ---> [Signed Handover & Care Plan]",
+                "real_life_scenario": "A business owner receives a simple one-page camera/IP map and a quarterly maintenance schedule—routine cleaning and checks catch loose connections before outages occur.",
+                "practice_activity": "Write a concise handover checklist and preventive maintenance outline for a small office CCTV + LAN setup.",
+                "checkpoint_questions": "1. What key items should be included when handing over a completed CCTV or network installation?\n2. Why put preventive maintenance intervals and response expectations in writing?"
             },
         )
 
