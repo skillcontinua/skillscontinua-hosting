@@ -3,6 +3,41 @@
 from django.db import migrations, models
 
 
+
+def _existing_columns(schema_editor, table_name):
+    with schema_editor.connection.cursor() as cursor:
+        return {
+            col.name
+            for col in schema_editor.connection.introspection.get_table_description(cursor, table_name)
+        }
+
+
+def _make_idempotent(migration_cls):
+    for op in migration_cls.operations:
+        if hasattr(op, "model_name") and hasattr(op, "name") and hasattr(op, "field"):
+            orig_forwards = op.database_forwards
+            orig_backwards = op.database_backwards
+            model_name = op.model_name
+            field_name = op.name
+
+            def _guarded_forwards(apps, schema_editor, _orig=orig_forwards, _m=model_name, _f=field_name):
+                model = apps.get_model("vocational", _m)
+                table = model._meta.db_table
+                if _f in _existing_columns(schema_editor, table):
+                    return
+                return _orig(apps, schema_editor)
+
+            def _guarded_backwards(apps, schema_editor, _orig=orig_backwards, _m=model_name, _f=field_name):
+                model = apps.get_model("vocational", _m)
+                table = model._meta.db_table
+                if _f not in _existing_columns(schema_editor, table):
+                    return
+                return _orig(apps, schema_editor)
+
+            op.database_forwards = _guarded_forwards
+            op.database_backwards = _guarded_backwards
+
+
 class Migration(migrations.Migration):
 
     dependencies = [
@@ -806,3 +841,6 @@ class Migration(migrations.Migration):
             field=models.CharField(max_length=255, null=True),
         ),
     ]
+
+
+_make_idempotent(Migration)
