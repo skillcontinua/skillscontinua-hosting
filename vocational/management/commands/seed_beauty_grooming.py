@@ -362,6 +362,63 @@ class Command(BaseCommand):
             },
         )
 
+        TradeLesson.objects.update_or_create(
+            module=mod2,
+            order=2,
+            defaults={
+                "title": "Step 3B: Protective Braiding, Knotless Installations & Safe Heat/Chemical Care",
+                "estimated_minutes": 60,
+                "is_free_preview": False,
+                "learning_objectives": (
+                    "- Part sections cleanly with balanced tension so roots and follicles are not over-stressed.\n"
+                    "- Execute neat braiding, extensions, or heat/chemical hair finishes while protecting hair integrity."
+                ),
+                "why_it_matters": (
+                    "Over-tight braiding or careless heat/chemical work causes traction tension, soreness, and breakage—whereas gentle tension keeps clients comfortable and loyal."
+                ),
+                "core_explanation": (
+                    "SECTIONING, TENSION & HAIR INTEGRITY:\n"
+                    "- Partition hair cleanly to match the style and head shape, keeping tension firm enough for neatness without pulling delicate edges.\n"
+                    "- Match heat tools and chemical/styling products to hair texture, porosity, and condition, checking comfort throughout the service.\n\n"
+                    "HAIR & STYLING CHECKLIST:\n"
+                    "Aspect            | Key Standard\n"
+                    "------------------+--------------------------------------------------\n"
+                    "Parting & Tension | Clean sections + comfortable, non-pulling tension\n"
+                    "Heat & Styling    | Controlled pass/temperature + moisture/sealant care\n"
+                    "Aftercare Advice  | Clear takedown, scalp cleansing & moisture guidance"
+                ),
+                "step_by_step_field_guide": (
+                    "PRE-SERVICE CHECK:\n"
+                    "- Confirm style length, thickness, and comfort expectations, and check scalp/hair condition.\n\n"
+                    "SERVICE STEPS:\n"
+                    "1. Prep clean, detangled hair with appropriate leave-in moisture or primer.\n"
+                    "2. Section cleanly and braid, weave, or style with steady, comfortable tension.\n"
+                    "3. Finish ends/edges neatly and verify comfort and symmetry with the client.\n\n"
+                    "POST-SERVICE CHECK:\n"
+                    "- Share practical maintenance and safe removal/takedown tips before the client leaves."
+                ),
+                "safety_and_traps": (
+                    "- TRAP (Excessive Root Tension): Pulling braids or extensions too tight causes pain, bumps, and hairline thinning.\n"
+                    "- TRAP (Skipping Aftercare Guidance): Leaving clients without moisture or takedown instructions leads to tangling and breakage."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Clean Prepped Hair] ---> [Section & Partition] ---> [Controlled Braid / Style]\n"
+                    "                                                                  |\n"
+                    "      [Comfort & Symmetry Check] <--- [Neat Finish & Aftercare Guidance] <+"
+                ),
+                "real_life_scenario": (
+                    "A client notices tightness around the crown right after braiding starts—loosening grip tension early and adjusting section size prevents soreness and protects the scalp."
+                ),
+                "practice_activity": (
+                    "Practice clean parting and even tension on a styling block or practice set, then write a 4-point aftercare note for the client."
+                ),
+                "checkpoint_questions": (
+                    "1. Why is avoiding overly tight tension at the hairline/roots critical during braiding or styling?\n"
+                    "2. What aftercare advice helps a client keep their style neat and their hair healthy?"
+                ),
+            },
+        )
+
         mod3, _ = TradeModule.objects.update_or_create(
             trade_course=tier2_course,
             order=2,
@@ -428,6 +485,63 @@ class Command(BaseCommand):
                 "checkpoint_questions": (
                     "1. Why apply thin, buildable layers instead of one thick coat in makeup or nail polish?\n"
                     "2. What does sealing the free edge of a nail help prevent?"
+                ),
+            },
+        )
+
+        TradeLesson.objects.update_or_create(
+            module=mod3,
+            order=2,
+            defaults={
+                "title": "Step 4B: Brow Mapping, Lash Application, Gel Finishes & Safe Removal",
+                "estimated_minutes": 60,
+                "is_free_preview": False,
+                "learning_objectives": (
+                    "- Map balanced brow proportions and apply lashes or nail enhancements cleanly and safely.\n"
+                    "- Follow safe removal/soak-off practices that protect natural skin, lashes, and nail plates."
+                ),
+                "why_it_matters": (
+                    "Improper lash placement near the eyelid margin or prying off cured nail enhancements damages natural tissue and creates avoidable client complaints."
+                ),
+                "core_explanation": (
+                    "BALANCED FINISHING & SAFE REMOVAL:\n"
+                    "- Map brow start, arch, and tail in proportion to facial features before shaping or filling.\n"
+                    "- Keep lash adhesives clear of the waterline/skin and cure/remove nail enhancements gently without forcing or prying.\n\n"
+                    "FINISHING & REMOVAL BENCHMARK:\n"
+                    "Area           | Safe Practice\n"
+                    "---------------+--------------------------------------------------\n"
+                    "Brows & Lashes | Balanced proportions + skin-safe placement & cure\n"
+                    "Nail Finishes  | Thin even coats + gentle soak/removal without prying\n"
+                    "Client Comfort | Check eye/skin comfort and finish with conditioning care"
+                ),
+                "step_by_step_field_guide": (
+                    "PRE-SERVICE CHECK:\n"
+                    "- Confirm desired brow shape, lash style, or nail finish and check for sensitivity or damage.\n\n"
+                    "EXECUTION STEPS:\n"
+                    "1. Map proportions or prep nail surface gently without thinning the natural plate.\n"
+                    "2. Apply product or enhancements evenly, checking symmetry and comfort step by step.\n"
+                    "3. Complete safe curing/finishing and remove excess residue cleanly.\n\n"
+                    "POST-SERVICE CHECK:\n"
+                    "- Inspect final result in balanced light and explain safe removal and daily care."
+                ),
+                "safety_and_traps": (
+                    "- TRAP (Prying Off Enhancements): Forcing or peeling off nail coatings or lashes tears natural layers.\n"
+                    "- TRAP (Product Near Eyes/Cuticles): Letting adhesive, remover, or polish pool on skin causes irritation."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Proportions & Prep Check] ---> [Balanced Application / Cure] ---> [Clean Edge & Comfort Check]\n"
+                    "                                                                             |\n"
+                    "                                                     [Safe Removal & Aftercare Guidance]"
+                ),
+                "real_life_scenario": (
+                    "A client returns for enhancement removal before a new set—using gentle removal and conditioning rather than prying keeps the natural nail plate intact."
+                ),
+                "practice_activity": (
+                    "Map brow guidelines or practice clean edge finishing and gentle removal steps, noting key comfort checks at each stage."
+                ),
+                "checkpoint_questions": (
+                    "1. Why should nail enhancements or lashes never be pried or forced off?\n"
+                    "2. Why check symmetry and client comfort before finishing a look?"
                 ),
             },
         )
@@ -627,6 +741,122 @@ class Command(BaseCommand):
                 "checkpoint_questions": (
                     "1. Why include a buffer when scheduling event or group beauty bookings?\n"
                     "2. What should you do before taking or sharing photos of a client's look?"
+                ),
+            },
+        )
+
+        TradeLesson.objects.update_or_create(
+            module=mod4,
+            order=3,
+            defaults={
+                "title": "Step 7: Stock Control, Consumable Reordering & Tool/Equipment Care",
+                "estimated_minutes": 45,
+                "is_free_preview": False,
+                "learning_objectives": (
+                    "- Track consumables, disposables, and replacement parts so essential stock does not run out mid-week.\n"
+                    "- Maintain clippers, shears, brushes, and kit tools on a regular cleaning and inspection schedule."
+                ),
+                "why_it_matters": (
+                    "Running out of blades, disinfectants, adhesives, or disposables mid-booking halts work and costs revenue, while routine tool care extends equipment life."
+                ),
+                "core_explanation": (
+                    "INVENTORY & EQUIPMENT LONGEVITY:\n"
+                    "- Track high-use items (blades, wipes/disinfectant, gloves, caps/strips, primers, adhesives/polishes) with a simple reorder point.\n"
+                    "- Clean, oil, and inspect cords, blades, and cases routinely so tools stay reliable and safe.\n\n"
+                    "STOCK & CARE ROUTINE:\n"
+                    "Routine Item     | Cadence / Trigger\n"
+                    "-----------------+--------------------------------------------------\n"
+                    "Consumable Stock | Weekly count + reorder before low-stock threshold\n"
+                    "Clippers & Tools | Clean & oil regularly; replace dull/damaged parts\n"
+                    "Kit & Storage    | Keep dry, organized, and ready before next shift"
+                ),
+                "step_by_step_field_guide": (
+                    "PRE-CHECK:\n"
+                    "- List all active supplies and tools used across your services.\n\n"
+                    "CONTROL & CARE STEPS:\n"
+                    "1. Count key consumables and set a clear reorder point before stock runs dry.\n"
+                    "2. Inspect clippers, cords, brushes, and storage cases for wear, dullness, or damage.\n"
+                    "3. Restock depleted items and log any tool repairs or replacements needed.\n\n"
+                    "POST-CHECK:\n"
+                    "- Confirm your station or mobile kit is fully stocked and ready for upcoming bookings."
+                ),
+                "safety_and_traps": (
+                    "- TRAP (Waiting Until Zero Stock): Reordering only after running out causes cancelled appointments or rushed substitutions.\n"
+                    "- TRAP (Using Worn Cords or Dull Blades): Frayed cords or dull blades create safety and quality risks."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Weekly Stock & Tool Count] ---> [Below Reorder Level? Yes -> Restock / Repair]\n"
+                    "                                       | (No)\n"
+                    "                                       v\n"
+                    "                       [Clean, Organize & Ready for Bookings]"
+                ),
+                "real_life_scenario": (
+                    "Doing a quick Friday stock check spots low disinfectant and worn clipper blades ahead of a busy weekend—restocking early avoids last-minute scrambling."
+                ),
+                "practice_activity": (
+                    "Create a simple stock and tool-care log for your top 8 supplies/tools showing current count, reorder level, and check schedule."
+                ),
+                "checkpoint_questions": (
+                    "1. Why set a reorder point before a consumable item runs completely out?\n"
+                    "2. What regular checks keep tools and equipment safe and dependable?"
+                ),
+            },
+        )
+
+        TradeLesson.objects.update_or_create(
+            module=mod4,
+            order=4,
+            defaults={
+                "title": "Step 8: Portfolio Building, Appointment Habits & Apprenticeship Standards",
+                "estimated_minutes": 45,
+                "is_free_preview": False,
+                "learning_objectives": (
+                    "- Build a clear, honest portfolio of completed work and consistent service standards.\n"
+                    "- Maintain dependable appointment habits and mentor/train apprentices or assistants responsibly."
+                ),
+                "why_it_matters": (
+                    "Clear work samples, reliable timekeeping, and structured training standards turn individual skill into a respected brand and scalable practice."
+                ),
+                "core_explanation": (
+                    "REPUTATION, RELIABILITY & MENTORSHIP:\n"
+                    "- Showcase clean, real client/practice results in good lighting with clear service descriptions and client permission.\n"
+                    "- Keep appointment confirmations, punctuality, and clear expectations consistent, and model safe habits when training helpers.\n\n"
+                    "GROWTH PILLARS:\n"
+                    "Pillar          | Key Standard\n"
+                    "----------------+--------------------------------------------------\n"
+                    "Portfolio       | Real, well-lit work + clear service & care notes\n"
+                    "Reliability     | Clear booking rules, timely arrival & follow-up\n"
+                    "Mentorship      | Safe hygiene/tool habits modeled & supervised"
+                ),
+                "step_by_step_field_guide": (
+                    "PRE-PLAN CHECK:\n"
+                    "- Gather examples of your cleanest work and review your booking and training habits.\n\n"
+                    "EXECUTION STEPS:\n"
+                    "1. Select clear, accurate work samples with permission and note the service performed.\n"
+                    "2. Standardize booking confirmations, arrival buffers, and aftercare reminders.\n"
+                    "3. Set clear hygiene, safety, and step-by-step guidance for anyone learning alongside you.\n\n"
+                    "POST-CHECK:\n"
+                    "- Review client feedback and booking consistency monthly to refine your standards."
+                ),
+                "safety_and_traps": (
+                    "- TRAP (Unedited/Misleading Claims): Over-filtering or claiming work you did not do erodes trust quickly.\n"
+                    "- TRAP (Unstructured Helper Tasks): Assigning tasks without clear safety/hygiene rules causes mistakes."
+                ),
+                "diagram_or_visual_guide": (
+                    "[Consistent Craft & Hygiene] ---> [Verified Portfolio & Clear Booking Rules]\n"
+                    "                                                     |\n"
+                    "                                                     v\n"
+                    "                        [Repeat Clients, Referrals & Safe Mentorship]"
+                ),
+                "real_life_scenario": (
+                    "A new client books after seeing neat, natural finishes and clear pricing/care details—delivering on time with polite follow-up earns repeat visits and referrals."
+                ),
+                "practice_activity": (
+                    "Draft a concise portfolio entry and booking/aftercare summary for one signature service you offer."
+                ),
+                "checkpoint_questions": (
+                    "1. How does an honest portfolio with clear service details build client trust?\n"
+                    "2. Why is clear guidance important when training or working with an assistant or apprentice?"
                 ),
             },
         )
