@@ -437,6 +437,25 @@ class Command(BaseCommand):
             },
         )
 
+        TradeLesson.objects.update_or_create(
+            module=mod2,
+            order=2,
+            defaults={
+                "title": "Step 4B: Charge Controller Configuration, Battery Bank Wiring & Pre-Energization Checks",
+                "estimated_minutes": 55,
+                "is_free_preview": False,
+                "learning_objectives": "- Configure MPPT/PWM charge parameters and battery chemistry profiles safely.\n- Wire series/parallel battery banks with balanced inter-cell/inter-battery leads and verify polarity/voltage before energization.",
+                "why_it_matters": "Incorrect charge voltage setpoints or uneven battery bank interconnects shorten battery life, trigger BMS shutdowns, or cause overheating under charge/discharge.",
+                "core_explanation": "CONTROLLER & BATTERY BANK SETUP:\n- Match bulk/absorption/float or BMS cut-off settings to the actual battery chemistry (LiFePO4 vs. lead-acid/AGM) and nominal bank voltage.\n- Keep series/parallel interconnects matched in length and gauge so current shares evenly across parallel strings.\n\nBANK & CHARGER CHECKLIST:\nItem              | Verification Standard\n------------------+--------------------------------------------------\nSeries/Parallel   | Clear bank voltage + balanced parallel string paths\nCharge Profile    | Chemistry-matched voltages + max charge current cap\nPre-Energization  | Polarity verified + fuses/breakers open before close",
+                "step_by_step_field_guide": "PRE-CHECK:\n- Confirm battery chemistry, nominal voltage, cell/module health, and DC overcurrent ratings.\n\nSETUP STEPS:\n1. Arrange and torque battery terminals cleanly with proper insulating boots/covers.\n2. Program charge controller voltage/current limits and communication/BMS settings before full load.\n3. Measure open-circuit voltage and polarity at every terminal before closing disconnects.\n\nPOST-CHECK:\n- Close DC disconnects in sequence and confirm charging current and telemetry read normally.",
+                "safety_and_traps": "- TRAP (Reversed Polarity on Battery/PV): Reversing battery or solar polarity can instantly damage controllers or inverters.\n- TRAP (Unbalanced Parallel Interconnects): Uneven cable lengths cause one battery string to carry excess current and age early.",
+                "diagram_or_visual_guide": "[PV Array / DC Input] ---> [DC Breaker & MPPT Controller] ---> [Fused/Balanced Battery Bank] ---> [Inverter DC Bus]",
+                "real_life_scenario": "A new lithium bank trips early under load because charge cut-offs were left on default lead-acid values—updating the profile and balancing interconnects restores runtime.",
+                "practice_activity": "Sketch a 48 V battery bank wiring layout (four 12 V batteries in series) showing terminal torque/insulation and DC fuse placement.",
+                "checkpoint_questions": "1. Why must charge controller voltage setpoints match the battery chemistry?\n2. What happens when parallel battery strings use mismatched cable lengths?"
+            },
+        )
+
         mod3, _ = TradeModule.objects.update_or_create(
             trade_course=tier2_course,
             order=2,
