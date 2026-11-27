@@ -1,0 +1,19 @@
+<!-- C:\hosting\skillscontinua_hosting\village\templates\village\post_detail.html -->
+{% extends "base.html" %}
+{% block title %}{{ post.title }} — SkillsContinua{% endblock %}
+
+{% block content %}
+<article class="container py-5">
+  <a href="{% url 'village:post_list' %}" class="text-decoration-none">← Back to blog</a>
+  <header class="my-4">
+    <span class="badge bg-secondary">{{ post.get_category_display }}</span>
+    <h1 class="mt-2">{{ post.title }}</h1>
+    <p class="text-muted">
+      {% if post.author %}By {{ post.author.get_full_name|default:post.author.username }} · {% endif %}
+      {{ post.created_at|date:"F j, Y" }}
+    </p>
+    <p class="lead">{{ post.summary }}</p>
+  </header>
+  <div class="content">{{ post.content|linebreaks }}</div>
+</article>
+{% endblock %}

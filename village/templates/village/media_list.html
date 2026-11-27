@@ -1,0 +1,37 @@
+<!-- C:\hosting\skillscontinua_hosting\village\templates\village\media_list.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}Reels & Podcasts — SkillsContinua{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h1 class="mb-4">Reels & Low-Data Podcasts</h1>
+
+  <div class="mb-4">
+    <a href="{% url 'village:media_list' %}" class="btn btn-sm {% if not active_type %}btn-primary{% else %}btn-outline-primary{% endif %} me-1">All</a>
+    {% for value, label in media_types %}
+      <a href="?type={{ value }}" class="btn btn-sm {% if active_type == value %}btn-primary{% else %}btn-outline-primary{% endif %} me-1">{{ label }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="row g-4">
+    {% for m in media %}
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-info text-dark mb-2">{{ m.get_media_type_display }}</span>
+            <h2 class="h5 card-title">{{ m.title }}</h2>
+            <p class="card-text">{{ m.description|truncatewords:20 }}</p>
+            {% if m.duration_label %}<p class="text-muted small mb-2">⏱ {{ m.duration_label }}</p>{% endif %}
+            <a href="{{ m.external_url }}" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Watch / Listen →</a>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <div class="col-12">
+        <p class="text-muted">No reels or podcasts uploaded yet.</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

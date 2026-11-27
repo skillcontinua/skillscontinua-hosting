@@ -1,0 +1,75 @@
+<!-- C:\hosting\skillscontinua_hosting\village\templates\village\home.html -->
+{% extends "base.html" %}
+{% block title %}The Village — SkillsContinua{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h1 class="mb-4">The Village</h1>
+  <p class="lead mb-5">Community, media & peer mentorship — learn through bite-sized reels, low-data podcasts, and mentor forums.</p>
+
+  <section class="mb-5">
+    <h2 class="h4">Articles & Success Stories</h2>
+    <div class="row g-3">
+      {% for post in posts %}
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <span class="badge bg-secondary mb-2">{{ post.get_category_display }}</span>
+              <h3 class="h5 card-title">{{ post.title }}</h3>
+              <p class="card-text">{{ post.summary|truncatewords:20 }}</p>
+              <a href="{% url 'village:post_detail' post.slug %}" class="stretched-link">Read more →</a>
+            </div>
+          </div>
+        </div>
+      {% empty %}
+        <p class="text-muted">No articles published yet. Add one in the admin.</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mb-5">
+    <h2 class="h4">Reels & Low-Data Podcasts</h2>
+    <div class="row g-3">
+      {% for m in media %}
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <span class="badge bg-info text-dark mb-2">{{ m.get_media_type_display }}</span>
+              <h3 class="h5 card-title">{{ m.title }}</h3>
+              <p class="card-text">{{ m.description|truncatewords:15 }}</p>
+              <a href="{{ m.external_url }}" target="_blank" rel="noopener" class="stretched-link">Watch / Listen →</a>
+            </div>
+          </div>
+        </div>
+      {% empty %}
+        <p class="text-muted">No reels or podcasts uploaded yet.</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mb-5">
+    <h2 class="h4">Live Mentor Forums & Channels</h2>
+    <ul class="list-group mb-3">
+      {% for topic in topics %}
+        <li class="list-group-item d-flex justify-content-between">
+          <a href="{% url 'village:forum_detail' topic.slug %}">{{ topic.title }}</a>
+          <span class="text-muted">{{ topic.pillar_tag }}</span>
+        </li>
+      {% empty %}
+        <li class="list-group-item text-muted">No forum topics started yet.</li>
+      {% endfor %}
+    </ul>
+
+    <h3 class="h6">Connect Instantly</h3>
+    <div class="d-flex flex-wrap gap-2">
+      {% for c in channels %}
+        <a href="{{ c.url }}" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">
+          {{ c.handle_or_label }}{% if c.follower_count_label %} · {{ c.follower_count_label }}{% endif %}
+        </a>
+      {% empty %}
+        <span class="text-muted">Add social channels in the admin.</span>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

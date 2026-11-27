@@ -1,0 +1,54 @@
+<!-- C:\hosting\skillscontinua_hosting\village\templates\village\post_list.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}Articles & Success Stories — SkillsContinua{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h1 class="mb-4">Articles & Success Stories</h1>
+
+  <div class="mb-4">
+    <a href="{% url 'village:post_list' %}" class="btn btn-sm {% if not active_category %}btn-primary{% else %}btn-outline-primary{% endif %} me-1">All</a>
+    {% for value, label in categories %}
+      <a href="?category={{ value }}" class="btn btn-sm {% if active_category == value %}btn-primary{% else %}btn-outline-primary{% endif %} me-1">{{ label }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="row g-4">
+    {% for post in page_obj %}
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-secondary mb-2">{{ post.get_category_display }}</span>
+            <h2 class="h5 card-title">{{ post.title }}</h2>
+            <p class="card-text">{{ post.summary|truncatewords:25 }}</p>
+            <a href="{% url 'village:post_detail' post.slug %}" class="stretched-link">Read more →</a>
+          </div>
+          <div class="card-footer text-muted small">
+            {{ post.created_at|date:"M j, Y" }}
+            {% if post.author %} · {{ post.author.get_full_name|default:post.author.username }}{% endif %}
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <div class="col-12">
+        <p class="text-muted">No articles published yet.</p>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% if page_obj.has_other_pages %}
+    <nav class="mt-4">
+      <ul class="pagination justify-content-center">
+        {% if page_obj.has_previous %}
+          <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}{% if active_category %}&category={{ active_category }}{% endif %}">Previous</a></li>
+        {% endif %}
+        <li class="page-item disabled"><span class="page-link">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span></li>
+        {% if page_obj.has_next %}
+          <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}{% if active_category %}&category={{ active_category }}{% endif %}">Next</a></li>
+        {% endif %}
+      </ul>
+    </nav>
+  {% endif %}
+</div>
+{% endblock %}

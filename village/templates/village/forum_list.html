@@ -1,0 +1,33 @@
+<!-- C:\hosting\skillscontinua_hosting\village\templates\village\forum_list.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}Mentor Forums — SkillsContinua{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h1 class="mb-4">Live Mentor Forums & Channels</h1>
+  <p class="lead mb-4">Peer-to-peer discussion boards and mentor Q&A across every trade pillar.</p>
+
+  <div class="list-group">
+    {% for topic in topics %}
+      <a href="{% url 'village:forum_detail' topic.slug %}" class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h2 class="h5 mb-1">
+            {% if topic.is_pinned %}<span class="badge bg-warning text-dark me-1">Pinned</span>{% endif %}
+            {{ topic.title }}
+          </h2>
+          <small class="text-muted">{{ topic.created_at|date:"M j, Y" }}</small>
+        </div>
+        <p class="mb-1 text-muted">{{ topic.body|truncatewords:20 }}</p>
+        <small>
+          <span class="badge bg-secondary">{{ topic.pillar_tag }}</span>
+          · Started by {{ topic.started_by.get_full_name|default:topic.started_by.username }}
+          · {{ topic.replies.count }} repl{{ topic.replies.count|pluralize:"y,ies" }}
+        </small>
+      </a>
+    {% empty %}
+      <div class="list-group-item text-muted">No forum topics started yet.</div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
