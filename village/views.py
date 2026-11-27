@@ -1,6 +1,10 @@
-# C:\hosting\skillscontinua_hosting\village\views.py
-from django.shortcuts import render, get_object_or_404
+# File path: C:\hosting\skillscontinua_hosting\village\views.py
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
+from django.shortcuts import get_object_or_404, redirect, render
+
+from .forms import ForumReplyForm
 from .models import (
     CommunityPost, MediaStream, ForumTopic,
     SocialChannel, MonetizationOffer,
@@ -8,7 +12,6 @@ from .models import (
 
 
 def village_home(request):
-    """The Village landing: latest posts, media, forum topics, social links."""
     posts = CommunityPost.objects.filter(is_published=True)[:6]
     media = MediaStream.objects.all()[:6]
     topics = ForumTopic.objects.all()[:5]
@@ -24,7 +27,6 @@ def village_home(request):
 
 
 def post_list(request):
-    """Paginated blog / article list."""
     qs = CommunityPost.objects.filter(is_published=True)
     category = request.GET.get("category")
     if category:
@@ -50,7 +52,6 @@ def post_detail(request, slug):
 
 
 def media_list(request):
-    """Reels, podcasts, webinars."""
     media_type = request.GET.get("type")
     qs = MediaStream.objects.all()
     if media_type:
@@ -63,16 +64,36 @@ def media_list(request):
 
 
 def forum_list(request):
-    """List of forum topics."""
     topics = ForumTopic.objects.all()
     return render(request, "village/forum_list.html", {"topics": topics})
 
 
 def forum_detail(request, slug):
-    """A single forum topic with its replies."""
+    """Topic view + reply form (login required to post)."""
     topic = get_object_or_404(ForumTopic, slug=slug)
     replies = topic.replies.select_related("author")
+    form = ForumReplyForm()
+
+    if request.method == "POST":
+        if not request.user.is_authenticated:
+            # Preserve the intent — send them to login, then back here.
+            return redirect(f"/accounts/login/?next={request.path}")
+
+        form = ForumReplyForm(request.POST)
+        if form.is_valid():
+            reply = form.save(commit=False)
+            reply.topic = topic
+            reply.author = request.user
+            # Auto-badge mentor replies (option (a) + mentor flag).
+            reply.is_verified_mentor_answer = bool(
+                getattr(request.user, "is_mentor", False)
+            )
+            reply.save()
+            messages.success(request, "Your reply was posted.")
+            return redirect("village:forum_detail", slug=topic.slug)
+
     return render(request, "village/forum_detail.html", {
         "topic": topic,
         "replies": replies,
+        "form": form,
     })
