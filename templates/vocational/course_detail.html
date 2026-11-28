@@ -110,6 +110,44 @@
             </div>
         </div>
 
+        {# [UPDATED] Student Progress & Credential Status #}
+        {% if request.user.is_authenticated and progress %}
+            <div class="card border-0 shadow-sm p-3 mb-4">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+                    <strong class="text-uppercase small text-muted">Your Progress on this Track</strong>
+                    <span class="badge bg-dark">{{ progress.overall_progress_percentage|floatformat:0 }}% complete</span>
+                </div>
+                <div class="progress mb-3" style="height: 10px;">
+                    <div class="progress-bar bg-success" role="progressbar"
+                         style="width: {{ progress.overall_progress_percentage }}%;"
+                         aria-valuenow="{{ progress.overall_progress_percentage }}"
+                         aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="d-flex flex-wrap gap-2 small">
+                    <span class="badge {% if progress.tier_1_completed %}bg-success{% else %}bg-light text-dark border{% endif %}">Tier 1 {% if progress.tier_1_completed %}✓{% else %}pending{% endif %}</span>
+                    <span class="badge {% if progress.tier_2_completed %}bg-success{% else %}bg-light text-dark border{% endif %}">Tier 2 {% if progress.tier_2_completed %}✓{% else %}pending{% endif %}</span>
+                    <span class="badge {% if progress.tier_3_completed %}bg-success{% else %}bg-light text-dark border{% endif %}">Tier 3 {% if progress.tier_3_completed %}✓{% else %}pending{% endif %}</span>
+                    <span class="badge bg-light text-dark border">{{ progress.completed_lessons.count }} lessons done</span>
+                    {% if not progress.is_active_student %}
+                        <span class="badge bg-warning text-dark">Paused</span>
+                    {% endif %}
+                </div>
+            </div>
+        {% endif %}
+
+        {# [UPDATED] Earned certificate badge — label course tier explicitly to avoid confusion #}
+        {% if certificate %}
+            <div class="alert alert-success d-flex justify-content-between align-items-center flex-wrap gap-2 mb-4">
+                <div>
+                    <strong>Credential Earned:</strong> {{ certificate.get_tier_display }}
+                    <span class="text-muted small">(for {{ course.title }})</span> —
+                    {{ certificate.grade_classification|default:"Pass" }} ({{ certificate.final_score|floatformat:1 }}%)
+                    <div class="small">Code: <code>{{ certificate.certificate_code }}</code></div>
+                </div>
+                <a href="{% url 'assessments:verify_credential' certificate.certificate_code %}" class="btn btn-success btn-sm">Verify Credential</a>
+            </div>
+        {% endif %}
+
         <!-- Required Tools & Critical Safety -->
         <div class="row g-4 mb-4">
             <div class="col-md-6">

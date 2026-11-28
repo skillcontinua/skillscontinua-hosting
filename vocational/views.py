@@ -109,11 +109,29 @@ def course_detail_view(request, slug):
     )
     quizzes = Quiz.objects.filter(trade_course=course).order_by("tier", "id")
 
+    # [UPDATED] Feature 1: compute progress + certificate BEFORE building context,
+    # and include them in the context so the template can render them.
+    progress = None
+    certificate = None
+    if request.user.is_authenticated:
+        progress = UserProgress.objects.filter(
+            user=request.user, trade_course=course
+        ).first()
+        certificate = (
+            Certificate.objects.filter(
+                user=request.user, trade_course=course, is_revoked=False
+            )
+            .order_by("-issued_at")
+            .first()
+        )
+
     context = {
         "course": course,
         "has_access": has_access,
         "sibling_courses": sibling_courses,
         "quizzes": quizzes,
+        "progress": progress,        # [UPDATED]
+        "certificate": certificate,  # [UPDATED]
     }
     return render(request, "vocational/course_detail.html", context)
 
@@ -145,6 +163,11 @@ def lesson_detail_view(request, course_slug, lesson_id):
                 next_lesson = course_lessons[idx + 1]
             break
 
+    # [UPDATED] Feature 2: surface per-lesson checkpoint quizzes.
+    lesson_quizzes = lesson.quizzes.filter(
+        quiz_type__in=["formative", "module_test"]
+    ).order_by("tier", "id")
+
     context = {
         "course": course,
         "lesson": lesson,
@@ -152,5 +175,6 @@ def lesson_detail_view(request, course_slug, lesson_id):
         "can_view_lesson": can_view_lesson,
         "prev_lesson": prev_lesson,
         "next_lesson": next_lesson,
+        "lesson_quizzes": lesson_quizzes,  # [UPDATED]
     }
     return render(request, "vocational/lesson_detail.html", context)
